@@ -1,1 +1,7 @@
-CHANGELOG
+# CHANGELOG
+
+## Unreleased
+
+### Balance
+### Mods
+### Bugfixes
