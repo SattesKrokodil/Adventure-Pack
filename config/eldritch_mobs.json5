@@ -1,0 +1,62 @@
+{ 
+	// Enable Water Creatures with Eldritch Modifiers
+	"toggleEldritchWaterCreatures": false,
+	// Enable Boss Mobs with Eldritch Modifiers
+	"toggleEldritchBossMobs": false,
+	// Turn off custom names
+	"turnOffNames": false,
+	// Ignore named creatures and monsters
+	"ignoreNamed": true,
+	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
+	"turnOnGlowingMobs": true,
+	// Out of 100 Mobs
+	"EliteSpawnRates": 0.3,
+	// Out of 100 Elites
+	"UltraSpawnRates": 1.0,
+	// Out of 100 Ultras
+	"EldritchSpawnRates": 1.0,
+	// Elite Health Modifier
+	"EliteHealthMod": 4.0,
+	// Ultra Health Modifier
+	"UltraHealthMod": 6.0,
+	// Eldritch Health Modifier
+	"EldritchHealthMod": 8.0,
+	// # of Modifiers for Elite Mobs
+	"EliteModTotal": 4,
+	// # of Modifiers for Ultra Mobs
+	"UltraModTotal": 8,
+	// # of Modifiers for Eldritch Mobs
+	"EldritchModTotal": 12,
+	"disableModifiers": { 
+		"disableAlchemist": true,
+		"disableBeserk": false,
+		"disableYeeter": false,
+		"disableBlinding": false,
+		"disableBurning": false,
+		"disableCloaked": false,
+		"disableDeflector": false,
+		"disableDraining": false,
+		"disableDrowning": false,
+		"disableEnder": false,
+		"disableGhastly": true,
+		"disableGravity": false,
+		"disableLethargic": false,
+		"disableLifesteal": false,
+		"disableOneUp": false,
+		"disableRegen": false,
+		"disableResistant": false,
+		"disableRust": false,
+		"disableSnatcher": false,
+		"disableSpeedster": false,
+		"disableSprinter": false,
+		"disableStarving": false,
+		"disableStormy": false,
+		"disableThorny": false,
+		"disableToxic": false,
+		"disableWeakness": false,
+		"disableWebslinging": false,
+		"disableWithering": false,
+		"disableSniper": false,
+		"disableDuplicator": false
+	}
+}

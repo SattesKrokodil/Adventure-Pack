@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Crap",
+    "colour": "RED",
+    "weights": [
+      50,
+      50,
+      50,
+      5,
+      0
+    ],
+    "groups": [
+      {
+        "id": "8b3b5b0a-0b83-4fc8-8a96-464b1ed62ab9",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:dirt",
+            "Count": 1
+          }
+        ]
+      },
+      {
+        "id": "11911589-4661-4285-a552-26305414b441",
+        "limit": 0,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Plain",
+    "colour": "GRAY",
+    "weights": [
+      50,
+      50,
+      50,
+      30,
+      10
+    ],
+    "groups": []
+  },
+  {
+    "name": "Common",
+    "colour": "GREEN",
+    "weights": [
+      20,
+      30,
+      40,
+      30,
+      20
+    ],
+    "groups": []
+  },
+  {
+    "name": "Uncommon",
+    "colour": "BLUE",
+    "weights": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "groups": []
+  },
+  {
+    "name": "Rare",
+    "colour": "ORANGE",
+    "weights": [
+      3,
+      6,
+      12,
+      18,
+      21
+    ],
+    "groups": []
+  },
+  {
+    "name": "Unique",
+    "colour": "PURPLE",
+    "weights": [
+      1,
+      2,
+      3,
+      4,
+      30
+    ],
+    "groups": []
+  }
+]
