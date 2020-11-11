@@ -32,6 +32,4 @@ Balance:
 + fixed 2 duping glitches
 
 ### Mods
-Added:
-Removed:
 Updated: inmis, extraalchemy, backslot, artofalchemy
