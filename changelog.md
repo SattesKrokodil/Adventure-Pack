@@ -9,7 +9,7 @@
 ## [4.0.2] 10.11.2020
 
 ### Updates 
-+ added SP configs and the first Questpage(teststage)
++ added SP configs and the first Questpage for testing 
 + Backslot and Mcdw compatibility
 + can dye alchemy bags now
 
@@ -19,7 +19,6 @@ Art of Alchemy:
 (cobblestone now sometimes dissolves to essentia instead of never)
 
 Balance:
-+ decreased end level per distance
 + nerfed all slimes (xp gain)
 + nerfed zombified pigling (xp gain) - normal piglins are untouched
 + nerfed wither xp/lootgains
