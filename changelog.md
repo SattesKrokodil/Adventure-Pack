@@ -2,8 +2,17 @@
 
 ## Unreleased
 
-### Balance
+### Updates
++ increased Gem droprate
++ increased Rune droprate
++ anvils can't break anymore
++ increased backslot scale (items on back are bigger)
++ slightly increased eldritch spawn rate
++ removed endermite from xp/loot
++ nerfed cave spider xp/loot
 ### Bugfixes
++ fixed a broken quest connection
++ fixed backpack quest 
 ### Mods
 
 ## [4.0.2] 10.11.2020
