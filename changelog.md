@@ -20,12 +20,12 @@ Art of Alchemy:
 
 Balance:
 + decreased end level per distance
-- nerfed all slimes (xp gain)
-- nerfed zombified pigling (xp gain) - normal piglins are untouched
-- nerfed wither xp/lootgains
-- reduced summoner spawn chance
-- nerfed drowned xp and loot gain
-- nerfed skeleton vanguards (to death, he he!)
++ nerfed all slimes (xp gain)
++ nerfed zombified pigling (xp gain) - normal piglins are untouched
++ nerfed wither xp/lootgains
++ reduced summoner spawn chance
++ nerfed drowned xp and loot gain
++ nerfed skeleton vanguards (to death, he he!)
 
 ### Bugfixes
 + fixed Twitch launcher bug
