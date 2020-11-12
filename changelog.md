@@ -3,17 +3,7 @@
 ## ! Unreleased !
 
 ### Updates
-+ added recipes for: (reason: in later stages of the pack animals get rare around spawn -> very hard for new players to start on a running server
-  porkchop
-  chicken
-  beef
-  arrow
-  phantom membrane
-  spell reset potion (until fixed by AoE)
-  egg
-  sheep spawn egg
-  cow spawn egg
-  pig spawn egg
++ added recipes for: porkchop, chicken, beef, arrow, phantom membrane, spell reset potion (until fixed by AoE), egg, sheep spawn egg, cow spawn egg, pig spawn egg (reason: in later stages of the pack animals get rare around spawn -> very hard for new players to start on a running server. Also fixes food balance issues between enderling and exiled.)
 + increased Gem droprate
 + increased Rune droprate
 + anvils can't break anymore
