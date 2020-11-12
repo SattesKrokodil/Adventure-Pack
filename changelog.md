@@ -3,7 +3,17 @@
 ## ! Unreleased !
 
 ### Updates
-+ added recipe (5 rotten flesh into 1 leather)
++ added recipes for: (reason: in later stages of the pack animals get rare around spawn -> very hard for new players to start on a running server
+  porkchop
+  chicken
+  beef
+  arrow
+  phantom membrane
+  spell reset potion (until fixed by AoE)
+  egg
+  sheep spawn egg
+  cow spawn egg
+  pig spawn egg
 + increased Gem droprate
 + increased Rune droprate
 + anvils can't break anymore
