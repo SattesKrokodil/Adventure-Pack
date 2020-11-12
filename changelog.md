@@ -3,6 +3,7 @@
 ## ! Unreleased !
 
 ### Updates
++ added recipe (5 rotten flesh into 1 leather)
 + increased Gem droprate
 + increased Rune droprate
 + anvils can't break anymore
