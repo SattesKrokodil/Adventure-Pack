@@ -14,6 +14,7 @@
 ### Bugfixes
 + fixed a broken quest connection
 + fixed backpack quest 
++ added some quests
 
 ## [4.0.2] 10.11.2020
 
