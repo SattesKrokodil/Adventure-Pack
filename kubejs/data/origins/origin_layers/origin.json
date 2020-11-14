@@ -1,0 +1,11 @@
+{
+  "loading_priority": 1337,
+  "replace": true,
+  "origins": [
+    "advpack:exiled",
+	"advpack:enderling",
+	    "origins:human"
+  ],
+  "order": 0,
+  "enabled": true
+}

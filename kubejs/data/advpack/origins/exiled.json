@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"advpack:exiled_jump_boost",
+		"advpack:exiled_speed_boost",
+		"origins:fall_immunity",
+		"origins:carnivore"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 0,
+	"impact": 1,
+	"name": "Exiled",
+	"description": "A banished warrior - once a follower of Azuna, now a lone wolf. Uses heavy physical attacks and lightning magic."
+}

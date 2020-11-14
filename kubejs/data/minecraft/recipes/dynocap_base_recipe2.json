@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iQi",
+        "iPi",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_block"
+        },
+        "P": {
+            "item": "minecraft:ender_chest"
+        },
+        "Q":{
+            "item":"dynocaps:compressor"
+        }
+    },
+    "result": {
+        "count":1,
+        "item":"dynocaps:basiccap"
+    }
+}
