@@ -37,6 +37,7 @@ ADDED:
 + Hopper+ (upwards hoppers, filters ... testing! expecting issues) 1.0.6
 + smooth boot (better boot performance) 1.2.2
 + Craft Presence (show that you play AP directly in your discord status)
+
 UPDATED:
 + better end (0.6.2)
 + AdventureZ (1.1.4)
