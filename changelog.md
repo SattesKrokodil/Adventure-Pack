@@ -3,7 +3,20 @@
 ## ! Unreleased !
 
 ### Updates
++ Added Exiled and Enderling Origin (more will come soon!)
++ New Hoppers! Filters, upwards hoppers
++ End portals to the overworld can be repaired now
++ new enemies (Piglin Beast, Nightmare, Soul Reaper, The Eye, Shadow Walker)
++ new structures
++ new weapon: Shear Dagger! Also adjusted values for Minecraft Dungeons Weapons.
++ Changed Growing Staff's material to iron
++ Headshots won't trigger while shield blocking projectiles
++ Geysers - Overworld geysers just boost you up, but Nether geysers will burn you.
++ Adorn -> BYG support!
++ added new questline "Something from Something" 
 + added recipes for: porkchop, chicken, beef, arrow, phantom membrane, spell reset potion (until fixed by AoE), egg, sheep spawn egg, cow spawn egg, pig spawn egg (reason: in later stages of the pack animals get rare around spawn -> very hard for new players to start on a running server. Also fixes food balance issues between enderling and exiled.)
++ better boot up time
++ increased gear drops
 + increased Gem droprate
 + increased Rune droprate
 + anvils can't break anymore
@@ -15,6 +28,24 @@
 + fixed a broken quest connection
 + fixed backpack quest 
 + added some quests
++ tons of little ones
++ fixed Headshot mod version discrepancy
++ fixed some structure generations in the end
+
+### Mods
+ADDED:
++ Hopper+ (upwards hoppers, filters ... testing! expecting issues) 1.0.6
++ smooth boot (better boot performance) 1.2.2
++ Craft Presence (show that you play AP directly in your discord status)
+UPDATED:
++ better end (0.6.2)
++ AdventureZ (1.1.4)
++ Mcdw (1.1.8)
++ Headshot (1.0.6)
++ Rocks! (1.2.0)
++ Repurposed Structures (1.7.0)
++ Adorn (1.12.1)
++ Origins (0.4.4)
 
 ## [4.0.2] 10.11.2020
 
