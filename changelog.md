@@ -10,6 +10,10 @@
 ### Mods
 ADDED
 + Sgod - keep gear and hotbar on death alternative, since AoE will get rid of this feature
+
+UPDATED
++ Better Hoppers (Hopper+) to 1.0.7
++ Dynocaps to 1.6.9
 ## [4.0.3] 16.11.2020
 ### Updates
 + Added Exiled and Enderling Origin (more will come soon!)
