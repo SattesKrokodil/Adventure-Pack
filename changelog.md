@@ -4,7 +4,7 @@
 -
 ## [4.0.4] 19.11.2020
 ### Updates
-+ you can now place dynocaps in wated and on grass
++ you can now place dynocaps in water and on grass
 ### Bugfixes
 + Hopper+ should now be item-delete-free while using filters
 ### Mods
