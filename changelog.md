@@ -9,7 +9,7 @@
 + Hopper+ should now be item-delete-free while using filters
 ### Mods
 ADDED
-+ Sgod - keep gear and hotbar on death alternative, since AoE will get rid of this feature
++ Sgod 1.0.0 - keep gear and hotbar on death alternative, since AoE will get rid of this feature
 
 UPDATED
 + Better Hoppers (Hopper+) to 1.0.7
