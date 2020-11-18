@@ -2,7 +2,14 @@
 
 ## ! Unreleased !
 -
-
+## [4.0.4] 19.11.2020
+### Updates
++ you can now place dynocaps in wated and on grass
+### Bugfixes
++ Hopper+ should now be item-delete-free while using filters
+### Mods
+ADDED
++ Sgod - keep gear and hotbar on death alternative, since AoE will get rid of this feature
 ## [4.0.3] 16.11.2020
 ### Updates
 + Added Exiled and Enderling Origin (more will come soon!)
