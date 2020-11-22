@@ -11,7 +11,7 @@
 + added horse spawn egg recipe
 
 + disabled repurposed structures in the the end dimension
-+ fixed axes and swords (-> rest of the gear fixes will follow) from getting Age of Exile stats 
++ fixed axes (-> rest of the gear fixes will follow soon) from getting Age of Exile stats 
 + fixed weapon belt and backslot size
 + nerfed enderman farms
 
