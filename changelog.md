@@ -1,7 +1,33 @@
 # CHANGELOG
 
 ## ! Unreleased !
--
+
++ updated to Minecraft 1.16.4
+
++ gear droprate increased
++ currency droprate increased
++ added horse spawn egg recipe
+
++ disabled repurposed structures in the the end dimension
++ fixed axes from getting Age of Exile stats 
++ fixed weapon belt and backslot size
+
+ADDED
++ added battletowers 3.2.0
++ Item Flexer
++ Sgod 1.0.0
+
+UPDATED
++ better nether 5.0.3
++ craft presence 1.7.5
++ lithium 0.6.0
++ Reauth 3.9.3
++ rocks 1.2.1
++ XP Storage 1.1.1
+
+
+
+
 ## [4.0.4] 19.11.2020
 ### Updates
 + you can now place dynocaps in water and on grass
