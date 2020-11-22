@@ -2,6 +2,7 @@
 
 ## ! Unreleased !
 
+### Updates
 + updated to Minecraft 1.16.4
 + new battletowers!
 + trees are falling again
@@ -11,10 +12,12 @@
 + added horse spawn egg recipe
 
 + disabled repurposed structures in the the end dimension
-+ fixed axes (-> rest of the gear fixes will follow soon) from getting Age of Exile stats 
-+ fixed weapon belt and backslot size
 + nerfed enderman farms
 
+### Fixes
++ fixed axes (-> rest of the gear fixes will follow soon) from getting Age of Exile stats 
++ fixed weapon belt and backslot size
+### Mods
 ADDED
 + added battletowers 3.2.0
 + Item Flexer
