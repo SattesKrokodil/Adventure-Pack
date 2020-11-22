@@ -4,18 +4,21 @@
 
 + updated to Minecraft 1.16.4
 
++ use /flex to show your held item in chat!
 + gear droprate increased
 + currency droprate increased
 + added horse spawn egg recipe
 
 + disabled repurposed structures in the the end dimension
-+ fixed axes from getting Age of Exile stats 
++ fixed axes and swords (-> rest of the gear fixes will follow) from getting Age of Exile stats 
 + fixed weapon belt and backslot size
 
 ADDED
 + added battletowers 3.2.0
 + Item Flexer
 + Sgod 1.0.0
++ Falling Tree 2.7.0
++ ItemFlexer 1.0.0
 
 UPDATED
 + better nether 5.0.3
@@ -24,7 +27,7 @@ UPDATED
 + Reauth 3.9.3
 + rocks 1.2.1
 + XP Storage 1.1.1
-
++ Illuminations 1.2.6
 
 
 
