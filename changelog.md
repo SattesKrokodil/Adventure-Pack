@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## ! Unreleased !
--
++ added /trigger mercy - command that kills you with a 2 minute cooldown (ppl fell into the void and it took 10 minutes until they died)
 
 ## [4.0.5] 22.11.2020
 ### Updates
