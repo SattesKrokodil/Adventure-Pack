@@ -16,12 +16,12 @@
 ### Mods
 UPDATED
 + itemflexer 1.0.1
++ AdventureZ 1.1.5
 
 ADDED
 + Better Mineshafts 1.0
 + YungsAPI 
 + Heartbond 1.0.0
-+ AdventureZ 1.1.5
 
 ## [4.0.5] 22.11.2020
 ### Updates
