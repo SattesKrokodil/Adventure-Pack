@@ -6,7 +6,7 @@
 ## [4.0.6] 24.11.2020
 ### Updates
 + added /trigger mercy - command that kills you with a 2 minute cooldown (ppl fell into the void and it took 10 minutes until they died)
-+ you can now teleport to REAL GOOD friends
++ you can now teleport to REALLY GOOD friends
 + mineshafts are now epic
 + /flex now works with optional 1-9 Hotbar numbers!
 + new creature, cute mushroom thingy
