@@ -1,7 +1,26 @@
 # CHANGELOG
 
 ## ! Unreleased !
+-
+
+## [4.0.5] 24.11.2020
+### Updates
 + added /trigger mercy - command that kills you with a 2 minute cooldown (ppl fell into the void and it took 10 minutes until they died)
++ you can now teleport to REAL GOOD friends
++ mineshafts are now epic
++ /flex now works with optional 1-9 Hotbar numbers!
++ new creature, cute mushroom thingy
+
+### Fixes
++ fixed Piglin Beast spawn 
+### Mods
+UPDATED
++ itemflexer 1.0.1
+ADDED
++ Better Mineshafts 1.0
++ YungsAPI 
++ Heartbond 1.0.0
++ AdventureZ 1.1.5
 
 ## [4.0.5] 22.11.2020
 ### Updates
