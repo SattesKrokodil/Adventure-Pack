@@ -3,10 +3,19 @@
 ## ! Unreleased !
 
 ### Uptates
+Age of Exile: (original changelog)
++ increased mob hp
++ vit gives more hp but less regen
++ will gives more ms but slightly less regen
++ fix restoration to magic shield stat not working on spell effects
++ jewelry is a lot more durable now
++ you no longer drop weapons you're holding if you're not able to use it (you can use axes again!)
++ some general perk and runeword balance
 ### Fixes
 ### Mods
 
 UPDATED
++ Age of Exile 1.7.7
 + Rocks 1.2.2
 + Hopper+ 1.0.10
 + Crawl 0.8.1 
