@@ -3,6 +3,8 @@
 ## ! Unreleased !
 
 ### Uptates
++ added 40+ new armors to the game, new mob drops and crafting reciped
++ new enchants for mcdw!
 Age of Exile: (original changelog)
 + increased mob hp
 + vit gives more hp but less regen
@@ -14,16 +16,22 @@ Age of Exile: (original changelog)
 ### Fixes
 ### Mods
 
+ADDED
++ Mincraft Dungeons Armors
+
 UPDATED
 + Age of Exile 1.7.7
-+ Rocks 1.2.2
-+ Hopper+ 1.0.10
 + Crawl 0.8.1 
 + Slight Gui Modification
 + Backslot 1.1.8
 + Repurposed Structures 1.7.3 
 + Better End 0.7.1
 + Item Flexer 1.0.2
+
+REMOVED (might be included again, right now these mods add ticks per second problems)
++ mobs attempt parcour 
++ rocks
++ hopper+
 
 ## [4.0.6] 24.11.2020
 ### Updates
