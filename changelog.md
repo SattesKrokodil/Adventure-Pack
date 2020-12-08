@@ -4,9 +4,9 @@
 
 ### Uptates
 + you can now edit signs
-+ once in a while the crimson moon rises - you are not prepared.
-+ added 40+ new armors to the game, new mob drops and crafting reciped
-+ new enchants for mcdw!
++ once in a while the crimson moon rises to send out huge mob armies
++ added 40+ new armors to the game, new mob drops and crafting recipes
++ new enchantments!
 + increased mob hp
 + vit gives more hp but less regen
 + will gives more ms but slightly less regen
@@ -15,6 +15,8 @@
 + you no longer drop weapons you're holding if you're not able to use it (you can use axes again!)
 + some general perk and runeword balance
 ### Fixes
++ tps issues should be resolved
++ battle tower crash fixed
 ### Mods
 
 ADDED
