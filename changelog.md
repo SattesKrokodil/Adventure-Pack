@@ -3,6 +3,8 @@
 ## ! Unreleased !
 
 ### Uptates
++ you can now edit signs
++ once in a while the crimson moon rises - you are not prepared.
 + added 40+ new armors to the game, new mob drops and crafting reciped
 + new enchants for mcdw!
 + increased mob hp
@@ -16,8 +18,10 @@
 ### Mods
 
 ADDED
++ Achitectury 
++ Edit Sign
 + Mincraft Dungeons Armors
-
++ Crimson moon (back for testing)
 UPDATED
 + Age of Exile 1.7.7
 + Crawl 0.8.1 
