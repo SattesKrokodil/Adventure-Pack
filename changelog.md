@@ -23,6 +23,7 @@ ADDED
 + Edit Sign
 + Mincraft Dungeons Armors
 + Crimson moon (back for testing)
+
 UPDATED
 + Age of Exile 1.7.7
 + Crawl 0.8.1 
