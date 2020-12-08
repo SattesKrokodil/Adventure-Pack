@@ -18,14 +18,12 @@
 ### Mods
 
 ADDED
-+ Achitectury 
 + Edit Sign
 + Mincraft Dungeons Armors
 + Crimson moon (back for testing)
 UPDATED
 + Age of Exile 1.7.7
 + Crawl 0.8.1 
-+ Slight Gui Modification
 + Backslot 1.1.8
 + Repurposed Structures 1.7.3 
 + Better End 0.7.1
