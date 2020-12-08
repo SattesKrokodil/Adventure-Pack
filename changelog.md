@@ -5,7 +5,6 @@
 ### Uptates
 + added 40+ new armors to the game, new mob drops and crafting reciped
 + new enchants for mcdw!
-Age of Exile: (original changelog)
 + increased mob hp
 + vit gives more hp but less regen
 + will gives more ms but slightly less regen
