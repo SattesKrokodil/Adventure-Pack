@@ -2,6 +2,7 @@
 
 ## ! Unreleased !
 
+## [4.0.7] 16.12.2020
 ### Uptates
 + collect dragonscales and craft new gear!
 + new mobs
