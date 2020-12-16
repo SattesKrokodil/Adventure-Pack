@@ -28,6 +28,7 @@ ADDED
 + Crimson moon (back for testing)
 
 UPDATED
++ Minecraft Dungeons Weapons 2.2.0
 + Age of Exile 1.7.7
 + Crawl 0.8.1 
 + Backslot 1.1.8
