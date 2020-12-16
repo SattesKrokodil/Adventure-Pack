@@ -3,6 +3,9 @@
 ## ! Unreleased !
 
 ### Uptates
++ new mobs
++ new biomes
++ new minecraft end content
 + you can now edit signs
 + once in a while the crimson moon rises to send out huge mob armies
 + added 40+ new armors to the game, new mob drops and crafting recipes
@@ -29,7 +32,7 @@ UPDATED
 + Crawl 0.8.1 
 + Backslot 1.1.8
 + Repurposed Structures 1.7.3 
-+ Better End 0.7.1
++ Better End 0.8.0
 + Item Flexer 1.0.2
 
 REMOVED (might be included again, right now these mods add ticks per second problems)
