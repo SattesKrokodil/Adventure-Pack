@@ -1,7 +1,22 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+ soon
+### Updates
++ find cores of flight. craft yourself some wings and take off! 
++ three new dimensions! Explore dims full of little planetoids filled with loot, reflecting original minecraft biomes!
++ no more item conflicts - polymorph let's you browse through the recipes.
+### Fixes
++ dynocaps <-> Flan issue should be solved
+### Mods
+
+UPDATED
++ dynocaps 1.16.10
++ mcdw 2.2.3
+
+ADDED
++ winged
++ polymorph
++ Starrysky 
 
 ## [4.0.7] 16.12.2020
 ### Uptates
