@@ -47,14 +47,14 @@ ADDED
 + Crimson moon (back for testing)
 
 UPDATED
-+ Fabric API ß.28.1
++ Fabric API 0.28.1 -> 0.28.3
 + Battletowers 3.3.1
 + Minecraft Dungeons Weapons 2.2.0
 + Age of Exile 1.7.7
 + Crawl 0.8.1 
 + Backslot 1.1.8
 + Repurposed Structures 1.7.3 
-+ Better End 0.8.0
++ Better End 0.8.0 -> 0.8.2
 + Item Flexer 1.0.2
 + Flan 1.2.1
 
