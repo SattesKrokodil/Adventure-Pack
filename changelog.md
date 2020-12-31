@@ -2,7 +2,10 @@
 
 ## ! Unreleased !
 ### Updates
-+ find cores of flight. craft yourself some wings and take off! 
++ items now show particle effects when lying on the floor based on their rarity!
++ craft golden steaks! Some love for poor poor exiled players ;)
++ fishing overhaul - get lootboxes, new items, ...
++ find cores of flight. Craft yourself some wings and take off! 
 + three new dimensions! Explore dims full of little planetoids filled with loot, reflecting original minecraft biomes!
 + no more item conflicts - polymorph let's you browse through the recipes.
 ### Fixes
@@ -17,6 +20,13 @@ ADDED
 + winged
 + polymorph
 + Starrysky 
++ Golden Steak
++ Go Fish
++ Lootbeams
+
+REMOVED
++ Illuminations 
++ Crimson Moon
 
 ## [4.0.7] 16.12.2020
 ### Uptates
