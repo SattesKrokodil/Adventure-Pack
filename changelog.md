@@ -2,6 +2,7 @@
 
 ## ! Unreleased !
 ### Updates
++ ADDED THE FIRST SET OF DYNOLOOT! Find one-time-use capsules and explore a new way to obtain stuff!
 + items now show particle effects when lying on the floor based on their rarity!
 + craft golden steaks! Some love for poor poor exiled players ;)
 + fishing overhaul - get lootboxes, new items, ...
