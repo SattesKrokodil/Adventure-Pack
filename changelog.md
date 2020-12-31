@@ -10,11 +10,14 @@
 + no more item conflicts - polymorph let's you browse through the recipes.
 ### Fixes
 + dynocaps <-> Flan issue should be solved
++ fixed some enchants
++ fixed shear recipe conflict
 ### Mods
 
 UPDATED
 + dynocaps 1.16.10
 + mcdw 2.2.3
++ mcda
 + presence footsteps
 
 ADDED
