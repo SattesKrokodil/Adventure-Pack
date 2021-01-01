@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## ! Unreleased !
++
+## [4.0.8] 31.12.2020
 ### Updates
 + items now show particle effects when lying on the floor based on their rarity!
 + craft golden steaks! Some love for poor poor exiled players ;)
