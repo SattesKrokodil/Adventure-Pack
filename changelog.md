@@ -8,6 +8,7 @@
 + better console output after crashes
 + added /trigger mercy command to singleplayer. Simply kills you if stuck somewhere until environment dmg gets fixed
 + added "soothing lamp" -> prevents eldritch mobs from spawning
++ added M.E.S.S -> a new way to manage your storage (this needs heavy testing, expect things to vanish and might be removed again if it lags servers)
 
 ### Fixes
 + water creatures won't spawn as eldritch mobs anymore
@@ -17,12 +18,29 @@
 + furnaces would not adjust to new stats in the config until they were broken and re-placed.
 + minor fixes for missing recipes
 + fixes ore gen when using the overworld_two leveltype
++ golden steaks are now meat
++ GoFish fish are now fish (they regenerate magic shield over time
 
 ### Mods
 UPDATED
-+ Jumploader
++ Jumploader 2.1.2
++ Falling Tree 2.8.1
++ XP Storage 1.3
++ Inmis 2.0.1
++ Dynocaps 1.6.12
++ GoFish 1.1.0
++ lootbeams 1.0.2
++ fabric furnaces 1.3.3-1
++ mcda 0.9.1
++ overworld_two 1.0.4
++ eldritch mobs 1.5.5
++ goldensteak 1.0.2
+
 ADDED
 + Blame
++ MESS
++ Transfer Chest
+
 REMOVED
 + Visp due to crashes when opening the inventory
    
