@@ -1,10 +1,30 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+  You can brew the experience of your XP Book into XP Bottles
-   100 experiences is taken for each bottles
-   85-130% of the amount is effectively on the bottle
++ Inmis, the backpack mod got a rewrite -> MAKE SURE TO EMPTY YOUR BACKPACKS INTO CHESTS BEFORE YOU UPDATE! BACKPACK CONTENT WILL BE WIPED!
++ You can brew the experience of your XP Book into XP Bottles (100 experiences is taken for each bottles) 85-130% of the amount is effectively on the bottle,
    you brew it into mundane potions
++ added a mailbox system (craft a transfer chest to access the global trade inventory)
++ better console output after crashes
++ added /trigger mercy command to singleplayer. Simply kills you if stuck somewhere until environment dmg gets fixed
++ added "soothing lamp" -> prevents eldritch mobs from spawning
+
+### Fixes
++ water creatures won't spawn as eldritch mobs anymore
++ rare dynocaps dupe fixed
++ fishing crates loottables fixed, also new loot available while fishing during a full moon: Astral Crate, Celestial Rod, and several new fun fish types!
++ exception spam from lootbeams
++ furnaces would not adjust to new stats in the config until they were broken and re-placed.
++ minor fixes for missing recipes
++ fixes ore gen when using the overworld_two leveltype
+
+### Mods
+UPDATED
++ Jumploader
+ADDED
++ Blame
+REMOVED
++ Visp due to crashes when opening the inventory
    
 ## [4.0.8] 31.12.2020
 ### Updates
