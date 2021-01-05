@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## ! Unreleased !
++
+
+## [4.0.9] 5.01.2020 - End Mechanix
 + Inmis, the backpack mod got a rewrite -> MAKE SURE TO EMPTY YOUR BACKPACKS INTO CHESTS BEFORE YOU UPDATE! BACKPACK CONTENT WILL BE WIPED!
 + You can brew the experience of your XP Book into XP Bottles (100 experiences is taken for each bottles) 85-130% of the amount is effectively on the bottle,
    you brew it into mundane potions
