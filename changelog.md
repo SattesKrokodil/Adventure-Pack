@@ -1,7 +1,11 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+
++  You can brew the experience of your XP Book into XP Bottles
+   100 experiences is taken for each bottles
+   85-130% of the amount is effectively on the bottle
+   you brew it into mundane potions
+   
 ## [4.0.8] 31.12.2020
 ### Updates
 + items now show particle effects when lying on the floor based on their rarity!
