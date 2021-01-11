@@ -1,8 +1,11 @@
 # CHANGELOG
 
 ## ! Unreleased !
+
++ We hope all crashes are gone now, if so - the serverpack is close (sorry we just don't want to release something that crashes every 2 hours)
++ structures do now spawn more often
 + all uniques are now unidentified when they drop - that way you can sell the statroll to other players.
-+ mcdweapons can now be upgraded with upgrade cores
++ mcdarmours can now be upgraded with upgrade cores
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
 + added affixes to rare-, epic-, legendary- creatures to make them more visible
