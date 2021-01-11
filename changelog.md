@@ -1,7 +1,11 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+
++ all uniques are now unidentified - that way you can sell the statroll to other players.
++ mcdweapons can now be upgraded with upgrade cores
++ salvage station overhaul - you can now get more materials out of it and also lootcrates
++ new origin "Stalker", hunt your enemies down with invisibility and strong poisons
++ fixed lunar ring (dmg_day -> dmg_night)
 
 ## [4.0.9] 5.01.2020 - End Mechanix
 + Inmis, the backpack mod got a rewrite -> MAKE SURE TO EMPTY YOUR BACKPACKS INTO CHESTS BEFORE YOU UPDATE! BACKPACK CONTENT WILL BE WIPED!
