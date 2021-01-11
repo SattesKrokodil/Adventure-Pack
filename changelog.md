@@ -5,7 +5,12 @@
 + mcdweapons can now be upgraded with upgrade cores
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
-+ fixed lunar ring (dmg_day -> dmg_night)
++ added affixes to rare-, epic-, legendary- creatures to make them more visible
++ changed mob affix names
++ added new mob affix "soul" -> burns mana on hit
++ added new uniques (1)
++ added 4 new Runewords (Anomaly, Chaos, Rift, Madness)
+
 
 ## [4.0.9] 5.01.2020 - End Mechanix
 + Inmis, the backpack mod got a rewrite -> MAKE SURE TO EMPTY YOUR BACKPACKS INTO CHESTS BEFORE YOU UPDATE! BACKPACK CONTENT WILL BE WIPED!
