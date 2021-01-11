@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+ all uniques are now unidentified - that way you can sell the statroll to other players.
++ all uniques are now unidentified when they drop - that way you can sell the statroll to other players.
 + mcdweapons can now be upgraded with upgrade cores
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
