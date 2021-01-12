@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## ! Unreleased !
-
+### Updates
 + new dimension: the bumblezone (fell in love with bees, need more bees now. Bee Origin soon?!)
 + more bee related stuff
 + structures spawn more often
