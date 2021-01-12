@@ -12,7 +12,7 @@
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
 + new origin "Silvam", summon tamed wolves to aid you, benefit from more reach
 + equip wolves with armor
-+ pets won't get damaged by your attacks anymore
++ pets won't get damage by your attacks anymore
 + added affixes to rare-, epic-, legendary- creatures to make them more visible
 + changed mob affix names
 + added new mob affix "soul" -> burns mana on hit
