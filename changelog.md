@@ -29,6 +29,7 @@ ADDED
 + the loved ones 1.1.0
 + beeinfo
 + origins:classes 1.1.0 (dependency for the new origins)
++ wolves with armor 1.5.2
 
 UPDATED
 + transfer chest 1.1.2
