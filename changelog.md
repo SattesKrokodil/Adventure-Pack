@@ -2,6 +2,7 @@
 
 ## ! Unreleased !
 ### Updates
++ if you want to test cosmetic armors make sure to join the AP discord!
 + new dimension: the bumblezone (fell in love with bees, need more bees now. Bee Origin soon?!)
 + more bee related stuff
 + structures spawn more often
