@@ -35,7 +35,7 @@ ADDED
 UPDATED
 + transfer chest 1.1.2
 + mcda 0.9.2
-+ mcdw 2.4.6
++ mcdw 2.4.3
 + battletowers 3.3.2
 
 REMOVED
