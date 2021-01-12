@@ -2,17 +2,44 @@
 
 ## ! Unreleased !
 
-+ We hope all crashes are gone now, if so - the serverpack is close (sorry we just don't want to release something that crashes every 2 hours)
++ new dimension: the bumblezone (fell in love with bees, need more bees now. Bee Origin soon?!)
++ more bee related stuff
 + structures do now spawn more often
 + all uniques are now unidentified when they drop - that way you can sell the statroll to other players.
-+ mcdarmours can now be upgraded with upgrade cores
++ mcdarmors can now be upgraded with upgrade cores
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
++ new origin "Silvam", summon tamed wolves to aid you, benefit from more reach
++ equip wolves with armor
 + added affixes to rare-, epic-, legendary- creatures to make them more visible
 + changed mob affix names
 + added new mob affix "soul" -> burns mana on hit
 + added new uniques (1)
 + added 4 new Runewords (Anomaly, Chaos, Rift, Madness)
+
+### Fixes
++ We hope all crashes are gone now, if so - the serverpack is close (sorry we just don't want to release something that crashes every 2 hours)
++ small GUI fix for transfer chest
++ some battletower crashes should be gone now
++ some end crashes should be gone
+
+### Mods
+ADDED
++ The Bumblezone 2.2.14
++ the loved ones 1.1.0
++ beeinfo
++ origins:classes 1.1.0 (dependency for the new origins)
+
+UPDATED
++ transfer chest 1.1.2
++ mcda 0.9.2
++ mcdw 2.4.6
++ battletowers 3.3.2
+
+REMOVED
++ Eldritch Mobs
++ MESS - because it's a me... joke but serverside crash needs to be fixed first
++ VISP - now for real
 
 
 ## [4.0.9] 5.01.2020 - End Mechanix
