@@ -11,7 +11,7 @@
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
 + new origin "Stalker", hunt your enemies down with invisibility and strong poisons
 + new origin "Silvam", summon tamed wolves to aid you, benefit from more reach
-+ equip wolves with 
++ equip wolves with armor
 + pets won't get damaged by your attacks anymore
 + added affixes to rare-, epic-, legendary- creatures to make them more visible
 + changed mob affix names
