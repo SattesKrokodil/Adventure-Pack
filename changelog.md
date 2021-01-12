@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## ! Unreleased !
++
+## [4.0.10] 13.01.2020 - Honey Honey
 ### Updates
 + if you want to test cosmetic armors make sure to join the AP discord!
 + new dimension: the bumblezone (fell in love with bees, need more bees now. Bee Origin soon?!)
