@@ -4,7 +4,7 @@
 
 + new dimension: the bumblezone (fell in love with bees, need more bees now. Bee Origin soon?!)
 + more bee related stuff
-+ structures do now spawn more often
++ structures spawn more often
 + all uniques are now unidentified when they drop - that way you can sell the statroll to other players.
 + mcdarmors can now be upgraded with upgrade cores
 + salvage station overhaul - you can now get more materials out of it and also lootcrates
