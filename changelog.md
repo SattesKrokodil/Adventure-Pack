@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## ! Unreleased !
+## [4.1.0] 14.01.2020 - Anomaly
 # FOR SERVER OWNERS WHO WANT TO USE THE SERVERPACK 4.1.0: !! INMIS BACKPACKS WILL GET WIPED AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
 ### Updates
 + improved storage system, link chests together and access them via a terminal
