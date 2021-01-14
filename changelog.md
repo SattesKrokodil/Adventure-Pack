@@ -1,7 +1,35 @@
 # CHANGELOG
 
 ## ! Unreleased !
-+
+# FOR SERVER OWNERS WHO WANT TO USE THE SERVERPACK 4.1.0: !! INMIS BACKPACKS WILL WIPE AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
+### Updates
++ improved storage system, link chests together and access them via a terminal
++ new lategame dimension (needs testing, I expect lag - don't build your main base there could get removed at any time)
++ more doors because why not
++ aut... autom... automated crafting - let's try it. 
++ improved dungeon loot (by a lot)
+
+### Fixes
+
+### Mods
+ADDED
++ Extra Doors 1.8.2
++ Polymorph 0.0.8
++ automated crafting 1.3.19
++ slotlink 2.2.0
++ world
+
+UPDATED
++ Dynocaps 1.6.13
++ Mcdw 2.4.8
+
+REMOVED
++ curios shulkerboxes*
++ curios elytry* both causing crashes (modconflict) will be readded in the future
+
+### SERVERPACK
+!! INMIS BACKPACKS WILL WIPE AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
+
 ## [4.0.10] 13.01.2020 - Honey Honey
 ### Updates
 + if you want to test cosmetic armors make sure to join the AP discord!
