@@ -8,7 +8,6 @@
 + blacklisted most passive mobs from getting AoE stats (should increase overall performance)
 + mobs that are +3 level higher or lower than you give significantly less xp now (was +-5 before)
 + added "Upcrates" - example: combine 3 common loot crates to get 1 magic loot crate
-+ added "Extraction" - extract common minecraft materials from AoE materials - (example: 1 common Ore -> 2 iron)
 + doubled dynocap size 10x10x10 -> 20x20x20
 + removed "requires mage weapon" -> every non-bow-spell can now be used with every weapon (!wands still get better stats for mage builds!)
 
