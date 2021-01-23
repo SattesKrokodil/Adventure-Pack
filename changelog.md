@@ -61,10 +61,10 @@ REMOVED
 + Blame 
 
 ### Upcomming:
-FULL mcda/mcdw integration (new weapon types, AoE stats on mcdw/a gear)
-Spelltree rework
-Talents rework
-New advancements and AoE XP rewards
++ FULL mcda/mcdw integration (new weapon types, AoE stats on mcdw/a gear)
++ Spelltree rework
++ Talents rework
++ New advancements and AoE XP rewards
 
 ## [4.1.0] 14.01.2020 - Anomaly
 # FOR SERVER OWNERS WHO WANT TO USE THE SERVERPACK 4.1.0: !! INMIS BACKPACKS WILL GET WIPED AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
