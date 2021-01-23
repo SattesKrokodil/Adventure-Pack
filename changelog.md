@@ -1,5 +1,59 @@
 # CHANGELOG
 
+## Unreleased
+### General Updades
+
++ Mushroomfields, Badlands, Swamp Makeovers (new enemies, new passive mobs, new structures, new items ...)
++ added emerald armours
++ craft and enchant horseshoes to customize your mounts
++ crafft a "firework bench" to customize your firework
++ tame and ride ravangers
++ Craft a Compassmap to search for biomes and get infos about spawns and ores
++ The friendly eldritchs from the neighbourhood are back and friendlier than ever before!
++ Testing a new way of XP gains, should also reduce server lag (spawners spawn only x mobs, no more spawners in dynocaps, 50% XP from spawner mobs)
++ Nerf for chicken farms - chicken will no longer randomly lay eggs (should reduce lag)
++ next storage system for testing (=
++ cosmetic armors are now included per default, no need to add the mod manually anymore
+
+
+### Fixes
++ fixed some crashes related to enchantments
++ golden Steak should be meat now
++ Fix thrown items activating pressure plates (FLAN)
++ Fix crashes with upgrading containers
++ hopefully fixes a very annoying crash
++ spectral arrow crash fixed
++ Fixed a rare crash involving transfer chest
++ recipes for armours
+
+### Mods
+ADDED
++ Dank Storage Fabric
++ Biome Makeover
++ Biome Locator
++ Dank Storage
++ Eldritch Mobs
++ GIZMOS
++ Limited Spawner (testing)
++ Dimension Fix (should prevent nether and end vanishing sometimes)
+
+UPDATED
++ MCDW 2.6.0
++ MCDA 0.9.3
++ Adorn 1.13.0
++ Repurposed Structures 1.7.4
++ curios fabric 0.0.11
++ better end 0.8.8
++ patchouli 
++ Flan 1.2.2
++ REI 5.8.11
++ Expanded Storage 5.6.32
++ Transfer Chest 1.1.3
+
+REMOVED
++ slotlink (crashes, corrupted chunks, ... add it if you want to use it in singleplayer but too many problems on servers for now.)
++ 
+
 ## [4.1.0] 14.01.2020 - Anomaly
 # FOR SERVER OWNERS WHO WANT TO USE THE SERVERPACK 4.1.0: !! INMIS BACKPACKS WILL GET WIPED AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
 ### Updates
