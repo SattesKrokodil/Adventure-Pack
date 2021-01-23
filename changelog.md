@@ -3,17 +3,26 @@
 ## Unreleased
 ### General Updades
 
++ cosmetic armours! 
++ doubled possible claim size 
++ blacklisted most passive mobs from getting AoE stats (should increase overall performance)
++ mobs that are +3 level higher or lower than you give significantly less xp now (was +-5 before)
++ added "Upcrates" - example: combine 3 common loot crates to get 1 magic loot crate
++ added "Extraction" - extract common minecraft materials from AoE materials - (example: 1 common Ore -> 2 iron)
++ doubled dynocap size 10x10x10 -> 20x20x20
++ removed "requires mage weapon" -> every non-bow-spell can now be used with every weapon (!wands still get better stats for mage builds!)
+
+
 + Mushroomfields, Badlands, Swamp Makeovers (new enemies, new passive mobs, new structures, new items ...)
 + added emerald armours
 + craft and enchant horseshoes to customize your mounts
 + crafft a "firework bench" to customize your firework
 + tame and ride ravangers
-+ Craft a Compassmap to search for biomes and get infos about spawns and ores
++ Craft or find a Biome Locator to search for biomes and get infos about spawns and ores (hud little missplaced will be fixed next update)
 + The friendly eldritchs from the neighbourhood are back and friendlier than ever before!
 + Testing a new way of XP gains, should also reduce server lag (spawners spawn only x mobs, no more spawners in dynocaps, 50% XP from spawner mobs)
 + Nerf for chicken farms - chicken will no longer randomly lay eggs (should reduce lag)
 + next storage system for testing (=
-+ cosmetic armors are now included per default, no need to add the mod manually anymore
 
 
 ### Fixes
@@ -25,6 +34,7 @@
 + spectral arrow crash fixed
 + Fixed a rare crash involving transfer chest
 + recipes for armours
++ fixed dimension and entity configs missing in Singleplayer
 
 ### Mods
 ADDED
@@ -33,7 +43,6 @@ ADDED
 + Biome Locator
 + Dank Storage
 + Eldritch Mobs
-+ GIZMOS
 + Limited Spawner (testing)
 + Dimension Fix (should prevent nether and end vanishing sometimes)
 
@@ -51,6 +60,12 @@ UPDATED
 REMOVED
 + slotlink (crashes, corrupted chunks, ... add it if you want to use it in singleplayer but too many problems on servers for now.)
 + Blame 
+
+### Upcomming:
+FULL mcda/mcdw integration (new weapon types, AoE stats on mcdw/a gear)
+Spelltree rework
+Talents rework
+New advancements and AoE XP rewards
 
 ## [4.1.0] 14.01.2020 - Anomaly
 # FOR SERVER OWNERS WHO WANT TO USE THE SERVERPACK 4.1.0: !! INMIS BACKPACKS WILL GET WIPED AFTER YOU UPDATE, SHULKER BACKPACKS GOT REMOVED! SECURE YOUR STUFF FIRST !!
