@@ -1,8 +1,11 @@
 # CHANGELOG
 
 ## Unreleased
-### General Updades
+### General Updates
 
++ increased mob loot drops by 20%
++ increased overall xp gains by 20%
++ mobs scale a bit more "playerfriendly" (mobs are ~20% "weaker" now in all aspects)
 + new origin: "Vox" - has fox and fish travel form you can transform into
 + cosmetic armours! 
 + doubled possible claim size 
@@ -16,7 +19,7 @@
 + Mushroomfields, Badlands, Swamp Makeovers (new enemies, new passive mobs, new structures, new items ...)
 + added emerald armours
 + craft and enchant horseshoes to customize your mounts
-+ crafft a "firework bench" to customize your firework
++ craft a "firework bench" to customize your firework
 + tame and ride ravangers
 + Craft or find a Biome Locator to search for biomes and get infos about spawns and ores (hud little missplaced will be fixed next update)
 + The friendly eldritchs from the neighbourhood are back and friendlier than ever before!
@@ -38,6 +41,7 @@
 
 ### Mods
 ADDED
++ Gizmos
 + identity (needed for Vox origin and some more things in the future)
 + Dank Storage Fabric
 + Biome Makeover
