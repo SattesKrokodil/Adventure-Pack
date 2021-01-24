@@ -3,6 +3,7 @@
 ## Unreleased
 ### General Updades
 
++ new origin: "Vox" - has fox and fish travel form you can transform into
 + cosmetic armours! 
 + doubled possible claim size 
 + blacklisted most passive mobs from getting AoE stats (should increase overall performance)
@@ -37,6 +38,7 @@
 
 ### Mods
 ADDED
++ identity (needed for Vox origin and some more things in the future)
 + Dank Storage Fabric
 + Biome Makeover
 + Biome Locator
