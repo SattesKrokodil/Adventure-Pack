@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ## Unreleased
++ 
 
 ## [4.2.0] 25.01.2020 - Rock Solid.
 ### General Updates
