@@ -68,6 +68,7 @@ REMOVED
 + Blame 
 
 ### Upcomming:
++ New Quest Mod + implementation
 + FULL mcda/mcdw integration (new weapon types, AoE stats on mcdw/a gear)
 + Spelltree rework
 + Talents rework
