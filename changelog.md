@@ -14,7 +14,7 @@
 + added "Upcrates" - example: combine 3 common loot crates to get 1 magic loot crate
 + doubled dynocap size 10x10x10 -> 20x20x20
 + removed "requires mage weapon" -> every non-bow-spell can now be used with every weapon (!wands still get better stats for mage builds!)
-
++ spawners disable themselves after 50 spawns
 
 + Mushroomfields, Badlands, Swamp Makeovers (new enemies, new passive mobs, new structures, new items ...)
 + added emerald armours
