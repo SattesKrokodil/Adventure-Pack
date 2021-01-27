@@ -2,6 +2,12 @@
 
 ## Unreleased
 + 
+## [4.2.1] 27.01.2020 - Hotfix.
++ Updated Eldritch Mobs
++ Updated MCDW
++ Updated MCDA
++ Updated GoFish
+
 
 ## [4.2.0] 25.01.2020 - Rock Solid.
 ### General Updates
