@@ -3,6 +3,9 @@
 ## Unreleased
 + 
 ## [4.2.1] 27.01.2020 - Hotfix.
+### You can now change the hotkey for AoE spellcasting
++ Updated Biome Makeover
++ Updated Age of Exile
 + Updated Eldritch Mobs
 + Updated MCDW
 + Updated MCDA
