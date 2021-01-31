@@ -7,9 +7,12 @@
 ### Fixed
 ### Mods
 ADDED
++ Fast Furnace
++ Fast Bench
 
 UPDATED
 + Cardinal Components
++ Cloth API
 
 REOMVED
 + Eldritch Mobs
