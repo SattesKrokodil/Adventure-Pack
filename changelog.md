@@ -1,7 +1,20 @@
 # CHANGELOG
 
 ## Unreleased
-+ 
+### General Updates
++ Added recipe for Dragonhead
+
+### Fixed
+### Mods
+ADDED
+
+UPDATED
++ Cardinal Components
+
+REOMVED
++ Eldritch Mobs
+
+
 ## [4.2.1] 30.01.2020 - Hotfix.
 ### You can now change the hotkey for AoE spellcasting
 + Updated Biome Makeover
