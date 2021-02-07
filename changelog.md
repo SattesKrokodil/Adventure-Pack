@@ -3,8 +3,13 @@
 ## Unreleased
 ### General Updates
 + Added recipe for Dragonhead
++ added all custom recipes of AP to the REI favourites tab
 
 ### Fixed
++ crash when pressing ´
++ fixed some bookban issues
++ 
+
 ### Mods
 ADDED
 + Fast Furnace
@@ -15,8 +20,8 @@ UPDATED
 + Cloth API
 
 REOMVED
-+ Eldritch Mobs
-
++ Eldritch Mobs (need more time to test)
++ Worldedit
 
 ## [4.2.1] 30.01.2020 - Hotfix.
 ### You can now change the hotkey for AoE spellcasting
