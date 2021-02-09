@@ -2,10 +2,12 @@
 
 ## Unreleased GOAT
 ### General Updates
++ Quests are back baby!
 + Added recipe for Dragonhead
 + added all custom recipes of AP to the REI favourites tab
 + new end biomes
 + new desolation biomes, mobs and animals
++ dynocaps back to 10x10, that's enough imho
 
 ### Fixed
 + crash when pressing ´
