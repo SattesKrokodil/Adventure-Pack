@@ -1,27 +1,55 @@
 # CHANGELOG
 
-## Unreleased
+## Unreleased GOAT
 ### General Updates
 + Added recipe for Dragonhead
 + added all custom recipes of AP to the REI favourites tab
++ new end biomes
++ new desolation biomes, mobs and animals
 
 ### Fixed
 + crash when pressing ´
 + fixed some bookban issues
-+ 
++ fixed lag
++ fixed crashes 
++ fixed storage issues and dupes 
+
 
 ### Mods
 ADDED
 + Fast Furnace
 + Fast Bench
++ FTB Gui lib
++ FTB Quests
++ FTB Item Filters
++ Rhino lib
++ Architectur
++ Desolation
++ Curios Elytra
++ Curios Shulkerboxes
 
 UPDATED
++ MC to 1.16.5
++ BYG
 + Cardinal Components
 + Cloth API
++ Sligh
++ Fabric API
++ KubeJS
++ Starry Sky
+
 
 REOMVED
 + Eldritch Mobs (need more time to test)
 + Worldedit
++ AoA (nobody really used it)
++ Dankstorage (until blacklisting items gets fixed)
++ Horse Stats Vanilla
++ HQM 
++ Inmis
++ notes 
++ Bumblezone (serverlag)
++ World Blender (lag)
 
 ## [4.2.1] 30.01.2020 - Hotfix.
 ### You can now change the hotkey for AoE spellcasting
