@@ -3,6 +3,7 @@
 ## Unreleased GOAT
 ### General Updates
 + Quests are back baby!
++ Starry End and Nether now support BetterNether and BetterEnd!
 + Added recipe for Dragonhead
 + added all custom recipes of AP to the REI favourites tab
 + new end biomes
