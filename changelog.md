@@ -2,13 +2,11 @@
 
 ## Unreleased GOAT
 ### General Updates
-+ Quests are back baby!
 + Starry End and Nether now support BetterNether and BetterEnd!
 + Added recipe for Dragonhead
 + added all custom recipes of AP to the REI favourites tab
 + new end biomes
 + new desolation biomes, mobs and animals
-+ dynocaps back to 10x10, that's enough imho
 
 ### Fixed
 + crash when pressing ´
@@ -40,7 +38,7 @@ UPDATED
 + Fabric API
 + KubeJS
 + Starry Sky
-
++ better End
 
 REOMVED
 + Eldritch Mobs (need more time to test)
@@ -53,6 +51,7 @@ REOMVED
 + notes 
 + Bumblezone (serverlag)
 + World Blender (lag)
++ Gizmos
 
 ## [4.2.1] 30.01.2020 - Hotfix.
 ### You can now change the hotkey for AoE spellcasting
