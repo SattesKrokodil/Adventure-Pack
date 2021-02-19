@@ -1,6 +1,9 @@
 # CHANGELOG
 
-## Unreleased GOAT
+## Unreleased 
++
+
+ [4.2.1]
 ### General Updates
 + Starry End and Nether now support BetterNether and BetterEnd!
 + Added recipe for Dragonhead
