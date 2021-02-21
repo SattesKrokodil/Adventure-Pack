@@ -1,9 +1,57 @@
 # CHANGELOG
 
 ## Unreleased 
-+
+### General Updates
++ New Building Blocks
++ New Chat, highly customizable 
 
- [4.2.1]
+### Fixed
++ removed capcase from craftable items
++ fixed identity key crashing the game
++ fixed mod menu crashing the game
+
+### Mods
+ADDED
++ WTHIT (HWYLA replacement)
++ Advanced Chat (highly customisable with history, tabs)
++ Fabric Loot Crates
+
+REMOVED
++ HWYLA (no longer maintained)
++ Chicken Nerf
++ Crafting Pad (grid is integrated in inventory now when carrying a craftingtable)
++ Horse Stats Vanilla (nobody used it)
++ 
+
+UPDATED
++ Adorn
++ Anvilfix
++ Architectury
++ Backslot
++ Battletowers
++ Beenfo
++ Better Enchanted Books
++ Blockus
++ Blur
++ Cardinal Components
++ Cave Biomes
++ Chat Heads
++ Clean View
++ Cloth Config
++ True Darkness
++ Dragon Loot
++ Fabric Language Kotlin
++ Fabric Language Scala
++ Falling Tree
++ Fat XP orbs
++ Gecko Lib
++ HomeCamp
++ Identity
++ Inventory HUD
++ ItemFlexer
++ 
+
+## [4.2.1]
 ### General Updates
 + Starry End and Nether now support BetterNether and BetterEnd!
 + Added recipe for Dragonhead
