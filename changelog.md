@@ -4,11 +4,15 @@
 ### General Updates
 + New Building Blocks
 + New Chat, highly customizable 
++ New Armor Set effects 
++ 
 
 ### Fixed
 + removed capcase from craftable items
 + fixed identity key crashing the game
 + fixed mod menu crashing the game
++ rampaging enchantment
++ fixed lurker related crash
 
 ### Mods
 ADDED
@@ -21,7 +25,7 @@ REMOVED
 + Chicken Nerf
 + Crafting Pad (grid is integrated in inventory now when carrying a craftingtable)
 + Horse Stats Vanilla (nobody used it)
-+ 
++ The Loved Ones
 
 UPDATED
 + Adorn
@@ -49,7 +53,28 @@ UPDATED
 + Identity
 + Inventory HUD
 + ItemFlexer
-+ 
++ KubeJS
++ LambDynamicLights
++ Libblockattributes
++ Mambience
++ MCDW
++ MCDA
++ Mod Menu
++ Monster of the Ocean Depth
++ Mousewheelie
++ origins
++ origins classes
++ Phosphor
++ Polymorph
++ Quick Shulker
++ Random Patches
++ Repurposed Structures
++ Roughly Enough Items
++ SecretRooms
++ Shulkerboxtooltips
++ Slight GUI Modifications
++ Transfer Chest
++ Traverse
 
 ## [4.2.1]
 ### General Updates
@@ -65,7 +90,6 @@ UPDATED
 + fixed lag
 + fixed crashes 
 + fixed storage issues and dupes 
-
 
 ### Mods
 ADDED
