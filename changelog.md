@@ -7,7 +7,8 @@
 + New Chat, highly customizable 
 + New Armor Set effects 
 + ~50 new mobs and mob subtypes
-+ added a test questline
++ added a test questline (rewards will come with the next update if it works.)
+
 
 ### Fixed
 + fixed lang file -> mcdw/a items now have the correct names
@@ -33,6 +34,7 @@ REMOVED
 + Crafting Pad (grid is integrated in inventory now when carrying a craftingtable)
 + Horse Stats Vanilla (nobody used it)
 + The Loved Ones
++ Pet owners
 
 UPDATED
 + Adorn
