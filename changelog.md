@@ -2,12 +2,15 @@
 
 ## Unreleased 
 ### General Updates
++ Groundwork for Quests, Compatibility and Lootcrates
 + New Building Blocks
 + New Chat, highly customizable 
 + New Armor Set effects 
-+ 
++ ~50 new mobs and mob subtypes
++ added a test questline
 
 ### Fixed
++ fixed lang file -> mcdw/a items now have the correct names
 + removed capcase from craftable items
 + fixed identity key crashing the game
 + fixed mod menu crashing the game
@@ -19,6 +22,10 @@ ADDED
 + WTHIT (HWYLA replacement)
 + Advanced Chat (highly customisable with history, tabs)
 + Fabric Loot Crates
++ FTB Quests
++ FTB Itemfilters
++ FTB GUIlib
++ MobZ
 
 REMOVED
 + HWYLA (no longer maintained)
