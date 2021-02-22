@@ -1,13 +1,21 @@
 # CHANGELOG
 
 ## Unreleased 
++ added a test questline (rewards will come with the next update if it works.)
++ FTB Quests
++ FTB Itemfilters
++ FTB GUIlib
+
+## [4.3.1] "Just updade everything"
+
+This is one "part" of the update, I will finish the rest tomorrow. Should fix a lot of issues, crates with loot tables will be implemented 23.02
+
 ### General Updates
 + Groundwork for Quests, Compatibility and Lootcrates
 + New Building Blocks
 + New Chat, highly customizable 
 + New Armor Set effects 
 + ~50 new mobs and mob subtypes
-+ added a test questline (rewards will come with the next update if it works.)
 + increased overall mana regeneration
 
 
@@ -24,9 +32,6 @@ ADDED
 + WTHIT (HWYLA replacement)
 + Advanced Chat (highly customisable with history, tabs)
 + Fabric Loot Crates
-+ FTB Quests
-+ FTB Itemfilters
-+ FTB GUIlib
 + MobZ
 
 REMOVED
@@ -86,7 +91,7 @@ UPDATED
 + Transfer Chest
 + Traverse
 
-## [4.2.1]
+## [4.3.0]
 ### General Updates
 + Starry End and Nether now support BetterNether and BetterEnd!
 + Added recipe for Dragonhead
