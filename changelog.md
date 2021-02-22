@@ -8,6 +8,7 @@
 + New Armor Set effects 
 + ~50 new mobs and mob subtypes
 + added a test questline (rewards will come with the next update if it works.)
++ increased overall mana regeneration
 
 
 ### Fixed
