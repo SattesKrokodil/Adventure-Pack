@@ -5,6 +5,8 @@
 + FTB Quests
 + FTB Itemfilters
 + FTB GUIlib
++ added recipe: demon flesh -> leather
++ added recipe: bat wing -> leather
 
 ## [4.3.1] "Just updade everything"
 
