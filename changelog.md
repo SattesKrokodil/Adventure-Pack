@@ -8,6 +8,10 @@
 + added recipe: demon flesh -> leather
 + added recipe: bat wing -> leather
 
+## Mods
++ updated Lithium (fixes a memory leak)
++ added Unforgiving Void
+
 ## [4.3.1] "Just updade everything"
 
 This is one "part" of the update, I will finish the rest tomorrow. Should fix a lot of issues, crates with loot tables will be implemented 23.02
