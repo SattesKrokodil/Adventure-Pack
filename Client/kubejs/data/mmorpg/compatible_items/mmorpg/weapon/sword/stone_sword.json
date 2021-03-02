@@ -1,0 +1,14 @@
+{
+  "item_type": "stone_sword",
+  "item_id": "minecraft:stone_sword",
+  "id": "mmorpg:weapon/sword/stone_sword",
+  "rarities": "low_rarity",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

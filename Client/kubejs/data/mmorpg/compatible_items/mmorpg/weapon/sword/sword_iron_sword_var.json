@@ -1,0 +1,14 @@
+{
+  "item_type": "sword_iron_sword_var",
+  "item_id": "mcdw:sword_iron_sword_var",
+  "id": "mmorpg:weapon/sword/sword_iron_sword_var",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

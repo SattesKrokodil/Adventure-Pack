@@ -1,0 +1,14 @@
+{
+  "item_type": "nether_ruby_sword",
+  "item_id": "betternether:nether_ruby_sword",
+  "id": "mmorpg:weapon/sword/nether_ruby_sword",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

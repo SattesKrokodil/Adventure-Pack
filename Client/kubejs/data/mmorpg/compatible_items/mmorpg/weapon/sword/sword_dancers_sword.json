@@ -1,0 +1,14 @@
+{
+  "item_type": "sword_dancers_sword",
+  "item_id": "mcdw:sword_dancers_sword",
+  "id": "mmorpg:weapon/sword/sword_dancers_sword",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
