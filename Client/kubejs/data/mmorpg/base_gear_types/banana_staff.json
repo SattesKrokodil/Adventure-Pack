@@ -1,0 +1,56 @@
+{
+  "id": "banana_staff",
+  "weight": 2000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "firstMin": 4.0,
+      "firstMax": 12.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 3.0,
+      "secondMax": 6.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.6,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "wand",
+      "mage_weapon",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:uniques/weapon/banana_staff",
+  "gear_slot": "wand",
+  "weapon_type": "Wand",
+  "attack_style": "MAGIC"
+}
