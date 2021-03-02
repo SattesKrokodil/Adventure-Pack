@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"advpack:vox_transform_fish",
+		"advpack:vox_transform_fox",
+		"origins:vegetarian",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins-classes:better_enchanting",
+		"origins-classes:efficient_repairs",
+		"advpack:transform_back_on_change"
+	],
+	"icon": "mcda:fox_armor_helmet",
+	"order": 0,
+	"impact": 1,
+	"name": "Vox",
+	"description": "Shapeshifting protector of all dimensions. It's said they only appear when great danger is immanent."
+}

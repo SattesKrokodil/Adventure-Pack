@@ -1,0 +1,14 @@
+{
+	"powers": [
+			"advpack:silvam_reach",
+			"advpack:silvam_summon",
+			"origins-classes:tamed_potion_diffusal",
+			"origins:claustrophobia"
+
+	],
+	"icon": "byg:willow_sapling",
+	"order": 0,
+	"impact": 1,
+	"name": "Silvam",
+	"description": "A treant like creature, it uses its tendrils to fight, build and destroy."
+}

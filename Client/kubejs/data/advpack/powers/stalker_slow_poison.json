@@ -1,0 +1,18 @@
+{
+	"type": "origins:target_action_on_hit",
+
+	"entity_action": {
+		"type": "origins:apply_effect",
+
+		"effect": {
+      			"effect": "minecraft:slowness",
+    			  "amplifier": 3,
+     			 "duration": 100
+		}
+	},
+
+	"cooldown": 2000,
+	"interval": 1,
+  	"name": "Poison Glands",
+  	"description": "If your glands are filled your attacks will apply deadly poison to your enemies."
+}

@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"advpack:exiled_jump_boost",
+		"advpack:exiled_speed_boost",
+		"origins:fall_immunity",
+		"origins:carnivore"
+	],
+	"icon": "mmorpg:uniques/armor/gluttony_helmet",
+	"order": 0,
+	"impact": 1,
+	"name": "Exiled",
+	"description": "A banished warrior - once a follower of Azuna, now a lone wolf."
+}

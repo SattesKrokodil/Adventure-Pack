@@ -1,0 +1,16 @@
+{
+	"powers": [
+			"advpack:stalker_blind_poison",
+			"advpack:stalker_slow_poison",
+			"advpack:stalker_skin",
+			"advpack:stalker_camo",
+			"advpack:stalker_nightvision",
+			"origins:translucent",
+			"origins:more_exhaustion"
+	],
+	"icon": "mcda:hungry_horror_helmet",
+	"order": 0,
+	"impact": 1,
+	"name": "Stalker",
+	"description": "Not many people survived a confrontation with a Stalker. They say humans eating too much phantom flesh turn into this vile creature."
+}

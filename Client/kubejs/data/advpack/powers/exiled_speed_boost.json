@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Exiled speed bonus",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.02,
+    "operation": "addition"
+  },
+  "name": "Athletic Stature",
+  "description": "Your runspeed is permanently increased."
+}
