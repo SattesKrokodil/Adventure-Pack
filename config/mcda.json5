@@ -1,0 +1,733 @@
+{ 
+	"enableEnchantment": { 
+		"BURNING": true,
+		"CHILLING": true,
+		"COWARDICE": true,
+		"DEFLECT": true,
+		"FIRE_TRAIL": true,
+		"FOOD_RESERVES": true,
+		"FRENZIED": true,
+		"HEAL_ALLIES": true,
+		"POTION_BARRIER": true,
+		"RECYCLER": true,
+		"SNOWBALL": true,
+		"SURPRISE_GIFT": true
+	},
+	"armorStats": { 
+		"ARCHER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"HUNTER": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 2,
+				"CHEST": 3,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"OCELOT": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.075
+		},
+		"SHADOW_WALKER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.075
+		},
+		"SPELUNKER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"CAVE_CRAWLER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.025
+		},
+		"WOLF": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.025,
+			"attackSpeedBoost": 0.025,
+			"movementSpeedBoost": 0.0
+		},
+		"BLACK_WOLF": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.025,
+			"attackSpeedBoost": 0.025,
+			"movementSpeedBoost": 0.0
+		},
+		"FOX": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.025,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"ARCTIC_FOX": { 
+			"protection": { 
+				"FEET": 0,
+				"LEGS": 0,
+				"CHEST": 0,
+				"HEAD": 0
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.025,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"CLIMBING_GEAR": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"RUGGED_CLIMBING_GEAR": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"BATTLE": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 2,
+				"CHEST": 3,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"SPLENDID": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 2,
+				"CHEST": 3,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.075,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"EVOCATION": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 3,
+				"CHEST": 3,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"EMBER": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 3,
+				"CHEST": 3,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"VERDANT": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 3,
+				"CHEST": 3,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"THIEF": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"SPIDER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0375,
+			"movementSpeedBoost": 0.0
+		},
+		"SOUL_ROBE": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 1
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"SOULDANCER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"PHANTOM": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.075
+		},
+		"FROST_BITE": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.075
+		},
+		"GRIM": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"WITHER": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"SCALE_MAIL": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"HIGHLAND": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"BEEHIVE": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"BEENEST": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"GHOSTLY": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"GHOST_KINDLER": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"REINFORCED_MAIL": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"STALWART_MAIL": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"GUARDS": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"CURIOUS": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"SNOW": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"FROST": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"MERCENARY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 4,
+				"CHEST": 5,
+				"HEAD": 3
+			},
+			"toughness": 1.5,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"RENEGADE": { 
+			"protection": { 
+				"FEET": 0,
+				"LEGS": 0,
+				"CHEST": 0,
+				"HEAD": 0
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"HUNGRY_HORROR": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0625
+		},
+		"EMERALD": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.05,
+			"movementSpeedBoost": 0.0
+		},
+		"OPULENT": { 
+			"protection": { 
+				"FEET": 4,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.05,
+			"movementSpeedBoost": 0.0
+		},
+		"DARK": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"TITAN": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.075,
+			"attackSpeedBoost": 0.0375,
+			"movementSpeedBoost": 0.0
+		},
+		"ROYAL": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.075,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"PLATE": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": -0.0375
+		},
+		"FULL_METAL": { 
+			"protection": { 
+				"FEET": 4,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 4
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": -0.0375
+		},
+		"MYSTERY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"BLUE_MYSTERY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"GREEN_MYSTERY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"PURPLE_MYSTERY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"RED_MYSTERY": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"CHAMPION": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0
+		},
+		"HERO": { 
+			"protection": { 
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.075,
+			"attackSpeedBoost": 0.0375,
+			"movementSpeedBoost": 0.0
+		},
+		"GILDED": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.05,
+			"movementSpeedBoost": 0.0
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "dropItems": true,
+  "growthTime": 10,
+  "perItemGrowthTimes": {
+    "minecraft:potatoes": -1,
+    "minecraft:vine": -1,
+    "minecraft:wheat": -1,
+    "minecraft:oak_sapling": -1,
+    "minecraft:dark_oak_sapling": -1,
+    "minecraft:sugar_cane": -1
+  },
+  "growthModifierRegexPatterns": {}
+}

@@ -1,0 +1,359 @@
+{ 
+	// Hunter's Armor: Feet, Legs, Body, Head
+	"HunterArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Archer's Armor: Feet, Legs, Body, Head
+	"ArcherArmor": [ 
+		1,
+		2,
+		3,
+		1
+	],
+	// Ocelot Armor: Feet, Legs, Body, Head
+	"OcelotArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Shadow Walker Armor: Feet, Legs, Body, Head
+	"ShadowWalkerArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Spelunker's Armor: Feet, Legs, Body, Head
+	"SpelunkerArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Cave Crawler's Armor: Feet, Legs, Body, Head
+	"CaveCrawlerArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Wolf Armor: Feet, Legs, Body, Head
+	"WolfArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Black Wolf Armor: Feet, Legs, Body, Head
+	"BlackWolfArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Fox Armor: Feet, Legs, Body, Head
+	"FoxArmor": [ 
+		2,
+		4,
+		6,
+		2
+	],
+	// Battle Robe: Feet, Legs, Body, Head
+	"BattleRobe": [ 
+		1,
+		2,
+		3,
+		1
+	],
+	// Spendid Robe: Feet, Legs, Body, Head
+	"SpendidRobe": [ 
+		2,
+		3,
+		3,
+		2
+	],
+	// Evocation Robe: Feet, Legs, Body, Head
+	"EvocationRobe": [ 
+		1,
+		3,
+		3,
+		1
+	],
+	// Ember Robe: Feet, Legs, Body, Head
+	"EmberRobe": [ 
+		1,
+		3,
+		3,
+		1
+	],
+	// Verdant Robe: Feet, Legs, Body, Head
+	"VerdantRobe": [ 
+		1,
+		3,
+		3,
+		1
+	],
+	// Thief Armor: Feet, Legs, Body, Head
+	"ThiefArmor": [ 
+		2,
+		4,
+		5,
+		2
+	],
+	// Spider Armor: Feet, Legs, Body, Head
+	"SpiderArmor": [ 
+		2,
+		4,
+		5,
+		2
+	],
+	// Soul Robe: Feet, Legs, Body, Head
+	"SoulRobe": [ 
+		1,
+		5,
+		6,
+		1
+	],
+	// Soul Dancer Robe: Feet, Legs, Body, Head
+	"SoulDancerRobe": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Climbing Gear: Feet, Legs, Body, Head
+	"ClimbingGear": [ 
+		1,
+		5,
+		6,
+		1
+	],
+	// Rugged Climbing Gear: Feet, Legs, Body, Head
+	"RuggedClimbingGear": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Goat Armor: Feet, Legs, Body, Head
+	"GoatArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Phantom Armor: Feet, Legs, Body, Head
+	"PhantomArmor": [ 
+		3,
+		5,
+		6,
+		2
+	],
+	// Forst Bite: Feet, Legs, Body, Head
+	"FrostBiteArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Grim Armor: Feet, Legs, Body, Head
+	"GrimArmor": [ 
+		3,
+		5,
+		6,
+		2
+	],
+	// Wither Armor: Feet, Legs, Body, Head
+	"WitherArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Scale Mail: Feet, Legs, Body, Head
+	"ScaleMail": [ 
+		2,
+		4,
+		5,
+		2
+	],
+	// Highland Armor: Feet, Legs, Body, Head
+	"HighlandArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Beehive Armor: Feet, Legs, Body, Head
+	"BeehiveArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Beenest Armor: Feet, Legs, Body, Head
+	"BeenestArmor": [ 
+		2,
+		4,
+		5,
+		2
+	],
+	// Ghostly Armor: Feet, Legs, Body, Head
+	"GhostlyArmor": [ 
+		2,
+		4,
+		5,
+		2
+	],
+	// Ghost Kindler Armor: Feet, Legs, Body, Head
+	"GhostKindlerArmor": [ 
+		2,
+		5,
+		6,
+		2
+	],
+	// Reinforced Mail: Feet, Legs, Body, Head
+	"ReinforcedMail": [ 
+		3,
+		4,
+		6,
+		3
+	],
+	// Stalwart Mail: Feet, Legs, Body, Head
+	"StalwartMail": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Guard's Armor: Feet, Legs, Body, Head
+	"GuardsArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Curious Armor: Feet, Legs, Body, Head
+	"CuriousArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Snow Armor: Feet, Legs, Body, Head
+	"SnowArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Frost Armor: Feet, Legs, Body, Head
+	"FrostArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Mercenary Armor: Feet, Legs, Body, Head
+	"MercenaryArmor": [ 
+		3,
+		4,
+		5,
+		3
+	],
+	// Renegade Armor: Feet, Legs, Body, Head
+	"RenegadeArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Hungry Horror Armor: Feet, Legs, Body, Head
+	"HungryHorrorArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Emerald Gear: Feet, Legs, Body, Head
+	"EmeraldGearArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Opulent Armor: Feet, Legs, Body, Head
+	"OpulentArmor": [ 
+		3,
+		5,
+		7,
+		3
+	],
+	// Dark Armor: Feet, Legs, Body, Head
+	"DarkArmor": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Titan's Shroud: Feet, Legs, Body, Head
+	"TitanSroud": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Royal Guard: Feet, Legs, Body, Head
+	"RoyalGuard": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Plate Armor: Feet, Legs, Body, Head
+	"PlateArmor": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Full Metal Armor: Feet, Legs, Body, Head
+	"FullMetalArmor": [ 
+		4,
+		6,
+		8,
+		4
+	],
+	// Mystery Armor: Feet, Legs, Body, Head
+	"MysteryArmor": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Champion Armor: Feet, Legs, Body, Head
+	"ChampionArmor": [ 
+		3,
+		6,
+		8,
+		3
+	],
+	// Hero's Armor: Feet, Legs, Body, Head
+	"HerosArmor": [ 
+		4,
+		7,
+		9,
+		4
+	],
+	// Gilded Glory: Feet, Legs, Body, Head
+	"GildedGloryArmor": [ 
+		3,
+		6,
+		8,
+		3
+	]
+}

@@ -1,0 +1,97 @@
+{ 
+	"ENABLE_MOD": true,
+	"ENABLE_DUNGEON": true,
+	"DUNGEON": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"registry_id": "world_of_exile:dungeon",
+		"config": { 
+			"spacing": 22,
+			"separation": 15,
+			"salt": 378235
+		}
+	},
+	"BLACKSTONE_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"world_of_exile:abyss"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"registry_id": "world_of_exile:blackstone_tower",
+		"config": { 
+			"spacing": 8,
+			"separation": 6,
+			"salt": 2058146
+		}
+	},
+	"STONE_BRICK_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"registry_id": "world_of_exile:stone_brick_tower",
+		"config": { 
+			"spacing": 10,
+			"separation": 5,
+			"salt": 5240125
+		}
+	},
+	"ALLOWED_MOBS_FOR_SPAWNERS": [ 
+		"minecraft:cave_spider",
+		"minecraft:skeleton",
+		"minecraft:spider",
+		"minecraft:zombie",
+		"minecraft:zombie_villager",
+		"minecraft:husk"
+	],
+	"ALLOWED_BOSSES": [ 
+		"world_of_exile:fire_golem",
+		"world_of_exile:frost_golem"
+	]
+}
