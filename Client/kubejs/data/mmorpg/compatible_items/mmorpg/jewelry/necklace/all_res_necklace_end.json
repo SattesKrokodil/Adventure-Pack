@@ -1,0 +1,14 @@
+{
+  "item_type": "all_res_necklace_end",
+  "item_id": "mmorpg:jewelry/necklace/all_res_necklace_end",
+  "id": "mmorpg:jewelry/necklace/all_res_necklace_end",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
