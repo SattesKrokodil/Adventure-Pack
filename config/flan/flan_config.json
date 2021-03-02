@@ -1,0 +1,18 @@
+{
+  "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
+  "startingBlocks": 500,
+  "maxClaimBlocks": 5000,
+  "ticksForNextBlock": 1200,
+  "minClaimsize": 100,
+  "defaultClaimDepth": 10,
+  "lenientBlockEntityCheck": false,
+  "blacklistedWorlds": [],
+  "worldWhitelist": false,
+  "allowMobSpawnToggle": false,
+  "claimingItem": "minecraft:golden_hoe",
+  "inspectionItem": "minecraft:stick",
+  "claimDisplayTime": 1000,
+  "permissionLevel": 2,
+  "globalDefaultPerms": {},
+  "enableLogs": false
+}
