@@ -1,0 +1,19 @@
+{
+  "identifier": "rift",
+  "stats": [
+	{
+      "first_min": 1.0,
+      "first_max": 4.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "cdr",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "ano",
+    "eno"
+  ],
+  "family": "Jewelry",
+  "loc_name": "Rift"
+}

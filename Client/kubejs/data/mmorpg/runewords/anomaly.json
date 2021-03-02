@@ -1,0 +1,28 @@
+{
+  "identifier": "anomaly",
+  "stats": [
+	{
+      "first_min": 2.0,
+      "first_max": 8.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "cdr",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 2.0,
+      "first_max": 4.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_per_sec",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "wir",
+    "yun",
+    "oru"
+  ],
+  "family": "Armor",
+  "loc_name": "Anomaly"
+}
