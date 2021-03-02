@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_helmet2",
+  "item_id": "mmorpg:uniques/armor/frost_crown",
+  "id": "mmorpg:uniques/armor/frost_crown",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "frost_crown"
+  }
+}

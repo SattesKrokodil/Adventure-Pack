@@ -1,0 +1,14 @@
+{
+  "item_type": "life_necklace_low",
+  "item_id": "mmorpg:uniques/jewelry/snake_eye",
+  "id": "mmorpg:uniques/jewelry/snake_eye",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "snake_eye"
+  }
+}

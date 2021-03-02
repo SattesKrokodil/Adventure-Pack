@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_chest2",
+  "item_id": "mmorpg:uniques/armor/ms_armor_chest",
+  "id": "mmorpg:uniques/armor/ms_armor_chest",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "ms_armor_chest"
+  }
+}

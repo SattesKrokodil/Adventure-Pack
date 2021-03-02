@@ -1,0 +1,14 @@
+{
+  "item_type": "cold_res_ring_low",
+  "item_id": "mmorpg:uniques/jewelry/lunar_ring",
+  "id": "mmorpg:uniques/jewelry/lunar_ring",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "lunar_ring"
+  }
+}

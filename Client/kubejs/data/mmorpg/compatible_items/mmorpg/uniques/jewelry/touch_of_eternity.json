@@ -1,0 +1,14 @@
+{
+  "item_type": "mana_reg_ring_low",
+  "item_id": "mmorpg:uniques/jewelry/touch_of_eternity",
+  "id": "mmorpg:uniques/jewelry/touch_of_eternity",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "touch_of_eternity"
+  }
+}
