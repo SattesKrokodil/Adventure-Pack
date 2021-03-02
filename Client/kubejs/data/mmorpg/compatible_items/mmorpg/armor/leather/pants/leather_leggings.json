@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_leggings",
+  "item_id": "minecraft:leather_leggings",
+  "id": "mmorpg:armor/leather/pants/leather_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_type": "rugged_climbing_gear_chestplate",
+  "item_id": "mcda:rugged_climbing_gear_chestplate",
+  "id": "mmorpg:armor/leather/chest/rugged_climbing_gear_chestplate",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

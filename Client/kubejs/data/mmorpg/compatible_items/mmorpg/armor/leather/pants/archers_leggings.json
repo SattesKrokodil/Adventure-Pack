@@ -1,0 +1,14 @@
+{
+  "item_type": "archers_leggings",
+  "item_id": "mcda:archers_leggings",
+  "id": "mmorpg:armor/leather/pants/archers_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
