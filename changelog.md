@@ -1,16 +1,51 @@
 # CHANGELOG
 
 ## Unreleased 
+
 + added a test questline (rewards will come with the next update if it works.)
 + FTB Quests
 + FTB Itemfilters
 + FTB GUIlib
+
+## General
++ new loot crates and loot table overhaul
++ reduced xp gains from "no thread mobs"
++ added item compatbility to vanilla items
++ added chat filters (WTB/WTS... thanks ducky!)
++ new Orc mob!
++ new armor enchantments
 + added recipe: demon flesh -> leather
 + added recipe: bat wing -> leather
 
+## Fixes
++ added more passive mobs to AoE blacklist (less data storage)
++ fixed sound issues with footsteps
++ fixed some passive mobs giving xp
+
 ## Mods
-+ updated Lithium (fixes a memory leak)
+ADDED
 + added Unforgiving Void
++ hookshot
+
+UPDATED
++ lithium 
++ desolation 
++ starryskies
++ mcda
++ YungsAPI
++ BetterCaves
++ Origins
++ lootbeams
++ repurposed structures
++ monster of the ocean depths
++ kubeJS
++ architectury
++ byg
++ adventureZ
+
+REMOVED
+
++ cardinal components (comes bundled with most mods that use it.)
 
 ## [4.3.1] "Just updade everything"
 
