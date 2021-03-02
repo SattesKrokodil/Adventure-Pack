@@ -1,0 +1,14 @@
+{
+  "item_type": "dragon_leggings",
+  "item_id": "dragonloot:dragon_leggings",
+  "id": "mmorpg:armor/plate/pants/dragon_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

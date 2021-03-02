@@ -1,0 +1,14 @@
+{
+  "item_type": "terminite_leggings",
+  "item_id": "betterend:terminite_leggings",
+  "id": "mmorpg:armor/plate/pants/terminite_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

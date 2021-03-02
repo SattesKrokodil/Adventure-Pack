@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_armor_helmet",
+  "item_id": "mcda:plate_armor_helmet",
+  "id": "mmorpg:armor/plate/helmet/plate_armor_helmet",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_type": "purple_mystery_armor_leggings",
+  "item_id": "mcda:purple_mystery_armor_leggings",
+  "id": "mmorpg:armor/plate/pants/purple_mystery_armor_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
