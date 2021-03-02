@@ -1,0 +1,14 @@
+{
+  "item_type": "soul_robe_boots",
+  "item_id": "mcda:soul_robe_boots",
+  "id": "mmorpg:armor/cloth/boots/soul_robe_boots",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
