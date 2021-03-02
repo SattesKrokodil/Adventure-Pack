@@ -1,0 +1,58 @@
+{
+  "levelRange": {
+    "start": 0.2,
+    "end": 0.4
+  },
+  "outputs": [
+    {
+      "item": "mmorpg:mat/salvage/salvage1",
+      "weight": 950
+    },
+    {
+      "item": "mmorpg:gear_mat/ore/ore1",
+      "weight": 50
+    },
+    {
+      "item": "mmorpg:gear_mat/cloth/cloth1",
+      "weight": 50
+    },
+    {
+      "item": "mmorpg:gear_mat/leather/leather1",
+      "weight": 50
+    },
+    {
+      "item": "mmorpg:gear_mat/ore/ore2",
+      "weight": 10
+    },
+    {
+      "item": "mmorpg:gear_mat/cloth/cloth2",
+      "weight": 10
+    },
+    {
+      "item": "mmorpg:gear_mat/leather/leather2",
+      "weight": 10
+    },
+    {
+      "item": "mmorpg:loot_crate/common",
+      "weight": 10
+    },
+    {
+      "item": "mmorpg:loot_crate/magic",
+      "weight": 8
+    },
+    {
+      "item": "mmorpg:loot_crate/rare",
+      "weight": 6
+    },
+    {
+      "item": "mmorpg:loot_crate/relic",
+      "weight": 4
+    },
+    {
+      "item": "mmorpg:loot_crate/unique",
+      "weight": 2
+    }
+  ],
+  "id": "t1",
+  "weight": 1000
+}
