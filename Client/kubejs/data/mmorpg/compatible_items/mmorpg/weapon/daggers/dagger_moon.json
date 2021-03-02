@@ -1,0 +1,14 @@
+{
+  "item_type": "dagger_moon",
+  "item_id": "mcdw:dagger_moon",
+  "id": "mmorpg:weapon/daggers/dagger_moon",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

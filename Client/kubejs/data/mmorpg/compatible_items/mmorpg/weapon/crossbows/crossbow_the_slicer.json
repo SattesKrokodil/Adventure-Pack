@@ -1,0 +1,14 @@
+{
+  "item_type": "crossbow_the_slicer",
+  "item_id": "mcdw:crossbow_the_slicer",
+  "id": "mmorpg:weapon/crossbows/crossbow_the_slicer",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

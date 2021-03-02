@@ -1,0 +1,14 @@
+{
+  "item_type": "sickle_last_laugh_silver",
+  "item_id": "mcdw:sickle_last_laugh_silver",
+  "id": "mmorpg:weapon/daggers/sickle_last_laugh_silver",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_type": "bow_haunted_bow",
+  "item_id": "mcdw:bow_haunted_bow",
+  "id": "mmorpg:weapon/bows/bow_haunted_bow",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

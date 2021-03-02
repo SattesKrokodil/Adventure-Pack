@@ -1,0 +1,14 @@
+{
+  "item_type": "crossbow_rapid_crossbow",
+  "item_id": "mcdw:crossbow_rapid_crossbow",
+  "id": "mmorpg:weapon/crossbows/crossbow_rapid_crossbow",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

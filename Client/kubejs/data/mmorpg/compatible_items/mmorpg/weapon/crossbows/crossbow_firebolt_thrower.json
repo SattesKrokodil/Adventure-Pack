@@ -1,0 +1,14 @@
+{
+  "item_type": "crossbow_firebolt_thrower",
+  "item_id": "mcdw:crossbow_firebolt_thrower",
+  "id": "mmorpg:weapon/crossbows/crossbow_firebolt_thrower",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

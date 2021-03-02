@@ -1,0 +1,14 @@
+{
+  "item_type": "crossbow_azure_seeker",
+  "item_id": "mcdw:crossbow_azure_seeker",
+  "id": "mmorpg:weapon/crossbows/crossbow_azure_seeker",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
