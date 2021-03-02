@@ -1,0 +1,14 @@
+{
+  "item_type": "emerald_gear_boots",
+  "item_id": "mcda:emerald_gear_boots",
+  "id": "mmorpg:armor/plate/boots/emerald_gear_boots",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
