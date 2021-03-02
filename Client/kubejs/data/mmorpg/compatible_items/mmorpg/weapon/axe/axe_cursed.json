@@ -1,0 +1,14 @@
+{
+  "item_type": "axe_cursed",
+  "item_id": "mcdw:axe_cursed",
+  "id": "mmorpg:weapon/axe/axe_cursed",
+  "rarities": "high_rarity",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
