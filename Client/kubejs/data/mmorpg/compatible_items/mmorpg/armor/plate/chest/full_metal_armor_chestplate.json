@@ -1,0 +1,14 @@
+{
+  "item_type": "full_metal_armor_chestplate",
+  "item_id": "mcda:full_metal_armor_chestplate",
+  "id": "mmorpg:armor/plate/chest/full_metal_armor_chestplate",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

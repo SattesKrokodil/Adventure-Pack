@@ -1,0 +1,14 @@
+{
+  "item_type": "iron_chestplate",
+  "item_id": "minecraft:iron_chestplate",
+  "id": "mmorpg:armor/plate/chest/iron_chestplate",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

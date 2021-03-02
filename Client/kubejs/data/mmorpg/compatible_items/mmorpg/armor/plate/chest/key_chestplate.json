@@ -1,0 +1,14 @@
+{
+  "item_type": "key_chestplate",
+  "item_id": "battletowers:key_chestplate",
+  "id": "mmorpg:armor/plate/chest/key_chestplate",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
