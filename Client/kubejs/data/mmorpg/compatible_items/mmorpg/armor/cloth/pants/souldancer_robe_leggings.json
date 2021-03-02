@@ -1,0 +1,14 @@
+{
+  "item_type": "souldancer_robe_leggings",
+  "item_id": "mcda:souldancer_robe_leggings",
+  "id": "mmorpg:armor/cloth/pants/souldancer_robe_leggings",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
