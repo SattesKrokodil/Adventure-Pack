@@ -1,0 +1,9 @@
+{
+  "rarities": [
+    "mythic",
+    "relic",
+    "legendary",
+    "epic"
+  ],
+  "id": "high_rarity"
+}
