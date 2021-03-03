@@ -27,7 +27,7 @@
       "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "critical_hit",
+      "stat": "faster_cast_rate",
       "type": "flat"
     }
   ],

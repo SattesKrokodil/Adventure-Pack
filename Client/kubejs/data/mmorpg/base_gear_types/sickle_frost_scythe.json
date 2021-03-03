@@ -18,7 +18,7 @@
       "firstMax": 6.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "critical_hit",
+      "stat": "life_on_hit",
       "type": "flat"
     }
   ],

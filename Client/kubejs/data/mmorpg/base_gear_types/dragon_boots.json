@@ -6,16 +6,16 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 20.0,
-      "firstMax": 50.0,
+      "firstMin": 15.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
       "type": "flat"
     },
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
+      "firstMin": 1.5,
+      "firstMax": 2.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -23,8 +23,8 @@
     }
   ],
   "level_range": {
-    "start": 1.0,
-    "end": 1.0
+    "start": 0.6,
+    "end": 0.8
   },
   "tag_list": {
     "tags": [

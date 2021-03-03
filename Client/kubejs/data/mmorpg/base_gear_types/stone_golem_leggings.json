@@ -7,7 +7,7 @@
   "base_stats": [
     {
       "firstMin": 16.0,
-      "firstMax": 64.0,
+      "firstMax": 55.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",

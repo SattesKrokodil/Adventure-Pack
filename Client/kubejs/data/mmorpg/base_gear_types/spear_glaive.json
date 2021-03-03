@@ -6,25 +6,25 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
-      "secondMin": 2.0,
-      "secondMax": 4.0,
+      "firstMin": 1.0,
+      "firstMax": 2.5,
+      "secondMin": 2.5,
+      "secondMax": 3.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
       "firstMin": 2.0,
-      "firstMax": 6.0,
+      "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "critical_hit",
+      "stat": "critical_damage",
       "type": "flat"
     }
   ],
   "level_range": {
-    "start": 0.8,
-    "end": 1.0
+    "start": 0.4,
+    "end": 0.6
   },
   "tag_list": {
     "tags": [

@@ -15,19 +15,27 @@
   ],
   "base_stats": [
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
+      "firstMin": 1.0,
+      "firstMax": 2.0,
       "secondMin": 3.0,
-      "secondMax": 6.0,
-      "stat": "physical_weapon_damage",
+      "secondMax": 5.0,
+      "stat": "faster_cast_rate",
       "type": "flat"
     },
     {
-      "firstMin": 3.0,
-      "firstMax": 10.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "critical_hit",
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 3.0,
+      "secondMax": 5,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 2.0,
+      "secondMax": 2.5,
+      "stat": "physical_weapon_damage",
       "type": "flat"
     }
   ],

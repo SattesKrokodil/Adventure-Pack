@@ -18,13 +18,13 @@
       "firstMax": 6.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "critical_hit",
+      "stat": "life_on_hit",
       "type": "flat"
     }
   ],
   "level_range": {
-    "start": 0.8,
-    "end": 1.0
+    "start": 0.2,
+    "end": 0.4
   },
   "tag_list": {
     "tags": [

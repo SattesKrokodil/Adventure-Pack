@@ -29,7 +29,16 @@
       "secondMax": 0.0,
       "stat": "critical_hit",
       "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_on_hit",
+      "type": "flat"
     }
+
   ],
   "level_range": {
     "start": 0.8,

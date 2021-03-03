@@ -14,11 +14,11 @@
       "type": "flat"
     },
     {
-      "firstMin": 2.0,
-      "firstMax": 6.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "critical_hit",
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 2.0,
+      "secondMax": 3.0,
+      "stat": "chance_of_static",
       "type": "flat"
     }
   ],
