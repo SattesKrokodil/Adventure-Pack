@@ -15,16 +15,16 @@
   ],
   "base_stats": [
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 5.0,
+      "firstMax": 20.0,
       "secondMin": 3.0,
       "secondMax": 5.0,
       "stat": "faster_cast_rate",
       "type": "flat"
     },
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 5.0,
+      "firstMax": 20.0,
       "secondMin": 3.0,
       "secondMax": 5,
       "stat": "cdr",

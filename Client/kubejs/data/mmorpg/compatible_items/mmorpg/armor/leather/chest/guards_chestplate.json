@@ -1,8 +1,8 @@
 {
   "item_type": "guards_chestplate",
   "item_id": "mcda:guards_armor_chestplate",
-  "id": "mmorpg:armor/plate/chest/guards_chestplate",
-  "rarities": "high_rarity",
+  "id": "mmorpg:armor/leather/chest/guards_chestplate",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

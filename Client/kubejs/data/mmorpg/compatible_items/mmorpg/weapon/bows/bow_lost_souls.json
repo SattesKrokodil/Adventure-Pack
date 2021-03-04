@@ -1,7 +1,7 @@
 {
-  "item_type": "bow_love_spell_bow",
-  "item_id": "mcdw:bow_love_spell_bow",
-  "id": "mmorpg:weapon/bows/bow_love_spell_bow",
+  "item_type": "bow_lost_souls",
+  "item_id": "mcdw:bow_lost_souls",
+  "id": "mmorpg:weapon/bows/bow_lost_souls",
   "rarities": "high_rarity",
   "misc": {
     "weight": 1000,

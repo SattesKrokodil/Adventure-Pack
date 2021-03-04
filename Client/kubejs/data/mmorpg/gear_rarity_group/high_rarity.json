@@ -3,7 +3,8 @@
     "mythic",
     "relic",
     "legendary",
-    "epic"
+    "epic",
+    "rare"
   ],
   "id": "high_rarity"
 }

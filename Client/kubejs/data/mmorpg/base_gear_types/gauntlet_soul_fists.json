@@ -14,8 +14,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 5.0,
+      "firstMax": 10.0,
       "secondMin": 2.0,
       "secondMax": 3.0,
       "stat": "chance_of_static",

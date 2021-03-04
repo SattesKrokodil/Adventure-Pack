@@ -23,8 +23,8 @@
     }
   ],
   "level_range": {
-    "start": 0.4,
-    "end": 0.6
+    "start": 0.2,
+    "end": 0.4
   },
   "tag_list": {
     "tags": [
@@ -40,7 +40,7 @@
     "int_req": 0.0,
     "str_req": 0.0
   },
-  "item_id": "mmorpg:armor/plate/helmet/guards_helmet",
+  "item_id": "mmorpg:armor/leather/helmet/guards_helmet",
   "gear_slot": "helmet",
   "weapon_type": "None",
   "attack_style": "MELEE"
