@@ -2,7 +2,7 @@
   "item_type": "golden_leggings",
   "item_id": "minecraft:golden_leggings",
   "id": "mmorpg:armor/plate/pants/golden_leggings",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

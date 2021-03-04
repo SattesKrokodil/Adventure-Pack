@@ -2,7 +2,7 @@
   "item_type": "sword_masters_katana",
   "item_id": "mcdw:sword_masters_katana",
   "id": "mmorpg:weapon/sword/sword_masters_katana",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

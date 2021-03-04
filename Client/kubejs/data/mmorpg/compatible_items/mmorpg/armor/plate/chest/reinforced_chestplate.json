@@ -2,7 +2,7 @@
   "item_type": "reinforced_chestplate",
   "item_id": "mcda:reinforced_mail_chestplate",
   "id": "mmorpg:armor/plate/chest/reinforced_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

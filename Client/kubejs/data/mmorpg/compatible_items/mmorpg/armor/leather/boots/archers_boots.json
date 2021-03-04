@@ -2,7 +2,7 @@
   "item_type": "archers_boots",
   "item_id": "mcda:archers_boots",
   "id": "mmorpg:armor/leather/boots/archers_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

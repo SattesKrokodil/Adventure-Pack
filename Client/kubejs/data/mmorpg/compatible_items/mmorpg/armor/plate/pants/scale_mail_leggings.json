@@ -2,7 +2,7 @@
   "item_type": "scale_mail_leggings",
   "item_id": "mcda:scale_mail_leggings",
   "id": "mmorpg:armor/plate/pants/scale_mail_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

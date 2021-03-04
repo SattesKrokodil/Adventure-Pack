@@ -2,7 +2,7 @@
   "item_type": "crossbow_baby_crossbow",
   "item_id": "mcdw:crossbow_baby_crossbow",
   "id": "mmorpg:weapon/crossbows/crossbow_baby_crossbow",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

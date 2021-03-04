@@ -2,7 +2,7 @@
   "item_type": "axe_double",
   "item_id": "mcdw:axe_double",
   "id": "mmorpg:weapon/axe/axe_double",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "souldancer_robe_boots",
   "item_id": "mcda:souldancer_robe_boots",
   "id": "mmorpg:armor/cloth/boots/souldancer_robe_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "diamond_helmet",
   "item_id": "minecraft:diamond_helmet",
   "id": "mmorpg:armor/plate/helmet/diamond_helmet",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

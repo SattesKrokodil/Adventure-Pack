@@ -2,7 +2,7 @@
   "item_type": "bow_bonebow",
   "item_id": "mcdw:bow_bonebow",
   "id": "mmorpg:weapon/bows/bow_bonebow",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

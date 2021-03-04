@@ -2,7 +2,7 @@
   "item_type": "gilded_glory_chestplate",
   "item_id": "mcda:gilded_glory_chestplate",
   "id": "mmorpg:armor/plate/chest/gilded_glory_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

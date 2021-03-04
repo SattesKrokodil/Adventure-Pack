@@ -2,7 +2,7 @@
   "item_type": "hammer_suns_grace",
   "item_id": "mcdw:hammer_suns_grace",
   "id": "mmorpg:weapon/blunt_weapons/hammer_suns_grace",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

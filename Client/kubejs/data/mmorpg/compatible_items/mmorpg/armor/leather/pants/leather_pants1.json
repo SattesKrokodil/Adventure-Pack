@@ -2,7 +2,7 @@
   "item_type": "leather_pants1",
   "item_id": "mmorpg:armor/leather/pants/leather_pants1",
   "id": "mmorpg:armor/leather/pants/leather_pants1",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

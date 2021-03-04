@@ -2,7 +2,7 @@
   "item_type": "spear_whispering_spear",
   "item_id": "mcdw:spear_whispering_spear",
   "id": "mmorpg:weapon/spears/spear_whispering_spear",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

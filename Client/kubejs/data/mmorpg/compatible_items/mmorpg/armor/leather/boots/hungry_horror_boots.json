@@ -2,7 +2,7 @@
   "item_type": "hungry_horror_boots",
   "item_id": "mcda:hungry_horror_boots",
   "id": "mmorpg:armor/leather/boots/hungry_horror_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

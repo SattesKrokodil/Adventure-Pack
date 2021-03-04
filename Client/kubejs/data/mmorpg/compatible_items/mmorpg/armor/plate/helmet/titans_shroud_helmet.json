@@ -2,7 +2,7 @@
   "item_type": "titans_shroud_helmet",
   "item_id": "mcda:titans_shroud_helmet",
   "id": "mmorpg:armor/plate/helmet/titans_shroud_helmet",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

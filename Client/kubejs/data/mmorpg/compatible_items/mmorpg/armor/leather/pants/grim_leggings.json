@@ -2,7 +2,7 @@
   "item_type": "grim_leggings",
   "item_id": "mcda:grim_armor_leggings",
   "id": "mmorpg:armor/leather/pants/grim_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

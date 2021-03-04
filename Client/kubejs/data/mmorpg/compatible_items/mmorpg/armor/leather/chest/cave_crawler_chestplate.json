@@ -2,7 +2,7 @@
   "item_type": "cave_crawler_chestplate",
   "item_id": "mcda:cave_crawler_chestplate",
   "id": "mmorpg:armor/leather/chest/cave_crawler_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

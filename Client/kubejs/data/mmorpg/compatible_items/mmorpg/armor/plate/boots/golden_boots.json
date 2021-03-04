@@ -2,7 +2,7 @@
   "item_type": "golden_boots",
   "item_id": "minecraft:golden_boots",
   "id": "mmorpg:armor/plate/boots/golden_boots",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

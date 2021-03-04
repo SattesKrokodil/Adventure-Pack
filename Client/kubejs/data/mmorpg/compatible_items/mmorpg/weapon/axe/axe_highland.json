@@ -2,7 +2,7 @@
   "item_type": "axe_highland",
   "item_id": "mcdw:axe_highland",
   "id": "mmorpg:weapon/axe/axe_highland",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

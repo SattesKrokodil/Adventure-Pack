@@ -2,7 +2,7 @@
   "item_type": "battle_robe_chestplate",
   "item_id": "mcda:battle_robe_chestplate",
   "id": "mmorpg:armor/cloth/chest/battle_robe_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

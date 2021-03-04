@@ -2,7 +2,7 @@
   "item_type": "crossbow_lightning_harp_crossbow",
   "item_id": "mcdw:crossbow_lightning_harp_crossbow",
   "id": "mmorpg:weapon/crossbows/crossbow_lightning_harp_crossbow",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

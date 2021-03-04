@@ -2,7 +2,7 @@
   "item_type": "bow_red_snake",
   "item_id": "mcdw:bow_red_snake",
   "id": "mmorpg:weapon/bows/bow_red_snake",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "leather_boots",
   "item_id": "minecraft:leather_boots",
   "id": "mmorpg:armor/leather/boots/leather_boots",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

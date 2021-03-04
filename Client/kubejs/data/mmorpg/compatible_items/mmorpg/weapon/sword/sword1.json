@@ -2,7 +2,7 @@
   "item_type": "sword1",
   "item_id": "mmorpg:weapon/sword/sword1",
   "id": "mmorpg:weapon/sword/sword1",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

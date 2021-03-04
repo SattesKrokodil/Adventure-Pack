@@ -2,7 +2,7 @@
   "item_type": "scale_mail_boots",
   "item_id": "mcda:scale_mail_boots",
   "id": "mmorpg:armor/plate/boots/scale_mail_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

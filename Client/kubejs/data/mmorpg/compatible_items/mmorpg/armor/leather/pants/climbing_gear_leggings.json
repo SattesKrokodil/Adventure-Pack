@@ -2,7 +2,7 @@
   "item_type": "climbing_gear_leggings",
   "item_id": "mcda:climbing_gear_leggings",
   "id": "mmorpg:armor/leather/pants/climbing_gear_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

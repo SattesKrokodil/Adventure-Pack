@@ -2,13 +2,13 @@
   "item_type": "diamond_sword",
   "item_id": "minecraft:diamond_sword",
   "id": "mmorpg:weapon/sword/diamond_sword",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false
   },
   "unique": {
-    "chance_to_become_unique": 0.5,
+    "chance_to_become_unique": 0.2,
     "unique_id": ""
   }
 }

@@ -2,7 +2,7 @@
   "item_type": "staff_growing_staff",
   "item_id": "mcdw:staff_growing_staff",
   "id": "mmorpg:weapon/wand/staff_growing_staff",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

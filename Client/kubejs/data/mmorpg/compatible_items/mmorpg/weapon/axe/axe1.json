@@ -2,7 +2,7 @@
   "item_type": "axe1",
   "item_id": "mmorpg:weapon/axe/axe1",
   "id": "mmorpg:weapon/axe/axe1",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

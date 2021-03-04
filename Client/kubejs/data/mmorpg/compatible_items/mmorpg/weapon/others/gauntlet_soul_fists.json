@@ -2,7 +2,7 @@
   "item_type": "gauntlet_soul_fists",
   "item_id": "mcdw:gauntlet_soul_fists",
   "id": "mmorpg:weapon/others/gauntlet_soul_fists",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

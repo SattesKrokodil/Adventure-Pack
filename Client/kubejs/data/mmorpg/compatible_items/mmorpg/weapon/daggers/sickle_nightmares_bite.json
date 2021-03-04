@@ -2,7 +2,7 @@
   "item_type": "sickle_nightmares_bite",
   "item_id": "mcdw:sickle_nightmares_bite",
   "id": "mmorpg:weapon/daggers/sickle_nightmares_bite",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "iron_leggings",
   "item_id": "minecraft:iron_leggings",
   "id": "mmorpg:armor/plate/pants/iron_leggings",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

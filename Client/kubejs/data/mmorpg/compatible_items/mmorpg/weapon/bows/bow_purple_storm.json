@@ -2,7 +2,7 @@
   "item_type": "bow_purple_storm",
   "item_id": "mcdw:bow_purple_storm",
   "id": "mmorpg:weapon/bows/bow_purple_storm",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "mercenary_armor_boots",
   "item_id": "mcda:mercenary_armor_boots",
   "id": "mmorpg:armor/plate/boots/mercenary_armor_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

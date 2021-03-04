@@ -2,7 +2,7 @@
   "item_type": "soul_robe_chestplate",
   "item_id": "mcda:soul_robe_chestplate",
   "id": "mmorpg:armor/cloth/chest/soul_robe_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

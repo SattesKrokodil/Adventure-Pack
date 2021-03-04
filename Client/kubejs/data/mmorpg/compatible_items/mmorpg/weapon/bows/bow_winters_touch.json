@@ -2,7 +2,7 @@
   "item_type": "bow_winters_touch",
   "item_id": "mcdw:bow_winters_touch",
   "id": "mmorpg:weapon/bows/bow_winters_touch",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

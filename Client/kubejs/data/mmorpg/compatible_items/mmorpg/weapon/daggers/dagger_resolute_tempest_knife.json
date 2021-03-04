@@ -2,7 +2,7 @@
   "item_type": "dagger_resolute_tempest_knife",
   "item_id": "mcdw:dagger_resolute_tempest_knife",
   "id": "mmorpg:weapon/daggers/dagger_resolute_tempest_knife",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

@@ -2,7 +2,7 @@
   "item_type": "sickle_jailors_scythe",
   "item_id": "mcdw:sickle_jailors_scythe",
   "id": "mmorpg:weapon/daggers/sickle_jailors_scythe",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

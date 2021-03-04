@@ -2,7 +2,7 @@
   "item_type": "wand1",
   "item_id": "mmorpg:weapon/wand/wand1",
   "id": "mmorpg:weapon/wand/wand1",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

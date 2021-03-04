@@ -2,7 +2,7 @@
   "item_type": "spear_fortune",
   "item_id": "mcdw:spear_fortune",
   "id": "mmorpg:weapon/spears/spear_fortune",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

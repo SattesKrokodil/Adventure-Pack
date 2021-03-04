@@ -2,7 +2,7 @@
   "item_type": "gilded_glory_boots",
   "item_id": "mcda:gilded_glory_boots",
   "id": "mmorpg:armor/plate/boots/gilded_glory_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

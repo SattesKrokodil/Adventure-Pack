@@ -2,7 +2,7 @@
   "item_type": "climbing_gear_chestplate",
   "item_id": "mcda:climbing_gear_chestplate",
   "id": "mmorpg:armor/leather/chest/climbing_gear_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

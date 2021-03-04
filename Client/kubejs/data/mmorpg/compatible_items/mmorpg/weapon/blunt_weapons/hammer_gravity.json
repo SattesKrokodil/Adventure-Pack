@@ -2,7 +2,7 @@
   "item_type": "hammer_gravity",
   "item_id": "mcdw:hammer_gravity",
   "id": "mmorpg:weapon/blunt_weapons/hammer_gravity",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

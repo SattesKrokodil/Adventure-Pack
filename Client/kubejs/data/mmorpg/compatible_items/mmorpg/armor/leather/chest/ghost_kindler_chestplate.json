@@ -2,7 +2,7 @@
   "item_type": "ghost_kindler_chestplate",
   "item_id": "mcda:ghost_kindler_chestplate",
   "id": "mmorpg:armor/leather/chest/ghost_kindler_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

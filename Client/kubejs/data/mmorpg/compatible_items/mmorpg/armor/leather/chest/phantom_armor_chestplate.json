@@ -2,7 +2,7 @@
   "item_type": "phantom_armor_chestplate",
   "item_id": "mcda:phantom_armor_chestplate",
   "id": "mmorpg:armor/leather/chest/phantom_armor_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

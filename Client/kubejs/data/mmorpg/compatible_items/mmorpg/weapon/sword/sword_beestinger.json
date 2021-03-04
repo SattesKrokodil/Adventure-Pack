@@ -2,7 +2,7 @@
   "item_type": "sword_beestinger",
   "item_id": "mcdw:sword_beestinger",
   "id": "mmorpg:weapon/sword/sword_beestinger",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

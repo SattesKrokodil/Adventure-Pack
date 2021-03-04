@@ -2,7 +2,7 @@
   "item_type": "climbing_gear_boots",
   "item_id": "mcda:climbing_gear_boots",
   "id": "mmorpg:armor/leather/boots/climbing_gear_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

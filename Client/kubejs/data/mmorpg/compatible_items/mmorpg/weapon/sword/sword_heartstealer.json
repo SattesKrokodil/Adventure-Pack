@@ -2,7 +2,7 @@
   "item_type": "sword_heartstealer",
   "item_id": "mcdw:sword_heartstealer",
   "id": "mmorpg:weapon/sword/sword_heartstealer",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

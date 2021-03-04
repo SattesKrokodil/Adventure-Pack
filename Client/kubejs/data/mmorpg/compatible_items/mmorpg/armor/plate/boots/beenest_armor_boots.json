@@ -2,7 +2,7 @@
   "item_type": "beenest_armor_boots",
   "item_id": "mcda:beenest_armor_boots",
   "id": "mmorpg:armor/plate/boots/beenest_armor_boots",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

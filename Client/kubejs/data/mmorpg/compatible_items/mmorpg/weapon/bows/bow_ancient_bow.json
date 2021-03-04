@@ -2,7 +2,7 @@
   "item_type": "bow_ancient_bow",
   "item_id": "mcdw:bow_ancient_bow",
   "id": "mmorpg:weapon/bows/bow_ancient_bow",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

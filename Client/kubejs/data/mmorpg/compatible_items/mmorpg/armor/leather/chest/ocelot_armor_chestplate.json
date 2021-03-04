@@ -2,7 +2,7 @@
   "item_type": "ocelot_armor_chestplate",
   "item_id": "mcda:ocelot_armor_chestplate",
   "id": "mmorpg:armor/leather/chest/ocelot_armor_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

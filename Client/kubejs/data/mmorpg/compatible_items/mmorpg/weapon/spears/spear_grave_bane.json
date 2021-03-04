@@ -2,7 +2,7 @@
   "item_type": "spear_grave_bane",
   "item_id": "mcdw:spear_grave_bane",
   "id": "mmorpg:weapon/spears/spear_grave_bane",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

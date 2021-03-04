@@ -2,7 +2,7 @@
   "item_type": "scepter0",
   "item_id": "mmorpg:weapon/wand/scepter0",
   "id": "mmorpg:weapon/wand/scepter0",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

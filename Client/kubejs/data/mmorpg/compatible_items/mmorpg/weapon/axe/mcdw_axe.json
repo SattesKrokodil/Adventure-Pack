@@ -2,7 +2,7 @@
   "item_type": "mcdw_axe",
   "item_id": "mcdw:axe",
   "id": "mmorpg:weapon/axe/mcdw_axe",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

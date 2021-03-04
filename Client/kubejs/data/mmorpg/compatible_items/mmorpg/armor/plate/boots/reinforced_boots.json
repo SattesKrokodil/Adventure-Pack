@@ -2,7 +2,7 @@
   "item_type": "reinforced_boots",
   "item_id": "mcda:reinforced_mail_boots",
   "id": "mmorpg:armor/plate/boots/reinforced_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

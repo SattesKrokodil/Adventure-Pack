@@ -2,7 +2,7 @@
   "item_type": "golden_chestplate",
   "item_id": "minecraft:golden_chestplate",
   "id": "mmorpg:armor/plate/chest/golden_chestplate",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

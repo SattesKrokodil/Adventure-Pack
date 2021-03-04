@@ -2,7 +2,7 @@
   "item_type": "hungry_horror_leggings",
   "item_id": "mcda:hungry_horror_leggings",
   "id": "mmorpg:armor/leather/pants/hungry_horror_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

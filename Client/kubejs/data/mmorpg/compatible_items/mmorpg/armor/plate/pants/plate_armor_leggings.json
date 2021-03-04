@@ -2,7 +2,7 @@
   "item_type": "plate_armor_leggings",
   "item_id": "mcda:plate_armor_leggings",
   "id": "mmorpg:armor/plate/pants/plate_armor_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

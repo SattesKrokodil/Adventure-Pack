@@ -2,7 +2,7 @@
   "item_type": "axe_whirlwind",
   "item_id": "mcdw:axe_whirlwind",
   "id": "mmorpg:weapon/axe/axe_whirlwind",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

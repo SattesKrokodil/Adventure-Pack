@@ -2,7 +2,7 @@
   "item_type": "gauntlet_maulers",
   "item_id": "mcdw:gauntlet_maulers",
   "id": "mmorpg:weapon/others/gauntlet_maulers",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

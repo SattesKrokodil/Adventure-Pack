@@ -2,7 +2,7 @@
   "item_type": "staff_battlestaff_of_terror",
   "item_id": "mcdw:staff_battlestaff_of_terror",
   "id": "mmorpg:weapon/wand/staff_battlestaff_of_terror",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

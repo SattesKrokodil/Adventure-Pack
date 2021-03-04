@@ -2,7 +2,7 @@
   "item_type": "crossbow_imploding_crossbow",
   "item_id": "mcdw:crossbow_imploding_crossbow",
   "id": "mmorpg:weapon/crossbows/crossbow_imploding_crossbow",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

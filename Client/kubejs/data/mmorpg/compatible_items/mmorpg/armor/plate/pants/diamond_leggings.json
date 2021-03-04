@@ -2,7 +2,7 @@
   "item_type": "diamond_leggings",
   "item_id": "minecraft:diamond_leggings",
   "id": "mmorpg:armor/plate/pants/diamond_leggings",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": false

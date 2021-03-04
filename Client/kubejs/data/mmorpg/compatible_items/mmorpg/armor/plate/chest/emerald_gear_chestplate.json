@@ -2,7 +2,7 @@
   "item_type": "emerald_gear_chestplate",
   "item_id": "mcda:emerald_gear_chestplate",
   "id": "mmorpg:armor/plate/chest/emerald_gear_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

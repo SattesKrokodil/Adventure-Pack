@@ -5,7 +5,7 @@
   "rarities": "non_unique",
   "misc": {
     "weight": 1000,
-    "can_be_salvaged": true
+    "can_be_salvaged": false
   },
   "unique": {
     "chance_to_become_unique": 0.5,

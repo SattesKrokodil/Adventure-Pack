@@ -2,7 +2,7 @@
   "item_type": "black_wolf_armor_leggings",
   "item_id": "mcda:black_wolf_armor_leggings",
   "id": "mmorpg:armor/leather/pants/black_wolf_armor_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

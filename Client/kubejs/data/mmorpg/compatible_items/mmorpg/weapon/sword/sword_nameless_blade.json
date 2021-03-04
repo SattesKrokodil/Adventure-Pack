@@ -2,7 +2,7 @@
   "item_type": "sword_nameless_blade",
   "item_id": "mcdw:sword_nameless_blade",
   "id": "mmorpg:weapon/sword/sword_nameless_blade",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

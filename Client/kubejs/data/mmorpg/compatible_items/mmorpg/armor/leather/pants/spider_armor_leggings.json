@@ -2,7 +2,7 @@
   "item_type": "spider_armor_leggings",
   "item_id": "mcda:spider_armor_leggings",
   "id": "mmorpg:armor/leather/pants/spider_armor_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

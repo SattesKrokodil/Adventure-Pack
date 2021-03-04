@@ -2,7 +2,7 @@
   "item_type": "plate_chest1",
   "item_id": "mmorpg:armor/plate/chest/plate_chest1",
   "id": "mmorpg:armor/plate/chest/plate_chest1",
-  "rarities": "non_unique",
+  "rarities": "low_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

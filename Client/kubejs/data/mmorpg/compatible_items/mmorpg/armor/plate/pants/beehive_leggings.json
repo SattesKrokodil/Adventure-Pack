@@ -2,7 +2,7 @@
   "item_type": "beehive_leggings",
   "item_id": "mcda:beehive_armor_leggings",
   "id": "mmorpg:armor/plate/pants/beehive_leggings",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

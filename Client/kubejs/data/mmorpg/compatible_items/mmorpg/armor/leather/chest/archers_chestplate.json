@@ -2,7 +2,7 @@
   "item_type": "archers_chestplate",
   "item_id": "mcda:archers_chestplate",
   "id": "mmorpg:armor/leather/chest/archers_chestplate",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true

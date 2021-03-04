@@ -2,7 +2,7 @@
   "item_type": "champions_armor_boots",
   "item_id": "mcda:champions_armor_boots",
   "id": "mmorpg:armor/plate/boots/champions_armor_boots",
-  "rarities": "non_unique",
+  "rarities": "high_rarity",
   "misc": {
     "weight": 1000,
     "can_be_salvaged": true
