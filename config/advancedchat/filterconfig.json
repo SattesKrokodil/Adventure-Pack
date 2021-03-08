@@ -1,15 +1,95 @@
 {
   "filters": [
     {
-      "name": "Default",
-      "active": false,
-      "findString": "Cool",
+      "name": "DirectMessagePing",
+      "active": true,
+      "findString": "\\b(?:whispers|whisper)\\b",
+      "findType": "regex",
+      "replaceType": "none",
+      "replaceTo": "AWESOME!",
+      "notifySound": "WOLOLO",
+      "soundPitch": 1.0,
+      "soundVol": 0.9,
+      "replaceTextColor": false,
+      "replaceBackgroundColor": false,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255,
+        "color": -16777216
+      }
+    },
+    {
+      "name": "TradeChatPing",
+      "active": true,
+      "findString": "\\b(?:WTS|WTT|WTB|WTG)\\b",
+      "findType": "regex",
+      "replaceType": "none",
+      "replaceTo": "AWESOME!",
+      "notifySound": "BELL",
+      "soundPitch": 1.0,
+      "soundVol": 0.8,
+      "replaceTextColor": false,
+      "replaceBackgroundColor": false,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255,
+        "color": -16777216
+      }
+    },
+    {
+      "name": "DisableCommand",
+      "active": true,
+      "findString": "!disable",
       "findType": "literal",
       "replaceType": "onlymatch",
-      "replaceTo": "AWESOME!",
-      "notifySound": "NONE",
+      "replaceTo": "Hello! You can disable and enable chat filter sound pings in Chat Filter menu in AdvancedChat settings! Just press / and click on Settings.",
+      "notifySound": "ARROW_HIT_PLAYER",
       "soundPitch": 1.0,
       "soundVol": 1.0,
+      "replaceTextColor": false,
+      "replaceBackgroundColor": false,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255,
+        "color": -16777216
+      }
+    },
+    {
+      "name": "TradeCommand",
+      "active": true,
+      "findString": "!tradehelp",
+      "findType": "literal",
+      "replaceType": "onlymatch",
+      "replaceTo": "Supported ARGs: WTT, WTS, WTB, WTG, Selling, Buying, Exchanging, Trading (both lower case and upper case)",
+      "notifySound": "ELDER_GUARDIAN_CURSE",
+      "soundPitch": 1.0,
+      "soundVol": 1.0,
+      "replaceTextColor": false,
+      "replaceBackgroundColor": false,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 255,
+        "color": -16777216
+      }
+    },
+    {
+      "name": "SystemMessagePing",
+      "active": true,
+      "findString": "[Server]",
+      "findType": "literal",
+      "replaceType": "none",
+      "replaceTo": "AWESOME!",
+      "notifySound": "ANVIL_BREAK",
+      "soundPitch": 1.0,
+      "soundVol": 2.0,
       "replaceTextColor": false,
       "replaceBackgroundColor": false,
       "color": {
@@ -23,35 +103,43 @@
   ],
   "tabs": [
     {
-      "name": "Default",
-      "findString": "Name",
-      "findType": "literal",
-      "startingMessage": "",
-      "forward": true,
-      "abreviation": "Dft"
+      "name": "Trading Outpost - !tradehelp for more information",
+      "findString": "\\b(?:WTB|WTG|WTT|WTS|wts|wtb|wtg|wtt|buying|Buying|selling|Selling|exchanging|Exchanging|trading|Trading)\\b",
+      "findType": "regex",
+      "startingMessage": "[TRADE]",
+      "forward": false,
+      "abreviation": "TRD"
     },
     {
-      "name": "Default1",
-      "findString": "Name",
+      "name": "Direct Messages",
+      "findString": "\\b(?:whispers|whisper)\\b",
+      "findType": "regex",
+      "startingMessage": "[Direct Message]",
+      "forward": false,
+      "abreviation": "DMs"
+    },
+    {
+      "name": "Server Messages - !disable for disabling sound alerts",
+      "findString": "[Server]",
       "findType": "literal",
-      "startingMessage": "",
-      "forward": true,
-      "abreviation": "Dft"
+      "startingMessage": "[System]",
+      "forward": false,
+      "abreviation": "Sys"
     }
   ],
-  "timeFormat": "hh:mm",
+  "timeFormat": "hh:mm:ss",
   "replaceFormat": "[%TIME%] ",
   "timeColor": {
-    "red": 255,
-    "green": 255,
-    "blue": 255,
-    "alpha": 255,
-    "color": -1
+    "red": 240,
+    "green": 240,
+    "blue": 240,
+    "alpha": 240,
+    "color": -252645136
   },
-  "clearOnDisconnect": true,
+  "clearOnDisconnect": false,
   "visibility": "VANILLA",
-  "chatStack": 0,
-  "alternatelines": false,
+  "chatStack": 3,
+  "alternatelines": true,
   "background": "RANDOM",
   "chatConfig": {
     "height": 171,
@@ -76,11 +164,11 @@
       "alpha": 255,
       "color": -1
     },
-    "showTime": false,
-    "sideChars": 3
+    "showTime": true,
+    "sideChars": 3000
   },
   "chatLogConfig": {
     "storedLines": 1000,
-    "showTime": false
+    "showTime": true
   }
 }
