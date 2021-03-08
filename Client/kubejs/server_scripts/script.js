@@ -13,7 +13,7 @@ events.listen('recipes', event => {
   event.shapeless(item.of('minecraft:leather', 3), ['biomemakeover:bat_wing']) 
 
 
-  event.shapeless(item.of('porkchop', 1), ['minecraft:rotten_flesh', 'minecraftu:sugar'])
+  event.shapeless(item.of('porkchop', 1), ['minecraft:rotten_flesh', 'minecraft:sugar'])
   event.shapeless(item.of('chicken', 1), ['minecraft:rotten_flesh', 'minecraft:melon_seeds'])
   event.shapeless(item.of('beef', 1), ['minecraft:rotten_flesh', 'minecraft:wheat_seeds'])
   event.shapeless(item.of('minecraft:phantom_membrane', 3), ['minecraft:rotten_flesh', 'minecraft:slime_ball', 'minecraft:leather'])

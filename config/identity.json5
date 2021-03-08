@@ -69,5 +69,5 @@
 	// If true, players will be forcibly changed into any entity they kill. The above option, forceChangeNew, only applies to new unlocks.
 	"forceChangeAlways": false,
 	// If true, /identity commands will send feedback in the action bar.
-	"logCommands": true
+	"logCommands": false
 }

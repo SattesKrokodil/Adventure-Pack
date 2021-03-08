@@ -6,16 +6,16 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 10.0,
-      "firstMax": 40.0,
+      "firstMin": 15.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "armor",
+      "stat": "dodge",
       "type": "flat"
     },
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 0.5,
+      "firstMax": 1.5,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -28,11 +28,11 @@
   },
   "tag_list": {
     "tags": [
+      "dexterity",
+      "dodge_stat",
       "armor_family",
-      "strength",
       "boots",
-      "plate",
-      "armor_stat"
+      "leather"
     ]
   },
   "stat_req": {

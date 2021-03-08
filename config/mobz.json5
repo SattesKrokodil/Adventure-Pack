@@ -175,7 +175,7 @@
 	"StoneGolemSpawnRate": 2,
 	"TankSpawnRate": 30,
 	"TemplarSpawnRate": 2,
-	"TinySpiderSpawnRate": 5,
+	"TinySpiderSpawnRate": 0,
 	"WarriorSpawnRate": 3,
 	"WildBoarSpawnRate": 5,
 	"WitherBlazeSpawnRate": 6,
