@@ -1,14 +1,26 @@
 # CHANGELOG
 
 ## Unreleased 
++ new loot crates and loot table overhaul (will contain mcdw and mcda items -> new weapon types and AoE compatibility - thanks Panbanan!)
 
-+ added a test questline (rewards will come with the next update if it works.)
-+ FTB Quests
-+ FTB Itemfilters
-+ FTB GUIlib
+### General
++ Complete Armor and Weapon rebalance. New Weapon Types: (some are obtainable already, others will be added when loot crates are fully done, all vanilla and modded items have fitting stats and level ranges now. All weapon types have unique playstyles in terms of stats.) I am sorry that it's not fully implemented yet but this took a ton of time. The compatibility is done, next update will add crates.
 
-## General
-+ new loot crates and loot table overhaul
+Blunt Weapons - armor penetration
+Daggers - more crit less range
+Gauntlets - stun chance
+Spears - more range less damage
+Staffs - mana on hit, + heal
+Sickles - life on hit
+Wands - cooldownreduction & cast speed
+Axes - higher crit damage
+Swords - allrounder
+bows - higher crit chance
+crossbows - higher crit damage
+
++ New Structures: Ice Tower, Bunny Castle, Pillager Factory ...
++ RE-RETURN OF THE ELDRITCHS - after some bugfixes we try to re-re-add our beloved bossmobs
++ added a test questline (rewards will get a rework/balance after the next AoE update)
 + reduced xp gains from "no thread mobs"
 + added item compatbility to vanilla items
 + added chat filters (WTB/WTS... thanks ducky!)
@@ -17,17 +29,29 @@
 + added recipe: demon flesh -> leather
 + added recipe: bat wing -> leather
 
-## Fixes
+### Fixes
 + added more passive mobs to AoE blacklist (less data storage)
 + fixed sound issues with footsteps
 + fixed some passive mobs giving xp
++ fixed at least 1/2 chunk regen bugs, might be completely gone
++ fixed a starry sky portal issue
++ fixed loot beams issue #9
++ fixed vanilla compatibility #8
++ fixed bows not getting AoE stats when you craft them
 
-## Mods
+### Mods
 ADDED
-+ added Unforgiving Void
-+ hookshot
++ Death's Wish
++ Eldritch Mobs
++ FTB Quests
++ FTB Itemfilters
++ FTB GUIlib
 
 UPDATED
++ Cardinal Componens
++ KubeJs
++ Architectury
++ Item Flexer
 + lithium 
 + desolation 
 + starryskies
@@ -42,10 +66,10 @@ UPDATED
 + architectury
 + byg
 + adventureZ
++ jumploader
 
 REMOVED
-
-+ cardinal components (comes bundled with most mods that use it.)
++ window title changer (done with KubeJS now)
 
 ## [4.3.1] "Just updade everything"
 
