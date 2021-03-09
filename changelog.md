@@ -7,15 +7,25 @@
 + Complete Armor and Weapon rebalance. New Weapon Types: (some are obtainable already, others will be added when loot crates are fully done, all vanilla and modded items have fitting stats and level ranges now. All weapon types have unique playstyles in terms of stats.) I am sorry that it's not fully implemented yet but this took a ton of time. The compatibility is done, next update will add crates.
 
 Blunt Weapons - armor penetration
+
 Daggers - more crit less range
+
 Gauntlets - stun chance
+
 Spears - more range less damage
+
 Staffs - mana on hit, + heal
+
 Sickles - life on hit
+
 Wands - cooldownreduction & cast speed
+
 Axes - higher crit damage
+
 Swords - allrounder
+
 bows - higher crit chance
+
 crossbows - higher crit damage
 
 + New Structures: Ice Tower, Bunny Castle, Pillager Factory ...
