@@ -1,0 +1,14 @@
+{
+  "item_type": "bow_minecraft",
+  "item_id": "minecraft:bow",
+  "id": "mmorpg:weapon/bows/bow_minecraft",
+  "rarities": "low_rarity",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}
