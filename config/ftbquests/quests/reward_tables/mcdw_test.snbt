@@ -1,0 +1,15 @@
+{
+	id: "6E96029FB8BE6BEA",
+	order_index: 1,
+	title: "mcdw test",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "mcdw:sword_dancers_sword",
+			Count: 1b,
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}
