@@ -6,18 +6,18 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
-      "secondMin": 5.0,
-      "secondMax": 8.0,
+      "min1": 2.0,
+      "max1": 3.0,
+      "min2": 5.0,
+      "max2": 8.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 4.0,
-      "firstMax": 15.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
+      "min1": 4.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
       "stat": "critical_damage",
       "type": "flat"
     }
@@ -36,9 +36,10 @@
     ]
   },
   "stat_req": {
-    "dex_req": 0.0,
-    "int_req": 0.0,
-    "str_req": 0.0
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
   },
   "item_id": "mmorpg:weapon/axe/axe0",
   "gear_slot": "axe",
