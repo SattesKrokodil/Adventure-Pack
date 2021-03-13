@@ -3,6 +3,8 @@
 ## Unreleased 
 + new loot crates and loot table overhaul (will contain mcdw and mcda items -> new weapon types and AoE compatibility - thanks Panbanan!)
 
+## [4.3.2] "I can use gear again!"
+
 ### General
 + Complete Armor and Weapon rebalance. New Weapon Types: (some are obtainable already, others will be added when loot crates are fully done, all vanilla and modded items have fitting stats and level ranges now. All weapon types have unique playstyles in terms of stats.) I am sorry that it's not fully implemented yet but this took a ton of time. The compatibility is done, next update will add crates.
 
