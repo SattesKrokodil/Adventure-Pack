@@ -48,6 +48,7 @@ crossbows - higher crit damage
 + fixed loot beams issue #9
 + fixed vanilla compatibility #8
 + fixed bows not getting AoE stats when you craft them
++ spectral arrow crashing flan/softlocking player
 
 ### Mods
 ADDED
