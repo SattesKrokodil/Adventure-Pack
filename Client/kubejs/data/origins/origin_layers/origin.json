@@ -1,0 +1,14 @@
+{
+  "loading_priority": 1337,
+  "replace": true,
+  "origins": [
+    "advpack:exiled",
+	"advpack:enderling",
+	    "origins:human",
+		"advpack:stalker",
+		    "advpack:silvam",
+			"advpack:vox"
+  ],
+  "order": 0,
+  "enabled": true
+}
