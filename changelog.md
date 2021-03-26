@@ -3,6 +3,36 @@
 ## Unreleased 
 + new loot crates and loot table overhaul (will contain mcdw and mcda items -> new weapon types and AoE compatibility - thanks Panbanan!)
 
+### General
++ Uhm ... you can now breed and tame dragons. And ride them. 
++ Big Dynocaps update. We hope that all chunk bugs are gone now. Also fixed some dupe issues with the caps. It also adds a feature that I have been waiting for - for a veeery long time! It is now possible to make custom caps, to store them an ship them with the modpack. Which means dynoloot and dynodungeons will soon be added!
++ Adding a Void dimension that can be used as spawn/HUB
++ Server: adding Gunpowder Currency and Shops. (And soon market). The plan is, to let players exchange AoE dust for money, which can be used by serverowners to setup stuff like buildingblock shops.
++ new armor enchantments! (reckless, firetrail, bag of souls, swift footed, firetrail ...)
++ Longbows now have longer range, Shortbows now crit with a quicker draw and have a shorter range
+
+### Mods
+UPDATED
++ Dynocaps
++ FTB Quests
++ Architectury
++ KubeJS
++ Lootbeams
++ AdventureZ
+
+ADDED
++ Gunpowder Base*
++ Gunpowder Currency*
++ Gunpowder Signshop*
++ Global Spawn*
+(*Serverside)
++ Worldedit
++ Simple Void World
++ Tom's simple storage (hopefully stable now!)
++ Taterzens (possibility to add npcs)
+
+REMOVED
+
 ## [4.3.2] "I can use gear again!"
 
 ### General
