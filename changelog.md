@@ -3,6 +3,8 @@
 ## Unreleased 
 + new loot crates and loot table overhaul (will contain mcdw and mcda items -> new weapon types and AoE compatibility - thanks Panbanan!)
 
+## [4.3.3] "Server Utility"
+
 ### General
 + Uhm ... you can now breed and tame dragons. And ride them. 
 + Big Dynocaps update. We hope that all chunk bugs are gone now. Also fixed some dupe issues with the caps. It also adds a feature that I have been waiting for - for a veeery long time! It is now possible to make custom caps, to store them an ship them with the modpack. Which means dynoloot and dynodungeons will soon be added!
