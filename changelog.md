@@ -46,6 +46,7 @@ Important: Yes I know you want origins in. It will be done this week, I simply d
 + dungeons now have a low chance to drop any unique item 
 + heavily decreased unique dropchances
 + fixed rarity announcements
++ chat spam fix 
 
 ### Mods
 - updated Xaeros Minimap to 21.10.0.4
@@ -59,7 +60,7 @@ Important: Yes I know you want origins in. It will be done this week, I simply d
 + removed Taterzens from client, could fix disconnect issue when loading NPCs
 
 ### Serverpack
-+ added No More Ambient Mobs to the serverpack (reduces performance by ~ 5%)
++ added No More Ambient Mobs to the serverpack (improves performance)
 + added Player Roles
 + added Gunpowder Currency
 + added Luckyperms
