@@ -1,7 +1,73 @@
 # CHANGELOG
 
-## Unreleased 
-+ new loot crates and loot table overhaul (will contain mcdw and mcda items -> new weapon types and AoE compatibility - thanks Panbanan!)
+## [4.4.4] "Four"
+
+Important: Yes I know you want origins in. It will be done this week, I simply didn't have enough time to finish it, same for the serverpack, we had many issues and crashes which are now fixed, expect it this week. It is also possible now to use iris for shaders, basically the "new optifine". It runs together with sodium, I am using it with the shaders "complementary" on my potato pc. Future is now.
+
+### General
++ xp loss for killing things at the same place reduced a little (you get more xp)
++ all dimension level ranges adjusted a little, takes more distance now to increase area level
++ xp gain in overworld increased (lvl 1 to 10 should not take longer than level 10 to 20.)
++ loot gain in nether and end increased
++ new unique weapons and models! 
++ ender dragon is stronger now
++ adjusted favor gains/spending
++ nerfed some magic find numbers
++ fixed loot beams not showing on servers
++ big waystones update, needs testing and adjusting
++ waystones have owners now
++ waystones options (set global etc)
++ teleportation costs a tier 1 condensed essence now
++ disabled charm inventory sorting button (is covered by mouse wheelie and might fix the market mod)
++ added missing quests and compatibility for the storage mods to client
++ added GoFish resources to AoE recipes
+
+### Spells
++ improved curse spells
++ new spell "refresh"
++ new spell "storm call"
++ some spells like fireball (basically all bolt spells) now have their cooldown reduced by cast speed
++ nerfed overload spell
++ changed shred and execute spells from scaling to flat damage
++ added some missing spell descriptions
++ skill gems that scale mana to player now also scale requirements to player
++ reworked gorgons gaze into entangling seed
+
+### Fixes
++ fixed effect duration modifiers not working
++ fixed locked chests being able to drop uniques
++ fixed locked chests being affected by magic find and item find
++ fix locked chests being affected by dungeon team size loot bonuneses
++ new talent icons made by Rosedragon, also added a contributor unique weapon named after her
++ fixed tools being salvagable
++ added loadout switch cooldown and loadouts can't be changed within dungeons
++ new stats added to stat HUB
++ fixed on hit effects proccing on weak hits
++ dungeons now have a low chance to drop any unique item 
++ heavily decreased unique dropchances
++ fixed rarity announcements
+
+### Mods
+- updated Xaeros Minimap to 21.10.0.4
++ updated Xaeros Worldmap to 1.14.1
++ updated Flan to 1.4.2
++ updated Age of Exile to 2.0.7
++ updated Waystones to 2.0.0
++ updated Dynocaps to 1.7.1
++ updated Lootbeams to 2.0.2
++ added MCDA and MCSA (compatibility will follow this week)
++ removed Taterzens from client, could fix disconnect issue when loading NPCs
+
+### Serverpack
++ added No More Ambient Mobs to the serverpack (reduces performance by ~ 5%)
++ added Player Roles
++ added Gunpowder Currency
++ added Luckyperms
++ added Gunpowder
++ added Gunpowder Sign shops
++ added shop visualizer
++ added Gunpowder Market
+
 
 ## [4.3.3] "Server Utility"
 
