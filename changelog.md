@@ -1,9 +1,22 @@
 # CHANGELOG
 
 UNRELEASED:
-## [4.5.0] "Settler"
+## [4.5.0] "Origins when?"
 
 ### General
++ Added Origins. For the start we got Mutations and Transformations to test the system, more are planned obviously. You can think of it as "DIY" origin system. Search for cells, add parts to your cellsystem, change and adapt as you please. Cool thing about it is, if you get a duplicate you can trade/sell/gift cells to other players. Mutations and Transformations come in 4 rarities: common, uncommon, rare and epic. (Example: cow transform is common, fox is rare etc.). There are four groups of transformations: Ground, Aquatic, Flying and Special and they all got Age of Exile level requirements. (the last one, flying has req lvl 30). 
++ increased overall XP gains by 25%. Leveling was way too slow and this is the first attempt to get that right.
++ new Divine Mission system! Basically AoE Quests to improve the out-of-dungeon-experience
++ Another load of new talent icons made by Rosedragon
++ nerfed potions a little
++ added favor penalty to deaths in dungeons, they are now very high risk, high reward.
++ added failure penalty for multiple deaths in dungeons, after x amount of deaths, the dungeon is cleared and you fail the expedition.
++ nerfed loot and xp from dungeons
++ reduced favor per chest opened because now you can earn it with missions.
++ added spells to ingame wiki
++ Common dungeon keys are now a drop from mobs
++ Rare dungeon keys can be obtained via Divine Missions.
+
 ### Fixes
 ### Mods
 
