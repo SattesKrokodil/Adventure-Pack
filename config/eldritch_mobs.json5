@@ -55,7 +55,7 @@
 		"disableDrowning": false,
 		"disableEnder": false,
 		"disableGhastly": true,
-		"disableGravity": false,
+		"disableGravity": true,
 		"disableLethargic": false,
 		"disableLifesteal": false,
 		"disableOneUp": false,
