@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:mat/condensed_salvage/c4"
+    },
+    {
+      "item": "mmorpg:stone/4"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:stat_infusion/4"
+  }
+}

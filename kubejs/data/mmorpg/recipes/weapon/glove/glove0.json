@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MSM"
+  ],
+  "key": {
+    "M": {
+      "item": "mmorpg:gear_mat/ore/ore0"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmorpg:weapon/glove/glove0"
+  }
+}

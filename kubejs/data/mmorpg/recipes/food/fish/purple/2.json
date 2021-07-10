@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:food_shapeless",
+  "ingredients": [
+    {
+      "item": "gofish:lunarfish"
+    },
+    {
+      "item": "mmorpg:plant/plant3"
+    },
+    {
+      "item": "mmorpg:raw_fish/purple/2"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:food/fish/purple/2"
+  }
+}

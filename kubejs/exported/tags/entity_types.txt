@@ -1,0 +1,138 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 9, 2021 8:52:16 AM
+
+#identity:undrownable
+- minecraft:iron_golem
+
+#identity:slow_falling
+- minecraft:chicken
+
+#biomemakeover:lightning_bugs
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
+
+#identity:ravager_riding
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:vindicator
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#identity:burns_in_daylight
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:drowned
+- minecraft:phantom
+
+#identity:fox_prey
+- minecraft:chicken
+- minecraft:rabbit
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#identity:rideable
+- minecraft:horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#identity:flying
+- minecraft:ghast
+- minecraft:bat
+- minecraft:blaze
+- minecraft:parrot
+- minecraft:phantom
+- minecraft:bee
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:vex
+
+#identity:wolf_prey
+- minecraft:sheep
+- minecraft:fox
+- minecraft:skeleton
+
+#identity:hurt_by_high_temperature
+- minecraft:snow_golem
+
+#eldritch_mobs:eldritch_blacklist
+
+#identity:lava_walking
+- minecraft:strider
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#eldritch_mobs:eldritch_allowed
+- minecraft:zombie
+- minecraft:skeleton
+- minecraft:creeper
+- minecraft:blaze
+- minecraft:drowned
+- minecraft:elder_guardian
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:magma_cube
+- minecraft:ravager
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:slime
+- minecraft:stray
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:wither_skeleton
+- minecraft:zombie_villager
+- minecraft:hoglin
+- minecraft:zoglin
+- minecraft:wolf
+- minecraft:fox
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:enderman
+- minecraft:spider
+- minecraft:cave_spider
+- minecraft:piglin
+- minecraft:zombified_piglin
+- minecraft:polar_bear
+- minecraft:llama
+- minecraft:bee
+- minecraft:panda
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:piglin_brute
+
+#identity:cant_swim
+- minecraft:iron_golem
+
+#identity:piglin_friendly
+- minecraft:piglin
+- minecraft:piglin_brute

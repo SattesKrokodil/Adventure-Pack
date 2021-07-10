@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " v ",
+    "vtv",
+    " v "
+  ],
+  "key": {
+    "t": {
+      "item": "mmorpg:repair/repair_kit0"
+    },
+    "v": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "mmorpg:repair/repair_kit1"
+  }
+}

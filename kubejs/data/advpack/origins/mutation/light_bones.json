@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/light_bones"
+	],
+	"icon": "minecraft:bone",
+	"order": 1,
+	"impact": 3,
+	"name": "Light Bones",
+	"description": "A leftover of times where people zoomed across the sky using wings."
+}

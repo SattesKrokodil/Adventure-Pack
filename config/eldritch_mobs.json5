@@ -1,16 +1,16 @@
-{ 
+{
 	// Enable Boss Mobs with Eldritch Modifiers
 	"toggleEldritchBossMobs": false,
 	// Turn off custom names
 	"turnOffNames": false,
 	// Turn off boss bars
-	"turnOffBossBars": true,
+	"turnOffBossBars": false,
 	// Ignore named creatures and monsters
 	"ignoreNamed": true,
 	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
-	"turnOnGlowingMobs": true,
+	"turnOnGlowingMobs": false,
 	// Out of 100 Mobs
-	"EliteSpawnRates": 0.5,
+	"EliteSpawnRates": 1.0,
 	// Out of 100 Elites
 	"UltraSpawnRates": 1.0,
 	// Out of 100 Ultras
@@ -18,11 +18,11 @@
 	"healthIncrease": true,
 	"healthMult": false,
 	// Health Boost Level for Elite Mobs
-	"EliteHealthMod": 4,
+	"EliteHealthMod": 15,
 	// Health Boost Level for Ultra Mobs
-	"UltraHealthMod": 6,
+	"UltraHealthMod": 30,
 	// Health Boost Level for Eldritch Mobs
-	"EldritchHealthMod": 8,
+	"EldritchHealthMod": 60,
 	// Health Multiplier for Elite Mobs
 	"EliteHealthMult": 4.0,
 	// Health Multiplier for Ultra Mobs
@@ -43,14 +43,16 @@
 	"EldritchExpMult": 15,
 	// Intensity: 1 - 3
 	"intensity": 1,
-	"disableModifiers": { 
+	// Enable custom user defined loot
+	"enableCustomLoot": false,
+	"disableModifiers": {
 		"disableAlchemist": false,
 		"disableBeserk": false,
-		"disableYeeter": true,
+		"disableYeeter": false,
 		"disableBlinding": false,
 		"disableBurning": false,
 		"disableCloaked": false,
-		"disableDeflector": false,
+		"disableDeflector": true,
 		"disableDraining": false,
 		"disableDrowning": false,
 		"disableEnder": false,
@@ -62,7 +64,7 @@
 		"disableRegen": false,
 		"disableResistant": false,
 		"disableRust": true,
-		"disableSnatcher": false,
+		"disableSnatcher": true,
 		"disableSpeedster": false,
 		"disableSprinter": false,
 		"disableStarving": false,
@@ -70,7 +72,7 @@
 		"disableThorny": true,
 		"disableToxic": false,
 		"disableWeakness": false,
-		"disableWebslinging": false,
+		"disableWebslinging": true,
 		"disableWithering": false,
 		"disableSniper": false,
 		"disableDuplicator": false

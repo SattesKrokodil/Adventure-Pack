@@ -9,9 +9,10 @@ desertDungeonAttemptsPerChunk = 8
 jungleDungeonAttemptsPerChunk = 8
 mushroomDungeonAttemptsPerChunk = 8
 snowDungeonAttemptsPerChunk = 8
+icyDungeonAttemptsPerChunk = 8
 swampDungeonAttemptsPerChunk = 8
-endDungeonAttemptsPerChunk = 8
-netherDungeonAttemptsPerChunk = 8
+endDungeonAttemptsPerChunk = 12
+netherDungeonAttemptsPerChunk = 12
 oceanDungeonAttemptsPerChunk = 5
 
 [RSDungeonsConfig.minHeight]
@@ -21,6 +22,7 @@ desertDungeonMinHeight = 2
 jungleDungeonMinHeight = 2
 mushroomDungeonMinHeight = 2
 snowDungeonMinHeight = 2
+icyDungeonMinHeight = 2
 swampDungeonMinHeight = 2
 endDungeonMinHeight = 2
 netherDungeonMinHeight = 2
@@ -33,12 +35,15 @@ desertDungeonMaxHeight = 255
 jungleDungeonMaxHeight = 255
 mushroomDungeonMaxHeight = 255
 snowDungeonMaxHeight = 255
+icyDungeonMaxHeight = 255
 swampDungeonMaxHeight = 255
 endDungeonMaxHeight = 255
 netherDungeonMaxHeight = 255
 oceanDungeonMaxHeight = 255
 [RSMainConfig]
-blacklistedDimensions = "the_bumblezone:the_bumblezone"
+blacklistedDimensions = "the_bumblezone:the_bumblezone,the_aether:the_aether"
+importModdedItems = true
+blacklistedRSLoottablesFromImportingModdedItems = ""
 
 [RSMainConfig.misc]
 addBoulderToModdedBiomes = false
@@ -75,7 +80,7 @@ ruinsNetherMaxChunkDistance = 35
 [RSMainConfig.cities]
 blacklistedCitiesBiomes = ""
 addCityNetherToModdedBiomes = true
-cityNetherMaxChunkDistance = 160
+cityNetherMaxChunkDistance = 120
 [RSTemplesConfig.temples]
 blacklistedTempleBiomes = ""
 netherWastelandTempleMaxChunkDistance = 27
@@ -92,14 +97,18 @@ addNetherSoulTempleToModdedBiomes = false
 blacklistedPyramidBiomes = ""
 netherPyramidMaxChunkDistance = 37
 addNetherPyramidToModdedBiomes = true
-badlandsPyramidMaxChunkDistance = 25
+badlandsPyramidMaxChunkDistance = 37
 addBadlandsPyramidToModdedBiomes = true
 pyramidSnowyMaxChunkDistance = 37
 addPyramidSnowyToModdedBiomes = true
+pyramidEndMaxChunkDistance = 68
+addPyramidEndToModdedBiomes = true
+pyramidIcyMaxChunkDistance = 37
+addPyramidIcyToModdedBiomes = true
 [RSMineshaftsConfig]
 lootChestsMS = true
 addMineshaftsToModdedBiomes = true
-blacklistedMineshaftBiomes = ""
+blacklistedMineshaftBiomes = "betterend:sulphur_springs"
 
 [RSMineshaftsConfig.spawnrate]
 birchMineshaftSpawnrate = 40
@@ -161,7 +170,7 @@ addStonebrickStrongholdToModdedBiomes = true
 silverfishSpawnrateSH = 0.8
 stonebrickStrongholdMinHeight = 0
 stonebrickStrongholdMaxHeight = 45
-stonebrickStrongholdMaxChunkDistance = 85
+stonebrickStrongholdMaxChunkDistance = 110
 stonebrickStrongholdChainSpawnrate = 35
 
 [RSStrongholdsConfig.nether]
@@ -198,6 +207,8 @@ addOutpostTaigaToModdedBiomes = true
 outpostTaigaMaxChunkDistance = 45
 addOutpostOakToModdedBiomes = true
 outpostOakMaxChunkDistance = 45
+outpostEndMaxChunkDistance = 61
+addOutpostEndToModdedBiomes = true
 [RSVillagesConfig]
 addVillagesToModdedBiomes = true
 blacklistedVillageBiomes = ""
@@ -229,7 +240,7 @@ addNetherBricksShipwreckToModdedBiomes = true
 addCrimsonShipwreckToModdedBiomes = true
 addWarpedShipwreckToModdedBiomes = true
 [RSShipwrecksConfig.maxChunkDistance]
-endShipwreckMaxChunkDistance = 15
+endShipwreckMaxChunkDistance = 24
 netherBricksShipwreckMaxChunkDistance = 51
 crimsonShipwreckMaxChunkDistance = 41
 warpedShipwreckMaxChunkDistance = 41

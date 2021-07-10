@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Level 50 - The End ... game.",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Reach Age of Exile Level 50"
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "adventurepack:root"
+}

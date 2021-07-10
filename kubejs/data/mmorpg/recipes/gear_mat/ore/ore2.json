@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    "svs",
+    " s "
+  ],
+  "key": {
+    "v": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "mmorpg:mat/salvage/salvage2"
+    },
+    "s": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "mmorpg:gear_mat/ore/ore2"
+  }
+}

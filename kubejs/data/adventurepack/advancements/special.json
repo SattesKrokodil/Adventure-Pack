@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Special",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Collection of your Special Transformations"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "adventurepack:transformation_start"
+}

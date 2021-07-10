@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    " v ",
+    " s "
+  ],
+  "key": {
+    "v": {
+      "tag": "minecraft:wool"
+    },
+    "e": {
+      "item": "mmorpg:mat/salvage/salvage4"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mmorpg:gear_mat/cloth/cloth4"
+  }
+}

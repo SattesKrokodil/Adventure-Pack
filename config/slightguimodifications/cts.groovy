@@ -1,26 +1,38 @@
+// Here is the groovy file for screen elements
 info("Hello From 'Slight' Gui Modifications cts script")
 
 mainMenu {
-    enabled = true 
-	
-    splashText {
-        enabled = true
-        splashesEnabled = false
-    }
+    enabled = false // Set to true to enable this module
 
-    background {
-        clearBackgrounds()
-        backgroundStayLength = 10000
-        backgroundFadeLength = 10000
-        renderGradientShade = false
-        image {
-            texture = file("config/slightguimodifications/background.png")
+    splashText {
+        enabled = false // Set to true to enable this module
+        splashesEnabled = true // Set to false to disable splashes entirely
+
+        customSplashes {
+            enabled = false // Set to true to enable this module
+            // You can put either "override" or "append" here to declare how you want to provide custom splashes
+            applyMode = "override"
+            defineCustom(["Wood", "Potato", "Stone"])
         }
     }
 
-    removeMinecraftLogo()
-    removeEditionBadge()
-    clearAllButtons()
+    background {
+        clearBackgrounds() // This line removes the rotating cube
+        backgroundStayLength = 10000 // This sets the length a background would stay
+        backgroundFadeLength = 10000 // This sets the fade duration to another background
+        renderGradientShade = false // This sets whether the slight shade should be rendered
+        image {
+            texture = file("config/slightguimodifications/background.png") // Remember to use forward slash to support unix!
+            texture = resource("slightguimodifications:background.png") // Here to use a resource location / identifier
+        }
+    }
+
+    // Uncomment these to remove aspects of the title screen
+    // removeMinecraftLogo()
+    // removeEditionBadge()
+
+    // Clear all buttons already on screen
+    // clearAllButtons()
 
     label {
         position {
@@ -28,141 +40,43 @@ mainMenu {
             y { it - 20 }
         }
 
-        text = literal("AP v4.3.1 for Minecraft 1.16.5")
+        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
+        text = literal("Custom Version Here!")
+        // The alignment here can be "left", "center" or "right", default is "left"
         align = "left"
+        // Color of the text, default is 0xFFFFFF
         color = 0xFFFFFF
+        // Whether the label has a shadow, default is false
         shadow = true
+        // Mouse Hovered Color of the text, default is 0xFFFFFF
         hoveredColor = 0xFFFFFF
-
-		
         // Mouse Click Function, default is nothing, here's a list of options
-      
         onClicked = nothing()
-        
-    }
-
-	//SINGLEPLAYER
-    button {
-        position {
-            x = 60
-            y = 65
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Singleplayer")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
-        onClicked = singleplayer()
-		
-    }
-	//MULTIPLAYER
-    button {
-        position {
-            x = 50
-            y = 95
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Multiplayer")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
-        onClicked = multiplayer()
-		
-    }
-	
-	//BISECTHOSTING
-    button {
-        position {
-            x = 40
-            y = 125
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Rent a Server")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
-        onClicked = url("https://bisecthosting.com/adventurepack")
-		
-    }
-	
-	//DISCORD
-    button {
-        position {
-            x = 33
-            y = 155
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Discord")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
-        onClicked = url("https://discord.gg/dnkkmKk")
-		
-    }
-	
-	//MODS
-	button {
-        position {
-            x = 40
-            y = 185
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Mod Menu")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
+        onClicked = url("https://www.google.com")
         onClicked = modMenu()
-		
-    }
-	
-	//OPTIONS 
-	button {
-        position {
-            x = 50
-            y = 215
-        }
-        width = 100
-        height = 20
-
-        // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Options")
-        // The alignment here can be "left", "center" or "right", default is "left"
-        align = "left"
-        // Mouse Click Function, default is nothing, look up see the list
+        onClicked = language()
         onClicked = options()
-		
+        onClicked = exit()
+        onClicked = accessibility()
+        onClicked = singleplayer()
+        onClicked = multiplayer()
+        onClicked = realms()
+        onClicked = reloadCts()
     }
-	
-	//QUIT
-	button {
+
+    button {
         position {
-            x = 60
-            y = 245
+            x = 5
+            y = 5
         }
-        width = 100
+        width = 200
         height = 20
 
         // You can create a text with "literal" or "translatable" if you want to translate with Resource Packs
-        text = literal("Quit")
+        text = literal("Random Button")
         // The alignment here can be "left", "center" or "right", default is "left"
         align = "left"
         // Mouse Click Function, default is nothing, look up see the list
-        onClicked = exit()
-		
+        onClicked = nothing()
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:tablet_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:scroll/paper"
+    },
+    {
+      "item": "mmorpg:gear_mat/cloth/cloth4"
+    },
+    {
+      "item": "mmorpg:mat/condensed_salvage/c4"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:diamond_to_netherite_conversion_kit"
+  }
+}

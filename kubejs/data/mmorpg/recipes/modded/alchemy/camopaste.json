@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:alchemy_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:ink/0"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "mmorpg:gear_mat/essences/nature"
+    }
+  ],
+  "result": {
+    "item": "secretrooms:camo_paste",
+    "count": 1
+  }
+}

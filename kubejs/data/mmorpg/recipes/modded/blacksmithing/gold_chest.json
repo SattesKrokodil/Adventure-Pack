@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:ink/2"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "mmorpg:mat/condensed_salvage/c2"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:gold_chest",
+    "count": 1
+  }
+}

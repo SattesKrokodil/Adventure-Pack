@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"advpack:control/transform_back_on_change",
+		"advpack:control/test"
+	],
+	"icon": "minecraft:campfire",
+	"order": 0,
+	"impact": 0,
+	"name": "Incarnation #59",
+	"description": "Welcome to Adventurepack! This origin system was custom made for this modpack - from here on referred to as Cellsystem. When progressing through the pack, you will unlock powerful mutations and fabulous transformations. Craft the orb of origins to customize your character on the go!" 
+}

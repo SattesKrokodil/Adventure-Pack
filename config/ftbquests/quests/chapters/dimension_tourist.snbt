@@ -1,0 +1,10 @@
+{
+	id: "2BE50F27F70AE658",
+	group: "",
+	order_index: 4,
+	filename: "dimension_tourist",
+	title: "Nethering Depths",
+	icon: "betternether:bricks_fire_bowl",
+	default_quest_shape: "",
+	quests: []
+}

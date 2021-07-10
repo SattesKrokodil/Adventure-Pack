@@ -1,0 +1,21 @@
+{
+  "identifier": "mmorpg:healer_mage",
+  "stats": {
+    "stats": [
+      {
+        "v1": -100.0,
+        "v2": 0.0,
+        "stat": "heal_effect_on_self",
+        "type": "FLAT",
+        "scale_to_lvl": false
+      }
+    ]
+  },
+  "loot_multi": 1.0,
+  "exp_multi": 1.0,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.0,
+  "hp_multi": 1.0,
+  "stat_multi": 1.0
+}

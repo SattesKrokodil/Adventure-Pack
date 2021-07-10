@@ -1,0 +1,7 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 9, 2021 8:52:17 AM
+
+#minecraft:tick
+- mercy:main
+
+#minecraft:load
+- mercy:init

@@ -28,8 +28,8 @@
 	},
 	// Mod compatibility toggles (enabled: true, disabled: false)
 	"compat": {
-		"traverse": true,
 		"byg": true,
+		"traverse": true,
 		"terrestria": true,
 		"woods_and_mires": true,
 		"towelette": true

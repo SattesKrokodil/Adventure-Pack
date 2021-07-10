@@ -1,8 +1,8 @@
-ignoreUpdate:81
+ignoreUpdate:0
 updateNotification:false
 differentiateByServerAddress:true
 debug:false
-lighting:false
+lighting:true
 colours:0
 loadChunks:true
 updateChunks:true
@@ -17,5 +17,8 @@ waypoints:true
 renderArrow:true
 displayZoom:true
 ignoreHeightmaps:false
-waypointScale:1.0
-globalVersion:4
+worldmapWaypointsScale:1.0
+openMapAnimation:true
+reloadVersion:0
+reloadEverything:false
+globalVersion:1

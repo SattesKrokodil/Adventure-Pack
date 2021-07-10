@@ -1,0 +1,19 @@
+{
+	id: "537AA2ECF85E8CB3",
+	group: "",
+	order_index: 2,
+	filename: "ronnies_story",
+	title: "Ronnie's Story",
+	icon: {
+		id: "minecraft:enchanted_book",
+		Count: 1b,
+		tag: {
+			StoredEnchantments: [{
+				lvl: 4s,
+				id: "minecraft:efficiency"
+			}]
+		}
+	},
+	default_quest_shape: "",
+	quests: []
+}

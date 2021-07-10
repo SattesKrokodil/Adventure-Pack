@@ -1,0 +1,188 @@
+{
+  "replace": false,
+  "order": 1,
+  "enabled": true,
+  "origins": [
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:adaption_desert",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/adaption_desert"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:root",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/ghostly"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:crystal_hide",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/crystal_hide"
+
+            ]
+			},	
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:demon_eyes",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/demon_eyes"
+
+            ]
+			},	
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:fins",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/fins"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:fish_eyes",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/fish_eyes"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:heavy_knees",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/heavy_knees"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:light_bones",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/light_bones"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:marsupium",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/marsupium"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:photosynthesis",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/photosynthesis"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:slender_arms",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/slender_arms"
+
+            ]
+			},
+        {
+                
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:slimefeet",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/slimefeet"
+
+            ]
+			},			
+			{
+        "condition": {
+              "type": "origins:advancement",
+             "advancement": "adventurepack:strong_legs",
+            "layer": "origins:origins"
+            },
+
+            "origins": [
+                
+                "advpack:mutation/strong_legs"
+
+            ]
+        }
+    ]
+}

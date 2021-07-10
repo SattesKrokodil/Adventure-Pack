@@ -1,0 +1,10 @@
+{
+	id: "47EF586F35462334",
+	group: "",
+	order_index: 5,
+	filename: "igors_legacy",
+	title: "Igor's Legacy",
+	icon: "mobz:enderhead",
+	default_quest_shape: "",
+	quests: []
+}

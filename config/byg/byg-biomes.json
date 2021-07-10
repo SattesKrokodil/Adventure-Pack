@@ -630,11 +630,11 @@
       "hills": [
         {
           "name": "byg:red_oak_forest_hills",
-          "weight": 7
+          "weight": 6
         },
         {
           "name": "byg:fresh_water_lake",
-          "weight": 3
+          "weight": 4
         }
       ]
     },
@@ -799,7 +799,7 @@
       "weight": 5,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
-      "edge": "",
+      "edge": "byg:sierra_range",
       "hills": [
         {
           "name": "byg:sierra_range",

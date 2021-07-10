@@ -1,7 +1,7 @@
 {
   "improvement": {
     "smaller_armor_offset[def: true]": true,
-    "lavafall_particles[def: true]": true,
+    "lavafall_particles[def: true]": false,
     "fog_density[vanilla: 1.0][def: 0.75]": 0.75
   },
   "egg_plant": {

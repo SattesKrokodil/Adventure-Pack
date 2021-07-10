@@ -4,7 +4,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:chicken",
+					"id": "toms_storage:ts.inventory_connector",
 					"Count": 127,
 					"type": "item"
 				}
@@ -12,7 +12,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:beef",
+					"id": "toms_storage:ts.inventory_cable",
 					"Count": 127,
 					"type": "item"
 				}
@@ -20,7 +20,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:porkchop",
+					"id": "toms_storage:ts.inventory_cable_connector",
 					"Count": 127,
 					"type": "item"
 				}
@@ -28,7 +28,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:arrow",
+					"id": "toms_storage:ts.crafting_terminal",
 					"Count": 127,
 					"type": "item"
 				}
@@ -36,7 +36,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:slime_ball",
+					"id": "minecraft:ladder",
 					"Count": 127,
 					"type": "item"
 				}
@@ -44,7 +44,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "minecraft:blaze_rod",
+					"id": "minecraft:polished_diorite_slab",
 					"Count": 127,
 					"type": "item"
 				}
@@ -52,7 +52,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "origins:orb_of_origin",
+					"id": "minecraft:birch_planks",
 					"Count": 127,
 					"type": "item"
 				}
@@ -60,7 +60,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "mmorpg:gear_mat/leather/leather0",
+					"id": "minecraft:magenta_concrete_powder",
 					"Count": 127,
 					"type": "item"
 				}
@@ -68,87 +68,7 @@
 			{
 				"type": "roughlyenoughitems:entry_stack",
 				"data": {
-					"id": "mmorpg:gear_mat/ore/ore0",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "mmorpg:gear_mat/cloth/cloth0",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:cow_spawn_egg",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:egg",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:pig_spawn_egg",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:leather",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:phantom_membrane",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "mmorpg:loot_crate/magic",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "mmorpg:loot_crate/rare",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "mmorpg:loot_crate/relic",
-					"Count": 127,
-					"type": "item"
-				}
-			},
-			{
-				"type": "roughlyenoughitems:entry_stack",
-				"data": {
-					"id": "minecraft:stripped_spruce_log",
+					"id": "minecraft:spruce_planks",
 					"Count": 127,
 					"type": "item"
 				}
@@ -239,7 +159,10 @@
 			// Declares whether REI should search async.
 			"asyncSearch": true,
 			// Declares how many entries should be grouped one async search.
-			"asyncSearchPartitionSize": 100
+			"asyncSearchPartitionSize": 100,
+			"tooltipSearch": "ALWAYS",
+			"tagSearch": "PREFIX",
+			"modSearch": "PREFIX"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.

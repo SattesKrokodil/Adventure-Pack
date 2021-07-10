@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "mmorpg:mat/smelted/4"
+    },
+    {
+      "item": "mmorpg:mat/smelted/4"
+    },
+    {
+      "item": "mmorpg:mat/smelted/4"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:dim_shard/4",
+    "count": 16
+  }
+}

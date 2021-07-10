@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:locked_chest/0"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "mmorpg:mat/condensed_salvage/c0"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:chest_mutator",
+    "count": 1
+  }
+}

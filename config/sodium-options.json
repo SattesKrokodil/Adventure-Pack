@@ -1,7 +1,7 @@
 {
   "quality": {
-    "cloud_quality": "DEFAULT",
-    "weather_quality": "DEFAULT",
+    "cloud_quality": "FAST",
+    "weather_quality": "FAST",
     "enable_vignette": true,
     "enable_clouds": true,
     "smooth_lighting": "HIGH"

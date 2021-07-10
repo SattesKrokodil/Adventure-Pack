@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:food_shapeless",
+  "ingredients": [
+    {
+      "item": "gofish:cloudy_crab"
+    },
+    {
+      "item": "mmorpg:plant/plant5"
+    },
+    {
+      "item": "mmorpg:raw_fish/yellow/4"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:food/fish/yellow/4"
+  }
+}

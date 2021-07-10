@@ -1,8 +1,0 @@
-{
-  "unhookableBlacklist": true,
-  "defaultMaxRange": 24.0,
-  "defaultMaxSpeed": 10.0,
-  "durability": 0,
-  "rangeMult": 2.0,
-  "quickMult": 1.5
-}

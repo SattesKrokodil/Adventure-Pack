@@ -1,0 +1,35 @@
+{
+
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:feed",
+				"food": 1,
+				"saturation": 1
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:composter ~ ~1 ~ 0.4 0.2 0.4 0 10 force",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:mycelium ~ ~ ~ 1 0.2 1 0 50 force",
+				"permission_level": 4
+			}
+			
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+			"type": "origins:exposed_to_sun"
+		}]
+	},
+	"interval": 500,
+	"name": "Effect:",
+	"description": "While in sunlight your saturation regenerates slowly.",
+	"hidden": false
+}

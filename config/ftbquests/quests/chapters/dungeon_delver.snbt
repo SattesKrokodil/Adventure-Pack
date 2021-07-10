@@ -1,0 +1,10 @@
+{
+	id: "5F25CFB3E9987CCA",
+	group: "",
+	order_index: 7,
+	filename: "dungeon_delver",
+	title: "The Harvest",
+	icon: "mmorpg:teleporter",
+	default_quest_shape: "",
+	quests: []
+}

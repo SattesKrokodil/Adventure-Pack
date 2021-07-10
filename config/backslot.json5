@@ -1,8 +1,0 @@
-{ 
-	"backslot_scale": 2.5,
-	"beltslot_scale": 1.5,
-	"backslot_sounds": true,
-	// Use for mod compatibility - Reload necessary
-	"change_slot_arrangement": false,
-	"disable_backslot_hud": true
-}

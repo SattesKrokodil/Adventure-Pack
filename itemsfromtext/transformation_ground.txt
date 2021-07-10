@@ -1,0 +1,5 @@
+name=transformation_ground
+stack=1
+type=food
+hunger=0
+saturation=0

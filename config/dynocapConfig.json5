@@ -1,59 +1,9 @@
 {
-	"warning": "Book bans begin to occur on servers between 614,125(85x85x85) - 729,000(90x90x90). Though be warned. this range is extremely variable depending on the variety of blockstates in the area, blockentities, data inside of chest/storage blocks etc.",
-	"warning2": "For server i would recommend a max volume of maybe 15,625(25x25x25) Blocks, but that's just a guess",
+	"warning": "Book bans begin to occur on servers between 614, 125(85x85x85) - 729, 000(90x90x90). Though be warned. this range is extremely variable depending on the variety of blockstates in the area, blockentities, data inside of chest/storage blocks etc.",
+	"warning2": "For server i would recommend a max volume of maybe 15, 625(25x25x25) Blocks, but that's just a guess",
 	"info": "Between 15x15x15 and 20x20x20 is the max size that can be fully filled with filled chests without a bookban. 25x25x25 causes a new worse bookban",
-	// default value 15
-	"maxWidth": 20,
-	// default value 15
-	"maxHeight": 20,
-	// default value 15
-	"maxDepth": 20,
-	// Requires an area to be empty and prevent overriding any blocks
-	"requireEmptyArea": false,
-	// Blocks that shouldn't be stored in the Dynocap
-	"preventCopyBlocks": [
-		"minecraft:bedrock",
-		"minecraft:command_block",
-		"minecraft:barrier",
-		"minecraft:repeating_command_block",
-		"minecraft:chain_command_block",
-		"minecraft:structure_block",
-		"minecraft:end_portal_frame",
-		"minecraft:nether_portal",
-		"dungeons_of_exile:final_treasure",
-		"minecraft:end_portal",
-		"minecraft:end_gateway",
-		"betterend:end_portal_block",
-		"transferchestmod:transfer_chest",
-		"minecraft:spawner",
-		"lootcrates:common_chest_loot_crate",
-		"lootcrates:common_shulker_loot_crate",
-		"lootcrates:uncommon_chest_loot_crate",
-		"lootcrates:uncommon_shulker_loot_crate",
-		"lootcrates:rare_shulker_loot_crate",
-		"lootcrates:rare_chest_loot_crate",
-		"lootcrates:epic_chest_loot_crate",
-		"lootcrates:epic_shulker_loot_crate",
-		"lootcrates:ghost_chest_loot_crate",
-		"lootcrates:ghost_shulker_loot_crate",
-		"lootcrates:blaze_chest_loot_crate",
-		"lootcrates:blaze_shulker_loot_crate"
-	],
-	// Blocks that shouldn't be replaced by placing a dynocap
-	"preventOverrideBlocks": [
-		"minecraft:bedrock",
-		"minecraft:command_block",
-		"minecraft:barrier",
-		"minecraft:repeating_command_block",
-		"minecraft:chain_command_block",
-		"minecraft:structure_block",
-		"minecraft:end_portal_frame",
-		"minecraft:nether_portal",
-		"allure:crate_oak"
-	],
 	// Whether or not dispensers can capture blocks with dynocaps
 	"disableDynocapDispenseCapture": false,
 	// Whether or not dispensers can place blocks with dynocaps
-	"disableDynocapDispensePlacement": false,
-	"use3dmodel": false
+	"disableDynocapDispensePlacement": false
 }

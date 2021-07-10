@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "item": "waystones:waystone",
+    "count": 1
+  }
+}

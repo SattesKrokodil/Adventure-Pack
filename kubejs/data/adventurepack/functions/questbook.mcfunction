@@ -1,0 +1,1 @@
+give @s ftbquests:book

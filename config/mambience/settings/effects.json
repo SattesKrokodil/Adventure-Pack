@@ -15,7 +15,7 @@
 		"block": "minecraft:grass",
 		"blockAbove": "",
 		"blockBelow": "",
-		"chance": 1,
+		"chance": 0,
 		"conditions": [
 			{
                 "condition": "TIME_NIGHT"

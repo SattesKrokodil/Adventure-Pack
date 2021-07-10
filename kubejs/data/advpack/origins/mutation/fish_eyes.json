@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/fish_eyes"
+	],
+	"icon": "itemsfromtext:fish_eye",
+	"order": 1,
+	"impact": 1,
+	"name": "Fish Eyes",
+	"description": "The only problem is people asking you to take off your sunglasses."
+}

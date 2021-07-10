@@ -1,17 +1,36 @@
 { 
 	"enableEnchantment": { 
-		"BURNING": true,
-		"CHILLING": true,
-		"COWARDICE": true,
-		"DEFLECT": true,
-		"FIRE_TRAIL": true,
-		"FOOD_RESERVES": true,
-		"FRENZIED": true,
-		"HEAL_ALLIES": true,
-		"POTION_BARRIER": true,
-		"RECYCLER": true,
-		"SNOWBALL": true,
-		"SURPRISE_GIFT": true
+		"BAG_OF_SOULS": false,
+		"BURNING": false,
+		"CHILLING": false,
+		"COWARDICE": false,
+		"DEFLECT": false,
+		"FIRE_TRAIL": false,
+		"FOOD_RESERVES": false,
+		"FRENZIED": false,
+		"HEAL_ALLIES": false,
+		"POTION_BARRIER": false,
+		"RECKLESS": false,
+		"RECYCLER": false,
+		"SNOWBALL": false,
+		"SURPRISE_GIFT": false,
+		"SWIFTFOOTED": false
+	},
+	"enableArmorEffect": { 
+		"FIRE_RESISTANCE": false,
+		"FLUID_FREEZING": false,
+		"HASTE": false,
+		"HERO_OF_THE_VILLAGE": false,
+		"HUNGER": false,
+		"INVISIBILITY": false,
+		"LUCK": false,
+		"NIMBLE_TURTLE_EFFECTS": false,
+		"NO_FALL_DAMAGE": false,
+		"PIGLIN_FOOLING": false,
+		"SPIDER_CLIMBING": false,
+		"SPRINTING": false,
+		"WATER_BREATHING": false,
+		"WITHERED": false
 	},
 	"armorStats": { 
 		"ARCHER": { 
@@ -25,7 +44,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"HUNTER": { 
 			"protection": { 
@@ -38,20 +58,22 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"OCELOT": { 
 			"protection": { 
-				"FEET": 2,
-				"LEGS": 4,
-				"CHEST": 6,
-				"HEAD": 2
+				"FEET": 1,
+				"LEGS": 3,
+				"CHEST": 5,
+				"HEAD": 1
 			},
 			"toughness": 0.0,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.075
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"SHADOW_WALKER": { 
 			"protection": { 
@@ -63,8 +85,9 @@
 			"toughness": 0.0,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
-			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.075
+			"attackSpeedBoost": 0.025,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"SPELUNKER": { 
 			"protection": { 
@@ -77,7 +100,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"CAVE_CRAWLER": { 
 			"protection": { 
@@ -90,7 +114,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.025
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"WOLF": { 
 			"protection": { 
@@ -103,7 +128,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.025,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"BLACK_WOLF": { 
 			"protection": { 
@@ -116,7 +142,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.025,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"FOX": { 
 			"protection": { 
@@ -129,20 +156,22 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"ARCTIC_FOX": { 
 			"protection": { 
-				"FEET": 0,
-				"LEGS": 0,
-				"CHEST": 0,
-				"HEAD": 0
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
 			},
 			"toughness": 0.0,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"CLIMBING_GEAR": { 
 			"protection": { 
@@ -155,7 +184,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"RUGGED_CLIMBING_GEAR": { 
 			"protection": { 
@@ -168,7 +198,36 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
+		},
+		"SQUID": { 
+			"protection": { 
+				"FEET": 1,
+				"LEGS": 3,
+				"CHEST": 5,
+				"HEAD": 1
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
+		},
+		"GLOW_SQUID": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 15
 		},
 		"BATTLE": { 
 			"protection": { 
@@ -181,7 +240,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"SPLENDID": { 
 			"protection": { 
@@ -194,7 +254,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.075,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"EVOCATION": { 
 			"protection": { 
@@ -207,7 +268,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"EMBER": { 
 			"protection": { 
@@ -220,7 +282,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"VERDANT": { 
 			"protection": { 
@@ -233,7 +296,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"THIEF": { 
 			"protection": { 
@@ -246,7 +310,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"SPIDER": { 
 			"protection": { 
@@ -259,7 +324,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0375,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"SOUL_ROBE": { 
 			"protection": { 
@@ -272,7 +338,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"SOULDANCER": { 
 			"protection": { 
@@ -285,12 +352,55 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
+		},
+		"SPROUT": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 2,
+				"CHEST": 3,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
+		},
+		"LIVING_VINES": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 2,
+				"CHEST": 3,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
+		},
+		"PIGLIN": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 2,
+				"CHEST": 4,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 5
 		},
 		"PHANTOM": { 
 			"protection": { 
-				"FEET": 3,
-				"LEGS": 5,
+				"FEET": 2,
+				"LEGS": 4,
 				"CHEST": 6,
 				"HEAD": 2
 			},
@@ -298,7 +408,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.075
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
 		},
 		"FROST_BITE": { 
 			"protection": { 
@@ -311,12 +422,13 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.075
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
 		},
 		"GRIM": { 
 			"protection": { 
-				"FEET": 3,
-				"LEGS": 5,
+				"FEET": 2,
+				"LEGS": 4,
 				"CHEST": 6,
 				"HEAD": 2
 			},
@@ -324,7 +436,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
 		},
 		"WITHER": { 
 			"protection": { 
@@ -337,7 +450,36 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
+		},
+		"TURTLE": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 4,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
+		},
+		"NIMBLE_TURTLE": { 
+			"protection": { 
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
 		},
 		"SCALE_MAIL": { 
 			"protection": { 
@@ -350,7 +492,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"HIGHLAND": { 
 			"protection": { 
@@ -363,7 +506,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"BEEHIVE": { 
 			"protection": { 
@@ -374,9 +518,10 @@
 			},
 			"toughness": 0.0,
 			"knockbackRes": 0.0,
-			"attackDamageBoost": 0.0,
+			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"BEENEST": { 
 			"protection": { 
@@ -389,7 +534,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"GHOSTLY": { 
 			"protection": { 
@@ -402,7 +548,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"GHOST_KINDLER": { 
 			"protection": { 
@@ -415,7 +562,22 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
+		},
+		"GOLDEN_PIGLIN": { 
+			"protection": { 
+				"FEET": 2,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 2
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 14
 		},
 		"REINFORCED_MAIL": { 
 			"protection": { 
@@ -428,7 +590,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"STALWART_MAIL": { 
 			"protection": { 
@@ -441,7 +604,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"GUARDS": { 
 			"protection": { 
@@ -454,7 +618,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"CURIOUS": { 
 			"protection": { 
@@ -467,7 +632,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"SNOW": { 
 			"protection": { 
@@ -480,7 +646,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"FROST": { 
 			"protection": { 
@@ -493,7 +660,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"MERCENARY": { 
 			"protection": { 
@@ -506,20 +674,22 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"RENEGADE": { 
 			"protection": { 
-				"FEET": 0,
-				"LEGS": 0,
-				"CHEST": 0,
-				"HEAD": 0
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 6,
+				"HEAD": 3
 			},
-			"toughness": 0.0,
+			"toughness": 1.75,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"HUNGRY_HORROR": { 
 			"protection": { 
@@ -532,7 +702,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0625
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"EMERALD": { 
 			"protection": { 
@@ -545,7 +716,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.05,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"OPULENT": { 
 			"protection": { 
@@ -558,7 +730,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.05,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 30
 		},
 		"DARK": { 
 			"protection": { 
@@ -571,7 +744,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"TITAN": { 
 			"protection": { 
@@ -584,7 +758,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.075,
 			"attackSpeedBoost": 0.0375,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"ROYAL": { 
 			"protection": { 
@@ -597,7 +772,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.075,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"PLATE": { 
 			"protection": { 
@@ -610,7 +786,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": -0.0375
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"FULL_METAL": { 
 			"protection": { 
@@ -623,7 +800,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": -0.0375
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"MYSTERY": { 
 			"protection": { 
@@ -636,7 +814,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"BLUE_MYSTERY": { 
 			"protection": { 
@@ -649,7 +828,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"GREEN_MYSTERY": { 
 			"protection": { 
@@ -662,7 +842,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"PURPLE_MYSTERY": { 
 			"protection": { 
@@ -675,7 +856,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"RED_MYSTERY": { 
 			"protection": { 
@@ -688,7 +870,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"CHAMPION": { 
 			"protection": { 
@@ -701,7 +884,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"HERO": { 
 			"protection": { 
@@ -714,7 +898,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.075,
 			"attackSpeedBoost": 0.0375,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		},
 		"GILDED": { 
 			"protection": { 
@@ -727,7 +912,8 @@
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.05,
-			"movementSpeedBoost": 0.0
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 36
 		}
 	}
 }

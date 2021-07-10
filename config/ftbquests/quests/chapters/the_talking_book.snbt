@@ -41,17 +41,6 @@
 					count: 10
 				},
 				{
-					id: "456A6675FFEC99E8",
-					type: "item",
-					item: {
-						id: "mcdw:sword_iron_sword_var",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
 					id: "180B06249A5113EF",
 					type: "item",
 					item: {
@@ -69,25 +58,6 @@
 					count: 30
 				}
 			]
-		},
-		{
-			title: "The furnace is now.",
-			x: 3.5d,
-			y: 8.5d,
-			subtitle: "a way to speed up your furnaces",
-			description: ["No need for stacking them anymore or complex furnace systems. Place one, upgrade it, be happy. They might cause some anomalies - if my calculations are correct it is possible that some items get duplicated?"],
-			dependencies: ["33AD92204B8173E7"],
-			id: "0FFEEA8A347BE51D",
-			tasks: [{
-				id: "699F09475DE01841",
-				type: "item",
-				item: "fabric-furnaces:fabric_furnace"
-			}],
-			rewards: [{
-				id: "0B4724018970231A",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
 		},
 		{
 			title: "I can teach you the moves",
@@ -127,7 +97,7 @@
 			title: "Point of view",
 			x: 4.5d,
 			y: 3.0d,
-			subtitle: 'press and hold "c" to crawl',
+			subtitle: 'press and hold "b" to crawl',
 			description: ["Crawling is useful to dodge stuff, to escape from zombies quickly or to hide if you are too afraid to face your enemies. (If that is the case please give this book to the next STRONG warrior.)"],
 			dependencies: ["33AD92204B8173E7"],
 			id: "375673498523C820",
@@ -176,7 +146,7 @@
 			x: -2.0d,
 			y: 1.5d,
 			subtitle: 'press "H" to open your stats menu',
-			description: ["You get experience and levels by slaying hostile monsters. Spend your Statpoints and Talentpoints to get stronger! Check the Age of Exile wiki if you need further information."],
+			description: ["You get combat experience and levels by slaying hostile monsters. Spend your Statpoints and Talentpoints to get stronger! Check the Age of Exile wiki if you need further information."],
 			dependencies: ["33AD92204B8173E7"],
 			id: "253BB6F617ECF488",
 			tasks: [{
@@ -186,15 +156,9 @@
 				consume_items: true
 			}],
 			rewards: [{
-				id: "53245702A6DBCE5B",
-				type: "item",
-				item: {
-					id: "mcdw:staff_battlestaff",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "3D2D1BB65969F855",
+				type: "loot",
+				table_id: 3955332603689485632L
 			}]
 		},
 		{
@@ -217,17 +181,16 @@
 			}]
 		},
 		{
-			title: "Reset Stats Potion",
+			title: "Reset Talents",
 			x: 4.5d,
 			y: 0.0d,
 			description: ["You can craft different potions to reset your spent points. You do not lose any progress/points when using them!"],
 			dependencies: ["57CD95EA4582318F"],
 			id: "1D931956155072F3",
 			tasks: [{
-				id: "7F061327A2B3E089",
+				id: "2F7C4EB071F3E76C",
 				type: "item",
-				icon: "mmorpg:potions/reset_stats_potion",
-				item: "mmorpg:potions/reset_stats_potion"
+				item: "mmorpg:potions/reset_all_perks"
 			}],
 			rewards: [
 				{
@@ -251,9 +214,9 @@
 			dependencies: ["1D931956155072F3"],
 			id: "6454C35785DA4005",
 			tasks: [{
-				id: "5D90A4C661C94622",
+				id: "30E99D6ED840719D",
 				type: "item",
-				item: "mmorpg:potions/reset_all_spells"
+				item: "mmorpg:potions/reset_stats"
 			}],
 			rewards: [
 				{
@@ -272,7 +235,7 @@
 		{
 			title: "Miracle of Life",
 			x: -1.0d,
-			y: -3.0d,
+			y: -1.0d,
 			subtitle: "some recicpes that got added specifically",
 			description: [""],
 			dependencies: ["61C934F5B962C4A3"],
@@ -302,8 +265,8 @@
 		},
 		{
 			title: "Quality of Life",
-			x: -2.0d,
-			y: -1.5d,
+			x: -1.0d,
+			y: 0.5d,
 			subtitle: "some recicpes that got added specifically",
 			dependencies: ["253BB6F617ECF488"],
 			id: "61C934F5B962C4A3",
@@ -337,8 +300,8 @@
 		},
 		{
 			title: "Mystery of Death",
-			x: -0.5d,
-			y: -1.5d,
+			x: 0.0d,
+			y: -1.0d,
 			subtitle: "some recicpes that got added specifically",
 			dependencies: ["61C934F5B962C4A3"],
 			id: "1195E649DFDD2BC9",
@@ -367,7 +330,7 @@
 		},
 		{
 			title: "The golden ... steak?",
-			x: -1.0d,
+			x: 0.5d,
 			y: 0.0d,
 			subtitle: "poor flesh eaters need some nice food too!",
 			dependencies: ["61C934F5B962C4A3"],
@@ -477,24 +440,6 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 3.0d,
-			subtitle: "I don't like fire at all. ",
-			description: ["What would the adventurer be without the campfire. Good old technique. But did you know you can use them as respawn point? (shift + rightclick)"],
-			dependencies: ["5CC4EB23C116AD2A"],
-			id: "543148847BC13A7B",
-			tasks: [{
-				id: "68AF9F4A097D0D72",
-				type: "item",
-				item: "minecraft:campfire"
-			}],
-			rewards: [{
-				id: "38A2750AFA3A3761",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
 			title: "The Grind is real",
 			x: 2.5d,
 			y: 0.0d,
@@ -514,28 +459,9 @@
 			}]
 		},
 		{
-			title: "Mass Production",
-			x: 1.0d,
-			y: -1.5d,
-			subtitle: "Get some glass. Don't ask.",
-			description: ["This might be a little too much for your human brain. But I can help you do things a little more ... efficient."],
-			dependencies: ["2089FB4B686C56EC"],
-			id: "105FE5F2926A94C3",
-			tasks: [{
-				id: "7D7B71019E78354F",
-				type: "item",
-				item: "minecraft:glass"
-			}],
-			rewards: [{
-				id: "2E63E48A35B13C24",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
 			title: "It's always dirt.",
-			x: 1.0d,
-			y: 1.5d,
+			x: 2.5d,
+			y: 2.0d,
 			description: ["Dirt is interesting. It is such a basic material but you can build whole worlds with it. Don't you think the same? Stop digging and listen to me!"],
 			hide_dependency_lines: false,
 			dependencies: ["33AD92204B8173E7"],
@@ -553,107 +479,9 @@
 			}]
 		},
 		{
-			title: "Jarrrrrs",
-			x: 1.0d,
-			y: -3.0d,
-			description: ["Some glass, some iron and boom we got it. Instant magic! The perfect vessel if you need a quick wood fix. Fill it with dirt and a sapling and place a chest below!"],
-			dependencies: ["105FE5F2926A94C3"],
-			id: "41C5EB647BF27FD1",
-			tasks: [{
-				id: "10ACB2E46547A5A6",
-				type: "item",
-				item: "plantinajar:plant_jar"
-			}],
-			rewards: [
-				{
-					id: "331342860DE8AD84",
-					type: "item",
-					item: "minecraft:oak_sapling"
-				},
-				{
-					id: "6F6BAB4845C88EE2",
-					type: "item",
-					item: "minecraft:spruce_sapling"
-				},
-				{
-					id: "6F35469E5F723E00",
-					type: "item",
-					item: "minecraft:birch_sapling"
-				},
-				{
-					id: "732F9EDFD84E97BE",
-					type: "item",
-					item: "minecraft:dark_oak_sapling"
-				},
-				{
-					id: "736CEEA4D7423C83",
-					type: "item",
-					item: "minecraft:acacia_sapling"
-				},
-				{
-					id: "43052A4DB33A4420",
-					type: "item",
-					item: "minecraft:jungle_sapling"
-				},
-				{
-					id: "0B72ACB613C018E7",
-					type: "loot",
-					table_id: 3955332603689485632L
-				}
-			]
-		},
-		{
-			x: 5.5d,
-			y: 8.5d,
-			dependencies: ["33AD92204B8173E7"],
-			id: "076A98D0F7413BE8",
-			tasks: [{
-				id: "70041D7319407181",
-				type: "item",
-				item: "expandedstorage:iron_chest"
-			}],
-			rewards: [{
-				id: "172D9B2FD1CCB9C8",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 6.5d,
-			y: 10.0d,
-			dependencies: ["076A98D0F7413BE8"],
-			id: "69E518D9AA43D7F2",
-			tasks: [{
-				id: "341A6C9B8AD4678A",
-				type: "item",
-				item: "expandedstorage:gold_chest"
-			}],
-			rewards: [{
-				id: "13A20C4A090E0806",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 6.0d,
-			y: 12.0d,
-			dependencies: ["69E518D9AA43D7F2"],
-			id: "7A02325B05214EAE",
-			tasks: [{
-				id: "37B297CD80C81B51",
-				type: "item",
-				item: "expandedstorage:diamond_chest"
-			}],
-			rewards: [{
-				id: "58F28C008D8DC250",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 6.5d,
+			x: 8.5d,
 			y: 4.5d,
-			dependencies: ["52577A9902657B44"],
+			dependencies: ["5CC4EB23C116AD2A"],
 			id: "76BDB873C555CEBF",
 			tasks: [{
 				id: "6A93317FA2B30064",
@@ -667,9 +495,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 10.0d,
-			dependencies: ["413E086AF2B17757"],
+			x: 1.0d,
+			y: 4.0d,
+			dependencies: ["33AD92204B8173E7"],
 			id: "2636E566082C35DE",
 			tasks: [{
 				id: "35B137BD345CA6A8",
@@ -683,9 +511,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 10.0d,
-			dependencies: ["413E086AF2B17757"],
+			x: 3.5d,
+			y: 4.5d,
+			dependencies: ["33AD92204B8173E7"],
 			id: "2F307D844CF71B16",
 			tasks: [{
 				id: "5AE1EBB7ED8B095C",
@@ -699,9 +527,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 11.0d,
-			dependencies: ["413E086AF2B17757"],
+			x: 2.0d,
+			y: 5.0d,
+			dependencies: ["33AD92204B8173E7"],
 			id: "553B2A27E4854142",
 			tasks: [{
 				id: "48CE91CE278864C0",
@@ -715,29 +543,15 @@
 			}]
 		},
 		{
-			title: "autocrafter",
-			x: 1.5d,
-			y: 9.0d,
-			dependencies: ["33AD92204B8173E7"],
-			id: "413E086AF2B17757",
-			tasks: [{
-				id: "35738F85560EA349",
-				type: "item",
-				item: "automated_crafting:auto_crafter"
-			}],
-			rewards: [{
-				id: "56D78DD2A29A8AAA",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
 			title: "Old or new technology?",
-			x: -5.5d,
-			y: 1.5d,
+			x: -6.5d,
+			y: 2.5d,
+			shape: "hexagon",
 			subtitle: "Gacha! Loot! Currency! Crates!",
 			description: ["This one is essential if you ever plan on crafting your own Age of Exile gear. It is the tool to generate different tiers of crafting dust and sometimes it genererates some leftovers like iron nuggets or ingots. For the station to work you simply put gear you don't need anymore into it and wait a few seconds until it's done. (Small tip: try to combine a Salvage Station with hoppers and chests!)"],
 			dependencies: ["253BB6F617ECF488"],
+			dependency_requirement: "one_completed",
+			size: 1.5d,
 			id: "7D299BE10EEF8E26",
 			tasks: [{
 				id: "135A5D432EA16904",
@@ -752,8 +566,8 @@
 		},
 		{
 			title: "Don't worry.",
-			x: -7.5d,
-			y: 1.5d,
+			x: -10.0d,
+			y: -1.5d,
 			subtitle: "use fuel to repair your AoE gear",
 			description: ["If you want to prevent your items from beeing destroyed you should treat them good. Repair them every now and then! Put the item you want to repair into the bottom slot and use fuel in the top one. There are different fuels you can use - each comes with different fuel efficience. Examples are redstone dust, iron ingots or magic essence. To see all usable fuels hover the help icon in the top right corner of the station interface."],
 			dependencies: ["7D299BE10EEF8E26"],
@@ -779,8 +593,8 @@
 		},
 		{
 			title: "One Socket for each foot",
-			x: -9.0d,
-			y: 0.0d,
+			x: -13.0d,
+			y: -1.5d,
 			subtitle: "used for gear upgrades (gems, runes, runewords, ... )",
 			description: ["Insert any item with empty sockets in the left field, insert a gem or rune in the right field, then click on the hammer. Used to upgrade your gear with all kinds of useful things. -> visit the wiki for more information."],
 			dependencies: ["6FA21D97AE71DDC7"],
@@ -810,10 +624,10 @@
 		},
 		{
 			title: "Modification Protocol",
-			x: -10.5d,
-			y: 0.0d,
+			x: -16.0d,
+			y: -1.5d,
 			subtitle: "golem boss (blocks) needs to be standing upright for the summon! (like a wither)",
-			description: ["Along your journey you will find different items - currency items to be precicse - which can be used to modify and oftentimes improve your gear. To use these currency items you need a Gear Modify Station. The crafting recipe looks a little different - you need a Heart of Imagination in order to craft the station which can only be obtained by summoning and defeating the Golem boss. To use this station put the gear you want to modify in the bottom slot and the item you want to use on it in the top slot. Now press the hammer and you are done!"],
+			description: ["Along your journey you will find different items - currency items to be precicse - which can be used to modify and oftentimes improve your gear. To use these currency items you need a Gear Modify Station. To use this station put the gear you want to modify in the bottom slot and the item you want to use on it in the top slot. Now press the hammer and you are done!"],
 			dependencies: ["109791C5446C9423"],
 			id: "24816C82F16EDF96",
 			tasks: [{
@@ -821,76 +635,8 @@
 				type: "item",
 				item: "mmorpg:modify_station"
 			}],
-			rewards: [
-				{
-					id: "544018C4B5D4A6C5",
-					type: "item",
-					item: "mmorpg:currency/orb_of_discovery",
-					count: 2
-				},
-				{
-					id: "2A4217C2424D5DC6",
-					type: "loot",
-					table_id: 3955332603689485632L
-				}
-			]
-		},
-		{
-			title: "Alcheholic",
-			x: 4.5d,
-			y: 4.5d,
-			subtitle: "more bags!",
-			description: ['This bag stores potions, you can open it with shiftclick, use it with rightclick and rotate the potions with "k". '],
-			dependencies: ["375673498523C820"],
-			id: "0BE1C2C1606B0C85",
-			tasks: [{
-				id: "509DBEE2A3FA8A85",
-				type: "item",
-				item: {
-					id: "extraalchemy:potion_bag",
-					Count: 1b,
-					tag: {}
-				}
-			}],
 			rewards: [{
-				id: "71EE642AA8121D31",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			title: "Now you see me ...",
-			x: 8.5d,
-			y: 4.5d,
-			subtitle: "Simple Teleporters for the impatient traveler",
-			description: ["Everything we have found so far leads to the conclusion that an ancient civilization left all these technological miracles. First the capsules, now teleporters?"],
-			dependencies: ["5CC4EB23C116AD2A"],
-			id: "52577A9902657B44",
-			tasks: [{
-				id: "79A65DD041F96733",
-				type: "item",
-				item: "simpleteleporters:teleporter"
-			}],
-			rewards: [{
-				id: "73F91FF239E4E595",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			title: "now you don't!",
-			x: 8.5d,
-			y: 6.0d,
-			description: ["The portals are a little tricky, build the base, store coordinates in shards, put the shard into the base, teleport to the saved coordinates via shift click while standing on the base."],
-			dependencies: ["52577A9902657B44"],
-			id: "6451B84D546B83A0",
-			tasks: [{
-				id: "145C5E480D71DB12",
-				type: "item",
-				item: "simpleteleporters:tele_crystal"
-			}],
-			rewards: [{
-				id: "31D56CF27F87A735",
+				id: "2A4217C2424D5DC6",
 				type: "loot",
 				table_id: 3955332603689485632L
 			}]
@@ -902,6 +648,7 @@
 			subtitle: "That will definitely change the way of exploration. Maybe we are not the first ones who travel these lands? You can store a 10x10x10 area in them, rename them, change their size, WHAT CAN'T YOU DO? Shift rightclick a filled dynocap.",
 			description: ["It appears to be some kind of new technology? Or ancient? I can't tell where it comes from but I have never seen such craftsmanship ever before."],
 			dependencies: ["2211A6431DE8E3CF"],
+			size: 1.5d,
 			id: "6EBAE7AF8487B0F8",
 			tasks: [{
 				id: "1B3A99C8D22E62CA",
@@ -969,7 +716,7 @@
 			x: 10.5d,
 			y: 1.5d,
 			description: ["I have no idea what this one does. Or where it comes from. We need to find out more."],
-			dependencies: ["543148847BC13A7B"],
+			dependencies: ["5CC4EB23C116AD2A"],
 			id: "5DE6DFF70DFB68D5",
 			tasks: [{
 				id: "2B153CD435173FFD",
@@ -1005,7 +752,7 @@
 			x: 10.5d,
 			y: 4.5d,
 			description: ["A good base needs traps. This philosophy has proven itself multiple times. "],
-			dependencies: ["543148847BC13A7B"],
+			dependencies: ["5CC4EB23C116AD2A"],
 			id: "2C58AC749B3AEEA5",
 			tasks: [{
 				id: "4390FB286BE8075A",
@@ -1121,182 +868,6 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 10.0d,
-			dependencies: ["0FFEEA8A347BE51D"],
-			id: "6D0426803A65E64A",
-			tasks: [{
-				id: "4B436A44A8335022",
-				type: "item",
-				item: "fabric-furnaces:iron_furnace"
-			}],
-			rewards: [{
-				id: "508432D11420C55B",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 4.0d,
-			y: 11.5d,
-			dependencies: ["6D0426803A65E64A"],
-			id: "6C8DDF4092E81405",
-			tasks: [{
-				id: "467AC9270815843B",
-				type: "item",
-				item: "fabric-furnaces:gold_furnace"
-			}],
-			rewards: [{
-				id: "10D9C586765AAE9A",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 2.5d,
-			y: 12.5d,
-			dependencies: ["6C8DDF4092E81405"],
-			id: "41506EBA14672411",
-			tasks: [{
-				id: "02E45C15F37269F6",
-				type: "item",
-				item: "fabric-furnaces:diamond_furnace"
-			}],
-			rewards: [{
-				id: "5046A96FE9FB5644",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 0.5d,
-			y: 12.5d,
-			dependencies: ["41506EBA14672411"],
-			id: "3714BA044AD16479",
-			tasks: [{
-				id: "3E7968E23154271A",
-				type: "item",
-				item: "fabric-furnaces:obsidian_furnace"
-			}],
-			rewards: [{
-				id: "0C520B96A2333341",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 11.5d,
-			dependencies: ["3714BA044AD16479"],
-			id: "34A58D4B5E354530",
-			tasks: [{
-				id: "52265F8E9F4FBFA1",
-				type: "item",
-				item: "fabric-furnaces:nether_furnace"
-			}],
-			rewards: [{
-				id: "2D0AC79C748F3011",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: -1.5d,
-			y: 10.0d,
-			dependencies: ["34A58D4B5E354530"],
-			id: "4653614D0699D5E0",
-			tasks: [{
-				id: "41AC220C92D950A8",
-				type: "item",
-				item: "fabric-furnaces:emerald_furnace"
-			}],
-			rewards: [{
-				id: "7BCA66F8E77D41BD",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 8.5d,
-			dependencies: ["4653614D0699D5E0"],
-			id: "4C4D7C90871DD471",
-			tasks: [{
-				id: "0669DC280E328E05",
-				type: "item",
-				item: "fabric-furnaces:end_furnace"
-			}],
-			rewards: [{
-				id: "00B31FF0EC213609",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 0.5d,
-			y: 7.5d,
-			dependencies: ["4C4D7C90871DD471"],
-			id: "3C326C67757D985B",
-			tasks: [{
-				id: "59319B96EDCD090E",
-				type: "item",
-				item: "fabric-furnaces:ethereal_furnace"
-			}],
-			rewards: [{
-				id: "1DA36582553EECB5",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 5.0d,
-			y: 14.0d,
-			dependencies: ["7A02325B05214EAE"],
-			id: "3368C2E7C0698528",
-			tasks: [{
-				id: "2FE83D85C1E7F0E1",
-				type: "item",
-				item: "expandedstorage:obsidian_chest"
-			}],
-			rewards: [{
-				id: "182F6314FEEA375E",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 3.0d,
-			y: 14.5d,
-			dependencies: ["3368C2E7C0698528"],
-			id: "592897D5E2D3D044",
-			tasks: [{
-				id: "470F9871E4038BF2",
-				type: "item",
-				item: "expandedstorage:netherite_chest"
-			}],
-			rewards: [{
-				id: "67AEEDD12CBFE7FD",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 6.5d,
-			y: 6.0d,
-			dependencies: ["76BDB873C555CEBF"],
-			id: "46AC53236EAC7891",
-			tasks: [{
-				id: "13064EEFFE2D7945",
-				type: "item",
-				item: "transferchestmod:transfer_chest"
-			}],
-			rewards: [{
-				id: "25F6DB91433E5782",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
 			x: 12.0d,
 			y: 10.5d,
 			dependencies: ["061985F55B108379"],
@@ -1311,7 +882,7 @@
 				type: "loot",
 				table_id: 3955332603689485632L
 			}]
-		},K
+		},
 		{
 			x: 13.5d,
 			y: 7.5d,
@@ -1382,7 +953,7 @@
 		},
 		{
 			x: 2.5d,
-			y: 1.5d,
+			y: -1.5d,
 			dependencies: ["7DD5E8741E6AC44F"],
 			id: "0772B26A2A0E9564",
 			tasks: [{
@@ -1392,22 +963,6 @@
 			}],
 			rewards: [{
 				id: "49A032606B89EC14",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 8.5d,
-			y: 0.0d,
-			dependencies: ["4B079C63857ED235"],
-			id: "6C98A8048D73B634",
-			tasks: [{
-				id: "1B4C180D9007E024",
-				type: "item",
-				item: "charm:bat_bucket"
-			}],
-			rewards: [{
-				id: "26EEFAED4A23089A",
 				type: "loot",
 				table_id: 3955332603689485632L
 			}]
@@ -1437,8 +992,8 @@
 			]
 		},
 		{
-			x: -11.0d,
-			y: 3.5d,
+			x: -15.5d,
+			y: 7.5d,
 			subtitle: "I wonder what you can craft with it?",
 			dependencies: ["59EA0317DA5B0653"],
 			id: "65312E676B6044C8",
@@ -1455,8 +1010,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 5.5d,
+			x: -11.5d,
+			y: 6.5d,
 			subtitle: "I wonder what you can craft with it?",
 			dependencies: ["59EA0317DA5B0653"],
 			id: "7C030C5842713C61",
@@ -1473,8 +1028,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 5.5d,
+			x: -13.0d,
+			y: 6.5d,
 			subtitle: "I wonder what you can craft with it?",
 			dependencies: ["59EA0317DA5B0653"],
 			id: "3CDFD2EA34F4AD1A",
@@ -1491,9 +1046,10 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 3.5d,
+			x: -11.5d,
+			y: 4.5d,
 			dependencies: ["7D299BE10EEF8E26"],
+			size: 1.5d,
 			id: "59EA0317DA5B0653",
 			tasks: [{
 				id: "424299485C3A6881",
@@ -1515,8 +1071,8 @@
 					runeword: "sentinel"
 				}
 			},
-			x: -9.0d,
-			y: -1.5d,
+			x: -14.5d,
+			y: -2.5d,
 			subtitle: "Combine Runes in the correct order to get additional effects!",
 			description: ['Use the Ita and Mos runes you just got and combine them in any ring or necklace - sockets! The order is: Ita - Mos. This will create a "jewelry specific runeword", there are more runewords to explore either by testing or reading the wiki section about it!'],
 			dependencies: ["109791C5446C9423"],
@@ -1527,133 +1083,19 @@
 				item: "minecraft:book",
 				consume_items: true
 			}],
-			rewards: [
-				{
-					id: "4E5DD3BFAB8F6E4D",
-					type: "item",
-					item: {
-						id: "minecraft:written_book",
-						Count: 1b,
-						tag: {
-							generation: 1,
-							pages: ['{"text":"I have heard you are a really MAD fella huh? Why don\'t you try something crazy then?\\n\\nMos\\nAno\\nDos\\n\\nPut the runes on your weapon for MAD results."}'],
-							title: "M A D N E S S",
-							author: "SattesKrokodil"
-						}
-					}
-				},
-				{
-					id: "6D3FD0F36A320225",
-					type: "loot",
-					table_id: 3955332603689485632L
-				}
-			]
-		},
-		{
-			title: "Fighting Task I",
-			icon: "itemfilters:damage",
-			x: 1.0d,
-			y: 4.5d,
-			shape: "diamond",
-			description: ["You can wear the shulker box on your back as a backpack, equip it in it's curios slot and press \"B\" to access it!"],
-			dependencies: ["33AD92204B8173E7"],
-			id: "566C3734B9691121",
-			tasks: [
-				{
-					id: "5EFC2CBC8B53210A",
-					type: "kill",
-					title: "Kill an Arcana Zombies",
-					icon: "minecraft:zombie_head",
-					entity: "mmorpg:arcane_zombie",
-					value: 1L
-				},
-				{
-					id: "52BCF7BA7AA82A05",
-					type: "kill",
-					title: "Kill a Blue Spider",
-					entity: "mobz:spi_entity",
-					value: 1L
-				},
-				{
-					id: "6DECE8437C226ACA",
-					type: "kill",
-					title: "Kill a Flame Slime",
-					icon: "biomemakeover:giant_slime_spawn_egg",
-					entity: "mmorpg:fire_slime",
-					value: 1L
-				}
-			],
-			rewards: [
-				{
-					id: "0A1D7815EC2CA7D3",
-					type: "item",
-					item: {
-						id: "minecraft:gray_shulker_box",
-						Count: 1b,
-						tag: {
-							BlockEntityTag: {}
-						}
-					}
-				},
-				{
-					id: "5BB700864E686EFF",
-					type: "loot",
-					table_id: 3955332603689485632L
-				}
-			]
-		},
-		{
-			title: "Fighting Task II",
-			x: -11.5d,
-			y: 0.0d,
-			shape: "diamond",
-			dependencies: ["24816C82F16EDF96"],
-			id: "7F60C09B1CBC753A",
-			tasks: [{
-				id: "24779780EED8E920",
-				type: "kill",
-				title: "Kill a Magma Golem Towerboss",
-				icon: "itemfilters:damage",
-				entity: "dungeons_of_exile:fire_golem",
-				value: 1L
-			}],
-			rewards: [
-				{
-					id: "64BC609B0A2C609F",
-					type: "item",
-					item: {
-						id: "mcdw:dagger_dagger",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "7E12A9967CC64ADD",
-					type: "item",
-					item: {
-						id: "mcdw:dagger_dagger",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "4E4D39A525F18BCD",
-					type: "loot",
-					table_id: 3955332603689485632L
-				}
-			]
+			rewards: [{
+				id: "6D3FD0F36A320225",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
 		},
 		{
 			title: "Fighting Task III",
 			icon: "itemfilters:damage",
-			x: 8.0d,
-			y: 7.0d,
+			x: 8.5d,
+			y: 6.0d,
 			shape: "diamond",
-			dependencies: ["6451B84D546B83A0"],
+			dependencies: ["76BDB873C555CEBF"],
 			id: "1B3AE714F14662BD",
 			tasks: [{
 				id: "515651F4FFDF7B00",
@@ -1675,86 +1117,20 @@
 					item: "gofish:ender_eel"
 				},
 				{
-					id: "28E69A75549097A5",
-					type: "item",
-					item: "simpleteleporters:tele_crystal"
-				},
-				{
 					id: "5942AA6DCD00978B",
 					type: "loot",
 					table_id: 3955332603689485632L
+				},
+				{
+					id: "687F230554B61965",
+					type: "item",
+					item: "mmorpg:dungeon_key/common"
 				}
 			]
 		},
 		{
-			x: 2.5d,
-			y: -1.5d,
-			dependencies: ["7DD5E8741E6AC44F"],
-			id: "1331D1EFBE13B2B3",
-			tasks: [{
-				id: "4DABE92695D86241",
-				type: "item",
-				item: {
-					id: "xp_storage:xp_book",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [{
-				id: "46FE1D64D3922A67",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 2.5d,
-			y: -3.0d,
-			dependencies: ["1331D1EFBE13B2B3"],
-			id: "5803D371444DBF4F",
-			tasks: [{
-				id: "1DA9BB6B08201ACE",
-				type: "item",
-				item: {
-					id: "xp_storage:xp_book2",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [{
-				id: "6F318DC44DBCD045",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: 2.5d,
-			y: -4.5d,
-			dependencies: ["5803D371444DBF4F"],
-			id: "1464CA14128DFDF0",
-			tasks: [{
-				id: "1BC87349E2CBC453",
-				type: "item",
-				item: {
-					id: "xp_storage:xp_book3",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [{
-				id: "13753987545E6A79",
-				type: "loot",
-				table_id: 3955332603689485632L
-			}]
-		},
-		{
-			x: -9.0d,
-			y: 1.5d,
+			x: -10.0d,
+			y: 0.0d,
 			dependencies: ["6FA21D97AE71DDC7"],
 			id: "04EC4E8DF0057F18",
 			tasks: [{
@@ -1775,8 +1151,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 1.5d,
+			x: -11.5d,
+			y: 0.0d,
 			dependencies: ["04EC4E8DF0057F18"],
 			id: "42B37CE595E3A820",
 			tasks: [{
@@ -1797,8 +1173,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: 1.5d,
+			x: -13.0d,
+			y: 0.0d,
 			dependencies: ["42B37CE595E3A820"],
 			id: "26D45DC04533B09A",
 			tasks: [{
@@ -1819,8 +1195,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 1.5d,
+			x: -14.5d,
+			y: 0.0d,
 			dependencies: ["26D45DC04533B09A"],
 			id: "1991171E02208FD7",
 			tasks: [{
@@ -1841,8 +1217,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 7.0d,
+			x: -11.5d,
+			y: 8.0d,
 			dependencies: ["7C030C5842713C61"],
 			id: "2DF952271A10597F",
 			tasks: [
@@ -1898,8 +1274,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 3.5d,
+			x: -16.5d,
+			y: 5.0d,
 			dependencies: ["65312E676B6044C8"],
 			id: "3FEB77C2022134A0",
 			tasks: [
@@ -1955,8 +1331,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 7.0d,
+			x: -13.0d,
+			y: 8.0d,
 			dependencies: ["3CDFD2EA34F4AD1A"],
 			id: "35BEE5F0C88CBFD8",
 			tasks: [
@@ -2012,15 +1388,15 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 4.5d,
+			x: -18.0d,
+			y: 6.5d,
 			dependencies: ["65312E676B6044C8"],
 			id: "57C22ACE46876B1D",
 			tasks: [{
-				id: "7FF614293A7C88D0",
+				id: "3518FFB49B93C994",
 				type: "item",
 				item: {
-					id: "mmorpg:weapon/wand/wand0",
+					id: "mmorpg:weapon/staff/staff0",
 					Count: 1b,
 					tag: {
 						Damage: 0
@@ -2034,8 +1410,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 5.5d,
+			x: -18.0d,
+			y: 7.5d,
 			dependencies: ["65312E676B6044C8"],
 			id: "198B3CC3BA83E26F",
 			tasks: [{
@@ -2056,8 +1432,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 6.5d,
+			x: -18.0d,
+			y: 8.5d,
 			dependencies: ["65312E676B6044C8"],
 			id: "2E39FE19F0063561",
 			tasks: [{
@@ -2078,8 +1454,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 4.5d,
+			x: -9.5d,
+			y: 5.5d,
 			dependencies: ["59EA0317DA5B0653"],
 			id: "29EA4A844EDEB5B4",
 			tasks: [{
@@ -2092,11 +1468,16 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "4DD7CD3F16FA637B",
+				type: "loot",
+				table_id: 3955332603689485632L
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 5.5d,
+			x: -10.0d,
+			y: 6.5d,
 			dependencies: ["59EA0317DA5B0653"],
 			id: "436973879F077969",
 			tasks: [{
@@ -2109,7 +1490,887 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "2998554586550D70",
+				type: "loot",
+				table_id: 3955332603689485632L
 			}]
+		},
+		{
+			x: -7.5d,
+			y: 5.5d,
+			dependencies: ["7D299BE10EEF8E26"],
+			id: "16B94140A486835F",
+			tasks: [{
+				id: "677D63A4183D3667",
+				type: "item",
+				item: "mmorpg:cooking_station"
+			}],
+			rewards: [{
+				id: "6BF760DDE6960260",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -3.5d,
+			dependencies: ["7D299BE10EEF8E26"],
+			id: "2C3A781257028B01",
+			tasks: [{
+				id: "6AC99FF0FB30F357",
+				type: "item",
+				item: "mmorpg:tablet_station"
+			}],
+			rewards: [{
+				id: "003D407F6E3FCBE0",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: ["7D299BE10EEF8E26"],
+			id: "4F72C0F37DC288DC",
+			tasks: [{
+				id: "036B06DAD2975B73",
+				type: "item",
+				item: "mmorpg:alchemy_station"
+			}],
+			rewards: [{
+				id: "51441A7477A59614",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.5d,
+			dependencies: ["7D299BE10EEF8E26"],
+			id: "7CDB8CB744CAD335",
+			tasks: [{
+				id: "4A6A03B0A5080F69",
+				type: "item",
+				item: "mmorpg:smithing_station"
+			}],
+			rewards: [{
+				id: "5C6DCC6FCE699304",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 9.5d,
+			dependencies: ["5438B4262159CF53"],
+			id: "7B46A8EE2F084AF2",
+			tasks: [{
+				id: "2A90762EDE2265DA",
+				type: "item",
+				item: "toms_storage:ts.inventory_connector"
+			}],
+			rewards: [{
+				id: "0E187FDED0C57690",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 8.0d,
+			dependencies: ["07765E7D55E3C4DE"],
+			id: "5438B4262159CF53",
+			tasks: [{
+				id: "7AF1B3A7BC7B63B1",
+				type: "item",
+				item: "toms_storage:ts.trim"
+			}],
+			rewards: [{
+				id: "2C396A53048024A3",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 8.0d,
+			dependencies: ["07765E7D55E3C4DE"],
+			id: "7B5B91C02B44F0E2",
+			tasks: [{
+				id: "76701427F51C42A3",
+				type: "item",
+				item: "toms_storage:ts.inventory_cable_connector"
+			}],
+			rewards: [{
+				id: "4DF542F426037A77",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 9.5d,
+			dependencies: ["7B5B91C02B44F0E2"],
+			id: "133CC1589566FFDB",
+			tasks: [{
+				id: "57ABD85AC5A55703",
+				type: "item",
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+			}],
+			rewards: [{
+				id: "64A7E1619EC84333",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.0d,
+			dependencies: ["7CDB8CB744CAD335"],
+			size: 1.5d,
+			id: "07765E7D55E3C4DE",
+			tasks: [{
+				id: "58189D516043A520",
+				type: "item",
+				item: "toms_storage:ts.crafting_terminal"
+			}],
+			rewards: [{
+				id: "686CBDD42BBE3B05",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 9.5d,
+			dependencies: ["07765E7D55E3C4DE"],
+			id: "1B591149203BF72F",
+			tasks: [{
+				id: "15E26CE217AE4E5A",
+				type: "item",
+				item: "toms_storage:ts.inventory_cable"
+			}],
+			rewards: [{
+				id: "79E4479908A2334A",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 11.0d,
+			dependencies: ["6209CA436D62C86F"],
+			id: "1E81C12636451418",
+			tasks: [{
+				id: "44A2ED8F15EB98B3",
+				type: "item",
+				item: "toms_storage:ts.level_emitter"
+			}],
+			rewards: [{
+				id: "4DDE8459C1DABDE4",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 11.0d,
+			dependencies: ["07765E7D55E3C4DE"],
+			id: "6209CA436D62C86F",
+			tasks: [{
+				id: "58B7BD843FE4B2D7",
+				type: "item",
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}],
+			rewards: [{
+				id: "687964B386D8D3B7",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 8.0d,
+			dependencies: ["7CDB8CB744CAD335"],
+			id: "7D18F5D016BA02CD",
+			tasks: [{
+				id: "4254336C6F607A04",
+				type: "item",
+				item: "expandedstorage:wood_chest"
+			}],
+			rewards: [{
+				id: "07F935ED3EEF3D7C",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 9.5d,
+			dependencies: ["7D18F5D016BA02CD"],
+			id: "48BAB84D0106E584",
+			tasks: [{
+				id: "4478678B9A4CA932",
+				type: "item",
+				item: "expandedstorage:iron_chest"
+			}],
+			rewards: [{
+				id: "41AF31CAD66951E0",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 11.0d,
+			dependencies: ["48BAB84D0106E584"],
+			id: "093946ACCB44253A",
+			tasks: [{
+				id: "78A68133D4862F55",
+				type: "item",
+				item: "expandedstorage:gold_chest"
+			}],
+			rewards: [{
+				id: "0B871FC5C47272F5",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 12.5d,
+			dependencies: ["093946ACCB44253A"],
+			id: "3DF2C12E500B092D",
+			tasks: [{
+				id: "75E85222EE0AFB86",
+				type: "item",
+				item: "expandedstorage:diamond_chest"
+			}],
+			rewards: [{
+				id: "335206ECE620B688",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 12.5d,
+			dependencies: ["3DF2C12E500B092D"],
+			id: "2ED4AB0C56EFBAB9",
+			tasks: [{
+				id: "2CF5ECC8717F20E3",
+				type: "item",
+				item: "expandedstorage:netherite_chest"
+			}],
+			rewards: [{
+				id: "659FC7BDC285739B",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 5.5d,
+			dependencies: ["7CDB8CB744CAD335"],
+			id: "138595C08622A95F",
+			tasks: [{
+				id: "595FA66CFB9197A2",
+				type: "item",
+				item: {
+					id: "mmorpg:backpack/normal",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "3F2B1466E48CFCEA",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.0d,
+			dependencies: ["138595C08622A95F"],
+			id: "0913D2511E0C4B59",
+			tasks: [{
+				id: "66110A3D071A7FB1",
+				type: "item",
+				item: "mmorpg:backpack/upgrade/size0"
+			}],
+			rewards: [{
+				id: "5751DF37514B5F4E",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 7.0d,
+			dependencies: ["138595C08622A95F"],
+			id: "02E948756515FAE7",
+			tasks: [{
+				id: "2CB24F43C66FB4B5",
+				type: "item",
+				item: "mmorpg:backpack/upgrade/auto_sal0"
+			}],
+			rewards: [{
+				id: "5E6208C234D85899",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -1.5d,
+			dependencies: ["4F72C0F37DC288DC"],
+			id: "4D0691BBFCD53CD4",
+			tasks: [{
+				id: "76F2A993A61B7739",
+				type: "item",
+				item: "mmorpg:alchemy/potion/health/0"
+			}],
+			rewards: [{
+				id: "48FF59DEDF361B27",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -3.0d,
+			dependencies: ["4D0691BBFCD53CD4"],
+			id: "5C9AFE7CDCA981D0",
+			tasks: [{
+				id: "06DBF7B6AC46D994",
+				type: "item",
+				item: "mmorpg:alchemy/potion/health/1"
+			}],
+			rewards: [{
+				id: "2E9FD2946644875D",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.5d,
+			dependencies: ["5C9AFE7CDCA981D0"],
+			id: "1B950C211DDEDA18",
+			tasks: [{
+				id: "24EE2E09E373F9B2",
+				type: "item",
+				item: "mmorpg:alchemy/potion/health/2"
+			}],
+			rewards: [{
+				id: "3D3E3EA595C9EB0B",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -4.0d,
+			dependencies: ["1B950C211DDEDA18"],
+			id: "2B1B19046AF2F201",
+			tasks: [{
+				id: "79D523F339E84DC2",
+				type: "item",
+				item: "mmorpg:alchemy/potion/health/3"
+			}],
+			rewards: [{
+				id: "24ED7A5D85906771",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			dependencies: ["2B1B19046AF2F201"],
+			id: "7C9BBAA0234015B8",
+			tasks: [{
+				id: "6FCF86B96EBD431E",
+				type: "item",
+				item: "mmorpg:alchemy/potion/health/4"
+			}],
+			rewards: [{
+				id: "4C6A30C7E7AA57C6",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			dependencies: ["4F72C0F37DC288DC"],
+			id: "51995256090F2786",
+			tasks: [{
+				id: "0C63BF212D131E45",
+				type: "item",
+				item: "mmorpg:alchemy/potion/mana/0"
+			}],
+			rewards: [{
+				id: "5AFBCA0479103523",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.0d,
+			dependencies: ["51995256090F2786"],
+			id: "6C2FD151C2280D29",
+			tasks: [{
+				id: "6FAB614482EAECD1",
+				type: "item",
+				item: "mmorpg:alchemy/potion/mana/1"
+			}],
+			rewards: [{
+				id: "2BAA3674A830A88A",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			dependencies: ["6C2FD151C2280D29"],
+			id: "563732B470F6913F",
+			tasks: [{
+				id: "07124CA79171C24B",
+				type: "item",
+				item: "mmorpg:alchemy/potion/mana/2"
+			}],
+			rewards: [{
+				id: "122C9A68AAC9FBE2",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			dependencies: ["563732B470F6913F"],
+			id: "2FEA654DA919466B",
+			tasks: [{
+				id: "7800D5A640A32A63",
+				type: "item",
+				item: "mmorpg:alchemy/potion/mana/3"
+			}],
+			rewards: [{
+				id: "218A937145BB28D9",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -3.0d,
+			dependencies: ["2FEA654DA919466B"],
+			id: "1A42A07C2C525600",
+			tasks: [{
+				id: "45322A726C1ADD21",
+				type: "item",
+				item: "mmorpg:alchemy/potion/mana/4"
+			}],
+			rewards: [{
+				id: "49E5836464AA28B8",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -14.5d,
+			y: 4.0d,
+			dependencies: ["33AA9C50E9FBF890"],
+			id: "46CC5BA0705F8BFA",
+			tasks: [{
+				id: "6710930E91D41783",
+				type: "item",
+				item: "mmorpg:mat/condensed_salvage/c0"
+			}],
+			rewards: [{
+				id: "060C685C1F9F3B13",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 4.0d,
+			dependencies: ["59EA0317DA5B0653"],
+			id: "33AA9C50E9FBF890",
+			tasks: [{
+				id: "709FBD6FC8B5B979",
+				type: "item",
+				item: "mmorpg:mat/smelted/0"
+			}],
+			rewards: [{
+				id: "031C8C24E09A435A",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 8.0d,
+			dependencies: ["16B94140A486835F"],
+			id: "048AFEFC9F7BACAF",
+			tasks: [{
+				id: "090EA34FB506BA92",
+				type: "item",
+				item: "mmorpg:food/meal/purple/0"
+			}],
+			rewards: [{
+				id: "5EFDC7A551C53207",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 8.0d,
+			dependencies: ["16B94140A486835F"],
+			id: "26158C1740A11911",
+			tasks: [{
+				id: "0762037E8CB3C8AA",
+				type: "item",
+				item: "mmorpg:food/meal/blue/0"
+			}],
+			rewards: [{
+				id: "59D09F286880EFC2",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 9.0d,
+			dependencies: ["16B94140A486835F"],
+			id: "6AE49C4B91963419",
+			tasks: [{
+				id: "0E1D971D855AF2A9",
+				type: "item",
+				item: "mmorpg:food/meal/red/0"
+			}],
+			rewards: [{
+				id: "387E0795D7244ABF",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.0d,
+			dependencies: ["2C3A781257028B01"],
+			id: "1D730A2E2B41470A",
+			tasks: [{
+				id: "22F27822D659F491",
+				type: "item",
+				item: "expandedstorage:wood_to_iron_conversion_kit"
+			}],
+			rewards: [{
+				id: "0BD0AEDF717C4298",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -5.0d,
+			dependencies: ["1D730A2E2B41470A"],
+			id: "17D80C13C4711DF4",
+			tasks: [{
+				id: "095125F030D7116B",
+				type: "item",
+				item: "expandedstorage:iron_to_gold_conversion_kit"
+			}],
+			rewards: [{
+				id: "22CEE46D1595449B",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -6.0d,
+			dependencies: ["17D80C13C4711DF4"],
+			id: "1DEE66CD7DB43EC0",
+			tasks: [{
+				id: "15631F489C2A0650",
+				type: "item",
+				item: "expandedstorage:gold_to_diamond_conversion_kit"
+			}],
+			rewards: [{
+				id: "5936F8AFFECC9C1E",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -6.0d,
+			dependencies: ["1DEE66CD7DB43EC0"],
+			id: "02F58F804649D56C",
+			tasks: [{
+				id: "15FB8DDC9328B376",
+				type: "item",
+				item: "expandedstorage:diamond_to_netherite_conversion_kit"
+			}],
+			rewards: [{
+				id: "00120CFAF0C56D4D",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 10.0d,
+			dependencies: ["65312E676B6044C8"],
+			id: "6F67B748176BECDB",
+			tasks: [{
+				id: "104E2AF09E53A9BB",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/mace/mace0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0EC7932E2ECD4514",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -15.5d,
+			y: 10.0d,
+			dependencies: ["65312E676B6044C8"],
+			id: "6654AC68561409FC",
+			tasks: [{
+				id: "67E7151D67DE4C9C",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/dagger/dagger0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2DB566E25AA96C13",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -17.5d,
+			y: 9.5d,
+			dependencies: ["65312E676B6044C8"],
+			id: "0033ADD16764F026",
+			tasks: [{
+				id: "3FF69C9912FA2F91",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/scythe/scythe0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "34432DEFF9A15381",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -14.5d,
+			y: 10.0d,
+			dependencies: ["65312E676B6044C8"],
+			id: "0DFA15DC983ADCB1",
+			tasks: [{
+				id: "2166AD762E6D3D96",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/spear/spear0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "04F6F047CF9E48B5",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -13.5d,
+			y: 9.5d,
+			dependencies: ["65312E676B6044C8"],
+			id: "2CE0BDCA47A3280C",
+			tasks: [{
+				id: "2555ED6D933C43EB",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/glove/glove0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1C4D5BFAEEB16A1A",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -17.5d,
+			y: 5.5d,
+			dependencies: ["65312E676B6044C8"],
+			id: "49EDDC0AD803B6B8",
+			tasks: [{
+				id: "51FAADC637F79E8F",
+				type: "item",
+				item: {
+					id: "mmorpg:weapon/scepter/scepter0",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -4.5d,
+			dependencies: ["2C3A781257028B01"],
+			id: "302D8273C435C39D",
+			tasks: [{
+				id: "2FDF1B7A942894B9",
+				type: "item",
+				item: "mmorpg:scroll/paper"
+			}],
+			rewards: [{
+				id: "62E195F9FFD9C7C2",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -3.0d,
+			dependencies: ["302D8273C435C39D"],
+			id: "5035FDC13C1EAFB8",
+			tasks: [{
+				id: "2851A89F5CBD5878",
+				type: "item",
+				item: "mmorpg:scroll/death_teleport"
+			}],
+			rewards: [{
+				id: "0104C821CB262402",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -6.0d,
+			dependencies: ["302D8273C435C39D"],
+			id: "6E2C0C99F76954DB",
+			tasks: [{
+				id: "63D3A6684E53266E",
+				type: "item",
+				item: "mmorpg:scroll/spawn_teleport"
+			}],
+			rewards: [{
+				id: "4EB21AF416C528C3",
+				type: "loot",
+				table_id: 3955332603689485632L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 1.5d,
+			dependencies: ["7D299BE10EEF8E26"],
+			size: 1.5d,
+			id: "13D824DD8B239B0F",
+			tasks: [{
+				id: "184646C232AE6BE5",
+				type: "item",
+				item: "mmorpg:teleporter"
+			}],
+			rewards: [
+				{
+					id: "481D61E3524F447F",
+					type: "loot",
+					table_id: 3955332603689485632L
+				},
+				{
+					id: "39880489EFF47214",
+					type: "item",
+					item: "mmorpg:dungeon_key/common"
+				}
+			]
+		},
+		{
+			x: -14.5d,
+			y: 1.5d,
+			dependencies: ["13D824DD8B239B0F"],
+			id: "17EA764790063054",
+			tasks: [{
+				id: "68D7F4BA2683DA94",
+				type: "item",
+				item: "mmorpg:dim_shard/0"
+			}],
+			rewards: [
+				{
+					id: "58605B95049B3F4D",
+					type: "loot",
+					table_id: 3955332603689485632L
+				},
+				{
+					id: "51192FFD2ED2A552",
+					type: "item",
+					item: "mmorpg:dim_shard/0",
+					count: 10
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: 2.5d,
+			dependencies: ["7D299BE10EEF8E26"],
+			id: "686C596739F8735A",
+			tasks: [{
+				id: "7B715B2C14FCC000",
+				type: "item",
+				item: "divine_missions:shrine"
+			}],
+			rewards: [
+				{
+					id: "0F72EBDC5B1373BE",
+					type: "item",
+					item: "mmorpg:dungeon_key/common"
+				},
+				{
+					id: "1F92EF0ED74BF05C",
+					type: "loot",
+					table_id: 3955332603689485632L
+				}
+			]
 		}
 	]
 }

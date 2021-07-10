@@ -82,14 +82,6 @@
         "weeping_mire_chance[def: 1.0]": 1.0,
         "quartz_desert_chance[def: 1.0]": 1.0
       }
-    },
-    "cinderscapes": {
-      "main": {
-        "blackstone_shales_chance[def: 1.0]": 1.0,
-        "quartz_canyon_chance[def: 1.0]": 1.0,
-        "luminous_grove_chance[def: 1.0]": 1.0,
-        "ashy_shoals_chance[def: 1.0]": 1.0
-      }
     }
   }
 }

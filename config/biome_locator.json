@@ -3,6 +3,6 @@
     "uiLocation": "TOP_LEFT"
   },
   "server": {
-    "maxBiomeDistance": 4000
+    "maxBiomeDistance": 1000
   }
 }

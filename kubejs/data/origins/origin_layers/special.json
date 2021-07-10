@@ -1,0 +1,49 @@
+{
+	"replace": false,
+	"order": 4,
+	"enabled": true,
+	"origins": [{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/special/1_special",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_wandering_trader"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/ground/special/wandering_trader"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/special/1_special",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_turtle"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/aquatic/special/turtle"
+
+			]
+		}
+
+	]
+}

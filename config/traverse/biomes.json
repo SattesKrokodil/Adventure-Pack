@@ -37,6 +37,10 @@
       "weight": 0.8,
       "enable": true
     },
+    "snowy_cliffs": {
+      "weight": 0.8,
+      "enable": true
+    },
     "snowy_high_coniferous_forest": {
       "weight": 0.125,
       "enable": true
@@ -51,10 +55,6 @@
     },
     "meadow": {
       "weight": 0.9,
-      "enable": true
-    },
-    "snowy_cliffs": {
-      "weight": 0.8,
       "enable": true
     }
   },

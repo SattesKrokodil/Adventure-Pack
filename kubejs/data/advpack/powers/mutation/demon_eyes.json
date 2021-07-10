@@ -1,0 +1,11 @@
+  
+{
+  "type": "origins:night_vision",
+  "strength": 1.0,
+
+
+  "name": "Effect:",
+
+  "description": "Gain permanent Nightvision."
+
+}

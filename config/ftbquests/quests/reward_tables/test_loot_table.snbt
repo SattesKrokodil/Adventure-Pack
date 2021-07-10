@@ -57,46 +57,6 @@
 			weight: 3
 		},
 		{
-			item: {
-				id: "extraalchemy:breakable_potion",
-				Count: 1b,
-				tag: {
-					Potion: "minecraft:leaping"
-				}
-			},
-			weight: 5
-		},
-		{
-			item: {
-				id: "extraalchemy:breakable_potion",
-				Count: 1b,
-				tag: {
-					Potion: "minecraft:night_vision"
-				}
-			},
-			weight: 5
-		},
-		{
-			item: {
-				id: "extraalchemy:breakable_potion",
-				Count: 1b,
-				tag: {
-					Potion: "minecraft:swiftness"
-				}
-			},
-			weight: 5
-		},
-		{
-			item: {
-				id: "extraalchemy:breakable_potion",
-				Count: 1b,
-				tag: {
-					Potion: "minecraft:water_breathing"
-				}
-			},
-			weight: 5
-		},
-		{
 			item: "mmorpg:mat/salvage/salvage0",
 			count: 10,
 			weight: 7

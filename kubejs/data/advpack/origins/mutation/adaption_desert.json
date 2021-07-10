@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/adaption_desert"
+	],
+	"icon": "minecraft:sand",
+	"order": 1,
+	"impact": 3,
+	"name": "Adaption: Desert",
+	"description": "'You can't fight the desert... you have to ride with it.'"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MEM",
+    "EME"
+  ],
+  "key": {
+    "E": {
+      "item": "mmorpg:gear_mat/essences/elemental"
+    },
+    "M": {
+      "item": "mmorpg:gear_mat/ore/ore0"
+    }
+  },
+  "result": {
+    "item": "mmorpg:jewelry/necklace/all_res_necklace_low"
+  }
+}

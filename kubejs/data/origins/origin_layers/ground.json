@@ -1,0 +1,253 @@
+{
+	"replace": false,
+	"order": 4,
+	"enabled": true,
+	"origins": [{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_fox"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/rare/fox"
+
+		]
+	},
+	
+	{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_iron_golem"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/rare/iron_golem"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_husk"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/rare/husk"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_chicken"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/uncommon/chicken"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_pillager"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/uncommon/pillager"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_sheep"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/uncommon/sheep"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_endermite"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/epic/endermite"
+
+		]
+	},
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_spider"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/epic/spider"
+
+		]
+	},
+		
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_wolf"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/rare/wolf"
+
+		]
+	},
+		
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_skeleton"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/uncommon/skeleton"
+
+		]
+	},
+		
+	
+		{
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "advpack:transformation/ground/1_ground",
+					"layer": "origins:transformations"
+				},
+				{
+					"type": "origins:advancement",
+					"advancement": "adventurepack:transformation_zombie"
+				}
+			]
+		},
+
+		"origins": [
+
+			"advpack:transformation/ground/uncommon/zombie"
+
+		]
+	}
+	
+	
+	
+	]
+}

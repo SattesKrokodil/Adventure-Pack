@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:gear_mat/ore/ore0"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.crafting_terminal",
+    "count": 1
+  }
+}

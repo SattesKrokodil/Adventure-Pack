@@ -1,0 +1,93 @@
+{
+	"replace": false,
+	"order": 4,
+	"enabled": true,
+	"origins": [{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/aquatic/1_aquatic",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_cod"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/aquatic/uncommon/cod"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/aquatic/1_aquatic",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_salmon"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/aquatic/uncommon/salmon"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/aquatic/1_aquatic",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_pufferfish"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/aquatic/rare/pufferfish"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/aquatic/1_aquatic",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_tropical_fish"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/aquatic/rare/tropical_fish"
+
+			]
+		}
+
+
+	]
+}
+

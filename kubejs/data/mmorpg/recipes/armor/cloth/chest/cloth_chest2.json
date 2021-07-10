@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mmorpg:gear_mat/cloth/cloth2"
+    }
+  },
+  "result": {
+    "item": "mmorpg:armor/cloth/chest/cloth_chest2"
+  }
+}

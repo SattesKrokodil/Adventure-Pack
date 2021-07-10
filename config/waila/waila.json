@@ -5,25 +5,22 @@
     "displayMode": "TOGGLE",
     "hideFromPlayerList": true,
     "hideFromDebug": true,
-    "showItem": true,
     "enableTextToSpeech": false,
     "maxHealthForRender": 40,
-    "maxHeartsPerLine": 10,
-    "displayFluids": false,
-    "displayModName": true
+    "maxHeartsPerLine": 10
   },
   "overlay": {
     "position": {
-      "x": 265,
+      "x": 65,
       "y": 0,
       "alignX": "CENTER",
       "alignY": "TOP",
-      "anchorX": "CENTER",
+      "anchorX": "LEFT",
       "anchorY": "TOP"
     },
-    "scale": 0.95,
+    "scale": 0.8,
     "color": {
-      "alpha": 100,
+      "alpha": 80,
       "themes": [
         {
           "id": "waila:dark",
@@ -40,7 +37,7 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:dark"
+      "activeTheme": "waila:vanilla"
     }
   },
   "formatting": {

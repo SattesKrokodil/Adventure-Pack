@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:gear_mat/leather/leather0"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.inventory_hopper_basic",
+    "count": 1
+  }
+}

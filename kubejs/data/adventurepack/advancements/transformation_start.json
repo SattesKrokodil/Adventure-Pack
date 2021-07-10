@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Very ORIGINal"
+        },
+        "description": {
+            "text": "Collection of your transformations"
+        },
+        "icon": {
+            "item": "minecraft:firework_star"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "adventurepack:mutation_start"
+}

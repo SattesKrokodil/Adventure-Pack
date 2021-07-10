@@ -1,0 +1,54 @@
+{
+  "id": "dynocap",
+  "max_width": 10,
+  "max_depth": 10,
+  "max_height": 10,
+  "default_width": 5,
+  "default_depth": 5,
+  "default_height": 5,
+  "color": "ff7545",
+  "max_damage": -1,
+  "default_name": "Dynocap",
+  "attributes": [
+    "requiresEmptyArea",
+    "3dmodel"
+  ],
+  "repair_item": "minecraft:air",
+  "model_color": "dddddd",
+  "preventCaptureBlocks": [
+
+		"minecraft:bedrock",
+		"minecraft:command_block",
+		"minecraft:barrier",
+		"minecraft:repeating_command_block",
+		"minecraft:chain_command_block",
+		"minecraft:structure_block",
+		"minecraft:end_portal_frame",
+		"minecraft:nether_portal",
+		"world_of_exile:final_treasure",
+		"minecraft:end_portal",
+		"minecraft:end_gateway",
+		"betterend:end_portal_block",
+		"transferchestmod:transfer_chest",
+		"minecraft:bee_nest",
+		"minecraft:spawner",
+		"mmorpg:teleporter",
+		"mmorpg:portal",
+		"waystones:waystone",
+		"minecraft:lava",
+		"minecraft:water"
+
+  ],
+  "preventOverrideBlocks": [
+    "minecraft:command_block",
+    "minecraft:end_portal_frame",
+    "minecraft:bedrock",
+    "minecraft:chain_command_block",
+    "minecraft:structure_block",
+    "minecraft:end_gateway",
+    "minecraft:barrier",
+    "minecraft:repeating_command_block",
+    "minecraft:nether_portal"
+  ],
+  "preventCaptureEntities": []
+}

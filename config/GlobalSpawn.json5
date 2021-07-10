@@ -1,0 +1,12 @@
+{ 
+	"globalRespawnPointActive": false,
+	"globalRespawnDimension": "minecraft:overworld",
+	"globalRespawnPositionX": 50,
+	"globalRespawnPositionY": 80,
+	"globalRespawnPositionZ": 50,
+	"initialSpawnPointActive": false,
+	"initialSpawnPointDimension": "minecraft:overworld",
+	"initialSpawnPositionX": 50,
+	"initialSpawnPositionY": 80,
+	"initialSpawnPositionZ": 50
+}

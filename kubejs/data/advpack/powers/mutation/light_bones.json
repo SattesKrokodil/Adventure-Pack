@@ -1,0 +1,13 @@
+  
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+
+  "name": "Effect:",
+
+  "description": "You take no fall damage."
+
+}

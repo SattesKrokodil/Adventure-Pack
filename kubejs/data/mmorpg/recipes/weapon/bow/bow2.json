@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MB",
+    "M B",
+    " MB"
+  ],
+  "key": {
+    "M": {
+      "item": "mmorpg:gear_mat/ore/ore2"
+    },
+    "B": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mmorpg:weapon/bow/bow2"
+  }
+}

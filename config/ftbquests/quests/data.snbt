@@ -1,5 +1,5 @@
 {
-	version: 10,
+	version: 11,
 	title: "AdventurePack",
 	icon: "minecraft:campfire",
 	default_reward_team: false,
@@ -8,11 +8,8 @@
 	default_quest_shape: "circle",
 	default_quest_disable_jei: false,
 	emergency_items: [{
-		id: "deaths_wish:potion_of_demise",
-		Count: 1b,
-		tag: {
-			Damage: 0
-		}
+		id: "mmorpg:potions/death_potion",
+		Count: 1b
 	}],
 	emergency_items_cooldown: 200,
 	drop_loot_crates: false,
@@ -23,6 +20,5 @@
 	},
 	disable_gui: false,
 	grid_scale: 0.5d,
-	pause_game: false,
-	chapter_groups: []
+	pause_game: false
 }

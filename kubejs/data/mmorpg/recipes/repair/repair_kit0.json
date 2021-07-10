@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " v ",
+    "vtv",
+    " v "
+  ],
+  "key": {
+    "v": {
+      "item": "minecraft:iron_ingot"
+    },
+    "t": {
+      "item": "mmorpg:mat/salvage/salvage1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:repair/repair_kit0"
+  }
+}

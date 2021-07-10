@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "mmorpg:gear_mat/leather/leather1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:armor/leather/pants/leather_pants1"
+  }
+}

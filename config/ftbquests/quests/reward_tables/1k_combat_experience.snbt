@@ -1,0 +1,17 @@
+{
+	id: "7A1F82869B6FDD6B",
+	order_index: 2,
+	title: "1k combat experience",
+	icon: "biomemakeover:lightning_bottle",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		auto: "enabled",
+		player_command: 0b,
+		icon: "biomemakeover:lightning_bottle",
+		title: "1k combat experience",
+		type: "command",
+		command: "/age_of_exile give exp @p 1000"
+	}]
+}

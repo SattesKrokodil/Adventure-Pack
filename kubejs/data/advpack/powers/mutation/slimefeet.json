@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "value": 0.4,
+    "operation": "multiply_base"
+  },
+
+  "name": "Effect:",
+
+  "description": "Your jump height is increased."
+
+}

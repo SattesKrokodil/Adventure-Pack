@@ -1,0 +1,8 @@
+{
+    "type": "origins:ignore_water",
+
+  "name": "Effect:",
+
+  "description": "When in water you sink down to the ground as if you were on the surface."
+
+}

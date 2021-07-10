@@ -31,7 +31,7 @@
 		// Ruins
 		"ruins_chance": 3500,
 		// Lamppost
-		"lamppost_chance": 85,
+		"lamppost_chance": 100,
 		// Boulder
 		"boulder_chance": 4000,
 		// Volcanic Vent
@@ -72,11 +72,11 @@
 		"barn_house_seperation": 16,
 		"barn_house_spacing": 40,
 		// Big Pyramid
-		"big_pyramid_seperation": 8,
-		"big_pyramid_spacing": 32,
+		"big_pyramid_seperation": 5,
+		"big_pyramid_spacing": 25,
 		// Jungle Pyramid
 		"jungle_pyramid_seperation": 5,
-		"jungle_pyramid_spacing": 32,
+		"jungle_pyramid_spacing": 25,
 		// The Castle In The Sky
 		"the_castle_in_the_sky_seperation": 8,
 		"the_castle_in_the_sky_spacing": 32,

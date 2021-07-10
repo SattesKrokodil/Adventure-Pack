@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/aquatic/special/turtle",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_aquatic",
+	"order": 0,
+	"impact": 0,
+	"name": "Turtle",
+	"description": " "
+}

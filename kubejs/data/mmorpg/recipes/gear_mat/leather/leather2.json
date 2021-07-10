@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    " v ",
+    " s "
+  ],
+  "key": {
+    "v": {
+      "item": "minecraft:leather"
+    },
+    "e": {
+      "item": "mmorpg:mat/salvage/salvage2"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mmorpg:gear_mat/leather/leather2"
+  }
+}

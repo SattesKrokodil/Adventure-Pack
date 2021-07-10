@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Comes with Sunglasses",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Mutation: Fish Eyes"
+        },
+        "icon": {
+            "item": "itemsfromtext:fish_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "adventurepack:mutation_start"
+}

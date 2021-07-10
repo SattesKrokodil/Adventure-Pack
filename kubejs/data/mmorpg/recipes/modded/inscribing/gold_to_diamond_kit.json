@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:tablet_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:scroll/paper"
+    },
+    {
+      "item": "mmorpg:gear_mat/cloth/cloth3"
+    },
+    {
+      "item": "mmorpg:mat/condensed_salvage/c3"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:gold_to_diamond_conversion_kit"
+  }
+}

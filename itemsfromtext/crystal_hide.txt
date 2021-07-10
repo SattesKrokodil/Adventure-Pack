@@ -1,0 +1,5 @@
+name=crystal_hide
+stack=1
+type=food
+hunger=0
+saturation=0

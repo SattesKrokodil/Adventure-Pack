@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:gear_mat/cloth/cloth0"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:item_frame"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_connector",
+    "count": 1
+  }
+}

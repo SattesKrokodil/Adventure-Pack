@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:food_shapeless",
+  "ingredients": [
+    {
+      "item": "gofish:blackstone_trout"
+    },
+    {
+      "item": "mmorpg:plant/plant4"
+    },
+    {
+      "item": "mmorpg:raw_fish/purple/3"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:food/fish/purple/3"
+  }
+}

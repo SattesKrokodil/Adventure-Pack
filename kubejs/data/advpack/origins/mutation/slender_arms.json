@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/slender_arms"
+	],
+	"icon": "itemsfromtext:ender_arms",
+	"order": 1,
+	"impact": 2,
+	"name": "Slender Arms",
+	"description": "Totally not nightmarefuel. They also call them back-scratchers."
+}

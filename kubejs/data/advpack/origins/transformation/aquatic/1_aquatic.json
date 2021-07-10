@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform"
+	],
+	"icon": "minecraft:tube_coral",
+	"order": 1,
+	"impact": 1,
+	"name": "Aquatic",
+	"description": "Collection of all your aquatic transformations. This transformation type lets you breathe underwater."
+}

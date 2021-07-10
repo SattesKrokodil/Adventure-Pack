@@ -1,13 +1,13 @@
 #Tools with the Acquisition enchantment automatically pick up drops.
 "Acquisition Enabled" = true
 #Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
-"AerialAffinity Enabled" = true
+"AerialAffinity Enabled" = false
 #Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.
-"AnvilImprovements Enabled" = true
+"AnvilImprovements Enabled" = false
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
 "ArmorInvisibility Enabled" = true
 #Storage for maps that automatically updates the displayed map as you explore.
-"Atlas Enabled" = true
+"Atlas Enabled" = false
 #Refills your hotbar from your inventory.
 "AutoRestock Enabled" = true
 #Unlocks all vanilla recipes.
@@ -33,11 +33,11 @@
 #Cave spiders have a chance to drop cobwebs.
 "CaveSpidersDropCobwebs Enabled" = true
 #Chickens randomly drop feathers.
-"ChickensDropFeathers Enabled" = true
+"ChickensDropFeathers Enabled" = false
 #Coral can be combined with sea lanterns to make colored variants.
 "CoralSeaLanterns Enabled" = true
 #Coral Squids spawn near coral in warm oceans.
-"CoralSquids Enabled" = true
+"CoralSquids Enabled" = false
 #A smaller storage solution with the benefit of being transportable.
 "Crates Enabled" = true
 #Combine a tool or armor with a netherite nugget on an anvil to reduce its repair cost.
@@ -45,7 +45,7 @@
 #Right-clicking dirt with a shovel turns it into grass path.
 "DirtToPath Enabled" = true
 #Endermites drop endermite powder that can be used to locate an End City.
-"EndermitePowder Enabled" = true
+"EndermitePowder Enabled" = false
 #Extends the lifetime of netherite-based items before they despawn.
 "ExtendNetherite Enabled" = true
 #Adds custom recipes.
@@ -55,7 +55,7 @@
 #A player wearing feather falling enchanted boots will not trample crops.
 "FeatherFallingCrops Enabled" = true
 #Glowballs can be thrown to produce a light source where they impact.
-"Glowballs Enabled" = true
+"Glowballs Enabled" = false
 #Gold variant of vanilla iron bars.
 "GoldBars Enabled" = true
 #Gold version of the vanilla chain.
@@ -63,11 +63,11 @@
 #Gold version of the vanilla lanterns.
 "GoldLanterns Enabled" = true
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
-"HoeHarvesting Enabled" = true
+"HoeHarvesting Enabled" = false
 #Husks spawn anywhere within their biome and have a chance to drop sand.
 "HuskImprovements Enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying Enabled" = true
+"InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, bricks and terracotta.
 "Kilns Enabled" = true
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
@@ -76,8 +76,6 @@
 "MapTooltips Enabled" = true
 #Adds decoration and more ores to mineshafts.
 "MineshaftImprovements Enabled" = true
-#Configure how often mob sounds are played.
-"MobSoundCulling Enabled" = true
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.
 "Mooblooms Enabled" = true
 #Crying obsidian and refined obsidian can be used to construct nether portal frames.
@@ -93,12 +91,14 @@
 "ParrotsStayOnShoulder Enabled" = true
 #Right-clicking on a grass path block with a hoe turns it back into dirt.
 "PathToDirt Enabled" = true
+#Player-only pressure plates.
+"PlayerPressurePlates Enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
 "PortableCrafting Enabled" = true
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest Enabled" = true
+"PortableEnderChest Enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
-"RaidHorns Enabled" = true
+"RaidHorns Enabled" = false
 #A lantern that emits light when a redstone signal is received.
 "RedstoneLanterns Enabled" = true
 #A block that acts like sand but is powered like a block of redstone.
@@ -106,13 +106,13 @@
 #Decorative block made by smelting obsidian.
 "RefinedObsidian Enabled" = true
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
-"RemoveNitwits Enabled" = true
+"RemoveNitwits Enabled" = false
 #Removes the potion enchantment glint so you can see what the potion color is.
 "RemovePotionGlint Enabled" = true
 #Shows the contents of a Shulker Box on hover-over.
 "ShulkerBoxTooltips Enabled" = true
 #Allows the night to pass when a specified number of players are asleep.
-"SleepImprovements Enabled" = true
+"SleepImprovements Enabled" = false
 #Smelt glowstone to get smooth glowstone.
 "SmoothGlowstone Enabled" = true
 #Increases snow layers in cold biomes during thunderstorms.
@@ -120,7 +120,7 @@
 #Allows enchanted books to stack.
 "StackableEnchantedBooks Enabled" = true
 #Allows potions to stack.
-"StackablePotions Enabled" = true
+"StackablePotions Enabled" = false
 #Allows stews to stack.
 "StackableStews Enabled" = true
 #Strays spawn anywhere within their biome and have a chance to drop blue ice.
@@ -142,11 +142,11 @@
 #Mobs may spawn with different textures.
 "VariantMobTextures Enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
-"VillagersFollowEmeraldBlocks Enabled" = true
+"VillagersFollowEmeraldBlocks Enabled" = false
 #Wandering traders only appear near signal campfires and sell maps to biomes and structures.
-"WanderingTraderImprovements Enabled" = true
+"WanderingTraderImprovements Enabled" = false
 #A witch has a chance to drop a Potion of Luck when killed by a player.
-"WitchesDropLuck Enabled" = true
+"WitchesDropLuck Enabled" = false
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
 "Woodcutters Enabled" = true
 
@@ -161,10 +161,10 @@
 	"Show item repair cost" = true
 
 [Atlas]
-	#The atlas will create maps of this size (0-4).
-	"Map Size" = 2
 	#Allow opening the atlas while it is in the off hand.
 	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
 
 [BatBuckets]
 	#Number of seconds that entities will receive the glowing effect.
@@ -244,13 +244,17 @@
 	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
 	"Gilded Blackstone" = true
 	#If true, adds a recipe for the Trident using prismarine shards and crystals.
-	Trident = true
+	Trident = false
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye" = true
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.
 	"Green Dye" = true
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
 	"Soul Torch" = true
+	#If true, adds a shapeless recipe for bread.
+	Bread = true
+	#If true, adds a shapeless recipe for paper.
+	Paper = true
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
@@ -282,15 +286,13 @@
 	#If true, loot crates will be added to mineshaft corridors.
 	"Add crates" = true
 
-[MobSoundCulling]
-	#List of mobs to apply the custom sound delay to.
-	"Custom mob types" = ["minecraft:cow", "minecraft:sheep"]
-	#This delay applies to all mobs in the custom mob types list. As a guide, sheep and cows are 120 in vanilla.
-	"Custom mob sound delay" = 400
-
 [MusicImprovements]
 	#If true, the six Creative music tracks may play in survival mode.
 	"Play Creative music" = true
+
+[PlayerPressurePlates]
+	#This module is automatically disabled if Quark is present. Set true to force enable.
+	Override = false
 
 [PlayerState]
 	#Interval (in ticks) on which additional world state will be synchronised to the client.
@@ -298,11 +300,11 @@
 
 [PortableCrafting]
 	#If true, sets a keybind for opening the portable crafting table (defaults to 'c').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [PortableEnderChest]
 	#If true, sets a keybind for opening the portable Ender Chest (defaults to 'b').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [RaidHorns]
 	#Chance (out of 1.0) of a patrol captain dropping a raid horn when killed by the player.
@@ -370,9 +372,9 @@
 
 [WanderingTraderImprovements]
 	#If true, wandering traders will sell maps to biomes.
-	"Trade biome maps" = true
+	"Trade biome maps" = false
 	#If true, wandering traders will sell maps to structures.
-	"Trade structure maps" = true
+	"Trade structure maps" = false
 	#If true, makes wandering traders more likely to spawn after one Minecraft day.
 	"Frequent spawning" = false
 

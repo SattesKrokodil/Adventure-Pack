@@ -1,0 +1,1145 @@
+{
+	id: "6B0D30C353411B7B",
+	group: "",
+	order_index: 6,
+	filename: "fishing_with_the_besties",
+	title: "Fishing with the besties",
+	icon: {
+		id: "gofish:ender_rod",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Love it or hate it",
+			x: 0.5d,
+			y: 0.0d,
+			size: 1.5d,
+			id: "47195451E0AABF9D",
+			tasks: [{
+				id: "5EBD4A700E758AE7",
+				type: "advancement",
+				icon: {
+					id: "minecraft:fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:husbandry/fishy_business",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "06AB78B58E3C8A3D",
+				type: "item",
+				item: "byg:mangrove_boat"
+			}]
+		},
+		{
+			title: "Lava Fishing",
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "23D5B6FDAD14F81C",
+			tasks: [{
+				id: "1C4D588186B1F3CD",
+				type: "item",
+				item: {
+					id: "gofish:blaze_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Everything is better in diamond",
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "3EBB1B8E39332751",
+			tasks: [{
+				id: "4BD20E931930547A",
+				type: "item",
+				item: {
+					id: "gofish:diamond_reinforced_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Minmax",
+			x: 0.5d,
+			y: 4.0d,
+			dependencies: ["7D6AF5B8A7DE4847"],
+			id: "29DC10B58D7F1121",
+			tasks: [{
+				id: "327499426A118696",
+				type: "item",
+				item: "gofish:simple_lure"
+			}]
+		},
+		{
+			title: "Trophy Hunting",
+			x: 0.5d,
+			y: 2.5d,
+			dependencies: [
+				"3EBB1B8E39332751",
+				"23D5B6FDAD14F81C"
+			],
+			dependency_requirement: "one_completed",
+			id: "7D6AF5B8A7DE4847",
+			tasks: [{
+				id: "1722C1C46D074DC7",
+				type: "item",
+				item: "zoob:serrated_tooth"
+			}]
+		},
+		{
+			title: "... more Minmax?",
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: ["29DC10B58D7F1121"],
+			id: "2A5966702F7B16FA",
+			tasks: [{
+				id: "26B0136710EFF146",
+				type: "item",
+				item: "gofish:soul_lure"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 5.5d,
+			id: "355A0A5D9D2C3B57",
+			tasks: [{
+				id: "37C94C22A6848515",
+				type: "item",
+				item: {
+					id: "gofish:skeletal_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			id: "0449D934BFD12580",
+			tasks: [{
+				id: "492F1A9CC8F14D52",
+				type: "item",
+				item: {
+					id: "gofish:frosted_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.5d,
+			id: "3DFEAD44FC6D2FA5",
+			tasks: [{
+				id: "347381E5809AE566",
+				type: "item",
+				item: {
+					id: "gofish:slime_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						GEAR_ITEM_DATA: {
+							rs: 3,
+							lvl: 1,
+							c: 0b,
+							uniqueStats-: 1b,
+							item_id: "",
+							in: 0.0f,
+							can_sal: 1b,
+							affixes: {
+								suf: {
+									0: {
+										perc: 29,
+										tier: 1,
+										type: 1,
+										affix: "fishing_exp"
+									},
+									size: 1
+								},
+								pre: {
+									size: 0
+								}
+							},
+							ided: 1b,
+							imp: {
+								perc: 92
+							},
+							uniq_id: "",
+							s: 0b,
+							sockets: {
+								slots: 0,
+								sockets: {
+									size: 0
+								},
+								word: "",
+								word_perc: 0
+							},
+							baseStats: {
+								perc: {
+									0: 96,
+									1: 86,
+									2: 96,
+									3: 81,
+									size: 8,
+									4: 100,
+									5: 83,
+									6: 89,
+									7: 80
+								}
+							},
+							rp: 2,
+							rarity: "magical",
+							gear_type: "fishing_rod4"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 7.0d,
+			id: "7E6ED046F620F0F2",
+			tasks: [{
+				id: "4E4F37A5016CADCD",
+				type: "item",
+				item: {
+					id: "gofish:soul_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			id: "7B7A98531FFE5A28",
+			tasks: [{
+				id: "0FA1738855F3A0BF",
+				type: "item",
+				item: {
+					id: "gofish:matrix_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 8.5d,
+			id: "1666E4286DB9C391",
+			tasks: [{
+				id: "6CA5DCEC3EE39B29",
+				type: "item",
+				item: {
+					id: "gofish:celestial_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 7.0d,
+			id: "4B8A3FD1BB8B42CF",
+			tasks: [{
+				id: "679E74D58509F69C",
+				type: "item",
+				item: {
+					id: "gofish:ender_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 9.5d,
+			id: "1B4A564A0A2D1E63",
+			tasks: [{
+				id: "33BB130CAAFA056D",
+				type: "item",
+				item: "gofish:wooden_crate"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 8.5d,
+			id: "6E922D4E06F16BE8",
+			tasks: [{
+				id: "37170DA96A5C697C",
+				type: "item",
+				item: "gofish:iron_crate"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 9.0d,
+			id: "112763034A6D67CB",
+			tasks: [{
+				id: "6C81180E2303CF58",
+				type: "item",
+				item: "gofish:golden_crate"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.0d,
+			id: "52B074DEFA30B6D8",
+			tasks: [{
+				id: "77E1B32EBC8DEA75",
+				type: "item",
+				item: "gofish:diamond_crate"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.0d,
+			id: "7659942E5F187985",
+			tasks: [{
+				id: "725935E60B282BAD",
+				type: "item",
+				item: "gofish:frosted_crate"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.5d,
+			id: "039257191ED6DFDA",
+			tasks: [{
+				id: "6FC95B3A5FA26C30",
+				type: "item",
+				item: "gofish:slimey_crate"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 9.0d,
+			id: "63A5CE529255E112",
+			tasks: [{
+				id: "7872F0E3D40CD3B9",
+				type: "item",
+				item: "gofish:supply_crate"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			id: "11A1C613A2736E53",
+			tasks: [{
+				id: "051E95F1486E91FE",
+				type: "item",
+				item: "gofish:supply_crate"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 8.5d,
+			id: "3265343FCD001065",
+			tasks: [{
+				id: "1DB65A60124D237A",
+				type: "item",
+				item: "gofish:fiery_crate"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 7.0d,
+			id: "3F3568E8035846E2",
+			tasks: [{
+				id: "4E7CE2CAAA0CF6CC",
+				type: "item",
+				item: "gofish:soul_crate"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 7.0d,
+			id: "46A81F95B13582F6",
+			tasks: [{
+				id: "60FF2D2FDD403C21",
+				type: "item",
+				item: "gofish:gilded_blackstone_crate"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 11.5d,
+			id: "4D0ADEB8C3FF2E7B",
+			tasks: [{
+				id: "75CDEFF639F5BB81",
+				type: "item",
+				item: "gofish:astral_crate"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			dependencies: ["29DC10B58D7F1121"],
+			id: "39781EC1FCFAEA9D",
+			tasks: [{
+				id: "76200FE17C53019B",
+				type: "item",
+				item: "mmorpg:lure/fish/0"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			dependencies: ["29DC10B58D7F1121"],
+			id: "6D9D7AAC2492C7EB",
+			tasks: [{
+				id: "142864CA1431A5F3",
+				type: "item",
+				item: "mmorpg:lure/ink/0"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -0.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "52EADAB76AE5F250",
+			tasks: [
+				{
+					id: "5A871EB4C5B33E5B",
+					type: "item",
+					item: "mmorpg:raw_fish/yellow/0"
+				},
+				{
+					id: "4F36680651A591B3",
+					type: "item",
+					item: "mmorpg:food/fish/yellow/0"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "5EC46949555587B9",
+			tasks: [
+				{
+					id: "73056F593CF5AA08",
+					type: "item",
+					item: "mmorpg:raw_fish/purple/0"
+				},
+				{
+					id: "74E219A6CBA044B7",
+					type: "item",
+					item: "mmorpg:food/fish/purple/0"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "0BAF1EF922970A4E",
+			tasks: [
+				{
+					id: "16F793C929FD85BA",
+					type: "item",
+					item: "mmorpg:raw_fish/green/0"
+				},
+				{
+					id: "553A2897C9B5738C",
+					type: "item",
+					item: "mmorpg:food/fish/green/0"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "58C9CAE23D33ED56",
+			tasks: [
+				{
+					id: "341AD7CB0C5AD1D6",
+					type: "item",
+					item: "mmorpg:raw_fish/blue/0"
+				},
+				{
+					id: "61988C324666F087",
+					type: "item",
+					item: "mmorpg:food/fish/blue/0"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			dependencies: ["47195451E0AABF9D"],
+			id: "157BAE24AECC5B09",
+			tasks: [
+				{
+					id: "5DE7C6B681858665",
+					type: "item",
+					item: "mmorpg:raw_fish/red/0"
+				},
+				{
+					id: "6F5064F207907EFA",
+					type: "item",
+					item: "mmorpg:food/fish/red/0"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: ["5EC46949555587B9"],
+			id: "4D88BE82085FB8FE",
+			tasks: [
+				{
+					id: "4F1A840C060C8E14",
+					type: "item",
+					item: "mmorpg:raw_fish/purple/1"
+				},
+				{
+					id: "6E5828325D02BFB1",
+					type: "item",
+					item: "mmorpg:food/fish/purple/1"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -3.5d,
+			dependencies: ["4D88BE82085FB8FE"],
+			id: "0E0E0947512E78A7",
+			tasks: [
+				{
+					id: "100E3DB3C1DE8527",
+					type: "item",
+					item: "mmorpg:raw_fish/purple/2"
+				},
+				{
+					id: "170952A73F373BA2",
+					type: "item",
+					item: "mmorpg:food/fish/purple/2"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			dependencies: ["0E0E0947512E78A7"],
+			id: "1E832F5CF1E27950",
+			tasks: [
+				{
+					id: "4E190173AA150C52",
+					type: "item",
+					item: "mmorpg:raw_fish/purple/3"
+				},
+				{
+					id: "0B815EE1248E59BC",
+					type: "item",
+					item: "mmorpg:food/fish/purple/3"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -5.5d,
+			dependencies: ["1E832F5CF1E27950"],
+			id: "3F2D3AF16D8F2F3F",
+			tasks: [
+				{
+					id: "33D85ADC7A9F890B",
+					type: "item",
+					item: "mmorpg:raw_fish/purple/4"
+				},
+				{
+					id: "55065B051275E92F",
+					type: "item",
+					item: "mmorpg:food/fish/purple/4"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			dependencies: ["0BAF1EF922970A4E"],
+			id: "42DB6D5CB48C4FD6",
+			tasks: [
+				{
+					id: "0015FD3E6FE071C0",
+					type: "item",
+					item: "mmorpg:raw_fish/green/1"
+				},
+				{
+					id: "75A431250B20062F",
+					type: "item",
+					item: "mmorpg:food/fish/green/1"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -3.5d,
+			dependencies: ["42DB6D5CB48C4FD6"],
+			id: "4BFE5D23EED03F0C",
+			tasks: [
+				{
+					id: "4D34995356BF0149",
+					type: "item",
+					item: "mmorpg:raw_fish/green/2"
+				},
+				{
+					id: "060C9A0921CEDD08",
+					type: "item",
+					item: "mmorpg:food/fish/green/2"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			dependencies: ["4BFE5D23EED03F0C"],
+			id: "083DB7E380932CC7",
+			tasks: [
+				{
+					id: "33FFE658B0F5FD61",
+					type: "item",
+					item: "mmorpg:raw_fish/green/3"
+				},
+				{
+					id: "106EF72CF0CEDD1B",
+					type: "item",
+					item: "mmorpg:food/fish/green/3"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -5.5d,
+			dependencies: ["083DB7E380932CC7"],
+			id: "69C4A6B335E7834D",
+			tasks: [
+				{
+					id: "14248DBA0897B7CA",
+					type: "item",
+					item: "mmorpg:raw_fish/green/4"
+				},
+				{
+					id: "5CF6C76EF6B946FF",
+					type: "item",
+					item: "mmorpg:food/fish/green/4"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -3.5d,
+			dependencies: ["157BAE24AECC5B09"],
+			id: "06DDD2094635C644",
+			tasks: [
+				{
+					id: "7B74B9C97BD17EB0",
+					type: "item",
+					item: "mmorpg:raw_fish/red/1"
+				},
+				{
+					id: "7CD768D27BCABF6A",
+					type: "item",
+					item: "mmorpg:food/fish/red/1"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -4.5d,
+			dependencies: ["06DDD2094635C644"],
+			id: "51A14C7E138111AC",
+			tasks: [
+				{
+					id: "3132BBFA86B1507F",
+					type: "item",
+					item: "mmorpg:raw_fish/red/2"
+				},
+				{
+					id: "1E702FFEED5BEABB",
+					type: "item",
+					item: "mmorpg:food/fish/red/2"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -5.5d,
+			dependencies: ["51A14C7E138111AC"],
+			id: "2A9A6C4A428A8904",
+			tasks: [
+				{
+					id: "16813E0BF36FF6F1",
+					type: "item",
+					item: "mmorpg:raw_fish/red/3"
+				},
+				{
+					id: "5232BCCC71B0D87E",
+					type: "item",
+					item: "mmorpg:food/fish/red/3"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -6.5d,
+			dependencies: ["2A9A6C4A428A8904"],
+			id: "141DD7EE4DB3C2C2",
+			tasks: [
+				{
+					id: "53852DE355BB749A",
+					type: "item",
+					item: "mmorpg:raw_fish/red/4"
+				},
+				{
+					id: "071F8A71026FC8EA",
+					type: "item",
+					item: "mmorpg:food/fish/red/4"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			dependencies: ["58C9CAE23D33ED56"],
+			id: "120CB274DEA51D0A",
+			tasks: [
+				{
+					id: "4C75C962FC20794A",
+					type: "item",
+					item: "mmorpg:raw_fish/blue/1"
+				},
+				{
+					id: "05695F20349CBD8F",
+					type: "item",
+					item: "mmorpg:food/fish/blue/1"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: ["120CB274DEA51D0A"],
+			id: "4CD9FE8A5464796B",
+			tasks: [
+				{
+					id: "2AA1CF293E1387D3",
+					type: "item",
+					item: "mmorpg:raw_fish/blue/2"
+				},
+				{
+					id: "536C6EFACF478745",
+					type: "item",
+					item: "mmorpg:food/fish/blue/2"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			dependencies: ["4CD9FE8A5464796B"],
+			id: "5C8458E79FD59B74",
+			tasks: [
+				{
+					id: "0B27788C1F3074A4",
+					type: "item",
+					item: "mmorpg:raw_fish/blue/3"
+				},
+				{
+					id: "2CFA967BF826A508",
+					type: "item",
+					item: "mmorpg:food/fish/blue/3"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -2.5d,
+			dependencies: ["5C8458E79FD59B74"],
+			id: "4C275BEA89DE93E8",
+			tasks: [
+				{
+					id: "528A5F4729C23058",
+					type: "item",
+					item: "mmorpg:raw_fish/blue/4"
+				},
+				{
+					id: "18F65164CB0EAB59",
+					type: "item",
+					item: "mmorpg:food/fish/blue/4"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: ["52EADAB76AE5F250"],
+			id: "1A318F91B2D02EED",
+			tasks: [
+				{
+					id: "2311A5FE5EEDB14A",
+					type: "item",
+					item: "mmorpg:raw_fish/yellow/1"
+				},
+				{
+					id: "7223B57B0619D74A",
+					type: "item",
+					item: "mmorpg:food/fish/yellow/1"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			dependencies: ["1A318F91B2D02EED"],
+			id: "42DCCE07915A9F11",
+			tasks: [
+				{
+					id: "34CAC936C5E699BF",
+					type: "item",
+					item: "mmorpg:raw_fish/yellow/2"
+				},
+				{
+					id: "6343849AF5AD7A8A",
+					type: "item",
+					item: "mmorpg:food/fish/yellow/2"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			dependencies: ["42DCCE07915A9F11"],
+			id: "1AB97D44E875E8A1",
+			tasks: [
+				{
+					id: "6BF2B7CFA34D153B",
+					type: "item",
+					item: "mmorpg:raw_fish/yellow/3"
+				},
+				{
+					id: "24E7FE420007020C",
+					type: "item",
+					item: "mmorpg:food/fish/yellow/3"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -2.5d,
+			dependencies: ["1AB97D44E875E8A1"],
+			id: "12E450F85616CF93",
+			tasks: [
+				{
+					id: "78DC7C027761C84E",
+					type: "item",
+					item: "mmorpg:raw_fish/yellow/4"
+				},
+				{
+					id: "0371053E4F257D8C",
+					type: "item",
+					item: "mmorpg:food/fish/yellow/4"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: 0.5d,
+			id: "0D357E595FF62DD7",
+			tasks: [{
+				id: "4F89CDBE3B06750C",
+				type: "item",
+				item: "gofish:bonefish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -2.5d,
+			id: "383418274C23034C",
+			tasks: [{
+				id: "6FB066D90258EEEA",
+				type: "item",
+				item: "gofish:endfish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 2.0d,
+			id: "369F9454B98FEE15",
+			tasks: [{
+				id: "70C5B480E5664A1E",
+				type: "item",
+				item: "gofish:icicle_fish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.5d,
+			id: "746063A2DFD6751D",
+			tasks: [{
+				id: "172217FD974D2C54",
+				type: "item",
+				item: "gofish:matrix_fish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -1.0d,
+			id: "57993D0337ED6B8F",
+			tasks: [{
+				id: "0088F95480316828",
+				type: "item",
+				item: "gofish:snowball_fish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -1.0d,
+			id: "63AAC6BDB0AD2457",
+			tasks: [{
+				id: "0D4F0ACDE1C7D447",
+				type: "item",
+				item: "gofish:lunarfish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 3.5d,
+			id: "757B6A0474442879",
+			tasks: [{
+				id: "7AF0CFAF897B905B",
+				type: "item",
+				item: "gofish:lilyfish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.0d,
+			id: "299D05C43D81AECB",
+			tasks: [{
+				id: "69A7F3188BB88C5B",
+				type: "item",
+				item: "gofish:slimefish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 3.5d,
+			id: "7A7EF7400CEEA8EA",
+			tasks: [{
+				id: "4E51E71C34C716F3",
+				type: "item",
+				item: "gofish:charfish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 5.0d,
+			id: "1824C7A4D0283A45",
+			tasks: [{
+				id: "3A28C5C2573BF87A",
+				type: "item",
+				item: "gofish:nebula_swordfish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 6.5d,
+			id: "4754337C91BC1F9C",
+			tasks: [{
+				id: "2FB949A88F8E1163",
+				type: "item",
+				item: "gofish:spikerfish"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 5.0d,
+			id: "57EF8FA9011F3CC5",
+			tasks: [{
+				id: "6D16C976C5FA6AA6",
+				type: "item",
+				item: "gofish:oakfish"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 8.0d,
+			id: "17CCF1570D50CD68",
+			tasks: [{
+				id: "6A14699B82DC0B98",
+				type: "item",
+				item: "gofish:terrafish"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 6.5d,
+			id: "63D569E5579D1FD3",
+			tasks: [{
+				id: "0932F6BAC1F12DA4",
+				type: "item",
+				item: "gofish:galaxy_starfish"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 8.0d,
+			id: "5EEED8B8F56693EC",
+			tasks: [{
+				id: "3404D40E27746EA5",
+				type: "item",
+				item: "gofish:seaweed_eel"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 9.5d,
+			id: "58900EFD3D4287F0",
+			tasks: [{
+				id: "4854D6ED1BEA94E6",
+				type: "item",
+				item: "gofish:carrot_carp"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 9.5d,
+			id: "6CB19FFE2DCDC846",
+			tasks: [{
+				id: "092E66D7CE2E3BDB",
+				type: "item",
+				item: "gofish:obsidian_halibut"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 10.5d,
+			id: "1C98930DFE57193F",
+			tasks: [{
+				id: "6C929E782565EA56",
+				type: "item",
+				item: "gofish:rainy_bass"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 11.5d,
+			id: "005A85EB06F830C0",
+			tasks: [{
+				id: "3E6B0D4D3AF9CA2E",
+				type: "item",
+				item: "gofish:thundering_bass"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 10.5d,
+			id: "2A400A55CEE58F26",
+			tasks: [{
+				id: "524E0A890FD3CB53",
+				type: "item",
+				item: "gofish:blizzard_bass"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.5d,
+			id: "44F1971AB1538F4B",
+			tasks: [{
+				id: "18852DC549E99BDE",
+				type: "item",
+				item: "gofish:cloudy_crab"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 12.5d,
+			id: "11F644F8C32E257B",
+			tasks: [{
+				id: "66682F4FFDF17D05",
+				type: "item",
+				item: "gofish:basalt_bass"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 13.5d,
+			id: "596A85CCA4CFA40B",
+			tasks: [{
+				id: "6C7FC016645A850F",
+				type: "item",
+				item: "gofish:blackstone_trout"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 14.5d,
+			id: "31CB2515C7575310",
+			tasks: [{
+				id: "07107C60D489467E",
+				type: "item",
+				item: "gofish:smokey_salmon"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 12.5d,
+			id: "47EE7353E61DD522",
+			tasks: [{
+				id: "3D474E8E83EE6060",
+				type: "item",
+				item: "gofish:magma_cod"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 11.5d,
+			id: "0EE6AF01EC621DD5",
+			tasks: [{
+				id: "0E50388B814C1C5E",
+				type: "item",
+				item: "gofish:gilded_blackstone_carp"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 13.5d,
+			id: "2892D799589ADC83",
+			tasks: [{
+				id: "6695B189045C3455",
+				type: "item",
+				item: "gofish:soul_salmon"
+			}]
+		}
+	]
+}

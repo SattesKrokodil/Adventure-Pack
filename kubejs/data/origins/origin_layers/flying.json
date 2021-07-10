@@ -1,0 +1,114 @@
+{
+	"replace": false,
+	"order": 4,
+	"enabled": true,
+	"origins": [{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/flying/1_flying",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_bat"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/flying/uncommon/bat"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/flying/1_flying",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_bee"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/flying/uncommon/bee"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/flying/1_flying",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_parrot"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/flying/rare/parrot"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/flying/1_flying",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_phantom"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/flying/epic/phantom"
+
+			]
+		},
+{
+			"condition": {
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:origin",
+						"origin": "advpack:transformation/flying/1_flying",
+						"layer": "origins:transformations"
+					},
+					{
+						"type": "origins:advancement",
+						"advancement": "adventurepack:transformation_vex"
+					}
+				]
+			},
+
+			"origins": [
+
+				"advpack:transformation/flying/epic/vex"
+
+			]
+		}
+
+
+	]
+}
+

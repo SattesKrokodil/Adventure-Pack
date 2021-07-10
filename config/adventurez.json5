@@ -1,13 +1,19 @@
-{ 
+{
 	"necromancer_spawn_weight": 1,
 	"nightmare_spawn_weight": 2,
 	// Chance for spawning when mining gold ore in nether; 1/Value
-	"piglin_beast_ore_spawn_chance": 100,
+	"piglin_beast_ore_spawn_chance": 70,
 	// Chance for spawning when killing too many piglins; 1/Value
 	"piglin_beast_attack_piglin_spawn_chance": 2,
 	"small_stone_golem_spawn_weight": 5,
 	// Chance for spawning when thunder occurs; 1/Value
-	"summoner_thunder_spawn_chance": 2,
+	"summoner_thunder_spawn_chance": 1,
 	"blaze_guardian_spawn_weight": 1,
-	"fungus_spawn_weight": 10
+	"fungus_spawn_weight": 10,
+	"orc_spawn_weight": 0,
+	"allow_stone_golem_summoning": false,
+	"allow_the_eye_summoning": false,
+	"allow_dragon_hatching": false,
+	"display_rareness": true,
+	"disable_armor_bonus": false
 }

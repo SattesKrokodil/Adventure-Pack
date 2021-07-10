@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "g": {
+      "tag": "mmorpg:flawed_gems"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmorpg:repair_hammers/1"
+  }
+}

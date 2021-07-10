@@ -1,0 +1,17 @@
+{
+  "type": "mmorpg:food_shapeless",
+  "ingredients": [
+    {
+      "item": "gofish:soul_salmon"
+    },
+    {
+      "item": "mmorpg:plant/plant5"
+    },
+    {
+      "item": "mmorpg:raw_fish/purple/4"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:food/fish/purple/4"
+  }
+}

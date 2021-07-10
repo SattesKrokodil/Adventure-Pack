@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:ink/0"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "mmorpg:mat/condensed_salvage/c0"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:wood_chest",
+    "count": 1
+  }
+}

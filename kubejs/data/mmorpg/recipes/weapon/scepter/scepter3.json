@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MEE",
+    "MSE",
+    "SSE"
+  ],
+  "key": {
+    "E": {
+      "item": "mmorpg:gear_mat/essences/life"
+    },
+    "M": {
+      "item": "mmorpg:gear_mat/ore/ore3"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmorpg:weapon/scepter/scepter3"
+  }
+}

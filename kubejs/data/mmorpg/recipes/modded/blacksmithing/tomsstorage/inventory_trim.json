@@ -1,0 +1,18 @@
+{
+  "type": "mmorpg:smithing_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:gear_mat/leather/leather0"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "trapexpansion:analog_fan"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.trim",
+    "count": 1
+  }
+}

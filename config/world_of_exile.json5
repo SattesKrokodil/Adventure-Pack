@@ -1,6 +1,8 @@
 { 
 	"ENABLE_MOD": true,
 	"ENABLE_DUNGEON": true,
+	"AUTO_DESTROY_TOWERS": true,
+	"ENABLE_BLOCK_BREAK_GOLEM_SPAWNS": true,
 	"DUNGEON": { 
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",
@@ -21,7 +23,6 @@
 				"river"
 			]
 		},
-		"registry_id": "world_of_exile:dungeon",
 		"config": { 
 			"spacing": 22,
 			"separation": 15,
@@ -32,7 +33,7 @@
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",
 			"dimensions": [ 
-				"world_of_exile:abyss"
+				"world_of_exile:hell1"
 			]
 		},
 		"PER_BIOME": { 
@@ -48,9 +49,8 @@
 				"river"
 			]
 		},
-		"registry_id": "world_of_exile:blackstone_tower",
 		"config": { 
-			"spacing": 8,
+			"spacing": 15,
 			"separation": 6,
 			"salt": 2058146
 		}
@@ -59,7 +59,8 @@
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",
 			"dimensions": [ 
-				"minecraft:overworld"
+				"minecraft:overworld",
+				"world_of_exile:hell1"
 			]
 		},
 		"PER_BIOME": { 
@@ -75,11 +76,63 @@
 				"river"
 			]
 		},
-		"registry_id": "world_of_exile:stone_brick_tower",
 		"config": { 
-			"spacing": 10,
+			"spacing": 15,
 			"separation": 5,
-			"salt": 5240125
+			"salt": 270951955
+		}
+	},
+	"ONE_PIECE_SURFACE": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 20,
+			"separation": 15,
+			"salt": 447023887
+		}
+	},
+	"LADDER_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld",
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 25,
+			"separation": 15,
+			"salt": 1092515512
 		}
 	},
 	"ALLOWED_MOBS_FOR_SPAWNERS": [ 
@@ -91,7 +144,7 @@
 		"minecraft:husk"
 	],
 	"ALLOWED_BOSSES": [ 
-		"world_of_exile:fire_golem",
-		"world_of_exile:frost_golem"
+		"world_of_exile:snow_golem",
+		"world_of_exile:obsidian_golem"
 	]
 }

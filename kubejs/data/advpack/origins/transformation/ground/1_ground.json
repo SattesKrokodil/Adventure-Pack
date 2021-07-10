@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform"
+	],
+	"icon": "minecraft:tall_grass",
+	"order": 0,
+	"impact": 1,
+	"name": "Ground",
+	"description": "Collection of all your ground transformations. This transformation type is mostly cosmetic or size related."
+}

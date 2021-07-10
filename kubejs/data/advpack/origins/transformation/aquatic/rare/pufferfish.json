@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/aquatic/rare/pufferfish",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_aquatic",
+	"order": 2,
+	"impact": 2,
+	"name": "Pufferfish",
+	"description": " "
+}
