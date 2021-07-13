@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/heavy_knees"
+	],
+	"icon": "itemsfromtext:strong_legs",
+	"order": 1,
+	"impact": 2,
+	"name": "Heavy Knees",
+	"description": "There are tales from the ancestors talking about a nation below. It's said they were able to walk the seabed like others walked on grass."
+}

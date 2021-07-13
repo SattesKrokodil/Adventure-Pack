@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/marsupium"
+	],
+	"icon": "minecraft:pink_shulker_box",
+	"order": 1,
+	"impact": 3,
+	"name": "Marsupium",
+	"description": "You developed a permanent skin pouch which can be used to store items. For whatever reason."
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "aputils:cell",
+          "rarity": "common"
+        },
+        {
+          "type": "aputils:cell",
+          "rarity": "uncommon"
+        }
+      ]
+    }
+  ]
+}

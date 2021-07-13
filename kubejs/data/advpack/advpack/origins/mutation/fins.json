@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/fins"
+	],
+	"icon": "minecraft:cod",
+	"order": 1,
+	"impact": 1,
+	"name": "Fins",
+	"description": "What are you doing? Evolving backwards? Fins are reaching out from your arms and your back."
+}

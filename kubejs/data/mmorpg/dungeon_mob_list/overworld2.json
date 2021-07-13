@@ -1,0 +1,47 @@
+{
+  "id": "overworld2",
+  "mobs": [
+    {
+      "weight": 250,
+      "id": "adventurez:orc"
+    },
+    {
+      "weight": 300,
+      "id": "betternether:jungle_skeleton"
+    },
+    {
+      "weight": 300,
+      "id": "minecraft:drowned"
+    },
+    {
+      "weight": 300,
+      "id": "mobz:armored_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:fast_entity"
+    },
+    {
+      "weight": 30,
+      "id": "mobz:mage2_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:skeli2_entity"
+    },
+    {
+      "weight": 300,
+      "id": "mobz:skeli4_entity"
+    },
+    {
+      "weight": 30,
+      "id": "mobz:tank_entity"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mmorpg:fire_mage_boss"
+    }
+  ]
+}

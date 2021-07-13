@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/photosynthesis"
+	],
+	"icon": "minecraft:dandelion",
+	"order": 1,
+	"impact": 2,
+	"name": "Photosynthesis",
+	"description": "You gave up your body hair for ... leafs. Now what? Lazy sunbaths?"
+}

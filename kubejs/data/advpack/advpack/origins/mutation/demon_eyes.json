@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/demon_eyes"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 1,
+	"impact": 2,
+	"name": "Demon Eyes",
+	"description": "A nice pair of new eyes. Don't worry too much about the demonic part it shouldn't be a big problem. Maybe some nightmares or talking in tongues. Nothing too bad."
+}

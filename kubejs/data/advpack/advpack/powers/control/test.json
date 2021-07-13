@@ -1,0 +1,15 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "/identity unequip @p",
+		"permission_level": 4
+	},
+	"interval": 200,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "mmorpg:dungeon",
+		"inverted": false
+	},
+	"hidden": true
+}

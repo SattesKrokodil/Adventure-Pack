@@ -1,0 +1,1395 @@
+{
+	id: "19463706E847F521",
+	group: "",
+	order_index: 1,
+	filename: "biomagical_modification",
+	title: "Biomagical Modification",
+	icon: "itemsfromtext:mutation",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Reclaim your body",
+			x: -2.5d,
+			y: 1.5d,
+			description: ["You look out of shape. Literally. At least it's going to be a very transparent relationship. It's time to reclaim your body and your human form - I studied the old archive and I've found a way to help you. It won't be easy but in the end - what is?"],
+			id: "1D2B63DF315937DC",
+			tasks: [{
+				id: "7C3C7475E5BB6102",
+				type: "item",
+				item: "minecraft:bone",
+				count: 10L,
+				consume_items: true
+			}],
+			rewards: [
+				{
+					id: "5BEFDFAEC7DCDC47",
+					type: "command",
+					title: "Always smiling",
+					icon: "itemsfromtext:transformation_ground",
+					auto: "invisible",
+					command: "/advancement grant @p from adventurepack:transformation_skeleton",
+					player_command: false
+				},
+				{
+					id: "7F8AFCBE00D9728B",
+					type: "item",
+					item: "origins:orb_of_origin"
+				},
+				{
+					id: "42FC78E3F7C3928F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 2505125357028787397L
+				}
+			]
+		},
+		{
+			title: "Add some substance",
+			icon: "minecraft:rotten_flesh",
+			x: -1.0d,
+			y: 0.5d,
+			subtitle: "Use the Orb of Origins to change your current transformation!",
+			description: ["I swear I thought it would be enough. Well, almost. Let's get some flesh of the weaker beings and a little string to flick you together."],
+			dependencies: ["1D2B63DF315937DC"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "6F069D36B86A7FB0",
+			tasks: [
+				{
+					id: "38B5474F21495331",
+					type: "item",
+					item: "minecraft:rotten_flesh",
+					count: 20L,
+					consume_items: true
+				},
+				{
+					id: "73462725F939AC29",
+					type: "item",
+					item: "minecraft:string",
+					count: 3L,
+					consume_items: true
+				}
+			],
+			rewards: [
+				{
+					id: "5053C1ED831DB74F",
+					type: "item",
+					item: "mmorpg:seed/mana"
+				},
+				{
+					id: "7C60D67AA12659FF",
+					type: "item",
+					item: "mmorpg:seed/life"
+				},
+				{
+					id: "43C5857C3C41A738",
+					type: "command",
+					title: "Thriller",
+					icon: "itemsfromtext:transformation_ground",
+					auto: "invisible",
+					command: "/advancement grant @p from adventurepack:transformation_zombie",
+					player_command: false
+				},
+				{
+					id: "335C068478E9B4DC",
+					type: "loot",
+					auto: "enabled",
+					table_id: 2505125357028787397L
+				}
+			]
+		},
+		{
+			title: "Drink that",
+			icon: "minecraft:water_bucket",
+			x: 0.5d,
+			y: 1.5d,
+			description: ["Hm. Still not enough? It doesn't look too bad - if you try and get used to it you cou.. no? Alright we continue and I think I know what we need."],
+			dependencies: ["6F069D36B86A7FB0"],
+			hide: true,
+			id: "05FA4BC9FC91718D",
+			tasks: [
+				{
+					id: "6FFC53EC721C5D16",
+					type: "item",
+					item: "minecraft:bone_meal",
+					consume_items: true
+				},
+				{
+					id: "6248BB3A27EB79F5",
+					type: "item",
+					item: "minecraft:water_bucket",
+					consume_items: true
+				},
+				{
+					id: "6371A98318B76E23",
+					type: "item",
+					item: "minecraft:red_dye",
+					consume_items: true
+				},
+				{
+					id: "44AE64BBB5A0D542",
+					type: "item",
+					item: "mmorpg:plant/life",
+					consume_items: true
+				},
+				{
+					id: "7CB3BC6B083DD821",
+					type: "item",
+					item: "mmorpg:plant/mana",
+					consume_items: true
+				},
+				{
+					id: "6BE1B47E95F7D245",
+					type: "item",
+					item: "minecraft:cod",
+					consume_items: true
+				}
+			],
+			rewards: [
+				{
+					id: "031432FD96DF3A5C",
+					type: "item",
+					title: "Eat this",
+					item: {
+						id: "aputils:cell",
+						Count: 1b,
+						tag: {
+							CellData: {
+								Rarity: "common",
+								Type: "mutation",
+								LiteralName: 1b,
+								Advancement: "adventurepack:fish_eyes",
+								MinLevel: 1,
+								Name: "Fish Eyes"
+							}
+						}
+					}
+				},
+				{
+					id: "7C2E44F8BF9E4FCC",
+					type: "item",
+					item: "origins:orb_of_origin"
+				},
+				{
+					id: "0D406790F98AFC66",
+					type: "loot",
+					auto: "enabled",
+					table_id: 2505125357028787397L
+				}
+			]
+		},
+		{
+			title: "Oh did I say raw fish? My bad",
+			icon: "itemsfromtext:fish_eye",
+			x: 0.0d,
+			y: 3.0d,
+			subtitle: "Use the Orb of Origins to change your current Mutation!",
+			description: ["Try to look at the bright side. What? No that's it I have nothing to add. I see now, it was \"add flesh\" not \"add fish\". Happens. Don't look at me like that, at least you have your body back!"],
+			hide_dependency_lines: false,
+			dependencies: ["05FA4BC9FC91718D"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "562880742467AF0E",
+			rewards: [{
+				id: "764801A59A342408",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			hide_text_until_complete: true,
+			id: "229841C75553F59A",
+			tasks: [{
+				id: "1FCB671692DF2FA6",
+				type: "advancement",
+				title: "Mutation: Demon Eyes",
+				icon: "minecraft:ender_eye",
+				advancement: "adventurepack:demon_eyes",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "36D5FB5767962886",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			icon: "minecraft:tropical_fish_bucket",
+			x: 3.5d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "142269AF016F3223",
+			tasks: [{
+				id: "12488D01AF434748",
+				type: "advancement",
+				title: "Mutation: Fins",
+				icon: "minecraft:tropical_fish_bucket",
+				advancement: "adventurepack:fins",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "39578CDB7AC158B5",
+				type: "random",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "498E4A6C9099F272",
+			tasks: [{
+				id: "12FF5FE3D3C3DC09",
+				type: "advancement",
+				title: "Mutation: Adaption Desert",
+				icon: "minecraft:sand",
+				advancement: "adventurepack:adaption_desert",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "2DA0B7AD79F9462F",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Fish Eyes",
+			x: 3.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "7EBDDC436ABD3CFB",
+			tasks: [{
+				id: "176348927F08E58D",
+				type: "advancement",
+				title: "Fish Eyes",
+				icon: "itemsfromtext:fish_eye",
+				advancement: "adventurepack:fish_eyes",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "26B32F696CE9F597",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Slender Arms",
+			x: 4.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "52A06C58E23020AC",
+			tasks: [{
+				id: "656E4283721C2AD6",
+				type: "advancement",
+				title: "Slender Arms",
+				icon: "itemsfromtext:ender_arms",
+				advancement: "adventurepack:slender_arms",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "5C061DC2DB3E5E5A",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Strong Legs",
+			x: 2.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "4C6575CD34C5D2E5",
+			tasks: [{
+				id: "15429F3AF6F01DDD",
+				type: "advancement",
+				title: "Strong Legs",
+				icon: {
+					id: "minecraft:chainmail_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "adventurepack:strong_legs",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "73406BDF4CD498E4",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Heavy Knees",
+			icon: "itemsfromtext:strong_legs",
+			x: 2.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "7F451F78163C05CD",
+			tasks: [{
+				id: "7518F9197C70136E",
+				type: "advancement",
+				title: "Heavy Knees",
+				advancement: "adventurepack:heavy_knees",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "23535C5EB895560F",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Slimefeet",
+			x: 3.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "0186C8ED7F6F0D75",
+			tasks: [{
+				id: "4F025F9FAD65A8C2",
+				type: "advancement",
+				title: "Slimefeet",
+				icon: "itemsfromtext:slime_feet",
+				advancement: "adventurepack:slimefeet",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "5D3B720F4B72003F",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Marsupium",
+			x: 4.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "4D3AB8054120C5A1",
+			tasks: [{
+				id: "70C8258E219AD8D9",
+				type: "advancement",
+				title: "Marsupium",
+				icon: "minecraft:shulker_box",
+				advancement: "adventurepack:marsupium",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "020E0F6309FCFBFD",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Light Bones",
+			x: 2.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			hide_text_until_complete: false,
+			id: "65C60004360D8A52",
+			tasks: [{
+				id: "46ECF0E3EED6E7FA",
+				type: "advancement",
+				title: "Light Bones",
+				icon: "minecraft:bone",
+				advancement: "adventurepack:light_bones",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "15FF1675442CF2FC",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Photosynthesis",
+			x: 3.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "5D12EA87CDE5861A",
+			tasks: [{
+				id: "50880B3CFD054CAB",
+				type: "advancement",
+				title: "Photosynthesis",
+				icon: "minecraft:dandelion",
+				advancement: "adventurepack:photosynthesis",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "13E6F9497BB4B430",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			title: "Mutation: Crystal Hide",
+			x: 4.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["562880742467AF0E"],
+			id: "34D5A1D3480C75B7",
+			tasks: [{
+				id: "73AA03A5CE0879F0",
+				type: "advancement",
+				title: "Crystal Hide",
+				icon: "itemsfromtext:crystal_hide",
+				advancement: "adventurepack:crystal_hide",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "27FE1C7A06AFB3B7",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			icon: "minecraft:seagrass",
+			x: -1.0d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "Reach level 20 to unlock aquatic transformations",
+			hide_dependency_lines: true,
+			dependencies: [
+				"1D2B63DF315937DC",
+				"6F069D36B86A7FB0"
+			],
+			hide: true,
+			id: "57A32A3095895D7A",
+			tasks: [{
+				id: "45AC114F297E18C4",
+				type: "advancement",
+				title: "Under the Sea",
+				icon: "minecraft:seagrass",
+				advancement: "adventurepack:lvl_20",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "663AE62BE0218C04",
+					type: "random",
+					table_id: 3412597530398146902L
+				},
+				{
+					id: "3ACBF1E6AC4F38F9",
+					type: "item",
+					item: {
+						id: "mcda:golden_piglin_armor_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 5.0d,
+			shape: "diamond",
+			subtitle: "Reach level 10 to unlock ground transformations",
+			hide_dependency_lines: true,
+			dependencies: [
+				"1D2B63DF315937DC",
+				"6F069D36B86A7FB0"
+			],
+			hide: true,
+			id: "03FEBD8877277A47",
+			tasks: [{
+				id: "11E9096246A9F39D",
+				type: "advancement",
+				title: "Landlover",
+				icon: "minecraft:oak_sapling",
+				advancement: "adventurepack:lvl_10",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "3C409400D143B834",
+					type: "loot",
+					table_id: 5715639011539347274L
+				},
+				{
+					id: "15AF6E006121A62F",
+					type: "item",
+					item: {
+						id: "mcda:golden_piglin_armor_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			shape: "diamond",
+			subtitle: "Reach level 30 to unlock flying transformations",
+			hide_dependency_lines: true,
+			dependencies: [
+				"1D2B63DF315937DC",
+				"6F069D36B86A7FB0"
+			],
+			hide: true,
+			id: "68C548BC680666B5",
+			tasks: [{
+				id: "2B89DA02AD57B2D5",
+				type: "advancement",
+				title: "Flight License",
+				icon: "biomemakeover:dragonfly_wings",
+				advancement: "adventurepack:lvl_30",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "4433EF4A16AEFA36",
+					type: "loot",
+					table_id: 5038893089071464915L
+				},
+				{
+					id: "3195C3D667B36243",
+					type: "item",
+					item: {
+						id: "mcda:golden_piglin_armor_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 3.0d,
+			subtitle: "You can craft Orbs if you want to change your powers!",
+			hide_dependency_lines: true,
+			dependencies: ["1D2B63DF315937DC"],
+			hide: true,
+			id: "13F1AF0154FD3B47",
+			tasks: [{
+				id: "7BD0BAE29D5E5F16",
+				type: "item",
+				title: "Orb of Origins",
+				icon: "origins:orb_of_origin",
+				item: "origins:orb_of_origin",
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "7EE556BDF288B992",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "4D37B12DE14BC051",
+			tasks: [{
+				id: "284563ADBB56E330",
+				type: "advancement",
+				title: "Transformation: Chicken",
+				icon: "minecraft:cooked_chicken",
+				advancement: "adventurepack:transformation_chicken",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "384DF06B3AB52CD0",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "7D58EA2A4A196D9A",
+			tasks: [{
+				id: "492FD9FFC2547FA9",
+				type: "advancement",
+				title: "Transformation: Iron Golem",
+				icon: "mcda:iron_plate",
+				advancement: "adventurepack:transformation_iron_golem",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "60CF657883383EFF",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 7.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "21D545E61BE02D6A",
+			tasks: [{
+				id: "5C0211DFAF2043EC",
+				type: "advancement",
+				title: "Transformation: Pillager",
+				icon: {
+					id: "minecraft:crossbow",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "adventurepack:transformation_pillager",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "35A8DB5F9F19DB92",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 8.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "35B5DCB761B2798F",
+			tasks: [{
+				id: "24C7F93533A7AD4E",
+				type: "advancement",
+				title: "Transformation: Sheep",
+				icon: "minecraft:white_wool",
+				advancement: "adventurepack:transformation_sheep",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "56900D788B4FD671",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "1CFA4D02EE5C3AE9",
+			tasks: [{
+				id: "644054054EE9DE0C",
+				type: "advancement",
+				title: "Transformation: Fox",
+				icon: {
+					id: "mcda:fox_armor_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "adventurepack:transformation_fox",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "47D0D5D5B83DCBC8",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 8.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "4C805DA1BF21662A",
+			tasks: [{
+				id: "46A183B349D10409",
+				type: "advancement",
+				title: "Transformation: Husk",
+				icon: "minecraft:husk_spawn_egg",
+				advancement: "adventurepack:transformation_husk",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "1F30FA0642938837",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 9.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "3C2AC347556D4971",
+			tasks: [{
+				id: "4DF523EAC7F73A15",
+				type: "advancement",
+				title: "Transformation: Wolf",
+				icon: {
+					id: "mcda:wolf_armor_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "adventurepack:transformation_wolf",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "1F2328837C150E18",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "22025B07255ECE33",
+			tasks: [{
+				id: "066BE1D2675E7230",
+				type: "advancement",
+				title: "Transformation: Endermite",
+				icon: "minecraft:endermite_spawn_egg",
+				advancement: "adventurepack:transformation_endermite",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "08F55C41D30234EA",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 7.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "4A317F94E2AB9E92",
+			tasks: [{
+				id: "3F5CC0573188DE3B",
+				type: "advancement",
+				title: "Transformation: Spider",
+				icon: {
+					id: "mcda:spider_armor_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "adventurepack:transformation_spider",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "0062563E34B99204",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			hide_dependency_lines: true,
+			dependencies: ["03FEBD8877277A47"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "743335A6DF165743",
+			tasks: [{
+				id: "5167AB2E59FA81D2",
+				type: "advancement",
+				title: "Transformation: Wandering Trader",
+				icon: "minecraft:wandering_trader_spawn_egg",
+				advancement: "adventurepack:transformation_wandering_trader",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "0D59C9DE22D1FE53",
+				type: "loot",
+				auto: "enabled",
+				table_id: 8799895711550266731L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["57A32A3095895D7A"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "32188666AF0CFD1C",
+			tasks: [{
+				id: "40E0665BD7AB4C12",
+				type: "advancement",
+				title: "Transformation: Cod",
+				icon: "minecraft:cod",
+				advancement: "adventurepack:transformation_cod",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "29817480351A6D36",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3816238553956627780L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -3.5d,
+			hide_dependency_lines: true,
+			dependencies: ["57A32A3095895D7A"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "5B7C5F81028A41B8",
+			tasks: [{
+				id: "6B7498ABEE1160D2",
+				type: "advancement",
+				title: "Transformation: Salmon",
+				icon: "minecraft:salmon",
+				advancement: "adventurepack:transformation_salmon",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "15A9240C09C255CF",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3816238553956627780L
+			}]
+		},
+		{
+			icon: "minecraft:pufferfish",
+			x: -0.5d,
+			y: -2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["57A32A3095895D7A"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "7744F281B4FDD49C",
+			tasks: [{
+				id: "151F28FC873672A1",
+				type: "advancement",
+				title: "Transformation: Pufferfish",
+				icon: "minecraft:pufferfish",
+				advancement: "adventurepack:transformation_pufferfish",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "1B45120CAD37809E",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3816238553956627780L
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			hide_dependency_lines: true,
+			dependencies: ["57A32A3095895D7A"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "6A029F58E597FD68",
+			tasks: [{
+				id: "7117CF9472103BA5",
+				type: "advancement",
+				title: "Transformation: Tropical Fish",
+				icon: "minecraft:tropical_fish",
+				advancement: "adventurepack:transformation_tropical_fish",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "6DBE698F23C9EEEA",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3816238553956627780L
+			}]
+		},
+		{
+			icon: {
+				id: "mcda:nimble_turtle_armor_chestplate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.5d,
+			y: -3.5d,
+			hide_dependency_lines: true,
+			dependencies: ["57A32A3095895D7A"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "51533185C053C0C4",
+			tasks: [{
+				id: "5F93361D0D3E84BD",
+				type: "advancement",
+				title: "Transformation: Turtle",
+				advancement: "adventurepack:transformation_turtle",
+				criterion: ""
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "20FB0395738B858D",
+			tasks: [{
+				id: "6432BDF18A2F2AD4",
+				type: "advancement",
+				title: "Transformation: Bat",
+				icon: "biomemakeover:bat_wing",
+				advancement: "adventurepack:transformation_bat",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "2CCC2D978F9ED020",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3553151924690211280L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 0.5d,
+			hide_dependency_lines: true,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "4EDF9B4E2CEBB576",
+			tasks: [{
+				id: "021C8C8DE464E62E",
+				type: "advancement",
+				title: "Transformation: Bee",
+				icon: "charm:beeswax",
+				advancement: "adventurepack:transformation_bee",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "4E03A8DF2D76BA95",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3553151924690211280L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "1666D4A6E352DDEC",
+			tasks: [{
+				id: "1ABB1F5E93C3CF65",
+				type: "advancement",
+				title: "Transformation: Vex",
+				icon: "minecraft:vex_spawn_egg",
+				advancement: "adventurepack:transformation_vex",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "497C797D7C1AE805",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3553151924690211280L
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 2.5d,
+			hide_dependency_lines: true,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "7B8E3CC602AE0E45",
+			tasks: [{
+				id: "6FFD0E75D30544D3",
+				type: "advancement",
+				title: "Transformation: Phantom",
+				icon: "mcda:phantom_skin",
+				advancement: "adventurepack:transformation_phantom",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "38CB913CEC5E93AC",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3553151924690211280L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 1.5d,
+			hide_dependency_lines: true,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "05E2A655713746ED",
+			tasks: [{
+				id: "72A5E5815F990952",
+				type: "advancement",
+				title: "Transformation: Parrot",
+				icon: "minecraft:parrot_spawn_egg",
+				advancement: "adventurepack:transformation_parrot",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "6994C492AF3F0576",
+				type: "loot",
+				auto: "enabled",
+				table_id: 3553151924690211280L
+			}]
+		},
+		{
+			title: "Don't worry, we can build one on our own",
+			icon: "minecraft:feather",
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: ["68C548BC680666B5"],
+			hide: true,
+			id: "4D4544E13B0EDE7A",
+			tasks: [
+				{
+					id: "59E4826F1739C748",
+					type: "item",
+					item: "minecraft:feather",
+					count: 20L,
+					consume_items: true
+				},
+				{
+					id: "57A25E8A7877B8C9",
+					type: "item",
+					item: "minecraft:bone",
+					count: 10L,
+					consume_items: true
+				},
+				{
+					id: "2583CCAB05383508",
+					type: "item",
+					item: "minecraft:rotten_flesh",
+					count: 50L,
+					consume_items: true
+				},
+				{
+					id: "4D7244FFB1B6BFE5",
+					type: "item",
+					item: "mmorpg:mat/condensed_salvage/c2",
+					count: 30L,
+					consume_items: true
+				},
+				{
+					id: "0FBE7CC8550FDB78",
+					type: "item",
+					item: "mmorpg:gems/azurite/2",
+					consume_items: true
+				}
+			],
+			rewards: [
+				{
+					id: "78E1EBFDD3B95E30",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "7B10CB2C8AAA894D",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			title: "Final touch, off you go!",
+			icon: "itemsfromtext:transformation_flying",
+			x: -3.5d,
+			y: 3.0d,
+			dependencies: ["4D4544E13B0EDE7A"],
+			hide: true,
+			id: "76D4BD7FB58CD49D",
+			tasks: [
+				{
+					id: "0F90771D067BBFBE",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:water"
+						}
+					},
+					consume_items: true
+				},
+				{
+					id: "60E2387A84D4BCB7",
+					type: "item",
+					item: "minecraft:white_dye",
+					count: 10L,
+					consume_items: true
+				},
+				{
+					id: "3354569409EFC8BA",
+					type: "item",
+					item: "mmorpg:currency/orb_of_transmutation",
+					consume_items: true
+				},
+				{
+					id: "3BD9955413A139F1",
+					type: "item",
+					item: "mmorpg:scroll/paper",
+					consume_items: true
+				},
+				{
+					id: "310B1EBF2A974AFB",
+					type: "item",
+					item: "minecraft:dragon_breath",
+					consume_items: true
+				}
+			],
+			rewards: [
+				{
+					id: "763EE504E0EFEF54",
+					type: "command",
+					title: "Stingy",
+					icon: "itemsfromtext:transformation_flying",
+					auto: "invisible",
+					command: "/advancement grant @p from adventurepack:transformation_bee",
+					player_command: false
+				},
+				{
+					id: "2842B82A87407A84",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "2F7AB7453129ACDA",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			title: "Collect Five Ground Transformations",
+			icon: "battletowers:foreign_key",
+			disable_toast: true,
+			x: -2.0d,
+			y: 5.0d,
+			subtitle: "Meta Achievement",
+			description: [""],
+			hide_dependency_lines: true,
+			min_required_dependencies: 5,
+			dependencies: [
+				"4D37B12DE14BC051",
+				"7D58EA2A4A196D9A",
+				"22025B07255ECE33",
+				"743335A6DF165743",
+				"4A317F94E2AB9E92",
+				"1CFA4D02EE5C3AE9",
+				"21D545E61BE02D6A",
+				"35B5DCB761B2798F",
+				"4C805DA1BF21662A",
+				"3C2AC347556D4971"
+			],
+			hide: true,
+			id: "6DD1A49763314129",
+			rewards: [{
+				id: "1083254538E00503",
+				type: "loot",
+				table_id: 3412597530398146902L
+			}]
+		},
+		{
+			title: "Collect Five Mutations",
+			icon: "battletowers:foreign_key",
+			x: 1.5d,
+			y: 3.0d,
+			subtitle: "Meta Achievement",
+			hide_dependency_lines: true,
+			min_required_dependencies: 5,
+			dependencies: [
+				"65C60004360D8A52",
+				"7F451F78163C05CD",
+				"4C6575CD34C5D2E5",
+				"229841C75553F59A",
+				"142269AF016F3223",
+				"7EBDDC436ABD3CFB",
+				"0186C8ED7F6F0D75",
+				"5D12EA87CDE5861A",
+				"34D5A1D3480C75B7",
+				"4D3AB8054120C5A1",
+				"52A06C58E23020AC",
+				"498E4A6C9099F272"
+			],
+			hide: true,
+			id: "58C76C22ADC62367",
+			rewards: [
+				{
+					id: "6299876F0E92A788",
+					type: "loot",
+					table_id: 3412597530398146902L
+				},
+				{
+					id: "055D4F72A4C9B53D",
+					type: "item",
+					item: {
+						id: "mcda:golden_piglin_armor_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Collect Five Aquatic Transformations",
+			icon: "battletowers:foreign_key",
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Meta Achievement",
+			hide_dependency_lines: true,
+			min_required_dependencies: 5,
+			dependencies: [
+				"5B7C5F81028A41B8",
+				"32188666AF0CFD1C",
+				"7744F281B4FDD49C",
+				"6A029F58E597FD68",
+				"51533185C053C0C4"
+			],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "49E4ED7648F57E77",
+			rewards: [{
+				id: "75A7A1C3893F179B",
+				type: "loot",
+				table_id: 5038893089071464915L
+			}]
+		},
+		{
+			title: "Collect Five Flying Transformations",
+			icon: "battletowers:foreign_key",
+			x: -4.5d,
+			y: 0.0d,
+			subtitle: "Meta Achievement",
+			hide_dependency_lines: true,
+			min_required_dependencies: 5,
+			dependencies: [
+				"4EDF9B4E2CEBB576",
+				"20FB0395738B858D",
+				"05E2A655713746ED",
+				"7B8E3CC602AE0E45",
+				"1666D4A6E352DDEC"
+			],
+			hide: true,
+			id: "5F291C3430A61814",
+			rewards: [{
+				id: "15453E36B2813DC8",
+				type: "loot",
+				table_id: 8328406350682599025L
+			}]
+		},
+		{
+			title: "Please put them on",
+			icon: {
+				id: "mcda:ghostly_armor_leggings",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: 0.0d,
+			subtitle: "Use your cosmetic gear slots! Open your curios menu and drag the cosmetic gear into the armor items in the extra menu",
+			dependencies: ["6F069D36B86A7FB0"],
+			id: "3DA37D305AC0C5CB",
+			tasks: [
+				{
+					id: "618596FED3F53E09",
+					type: "item",
+					item: "minecraft:string"
+				},
+				{
+					id: "3B3F3979C5CC3C80",
+					type: "item",
+					item: "minecraft:white_wool"
+				},
+				{
+					id: "5199A44EFA817014",
+					type: "item",
+					item: "minecraft:bone_meal"
+				}
+			],
+			rewards: [
+				{
+					id: "357D9DB189B7EFFD",
+					type: "loot",
+					table_id: 2505125357028787397L
+				},
+				{
+					id: "0F06C6EFE33A006C",
+					type: "item",
+					item: {
+						id: "mcda:ghostly_armor_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

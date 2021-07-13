@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mobz:amat_boots",
+      "mobz:amat_chestplate",
+      "mobz:amat_helmet",
+      "mobz:amat_leggings",
+      "mobz:amat_block",
+      "mobz:amat_block2",
+      "mobz:sbow"
+    ]
+  },
+  "criteria": {}
+}

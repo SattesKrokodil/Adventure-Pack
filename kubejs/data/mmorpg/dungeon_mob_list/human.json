@@ -1,0 +1,51 @@
+{
+  "id": "human",
+  "mobs": [
+    {
+      "weight": 800,
+      "id": "mobz:archer_entity"
+    },
+    {
+      "weight": 1000,
+      "id": "mobz:dwarf_entity"
+    },
+    {
+      "weight": 300,
+      "id": "mobz:fulliron_entity"
+    },
+    {
+      "weight": 5,
+      "id": "mobz:islandking_entity"
+    },
+    {
+      "weight": 1000,
+      "id": "mobz:islandknightnormal_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:islandknightspecial2_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:islandknightspecial_entity"
+    },
+    {
+      "weight": 1000,
+      "id": "mobz:knight2_entity"
+    },
+    {
+      "weight": 800,
+      "id": "mobz:archer2_entity"
+    },
+    {
+      "weight": 500,
+      "id": "biomemakeover:cowboy"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mmorpg:fire_mage_boss"
+    }
+  ]
+}

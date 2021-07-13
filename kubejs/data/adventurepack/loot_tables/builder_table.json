@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 8,
+        "max": 18
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:walls",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:leaves",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:sand",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:planks",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:stone_crafting_materials",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:slabs",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:logs",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:stone_bricks",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 4,
+            "max": 28
+          }
+        }
+      ]
+    }
+  ]
+}

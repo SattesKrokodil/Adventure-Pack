@@ -1,0 +1,22 @@
+{
+
+  "type": "origins:simple",
+
+  "entity_action": {
+
+    },
+
+
+  "cooldown": 20,
+
+  "hud_render": {
+
+    "should_render": false
+
+  },
+
+  "name": "Flying:",
+
+  "description": "This transformation lets you fly."
+
+}

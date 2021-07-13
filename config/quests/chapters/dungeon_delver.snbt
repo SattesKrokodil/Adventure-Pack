@@ -1,0 +1,5705 @@
+{
+	id: "5F25CFB3E9987CCA",
+	group: "",
+	order_index: 4,
+	filename: "dungeon_delver",
+	title: "The Harvest",
+	icon: "mmorpg:teleporter",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.5d,
+			y: -5.0d,
+			id: "3AD1AA87B561216E",
+			tasks: [{
+				id: "5F1C5BAAA2DBA8FD",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5A268E043F0A5E7A",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			id: "51DD32D56A522752",
+			tasks: [{
+				id: "16A08CAA97E51079",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 1L
+			}],
+			rewards: [{
+				id: "11AF1EC46379CD97",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.0d,
+			id: "174D37F4BABBCFAF",
+			tasks: [{
+				id: "2FA543AEAEE57325",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 1L
+			}],
+			rewards: [{
+				id: "60EB5A489DA21107",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.0d,
+			id: "2A1C5C1F83F71C94",
+			tasks: [{
+				id: "12565E831E6545B5",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 1L
+			}],
+			rewards: [{
+				id: "0D02B654EE405DB7",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -5.0d,
+			id: "7A2DE75AB6D18CC0",
+			tasks: [{
+				id: "4321D29610AE0CD9",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 1L
+			}],
+			rewards: [{
+				id: "6BEC981CDB123DAF",
+				type: "random",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -5.0d,
+			id: "05A60576D31D563B",
+			tasks: [{
+				id: "086CE342064B6D34",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 1L
+			}],
+			rewards: [{
+				id: "55C666ABF0668EF3",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.0d,
+			id: "604B1CF209083B6B",
+			tasks: [{
+				id: "03E70CD3D1AF59C0",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 1L
+			}],
+			rewards: [{
+				id: "7FE8495C6D2C193D",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -5.0d,
+			id: "4BE25FA1BA336B19",
+			tasks: [{
+				id: "21D73DCFA4C06E8F",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5B90166F46C101CA",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -5.0d,
+			id: "6961BEEE0D54934F",
+			tasks: [{
+				id: "0F6E5808F2B27761",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 1L
+			}],
+			rewards: [{
+				id: "0C9DC76EA6A2BF91",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -5.0d,
+			id: "172ADF6FFA0C6ECE",
+			tasks: [{
+				id: "6FE452A16087F1F7",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 1L
+			}],
+			rewards: [{
+				id: "6FA070114BB9E531",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.0d,
+			id: "15B32CB92BD55BF9",
+			tasks: [{
+				id: "7763F9EC14440900",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5A6B11ECBA7D1081",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -5.0d,
+			id: "5CB26D4D607D57CC",
+			tasks: [{
+				id: "1C751E134240A13A",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 1L
+			}],
+			rewards: [{
+				id: "45DE3A97CDBC3020",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -5.0d,
+			id: "5C05F496741634EA",
+			tasks: [{
+				id: "157933C098977C7C",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 1L
+			}],
+			rewards: [{
+				id: "4E7E925818106E61",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -5.0d,
+			id: "23B0CDD90FB56EFE",
+			tasks: [{
+				id: "5DE7363DA292BDBE",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5356C2CBA570E8CE",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.0d,
+			id: "2B09CD8141ECA11D",
+			tasks: [{
+				id: "50E26E8DD6FA3752",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 1L
+			}],
+			rewards: [{
+				id: "2FC9F80604B843AF",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -5.0d,
+			id: "2B3FD50141AB3620",
+			tasks: [{
+				id: "6B8E710B2D6CA827",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 1L
+			}],
+			rewards: [{
+				id: "68719FDCCDF1B7BD",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -5.0d,
+			id: "5849FEFA2874B883",
+			tasks: [{
+				id: "42CF0F786F3B6967",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 1L
+			}],
+			rewards: [{
+				id: "600DC75621656D3B",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -5.0d,
+			id: "709BE894593C7D24",
+			tasks: [{
+				id: "1D5F3B1A4072A3C1",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 1L
+			}],
+			rewards: [{
+				id: "3E98EBF034B0F01F",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -5.0d,
+			id: "7D79654A7A123CE0",
+			tasks: [{
+				id: "073725C633782085",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5D2F1749A319D2BB",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -5.0d,
+			id: "069047EB1CBB5613",
+			tasks: [{
+				id: "519F3A3CB73306F9",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 1L
+			}],
+			rewards: [{
+				id: "1148F50EA6F3B748",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -5.0d,
+			id: "2924C81161F0BE52",
+			tasks: [{
+				id: "4B3861EAECC0B9E6",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 1L
+			}],
+			rewards: [{
+				id: "59BC52CEAB64C2F3",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -5.0d,
+			id: "62C2A2C5F60CB8ED",
+			tasks: [{
+				id: "45E84004D580041F",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 1L
+			}],
+			rewards: [{
+				id: "59565507A26101C3",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -5.0d,
+			id: "478FC52B9CB738CD",
+			tasks: [{
+				id: "4ECBF3F1D3EF2F50",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 1L
+			}],
+			rewards: [{
+				id: "0CFC14A13D57A255",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -5.0d,
+			id: "7B56526D0A1F70EE",
+			tasks: [{
+				id: "6D8A543373044454",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 1L
+			}],
+			rewards: [{
+				id: "7DC91D0AE72143EE",
+				type: "random",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -19.0d,
+			y: -5.0d,
+			id: "7A1DB52F46CFFF5F",
+			tasks: [{
+				id: "654AA11AB63327C0",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 1L
+			}],
+			rewards: [{
+				id: "0EB1DB9F675E7A79",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -20.0d,
+			y: -5.0d,
+			id: "592F8203D8D8762F",
+			tasks: [{
+				id: "338038D94C267B8B",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "6EFF3626CFC1E3E4",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -21.0d,
+			y: -5.0d,
+			id: "0BDF9BDF56836068",
+			tasks: [{
+				id: "5EE6DC22EE61DA8F",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "1662F37CEF0FCB44",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -22.0d,
+			y: -5.0d,
+			id: "09BF949D795E3151",
+			tasks: [{
+				id: "0796C39556D91270",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "71FFAE4BBFADB4F3",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -23.0d,
+			y: -5.0d,
+			id: "015E70AB0E7282BE",
+			tasks: [{
+				id: "3D84C2E278F7EAC2",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "5767F3F3FCF04B68",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -24.0d,
+			y: -5.0d,
+			id: "4101A7C1F9B5DDAF",
+			tasks: [{
+				id: "5A5C6ACA15ACD8BD",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "3679EDFFF0BEAD8F",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -25.0d,
+			y: -5.0d,
+			id: "6C6DD8111C157FA6",
+			tasks: [{
+				id: "4781ACA04F6A33EB",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "7A3454651F7A9900",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -5.0d,
+			id: "06EEDB04C6C119AC",
+			tasks: [{
+				id: "7E9AE85F8569B70A",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 1L
+			}],
+			rewards: [{
+				id: "623397E72D4EC359",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -3.5d,
+			id: "2FEB2B0192086EBD",
+			tasks: [{
+				id: "3CF4479F70C118EC",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 10L
+			}],
+			rewards: [{
+				id: "1474786F3416A960",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -2.0d,
+			id: "4620FD4EDB5B3E04",
+			tasks: [{
+				id: "4070C45E3CBD2C97",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "162BAE5B0DF352C0",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				},
+				{
+					id: "3555F60A1178586A",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -0.5d,
+			id: "2FD937A0AF5CF144",
+			tasks: [{
+				id: "7FEC722454BAFE80",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "3DA15C4E2A5C257A",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				},
+				{
+					id: "5D7289A4D7B72EDC",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 1.0d,
+			id: "1F57D519CD9476FC",
+			tasks: [{
+				id: "61ED69FD72307844",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "6BA2F50E381FC2AB",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				},
+				{
+					id: "4F88A5907E1D3992",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: 4.0d,
+			id: "329767B424F55A3F",
+			tasks: [{
+				id: "45D95BCFEE4FFACE",
+				type: "kill",
+				entity: "minecraft:skeleton",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "53AAE88BF87CF402",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "136977D8DDA8A019",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				}
+			]
+		},
+		{
+			x: -25.0d,
+			y: -3.5d,
+			id: "01B1AE912E7863B8",
+			tasks: [{
+				id: "22B0026B16AF89C1",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "201BE8E0554AB5D5",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -25.0d,
+			y: -2.0d,
+			id: "2DC9C1E46E839878",
+			tasks: [{
+				id: "6EFCBD07C75FFB61",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "2E3B3939061EEB6B",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "56CB34EA4E836FE9",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -25.0d,
+			y: -0.5d,
+			id: "6B142777F6152BA1",
+			tasks: [{
+				id: "76BA6A35B6FB5BDD",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "4705FA1D84510379",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "10643EDC09B0AA7D",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -25.0d,
+			y: 1.0d,
+			id: "7CA986E19B981B8F",
+			tasks: [{
+				id: "479366AD7F98775B",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "632DAE69EB2F55E3",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "58F56097B94FA318",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -25.0d,
+			y: 4.0d,
+			id: "02B108E890376E99",
+			tasks: [{
+				id: "2354712409FC8D2A",
+				type: "kill",
+				entity: "mobz:knight3_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "3F0FDBB43DB45AAA",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "2943EBC86B8FAFB4",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -24.0d,
+			y: -3.5d,
+			id: "26ED5B25E7117041",
+			tasks: [{
+				id: "37540351B260EF02",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "131430C91FF901C0",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -24.0d,
+			y: -2.0d,
+			id: "517E11EC561B8972",
+			tasks: [{
+				id: "69C79BD0BEE23046",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "240AEB6B42C26887",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1E338724B590420C",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -24.0d,
+			y: -0.5d,
+			id: "0BB7E33008F9F115",
+			tasks: [{
+				id: "331241508B142B21",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "2B88871AA83E7D40",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3DACF426F8591BA0",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -24.0d,
+			y: 1.0d,
+			id: "70A4F6376B7F8E38",
+			tasks: [{
+				id: "5ADD7D628B9EC47B",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "338C2AF2F05CABBB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3C0E0E09B2484DCC",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -24.0d,
+			y: 4.0d,
+			id: "15AEA0800A62B98F",
+			tasks: [{
+				id: "553A6DD292AAFD97",
+				type: "kill",
+				entity: "mobz:dwarf_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "623DBC7FE3A27EB9",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "21FD7563AE74C764",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -23.0d,
+			y: -3.5d,
+			id: "7A2B3857EBE9D04C",
+			tasks: [{
+				id: "73124C5B64545C99",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "1C3EA75B02E942C5",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -23.0d,
+			y: -2.0d,
+			id: "11962FB058FA2C5F",
+			tasks: [{
+				id: "6638CD634588C754",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "48BF9118EA1046AD",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "168D7D348E5261FF",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -23.0d,
+			y: -0.5d,
+			id: "19C70FCCA11B9CEB",
+			tasks: [{
+				id: "4E02EF0B03DC725F",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "34D6EF45E1EAF863",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "48BB8F09D6D7C885",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -23.0d,
+			y: 1.0d,
+			id: "76F8D36E6DB45241",
+			tasks: [{
+				id: "5E9336CB38F5B004",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "0C085776BE4C585D",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "2F2150E004F8EFA8",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -23.0d,
+			y: 4.0d,
+			id: "19BE995DBF5A4C9D",
+			tasks: [{
+				id: "7F5C412CA846BC56",
+				type: "kill",
+				entity: "mobz:archer2_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "27E4D778A4CF9BA9",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "0DFEF6FEB2B774F0",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -22.0d,
+			y: -3.5d,
+			id: "1C81172518FE3DD7",
+			tasks: [{
+				id: "306BFA6DB61688BE",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "501AE00B65D89AEA",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -22.0d,
+			y: -2.0d,
+			id: "6785E9BF69ADB8C9",
+			tasks: [{
+				id: "295F5D9E6307B9F1",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "342EA22FCBEBAF6C",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "014F36AC0440C8F9",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -22.0d,
+			y: -0.5d,
+			id: "7B54D4AC86740B2A",
+			tasks: [{
+				id: "197C80F3AC5E2B92",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "12A18678F56701D5",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "523B4D2A4DB43FE4",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -22.0d,
+			y: 1.0d,
+			id: "79CC957E082EF5DA",
+			tasks: [{
+				id: "062ABB63B3F6C1C8",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "317C04BC57A9FE91",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5F9E2A5272EF0320",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -22.0d,
+			y: 4.0d,
+			id: "289F7F528B65A221",
+			tasks: [{
+				id: "5D9B7768CFDB82DE",
+				type: "kill",
+				entity: "mobz:skeli2_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "451BF428BFE3FE28",
+					type: "random",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "13B8A3B9F1CE3102",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -21.0d,
+			y: -3.5d,
+			id: "1263DF5E4B13C8AD",
+			tasks: [{
+				id: "5345475BAEB85AC6",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "65C9C45C13E3E05C",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -21.0d,
+			y: -2.0d,
+			id: "7933EFC53FADBEF9",
+			tasks: [{
+				id: "07B88C08905CE4E9",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "453CB4DE2B1334AC",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5DCE7A9A7645A5B5",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -21.0d,
+			y: -0.5d,
+			id: "13179D2E413DDCD4",
+			tasks: [{
+				id: "631DC79E98F65DB4",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "35BA1190703B822E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "511B868F2A0B32C9",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -21.0d,
+			y: 1.0d,
+			id: "58FA74F791CFA05F",
+			tasks: [{
+				id: "63658C45414CA7D9",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "19899A92A108A0AB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7CE0D1814C00B3E7",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -21.0d,
+			y: 4.0d,
+			id: "594DD408B1FADD35",
+			tasks: [{
+				id: "33FD7DC97F4A9D4A",
+				type: "kill",
+				entity: "mobz:fast_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "57605211CDAFC0F8",
+					type: "random",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "54E268C70E7E8907",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -20.0d,
+			y: -3.5d,
+			id: "33B0AA5C442E5E68",
+			tasks: [{
+				id: "3DCB7610A1CE80C3",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "66E68EE3864AD7DC",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -20.0d,
+			y: -2.0d,
+			id: "6657C02A54E87D98",
+			tasks: [{
+				id: "2FE7FFD6FD843672",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "4B1E619D03CBAFE0",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7DB785783AA26F24",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -20.0d,
+			y: -0.5d,
+			id: "61F6FEF4FC1DEEF5",
+			tasks: [{
+				id: "2EF7B84C58A61D36",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "4FA06A213E34CA9F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0AC1F9D84411E496",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -20.0d,
+			y: 1.0d,
+			id: "045B21A6AEF12C93",
+			tasks: [{
+				id: "2E672B500BA10CAA",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "452DEE08F78AB897",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4D10555F1B70F1ED",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -20.0d,
+			y: 4.0d,
+			id: "4E6FF4A3FDB3CC3B",
+			tasks: [{
+				id: "1F2BEBFF9B02257F",
+				type: "kill",
+				entity: "mobz:tank_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "784EEB032C359C82",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "7F0332BF0E74FDF1",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -19.0d,
+			y: -3.5d,
+			id: "566C2CCBF0A8CC67",
+			tasks: [{
+				id: "21D3BE8BED94AD32",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 10L
+			}],
+			rewards: [{
+				id: "4136EC08A74BB577",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -19.0d,
+			y: -2.0d,
+			id: "35E8DE83B368B1E4",
+			tasks: [{
+				id: "4FBFD429DACCB2A1",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "67F73DA38BC97BBF",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "6824EB365EB36CDB",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -19.0d,
+			y: -0.5d,
+			id: "4CACE456BD56E64F",
+			tasks: [{
+				id: "2FA1AD310B905DF6",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "1CE8C9A22413DE3E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "753E6EB5849533AD",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -19.0d,
+			y: 1.0d,
+			id: "455EEF2807BBF8C6",
+			tasks: [{
+				id: "42799B9223464376",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "5651620AD112ADFB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5B59A189569A6207",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -19.0d,
+			y: 4.0d,
+			id: "363E9BD70CE5C48B",
+			tasks: [{
+				id: "7D498FC2F9482F22",
+				type: "kill",
+				entity: "betterend:shadow_walker",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "6E37C818291FD131",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "7FD4EB6F3ADE2858",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -18.0d,
+			y: -3.5d,
+			id: "36C335041319DCC7",
+			tasks: [{
+				id: "539F7F93189674D9",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 10L
+			}],
+			rewards: [{
+				id: "12683B77508441F6",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -2.0d,
+			id: "2C64A4384A24FA6A",
+			tasks: [{
+				id: "540F0D5346DFC488",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "3BDFF934E719AF64",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "053502CE6322A377",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -18.0d,
+			y: -0.5d,
+			id: "77F81151605A6C60",
+			tasks: [{
+				id: "1C4F6C566215E585",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "3426B049025F7159",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4775FEC2BD627AFA",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -18.0d,
+			y: 1.0d,
+			id: "4D25E1B9A6863C87",
+			tasks: [{
+				id: "3B637E6ABECDA68B",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "121E239A8C558065",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7E9FED490F02C897",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -18.0d,
+			y: 4.0d,
+			id: "4798008CFB34EA43",
+			tasks: [{
+				id: "2E19D5F1DCD5F6E5",
+				type: "kill",
+				entity: "betterend:end_slime",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "27BB5960D5171EBE",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "032DC730EF507978",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -17.0d,
+			y: -3.5d,
+			id: "4E1ABA358C3A85BF",
+			tasks: [{
+				id: "2B9AD53AE0B7E897",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 10L
+			}],
+			rewards: [{
+				id: "387BF0FA8FB835EF",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -2.0d,
+			id: "48480C43875E5B9C",
+			tasks: [{
+				id: "5FB41864066AD6B1",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "1FBE56B82D6A1FCC",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "525C3A2B2D8D8AF4",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -17.0d,
+			y: -0.5d,
+			id: "15C4A442F201E46A",
+			tasks: [{
+				id: "7DE7B054305D9E0A",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "3B3D6822B8D81C85",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "2CB37CA933188AA4",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -17.0d,
+			y: 1.0d,
+			id: "0E10AAC17222A4FB",
+			tasks: [{
+				id: "27B334DE3B4C727A",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "4B4FE18E6F0C671E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1786DA9D2D359867",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -17.0d,
+			y: 4.0d,
+			id: "1A89E4E4A04ED002",
+			tasks: [{
+				id: "587D855B7D9F7A95",
+				type: "kill",
+				entity: "adventurez:orc",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "35CD8515EE12A57F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "7FED695D74F3F926",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -15.0d,
+			y: -3.5d,
+			id: "5E774AD1CFBA9131",
+			tasks: [{
+				id: "228C6071A6B3E639",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 10L
+			}],
+			rewards: [{
+				id: "2D4D10F40F6C5D2B",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -2.0d,
+			id: "18FF7565D2BE0E33",
+			tasks: [{
+				id: "019C1AF6F246C1EF",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "12A7094F3E6E3844",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0A14EEB49AC1C67F",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -15.0d,
+			y: -0.5d,
+			id: "5BCDA083E00E1AC0",
+			tasks: [{
+				id: "4D3E9AEE3FD08680",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "22B3E5049A769CF0",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "69A0EF7AD615BC90",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -15.0d,
+			y: 1.0d,
+			id: "70F7A0DDC9DA125D",
+			tasks: [{
+				id: "2827136FFA6A44F7",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "6919AFD49FD1C242",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3338124E50568134",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -15.0d,
+			y: 4.0d,
+			id: "417D3AF7A3419A90",
+			tasks: [{
+				id: "7BF50BA6FAE29264",
+				type: "kill",
+				entity: "adventurez:soul_reaper",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "77083B39661F0A76",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "5112916BAB3F9878",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -14.0d,
+			y: -3.5d,
+			id: "05DCAC59B2DBC8F3",
+			tasks: [{
+				id: "29D51112FBDBE78E",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 10L
+			}],
+			rewards: [{
+				id: "0125145842611733",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -2.0d,
+			id: "28C17C03E9586C6B",
+			tasks: [{
+				id: "5D65FC8EC7C84DAA",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "480F8E5A25E6B6F9",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1020DB1F06F082ED",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -14.0d,
+			y: -0.5d,
+			id: "6E25FD19B4BE1078",
+			tasks: [{
+				id: "7166EB3CFF0033ED",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "528622ADF61823FF",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1E0650A9542743F6",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -14.0d,
+			y: 1.0d,
+			id: "049B9C9724F4548E",
+			tasks: [{
+				id: "14ACEFCB6C7772B5",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "117CE01BDB2BB13E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "70745FB7AFDCA6CE",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -14.0d,
+			y: 4.0d,
+			id: "70EFB9F255242CBC",
+			tasks: [{
+				id: "09D2ECD977942108",
+				type: "kill",
+				entity: "betternether:skull",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "4FB04B641455CAE1",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "543F1FD9F22065AF",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: -3.5d,
+			id: "0238C25720D7C5C7",
+			tasks: [{
+				id: "159C4FADF483164B",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 10L
+			}],
+			rewards: [{
+				id: "0319912ADB424DE6",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -2.0d,
+			id: "2E7E207A57A9D0FF",
+			tasks: [{
+				id: "20A98C96F7BA0E40",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "619830D675218D8F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5C15AF472EBA8748",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: -0.5d,
+			id: "113207747A5342B5",
+			tasks: [{
+				id: "4575D52C0ABFCACE",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "38DA2A9649998848",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "716819749414FC30",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: 1.0d,
+			id: "48B5A0378ADDE24D",
+			tasks: [{
+				id: "5B6BBF72AD35A301",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "2C6D7C0010547E53",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "20CF7EC4212B6278",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: 4.0d,
+			id: "0530879C29BC65A1",
+			tasks: [{
+				id: "2368D3091167659F",
+				type: "kill",
+				entity: "betternether:jungle_skeleton",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "26F023BB191679DE",
+					type: "random",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "65B43E9A816C4714",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: -3.5d,
+			id: "274A3B057C236D01",
+			tasks: [{
+				id: "04EACCECC15E1F5C",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 10L
+			}],
+			rewards: [{
+				id: "56D45D0A14576686",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -2.0d,
+			id: "2AE458A862308B2F",
+			tasks: [{
+				id: "7EE035DA18BD0D13",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "0DDFF8C9360A7246",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5C9F35FC229669E7",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: -0.5d,
+			id: "48BA084BF85A2CC2",
+			tasks: [{
+				id: "6408C1F414C8893C",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "7D0DE1D45ABFC434",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7BA04003D1DE286A",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 1.0d,
+			id: "7B8FD844C7D31758",
+			tasks: [{
+				id: "2B24A83BB5027A5C",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "52A1CAB0D91D88C4",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0AC16DC0922ECB93",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			id: "587C4697D72E357D",
+			tasks: [{
+				id: "514148E4B00CAA75",
+				type: "kill",
+				entity: "betternether:naga",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "3D92C28E6AD164FB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "1EC11B3517A05D9C",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -11.0d,
+			y: -3.5d,
+			id: "08C5F9B85074408C",
+			tasks: [{
+				id: "655B2DA2918E0AA5",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 10L
+			}],
+			rewards: [{
+				id: "35BD6F18EB515F2D",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -2.0d,
+			id: "5165FC31303FD800",
+			tasks: [{
+				id: "374AC46B12D071FC",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "2C0BA93F280497ED",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3E06D2F3EC0B95F9",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -11.0d,
+			y: -0.5d,
+			id: "7157E5B2C9F5F0AF",
+			tasks: [{
+				id: "343817D33E529741",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "7AF3CFD448E2C843",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "63FC4F59A883B943",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -11.0d,
+			y: 1.0d,
+			id: "0F1C0E77FC8F9D43",
+			tasks: [{
+				id: "1777821FBEB4C828",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "086EFE426A67775A",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1238340399A3A24E",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -11.0d,
+			y: 4.0d,
+			id: "2B1B383361B643AF",
+			tasks: [{
+				id: "2EDF95E9A67BDC97",
+				type: "kill",
+				entity: "minecraft:wither_skeleton",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "686A2286929D16C5",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "4D7BDD3793C75379",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: -3.5d,
+			id: "0B36BE736931E9DF",
+			tasks: [{
+				id: "19FDA1AAFCB207AC",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 10L
+			}],
+			rewards: [{
+				id: "143CFF72FCE893ED",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -2.0d,
+			id: "1760349E2EF2F4C3",
+			tasks: [{
+				id: "57671D36E673BECC",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "1FD51F7A35A4BE29",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "189EC1A78C69370B",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: -0.5d,
+			id: "48016DBB26881FBC",
+			tasks: [{
+				id: "4B6A038001F5FD11",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "096F4DCC3AA101CF",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "10B4638AC9A34C3E",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: 1.0d,
+			id: "3C63697411F990B5",
+			tasks: [{
+				id: "60FC1A819EE47600",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "67736EC4FA4F34C0",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "121CB8758C4198EC",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -10.0d,
+			y: 4.0d,
+			id: "67E3AA380D4F2A00",
+			tasks: [{
+				id: "641EFB0D57C55DE9",
+				type: "kill",
+				entity: "minecraft:vindicator",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "160E64F2AE931506",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "51529394AA5E339A",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -9.0d,
+			y: -3.5d,
+			id: "0845659F272459DE",
+			tasks: [{
+				id: "00DE8E774D2B5379",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 10L
+			}],
+			rewards: [{
+				id: "6A1F75299469BD8C",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -2.0d,
+			id: "72BE05886919DED8",
+			tasks: [{
+				id: "72E7645B6DBA5312",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "413A0317EACCE874",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "37F4DAEF978D3F09",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -9.0d,
+			y: -0.5d,
+			id: "112916AD208D0166",
+			tasks: [{
+				id: "0EF0DFF6AD550FCF",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "110023031815A104",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "070D5E3498673E06",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -9.0d,
+			y: 1.0d,
+			id: "2DA221F697568CC8",
+			tasks: [{
+				id: "6B9404BD0766F029",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "4BB8B593388ACD53",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "61369899845FC6D0",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -9.0d,
+			y: 4.0d,
+			id: "25D0DAFE364A8923",
+			tasks: [{
+				id: "3780F91475D768B3",
+				type: "kill",
+				entity: "minecraft:stray",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "480C9460500D0E69",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "023497AB52FEF3BF",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -3.5d,
+			id: "6A18C8495B1D4A7E",
+			tasks: [{
+				id: "2CEF426FF6E9477B",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 10L
+			}],
+			rewards: [{
+				id: "510EA4D483995D0C",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -2.0d,
+			id: "32FF94A84B35EB4C",
+			tasks: [{
+				id: "0A4842BBC909E308",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "375DFA967E40D29A",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0AE109D46967A1D5",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -0.5d,
+			id: "6D2C173772C36624",
+			tasks: [{
+				id: "0D74BDFC6C0ED317",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "001DA24015D79288",
+					type: "random",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "348BCF6F43741913",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: 1.0d,
+			id: "532CCDE211D12545",
+			tasks: [{
+				id: "5408A1863F1A60D2",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "1F2685C7CD74B254",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7F2BD616610CADFF",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: 4.0d,
+			id: "127287C2EA201A7A",
+			tasks: [{
+				id: "2A0BC1BD5BCC15FA",
+				type: "kill",
+				entity: "minecraft:pillager",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "599A6D920BAA8FF8",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "1386A34A4DEB153D",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -16.0d,
+			y: -5.0d,
+			id: "2C6D68B257E52668",
+			tasks: [{
+				id: "361C06F5D627185F",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 1L
+			}],
+			rewards: [{
+				id: "00BDEBDE84215F24",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -5.0d,
+			id: "0EDA45F7CE14F3DF",
+			tasks: [{
+				id: "59B487B4CD385F5E",
+				type: "kill",
+				entity: "biomemakeover:cowboy",
+				value: 1L
+			}],
+			rewards: [{
+				id: "67F9DB0BF6103AEE",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -3.5d,
+			id: "2D0C17AAC0C4FF1F",
+			tasks: [{
+				id: "1DE1DDB2FDF196D8",
+				type: "kill",
+				disable_toast: true,
+				entity: "biomemakeover:cowboy",
+				value: 10L
+			}],
+			rewards: [{
+				id: "7B53D8FE239CEEC1",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -2.0d,
+			id: "61B74E92E08F5EAF",
+			tasks: [{
+				id: "45402FBDF05E9F1B",
+				type: "kill",
+				entity: "biomemakeover:cowboy",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "59D0B810C532B88A",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "2A1547EBB65C3E98",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -26.0d,
+			y: -0.5d,
+			id: "07B266C295EBDCE6",
+			tasks: [{
+				id: "54CCACA1B508045B",
+				type: "kill",
+				entity: "biomemakeover:cowboy",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "710AC2E4E83B4928",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "04360CA3236E9220",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -26.0d,
+			y: 1.0d,
+			id: "54C226B51A0BDE44",
+			tasks: [{
+				id: "184DE76AFFDA47F5",
+				type: "kill",
+				entity: "biomemakeover:cowboy",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "62FECFA502E62677",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "755C7A144BF41C23",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -26.0d,
+			y: 4.0d,
+			id: "5C183031C1D12E3B",
+			tasks: [{
+				id: "524FEC99BE5DECB8",
+				type: "kill",
+				entity: "biomemakeover:cowboy",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "078411E8848AAA2B",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "122BE13B200963C7",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -16.0d,
+			y: -3.5d,
+			id: "2ADCFCFEC7252337",
+			tasks: [{
+				id: "27B6DE3D2621D178",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 10L
+			}],
+			rewards: [{
+				id: "33C58906C0E18E91",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -16.0d,
+			y: -2.0d,
+			id: "7568B16CF949E650",
+			tasks: [{
+				id: "238E957548B990D1",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "611AB7BFCCCFF9F4",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0BC8F978E43D8F09",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -16.0d,
+			y: -0.5d,
+			id: "1B2EA26D5BB9EC12",
+			tasks: [{
+				id: "11FA315D5C0DDD7F",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "28043FDAFF06ED9F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "77E7F6EAE9F8F425",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -16.0d,
+			y: 1.0d,
+			id: "7B0005116C400A9F",
+			tasks: [{
+				id: "3EF71B5A50801D44",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "242CA1555A25FB2C",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3A527F9A8B2C4CEA",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -16.0d,
+			y: 4.0d,
+			id: "3837E588A3963A1A",
+			tasks: [{
+				id: "7BEE668DB13312A7",
+				type: "kill",
+				entity: "mobz:islandknightnormal_entity",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "78EBE1950BB69EC1",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "53F5A3F218A546B5",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -3.5d,
+			id: "027FC4690EBB878F",
+			tasks: [{
+				id: "5C983649DC86FA1E",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 10L
+			}],
+			rewards: [{
+				id: "34A14074FE371F62",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			id: "42AD198764099FC7",
+			tasks: [{
+				id: "7617FE60B17B6AEB",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "510E9967E4E00B1F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "54AEBF16937D7A6B",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -0.5d,
+			id: "6D2B25B684FE23E8",
+			tasks: [{
+				id: "5F35633D4D782350",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "073BB1A2476DF19F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5088ECA336F6EB72",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 1.0d,
+			id: "3AB60609FF1CA0ED",
+			tasks: [{
+				id: "363BA62C62688DDD",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "62E796500E3FFB98",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7D7BB704F164F8D8",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			id: "6404EAF8F88E2A6C",
+			tasks: [{
+				id: "7B7C4DD3E1C5CDA9",
+				type: "kill",
+				entity: "minecraft:piglin_brute",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "332411167EE2D536",
+					type: "random",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "5C5ACA88633720EF",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -3.5d,
+			id: "360B7AF0582AE4C2",
+			tasks: [{
+				id: "061D88FA64F5BF28",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 10L
+			}],
+			rewards: [{
+				id: "6DC64AB4A77F9033",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.0d,
+			id: "076FA6F01AAA8171",
+			tasks: [{
+				id: "0AB0FD4DF33FB1E1",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "55E954B4B04AABF7",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4BBC27DF5DA80DED",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -0.5d,
+			id: "20212BCF5C6FB29C",
+			tasks: [{
+				id: "1F000E6CE25C1062",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "37556CCA7D402BEC",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7FB6DD25CB668DCC",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 1.0d,
+			id: "05C9FDDB2804FE45",
+			tasks: [{
+				id: "38D1DB7FCC0DEC7D",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "18D36C4ED9889980",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5DD501E47EA880F7",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 4.0d,
+			id: "7AF7CB4366632627",
+			tasks: [{
+				id: "50075218A6FAC19E",
+				type: "kill",
+				entity: "minecraft:piglin",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "09B83DACF31A0DC1",
+					type: "random",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "23C4FF5068C50329",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -3.5d,
+			id: "7B4155DCD87F2234",
+			tasks: [{
+				id: "4760B1E6C36143B3",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 10L
+			}],
+			rewards: [{
+				id: "5EFF8129F99B1342",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			id: "4756DC5A2A6369F0",
+			tasks: [{
+				id: "4CF7307928331095",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "3BAEECC6E57AD6AF",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4E30E3342B5E3C62",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -0.5d,
+			id: "38963B3877719F92",
+			tasks: [{
+				id: "2966A153F6AA6BF1",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "30F068670B4A3A67",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "178285229166A554",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 1.0d,
+			id: "2C0198A7BA131DA6",
+			tasks: [{
+				id: "203BFC2A6777B206",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "422A7681D6D8876D",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "73134B0DDA5C015B",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			id: "183735A82859DEAE",
+			tasks: [{
+				id: "717192CD533530D0",
+				type: "kill",
+				entity: "minecraft:husk",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "1F5C361F4A41F737",
+					type: "random",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "0D9A56A9CB24747F",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			id: "3934B36087E580F5",
+			tasks: [{
+				id: "3C314E2A44463751",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 10L
+			}],
+			rewards: [{
+				id: "0D2880F3051CE9FD",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.0d,
+			id: "2EEBABBA2DEE4546",
+			tasks: [{
+				id: "46342B892DD46D29",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "7C4F0F8F88D2BE6E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "459EB1FC3CC4DFBE",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			id: "31D094491762FB02",
+			tasks: [{
+				id: "79AFC5039E8418C1",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "21D854EB07E67C0C",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0C962B440906AAFB",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			id: "6564975915268018",
+			tasks: [{
+				id: "601EDEEECEA90707",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "41F2C207CD6C1084",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "51E4F07CAFC1BD42",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 4.0d,
+			id: "05E2F29D38609F58",
+			tasks: [{
+				id: "7FD7BA245DAAF163",
+				type: "kill",
+				entity: "minecraft:evoker",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "64D8D8AB75EB246B",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "2BA2388823DAAB37",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			id: "733F228C7B7BCC95",
+			tasks: [{
+				id: "7E92E88796B9EDED",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 10L
+			}],
+			rewards: [{
+				id: "475538E0538CA59A",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			id: "3CB0F091895FFAFD",
+			tasks: [{
+				id: "53472BF74E827680",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "6603E9A4E8274690",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4E52315B37560677",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -0.5d,
+			id: "6B0EAB0E6122D852",
+			tasks: [{
+				id: "7ECEDDDC79429990",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "177636FC8BDC3BF4",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "7EFAC988294D22D2",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 1.0d,
+			id: "642390D080CE5DBF",
+			tasks: [{
+				id: "37F7693DBC0329DB",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "6CAD0322460DE128",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "041EB3FF18D6F4AE",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 4.0d,
+			id: "3795A1916CE40629",
+			tasks: [{
+				id: "12AFCEA724189947",
+				type: "kill",
+				entity: "minecraft:drowned",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "6233E85AA17291DF",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "5FFA9C165789D477",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -3.5d,
+			id: "5D589E6003119881",
+			tasks: [{
+				id: "5D7936C13537A470",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 10L
+			}],
+			rewards: [{
+				id: "0523947259817BF1",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			id: "23CE145EA94C008A",
+			tasks: [{
+				id: "7E2B95336E025A39",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "685A860CE800F4DB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "24D35629286508AF",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			id: "487AF24907D8AC11",
+			tasks: [{
+				id: "3C91AACE5EEB8528",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "70FE1DBAC25800BE",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4DB953282C23278F",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			id: "529050F34965C79F",
+			tasks: [{
+				id: "77E7101365A906D6",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "59DE064BB09E4B43",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3B3CCF63142E83F7",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			id: "4CA361081C805F1D",
+			tasks: [{
+				id: "4FFDDD6653B520FF",
+				type: "kill",
+				entity: "minecraft:zombie",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "4E85DF557A7F58BA",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "2CCBAB3B13D90B83",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			id: "08ACE485DE28EDC9",
+			tasks: [{
+				id: "0764A32DF155FC17",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 10L
+			}],
+			rewards: [{
+				id: "6A91BA1A4B960DBE",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			id: "5BF6B6B876026B14",
+			tasks: [{
+				id: "748E5F27B4EEFF5E",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 50L
+			}],
+			rewards: [
+				{
+					id: "4C98F514A0BF8647",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "1D6E919A33C7A954",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			id: "00C40474E70044E9",
+			tasks: [{
+				id: "6ADC6C76BCF2681D",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "61AF4C815B07050A",
+					type: "random",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "74D2FCFAD2F60B45",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			id: "19B1974F0A47ACCC",
+			tasks: [{
+				id: "00EF1A263BCCDFD8",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "5F2204DC87058A1D",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "77250E1D054CB8CB",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			id: "1D406942CA0DC48C",
+			tasks: [{
+				id: "07188EC42B9DEA8C",
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 10000L
+			}],
+			rewards: [
+				{
+					id: "6542532EA3E4792B",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3553151924690211280L
+				},
+				{
+					id: "6F6A47D6AE24A1C0",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -3.5d,
+			id: "5141EC44572E0105",
+			tasks: [{
+				id: "29D2126E689D687A",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 10L
+			}],
+			rewards: [{
+				id: "69929AA1CC7B05BE",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			id: "0D6958FEB5D031D5",
+			tasks: [{
+				id: "5DDFA29A17421851",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "63B13524CFCDFCC7",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0CE4FB7C04043C85",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			id: "35503A40C0F3C1DE",
+			tasks: [{
+				id: "39B2067E1DE6E617",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "684DBB927CBCEBA7",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3EF0E30BCE20ADE0",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			id: "0344FFE3A5B2B1A9",
+			tasks: [{
+				id: "4665A463AFC06ADC",
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "3665E157EDD0C2A0",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "137D7A2E73C5FA9A",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 4.0d,
+			id: "7599BD8D005D8BA1",
+			tasks: [{
+				id: "4E2EF7004486C911",
+				type: "kill",
+				disable_toast: true,
+				entity: "minecraft:enderman",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "0908A041D193055E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "15EFECBD98B36BE7",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -3.5d,
+			id: "761CA857E19418AE",
+			tasks: [{
+				id: "7278F76B8956ED3C",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 10L
+			}],
+			rewards: [{
+				id: "7A9205DD6BAFC0FF",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.0d,
+			id: "18704F1FCD27E5F5",
+			tasks: [{
+				id: "7D1455C5BE67E2A0",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "186CCEB61B04D1A2",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "0BD3B5DA1651CA5F",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -0.5d,
+			id: "196096868B01AC03",
+			tasks: [{
+				id: "54E22A3C191B990A",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "6201D2E4F2EDFB18",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5A7F87C27D9385BD",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			id: "2864588C7331605B",
+			tasks: [{
+				id: "42A55CFD20AB63F2",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "57F64454506DC9D5",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3C9145F527DFC1E2",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			id: "6BFBFCDF77A13BB7",
+			tasks: [{
+				id: "51DB0286C539009E",
+				type: "kill",
+				entity: "minecraft:creeper",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "4809AB4A7A4030C4",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "4E10C825ACC6F39A",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -3.5d,
+			id: "51F34874DC4A6716",
+			tasks: [{
+				id: "004972AFA223E258",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 10L
+			}],
+			rewards: [{
+				id: "5DC61B9BD5BD7E98",
+				type: "random",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -2.0d,
+			id: "2D83009393D40D4F",
+			tasks: [{
+				id: "418E503D682897D9",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "151C10AE93A7525E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "549F0D7C0BA5127C",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			id: "59CF2D95C405A4F7",
+			tasks: [{
+				id: "432FEE4332A99B73",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "1DB1C7BDE5DC00B3",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "3C26F982EE99A336",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			id: "346CCE1D2DDC9644",
+			tasks: [{
+				id: "16322F4172557A01",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "19AA66AE6327A0E8",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "6AF6252BC8C2602A",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 4.0d,
+			id: "64345F262B46099B",
+			tasks: [{
+				id: "726B460670CF0370",
+				type: "kill",
+				entity: "minecraft:cave_spider",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "2C1DDEC7D94A222A",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "010AB1CE408186ED",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -3.5d,
+			id: "6B34424B76EEF97E",
+			tasks: [{
+				id: "342220138E4AC0CB",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 10L
+			}],
+			rewards: [{
+				id: "01282020BD140A22",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			id: "47239057827E16EC",
+			tasks: [{
+				id: "5AAAAD8DE13793D9",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "45966E19116C8F9F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "21680A516CFB2370",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -0.5d,
+			id: "3CCA7825401B5D15",
+			tasks: [{
+				id: "5E947F519D5465D2",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "1448E4826106DA4F",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "145EE0DE9212550B",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			id: "78852C24DF84A161",
+			tasks: [{
+				id: "52A9C9DB510A3CA4",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "7F8DD3913179A948",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "60B20715865F5C1B",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 4.0d,
+			id: "63CD89D24AD1EFD2",
+			tasks: [{
+				id: "4A4892CEB4352BDD",
+				type: "kill",
+				entity: "minecraft:spider",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "6CEECAF17CFE8A37",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "2EAC3DD0EBF07A26",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -3.5d,
+			id: "7C2470A666EBD04B",
+			tasks: [{
+				id: "0956C4E8D9B97780",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 10L
+			}],
+			rewards: [{
+				id: "4AD280C7E2FBB68A",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.0d,
+			id: "3E5CE5DE8690547F",
+			tasks: [{
+				id: "61B32506A5AF29B4",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "5535BAF33C360CC7",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "58F99111679C6B33",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -0.5d,
+			id: "7FF4A104A4328C03",
+			tasks: [{
+				id: "21918F6EA23D7390",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "4F2E0E53CB92EC72",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "246D945E145AE976",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 1.0d,
+			id: "7ED5ED14CA3A98B3",
+			tasks: [{
+				id: "37CFC4C342FE28E6",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "608878756A6A65DD",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4153A7A0B29DD314",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			id: "54C2171E50B14272",
+			tasks: [{
+				id: "294716C62FF5A1B2",
+				type: "kill",
+				entity: "minecraft:ghast",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "30590880C9EC0775",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "3E252DC6A76E48CF",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -3.5d,
+			id: "15CD76C5AB21E6E6",
+			tasks: [{
+				id: "2F437B8F162025F8",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 10L
+			}],
+			rewards: [{
+				id: "334D151A7E69C7A2",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -2.0d,
+			id: "248A5F535CC57BB1",
+			tasks: [{
+				id: "1110FBD682B824BD",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "3F445A51D2DFB918",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "5E6A9F3539597F3A",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -0.5d,
+			id: "74C7341995FA6826",
+			tasks: [{
+				id: "28B65DB8E399DCD5",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "24068157AD54DECB",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "02C7B6B985A744BB",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 1.0d,
+			id: "70168509113F6C8E",
+			tasks: [{
+				id: "346461177AECBE51",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "01AF13D0F9548A4C",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "2240F0E70A93D979",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 4.0d,
+			id: "1E418251DCFF3BF4",
+			tasks: [{
+				id: "03F3DCA14815960D",
+				type: "kill",
+				entity: "betternether:hydrogen_jellyfish",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "7B223C59C350F8C4",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "7E3076A7261F93E6",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -3.5d,
+			id: "23E26F2918FF590E",
+			tasks: [{
+				id: "01242F1C04E6F937",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 10L
+			}],
+			rewards: [{
+				id: "573B2CED34435041",
+				type: "loot",
+				auto: "enabled",
+				table_id: 2505125357028787397L
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			id: "0A9FF6EEDAC49B3C",
+			tasks: [{
+				id: "5BC1F73E6ECDFB8C",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 100L
+			}],
+			rewards: [
+				{
+					id: "0009F6A2B806D225",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "2BA51198CB137CC9",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -0.5d,
+			id: "251CB35FC513391B",
+			tasks: [{
+				id: "3BD929EFD508512B",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 250L
+			}],
+			rewards: [
+				{
+					id: "40E5FF7773F4218E",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "4F419B6110556530",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 1.0d,
+			id: "08CF2BB98EECBC14",
+			tasks: [{
+				id: "43B6995F3291DB56",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 500L
+			}],
+			rewards: [
+				{
+					id: "0BA605404B6A87B9",
+					type: "loot",
+					auto: "enabled",
+					table_id: 8799895711550266731L
+				},
+				{
+					id: "19821A87FC37DAE1",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 4.0d,
+			id: "295EBB17C7D4B80F",
+			tasks: [{
+				id: "7024DFB2D81B24FB",
+				type: "kill",
+				entity: "zoob:monster_of_the_ocean_depths",
+				value: 1000L
+			}],
+			rewards: [
+				{
+					id: "6B6B3412905ABEDA",
+					type: "loot",
+					auto: "enabled",
+					table_id: 3816238553956627780L
+				},
+				{
+					id: "2D111D70E3348044",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				}
+			]
+		},
+		{
+			title: "Lieutenant",
+			icon: "battletowers:foreign_key",
+			x: 1.0d,
+			y: -5.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"174D37F4BABBCFAF",
+				"51DD32D56A522752",
+				"604B1CF209083B6B",
+				"4BE25FA1BA336B19",
+				"172ADF6FFA0C6ECE",
+				"15B32CB92BD55BF9",
+				"5C05F496741634EA",
+				"23B0CDD90FB56EFE",
+				"2B09CD8141ECA11D",
+				"5CB26D4D607D57CC",
+				"2B3FD50141AB3620",
+				"5849FEFA2874B883",
+				"7D79654A7A123CE0",
+				"069047EB1CBB5613",
+				"2924C81161F0BE52",
+				"62C2A2C5F60CB8ED",
+				"2C6D68B257E52668",
+				"478FC52B9CB738CD",
+				"7B56526D0A1F70EE",
+				"7A1DB52F46CFFF5F",
+				"592F8203D8D8762F",
+				"0BDF9BDF56836068",
+				"09BF949D795E3151",
+				"015E70AB0E7282BE",
+				"4101A7C1F9B5DDAF",
+				"6C6DD8111C157FA6",
+				"0EDA45F7CE14F3DF"
+			],
+			hide: true,
+			id: "72B82E0B21EA3F8E",
+			rewards: [
+				{
+					id: "104DA30F55F7E735",
+					type: "command",
+					title: "Promotion: Lieutenant",
+					icon: "battletowers:foreign_key",
+					auto: "enabled",
+					command: "/team join lieutenant @p",
+					player_command: false
+				},
+				{
+					id: "794E6BE16CA20508",
+					type: "item",
+					item: "minecraft:leather",
+					count: 20
+				},
+				{
+					id: "636F0061EF0D409F",
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 5
+				},
+				{
+					id: "0AAF949E586C7FDB",
+					type: "item",
+					item: "mmorpg:gems/topaz/0"
+				},
+				{
+					id: "1ADBADC9451BAC93",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key",
+					count: 3
+				},
+				{
+					id: "5AEE14AA5692A0C0",
+					type: "loot",
+					table_id: 8015150203279630758L
+				}
+			]
+		},
+		{
+			title: "Captain",
+			icon: "battletowers:foreign_key",
+			x: 1.0d,
+			y: -3.5d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2D0C17AAC0C4FF1F",
+				"01B1AE912E7863B8",
+				"26ED5B25E7117041",
+				"7A2B3857EBE9D04C",
+				"1C81172518FE3DD7",
+				"1263DF5E4B13C8AD",
+				"33B0AA5C442E5E68",
+				"566C2CCBF0A8CC67",
+				"36C335041319DCC7",
+				"4E1ABA358C3A85BF",
+				"2ADCFCFEC7252337",
+				"5E774AD1CFBA9131",
+				"05DCAC59B2DBC8F3",
+				"0238C25720D7C5C7",
+				"274A3B057C236D01",
+				"08C5F9B85074408C",
+				"0B36BE736931E9DF",
+				"0845659F272459DE",
+				"2FEB2B0192086EBD",
+				"6A18C8495B1D4A7E",
+				"027FC4690EBB878F",
+				"360B7AF0582AE4C2",
+				"7B4155DCD87F2234",
+				"3934B36087E580F5",
+				"733F228C7B7BCC95",
+				"5D589E6003119881",
+				"08ACE485DE28EDC9"
+			],
+			hide: true,
+			id: "60474D0DB2800FAC",
+			rewards: [
+				{
+					id: "0902F9A2AC8CFFB9",
+					type: "command",
+					title: "Promotion: Captain",
+					icon: "battletowers:foreign_key",
+					auto: "enabled",
+					command: "/team join captain @p",
+					player_command: false
+				},
+				{
+					id: "3D99B1A24558B0E8",
+					type: "item",
+					item: {
+						id: "mcsa:champion_petra_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "006FC12148C1A4AE",
+					type: "item",
+					item: "minecraft:diamond",
+					count: 10
+				},
+				{
+					id: "1A072D5A9F3D4E47",
+					type: "item",
+					item: "mmorpg:gems/azurite/1"
+				},
+				{
+					id: "4E87571807CA0514",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				},
+				{
+					id: "2757B429E200C6E7",
+					type: "item",
+					item: "mmorpg:dungeon_key/common"
+				},
+				{
+					id: "76782E598E065D68",
+					type: "loot",
+					table_id: 8015150203279630758L
+				}
+			]
+		},
+		{
+			title: "Major",
+			icon: "battletowers:foreign_key",
+			x: 1.0d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"61B74E92E08F5EAF",
+				"2DC9C1E46E839878",
+				"517E11EC561B8972",
+				"11962FB058FA2C5F",
+				"6785E9BF69ADB8C9",
+				"7933EFC53FADBEF9",
+				"6657C02A54E87D98",
+				"35E8DE83B368B1E4",
+				"2C64A4384A24FA6A",
+				"48480C43875E5B9C",
+				"7568B16CF949E650",
+				"18FF7565D2BE0E33",
+				"28C17C03E9586C6B",
+				"2E7E207A57A9D0FF",
+				"2AE458A862308B2F",
+				"5165FC31303FD800",
+				"1760349E2EF2F4C3",
+				"72BE05886919DED8",
+				"4620FD4EDB5B3E04",
+				"32FF94A84B35EB4C",
+				"42AD198764099FC7",
+				"076FA6F01AAA8171",
+				"4756DC5A2A6369F0",
+				"2EEBABBA2DEE4546",
+				"3CB0F091895FFAFD",
+				"23CE145EA94C008A",
+				"5BF6B6B876026B14"
+			],
+			hide: true,
+			id: "08C9718AEA06BAC7",
+			rewards: [
+				{
+					id: "0598AFD3D1492978",
+					type: "command",
+					title: "Promotion: Major",
+					icon: "battletowers:foreign_key",
+					auto: "enabled",
+					command: "/team join major @p",
+					player_command: false
+				},
+				{
+					id: "1F0E90ED2D50FEEB",
+					type: "item",
+					item: {
+						id: "mcsa:champion_petra_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4803409BA092EC9C",
+					type: "item",
+					item: "mmorpg:gems/emerald/1"
+				},
+				{
+					id: "46942BF9A2EB2D3B",
+					type: "item",
+					item: "minecraft:emerald",
+					count: 50
+				},
+				{
+					id: "2D90EB05B3DDEF1D",
+					type: "item",
+					item: "lootcrates:rare_crate_key",
+					count: 3
+				},
+				{
+					id: "6B34EA85F6062DDB",
+					type: "item",
+					item: "mmorpg:dungeon_key/common",
+					count: 3
+				},
+				{
+					id: "23D3C03CD397C526",
+					type: "loot",
+					table_id: 8015150203279630758L
+				}
+			]
+		},
+		{
+			title: "General",
+			icon: "battletowers:foreign_key",
+			x: 1.0d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"07B266C295EBDCE6",
+				"6B142777F6152BA1",
+				"0BB7E33008F9F115",
+				"19C70FCCA11B9CEB",
+				"7B54D4AC86740B2A",
+				"13179D2E413DDCD4",
+				"61F6FEF4FC1DEEF5",
+				"4CACE456BD56E64F",
+				"15C4A442F201E46A",
+				"77F81151605A6C60",
+				"1B2EA26D5BB9EC12",
+				"5BCDA083E00E1AC0",
+				"6E25FD19B4BE1078",
+				"113207747A5342B5",
+				"48BA084BF85A2CC2",
+				"7157E5B2C9F5F0AF",
+				"48016DBB26881FBC",
+				"112916AD208D0166",
+				"2FD937A0AF5CF144",
+				"6D2C173772C36624",
+				"6D2B25B684FE23E8",
+				"20212BCF5C6FB29C",
+				"38963B3877719F92",
+				"6B0EAB0E6122D852",
+				"487AF24907D8AC11",
+				"00C40474E70044E9",
+				"31D094491762FB02"
+			],
+			hide: true,
+			id: "55023D0C5106BA6A",
+			rewards: [
+				{
+					id: "324E717D42A881B9",
+					type: "command",
+					title: "Promotion: General",
+					icon: "battletowers:foreign_key",
+					auto: "enabled",
+					command: "/team join general @p",
+					player_command: false
+				},
+				{
+					id: "77B32A1018A70ADE",
+					type: "item",
+					item: {
+						id: "mcsa:champion_petra_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3A68BD7A22DCBCF2",
+					type: "item",
+					item: "betternether:nether_ruby",
+					count: 100
+				},
+				{
+					id: "43F4946FE68E2CEF",
+					type: "item",
+					item: "mmorpg:gems/ruby/3"
+				},
+				{
+					id: "610ADC1DCC65B8DE",
+					type: "item",
+					item: "lootcrates:rare_crate_key",
+					count: 5
+				},
+				{
+					id: "001F1EA1C6C836DE",
+					type: "item",
+					item: "mmorpg:dungeon_key/rare",
+					count: 5
+				},
+				{
+					id: "32B14DACAD6A4272",
+					type: "loot",
+					table_id: 8015150203279630758L
+				}
+			]
+		},
+		{
+			title: "Warlord",
+			icon: "battletowers:foreign_key",
+			x: 1.0d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"54C226B51A0BDE44",
+				"7CA986E19B981B8F",
+				"70A4F6376B7F8E38",
+				"76F8D36E6DB45241",
+				"79CC957E082EF5DA",
+				"58FA74F791CFA05F",
+				"045B21A6AEF12C93",
+				"455EEF2807BBF8C6",
+				"4D25E1B9A6863C87",
+				"0E10AAC17222A4FB",
+				"7B0005116C400A9F",
+				"70F7A0DDC9DA125D",
+				"049B9C9724F4548E",
+				"48B5A0378ADDE24D",
+				"7B8FD844C7D31758",
+				"0F1C0E77FC8F9D43",
+				"3C63697411F990B5",
+				"2DA221F697568CC8",
+				"1F57D519CD9476FC",
+				"532CCDE211D12545",
+				"3AB60609FF1CA0ED",
+				"05C9FDDB2804FE45",
+				"2C0198A7BA131DA6",
+				"6564975915268018",
+				"642390D080CE5DBF",
+				"529050F34965C79F",
+				"19B1974F0A47ACCC"
+			],
+			hide: true,
+			id: "5D818045EF55BD09",
+			rewards: [
+				{
+					id: "034842F67C93B865",
+					type: "command",
+					title: "Promotion: Warlord",
+					icon: "battletowers:foreign_key",
+					auto: "no_toast",
+					command: "/team join warlord @p",
+					player_command: false
+				},
+				{
+					id: "41B3DC82EE1E7D65",
+					type: "item",
+					item: {
+						id: "mcsa:champion_petra_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0F0ECBEEB1D1F99D",
+					type: "item",
+					item: "betterend:thallasium_ingot",
+					count: 64
+				},
+				{
+					id: "596C923A7CD0AF35",
+					type: "item",
+					item: "mmorpg:gems/tourmaline/4"
+				},
+				{
+					id: "206E50683128C8E4",
+					type: "item",
+					item: "byg:pendorite_scraps",
+					count: 50
+				},
+				{
+					id: "6952A88ACD760F36",
+					type: "item",
+					item: "lootcrates:epic_crate_key",
+					count: 5
+				},
+				{
+					id: "0BA0DDEBC5491B25",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic",
+					count: 5
+				},
+				{
+					id: "42E61B8589E9481A",
+					type: "loot",
+					table_id: 8015150203279630758L
+				}
+			]
+		},
+		{
+			title: "I have seen it all",
+			icon: {
+				id: "curios:crown",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5C183031C1D12E3B",
+				"02B108E890376E99",
+				"15AEA0800A62B98F",
+				"19BE995DBF5A4C9D",
+				"289F7F528B65A221",
+				"594DD408B1FADD35",
+				"4E6FF4A3FDB3CC3B",
+				"363E9BD70CE5C48B",
+				"4798008CFB34EA43",
+				"1A89E4E4A04ED002",
+				"3837E588A3963A1A",
+				"417D3AF7A3419A90",
+				"70EFB9F255242CBC",
+				"0530879C29BC65A1",
+				"587C4697D72E357D",
+				"2B1B383361B643AF",
+				"67E3AA380D4F2A00",
+				"25D0DAFE364A8923",
+				"329767B424F55A3F",
+				"127287C2EA201A7A",
+				"6404EAF8F88E2A6C",
+				"7AF7CB4366632627",
+				"183735A82859DEAE",
+				"05E2F29D38609F58",
+				"3795A1916CE40629",
+				"4CA361081C805F1D",
+				"1D406942CA0DC48C"
+			],
+			hide: true,
+			id: "0AB67B716EE6C58A"
+		},
+		{
+			title: "Scout",
+			icon: "battletowers:foreign_key",
+			x: 9.5d,
+			y: -5.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"3AD1AA87B561216E",
+				"2A1C5C1F83F71C94",
+				"7A2DE75AB6D18CC0",
+				"05A60576D31D563B",
+				"6961BEEE0D54934F",
+				"709BE894593C7D24",
+				"06EEDB04C6C119AC"
+			],
+			hide: true,
+			id: "716EF04FAB0488E7",
+			rewards: [
+				{
+					id: "7CDACA4100414D70",
+					type: "item",
+					item: "lootcrates:common_crate_key"
+				},
+				{
+					id: "5EEA41BA8F5894DB",
+					type: "item",
+					item: "mmorpg:dungeon_key/common"
+				},
+				{
+					id: "1AFBE92556047110",
+					type: "loot",
+					table_id: 8015150203279630758L
+				},
+				{
+					id: "7C9D946CD7744CE1",
+					type: "loot",
+					table_id: 3955332603689485632L
+				}
+			]
+		},
+		{
+			title: "Surveyor",
+			icon: "battletowers:foreign_key",
+			x: 9.5d,
+			y: -3.5d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5141EC44572E0105",
+				"761CA857E19418AE",
+				"51F34874DC4A6716",
+				"6B34424B76EEF97E",
+				"7C2470A666EBD04B",
+				"15CD76C5AB21E6E6",
+				"23E26F2918FF590E"
+			],
+			hide: true,
+			id: "211A289C3B745D45",
+			rewards: [
+				{
+					id: "0F36FA2DC663353E",
+					type: "item",
+					item: {
+						id: "mcsa:gabriel_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "674DE3066758AA7B",
+					type: "loot",
+					table_id: 8015150203279630758L
+				},
+				{
+					id: "1BCBB775307CF8BC",
+					type: "item",
+					item: "lootcrates:uncommon_crate_key",
+					count: 3
+				},
+				{
+					id: "75BC1FFB78D6DA0E",
+					type: "item",
+					item: "mmorpg:dungeon_key/rare"
+				}
+			]
+		},
+		{
+			title: "Pathfinder",
+			icon: "battletowers:foreign_key",
+			x: 9.5d,
+			y: -2.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"0D6958FEB5D031D5",
+				"18704F1FCD27E5F5",
+				"2D83009393D40D4F",
+				"47239057827E16EC",
+				"3E5CE5DE8690547F",
+				"248A5F535CC57BB1",
+				"0A9FF6EEDAC49B3C"
+			],
+			hide: true,
+			id: "150A5B7FB7488E51",
+			rewards: [
+				{
+					id: "6ABC1F763BBF0CE9",
+					type: "item",
+					item: {
+						id: "mcsa:gabriel_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "711C0FEC98D5F6CA",
+					type: "loot",
+					table_id: 8015150203279630758L
+				},
+				{
+					id: "44DBBA46C71763C6",
+					type: "item",
+					item: "lootcrates:rare_crate_key"
+				},
+				{
+					id: "05201157AD59AF15",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		},
+		{
+			title: "Ranger",
+			icon: "battletowers:foreign_key",
+			x: 9.5d,
+			y: -0.5d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"35503A40C0F3C1DE",
+				"196096868B01AC03",
+				"59CF2D95C405A4F7",
+				"3CCA7825401B5D15",
+				"7FF4A104A4328C03",
+				"74C7341995FA6826",
+				"251CB35FC513391B"
+			],
+			hide: true,
+			id: "0A42007B98E09605",
+			rewards: [
+				{
+					id: "0DD85E64942950BB",
+					type: "item",
+					item: {
+						id: "mcsa:gabriel_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "33B841B8DE293F5C",
+					type: "random",
+					table_id: 8015150203279630758L
+				},
+				{
+					id: "2BB27E45B28DA3C0",
+					type: "item",
+					item: "lootcrates:rare_crate_key",
+					count: 3
+				},
+				{
+					id: "1A266A2AAA4758BF",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Infiltrator",
+			icon: "battletowers:foreign_key",
+			x: 9.5d,
+			y: 1.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"0344FFE3A5B2B1A9",
+				"2864588C7331605B",
+				"346CCE1D2DDC9644",
+				"7ED5ED14CA3A98B3",
+				"70168509113F6C8E",
+				"08CF2BB98EECBC14",
+				"78852C24DF84A161"
+			],
+			hide: true,
+			id: "0222B731143417FA",
+			rewards: [
+				{
+					id: "0A2CF65D83837011",
+					type: "item",
+					item: {
+						id: "mcsa:gabriel_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4924771CBC4EDF5B",
+					type: "loot",
+					table_id: 8015150203279630758L
+				},
+				{
+					id: "6F5ED771F1436679",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "425F52B32DC3843D",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic",
+					count: 3
+				}
+			]
+		},
+		{
+			title: "One of them",
+			icon: {
+				id: "curios:crown",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 9.5d,
+			y: 4.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"7599BD8D005D8BA1",
+				"6BFBFCDF77A13BB7",
+				"64345F262B46099B",
+				"63CD89D24AD1EFD2",
+				"54C2171E50B14272",
+				"1E418251DCFF3BF4",
+				"295EBB17C7D4B80F"
+			],
+			hide: true,
+			id: "28C830E43A3A41AD"
+		},
+		{
+			title: "New Sheriff in Town",
+			icon: "battletowers:foreign_key",
+			x: -26.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5C183031C1D12E3B",
+				"54C226B51A0BDE44",
+				"07B266C295EBDCE6",
+				"61B74E92E08F5EAF",
+				"2D0C17AAC0C4FF1F",
+				"0EDA45F7CE14F3DF"
+			],
+			hide: true,
+			id: "1385177DBC32EDE8"
+		},
+		{
+			title: "The End of the Ender Knights",
+			icon: "battletowers:foreign_key",
+			x: -25.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"6C6DD8111C157FA6",
+				"01B1AE912E7863B8",
+				"2DC9C1E46E839878",
+				"6B142777F6152BA1",
+				"7CA986E19B981B8F"
+			],
+			hide: true,
+			id: "4B65822CEE0E6B3D"
+		},
+		{
+			title: "World without beards",
+			icon: "battletowers:foreign_key",
+			x: -24.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"4101A7C1F9B5DDAF",
+				"26ED5B25E7117041",
+				"517E11EC561B8972",
+				"0BB7E33008F9F115",
+				"70A4F6376B7F8E38"
+			],
+			hide: true,
+			id: "010B45F76CD66F9F"
+		},
+		{
+			title: "Bowbreaker",
+			icon: "battletowers:foreign_key",
+			x: -23.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"015E70AB0E7282BE",
+				"7A2B3857EBE9D04C",
+				"11962FB058FA2C5F",
+				"19C70FCCA11B9CEB",
+				"76F8D36E6DB45241"
+			],
+			hide: true,
+			id: "479AFD138B5A3D0D"
+		},
+		{
+			title: "Improvise, adapt, overgrow",
+			icon: "battletowers:foreign_key",
+			x: -22.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"09BF949D795E3151",
+				"1C81172518FE3DD7",
+				"6785E9BF69ADB8C9",
+				"7B54D4AC86740B2A",
+				"79CC957E082EF5DA"
+			],
+			hide: true,
+			id: "074561AB6B515DE9"
+		},
+		{
+			title: "Tripped!",
+			icon: "battletowers:foreign_key",
+			x: -21.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"0BDF9BDF56836068",
+				"1263DF5E4B13C8AD",
+				"7933EFC53FADBEF9",
+				"58FA74F791CFA05F",
+				"13179D2E413DDCD4"
+			],
+			hide: true,
+			id: "28102CC4E4BCF9BD"
+		},
+		{
+			title: "Slow death is still death",
+			icon: "battletowers:foreign_key",
+			x: -20.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"592F8203D8D8762F",
+				"33B0AA5C442E5E68",
+				"6657C02A54E87D98",
+				"61F6FEF4FC1DEEF5",
+				"045B21A6AEF12C93"
+			],
+			hide: true,
+			id: "6CA119D5A6DAB882"
+		},
+		{
+			title: "The candle is lit",
+			icon: "battletowers:foreign_key",
+			x: -19.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"7A1DB52F46CFFF5F",
+				"566C2CCBF0A8CC67",
+				"35E8DE83B368B1E4",
+				"4CACE456BD56E64F",
+				"455EEF2807BBF8C6"
+			],
+			hide: true,
+			id: "1F3BAECA21E40DAE"
+		},
+		{
+			title: "Now wash your hands",
+			icon: "battletowers:foreign_key",
+			x: -18.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"7B56526D0A1F70EE",
+				"2C64A4384A24FA6A",
+				"77F81151605A6C60",
+				"4D25E1B9A6863C87",
+				"36C335041319DCC7"
+			],
+			hide: true,
+			id: "2F6AAC41C200C4C2"
+		},
+		{
+			title: "They did nothing wrong",
+			icon: "battletowers:foreign_key",
+			x: -17.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"478FC52B9CB738CD",
+				"4E1ABA358C3A85BF",
+				"48480C43875E5B9C",
+				"15C4A442F201E46A",
+				"0E10AAC17222A4FB"
+			],
+			hide: true,
+			id: "3109AA810B71F984"
+		},
+		{
+			title: "Sir [insert name here] !",
+			icon: "battletowers:foreign_key",
+			x: -16.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2C6D68B257E52668",
+				"2ADCFCFEC7252337",
+				"7568B16CF949E650",
+				"1B2EA26D5BB9EC12",
+				"7B0005116C400A9F"
+			],
+			hide: true,
+			id: "69249E3312ACB04A"
+		},
+		{
+			title: "I want that horse",
+			icon: "battletowers:foreign_key",
+			x: -15.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"62C2A2C5F60CB8ED",
+				"5E774AD1CFBA9131",
+				"18FF7565D2BE0E33",
+				"5BCDA083E00E1AC0",
+				"70F7A0DDC9DA125D"
+			],
+			hide: true,
+			id: "29358044BAC6E932"
+		},
+		{
+			title: "The Grim Grin",
+			icon: "battletowers:foreign_key",
+			x: -14.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2924C81161F0BE52",
+				"05DCAC59B2DBC8F3",
+				"28C17C03E9586C6B",
+				"6E25FD19B4BE1078",
+				"049B9C9724F4548E"
+			],
+			hide: true,
+			id: "3D64E32CF5A4F392"
+		},
+		{
+			title: "Trouble in the Jungle?",
+			icon: "battletowers:foreign_key",
+			x: -13.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"069047EB1CBB5613",
+				"0238C25720D7C5C7",
+				"2E7E207A57A9D0FF",
+				"113207747A5342B5",
+				"48B5A0378ADDE24D"
+			],
+			hide: true,
+			id: "0A016CED75165174"
+		},
+		{
+			title: "Parseltongue",
+			icon: "battletowers:foreign_key",
+			x: -12.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"7D79654A7A123CE0",
+				"274A3B057C236D01",
+				"2AE458A862308B2F",
+				"48BA084BF85A2CC2",
+				"7B8FD844C7D31758"
+			],
+			hide: true,
+			id: "763A1F443FDDAE06"
+		},
+		{
+			title: "Bad to the black bones",
+			icon: "battletowers:foreign_key",
+			x: -11.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5849FEFA2874B883",
+				"08C5F9B85074408C",
+				"5165FC31303FD800",
+				"7157E5B2C9F5F0AF",
+				"0F1C0E77FC8F9D43"
+			],
+			hide: true,
+			id: "7E10E2B4667D42AD"
+		},
+		{
+			title: "Vindictator",
+			icon: "battletowers:foreign_key",
+			x: -10.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2B3FD50141AB3620",
+				"0B36BE736931E9DF",
+				"1760349E2EF2F4C3",
+				"48016DBB26881FBC"
+			],
+			hide: true,
+			id: "51785131501DB551"
+		},
+		{
+			title: "Straycat",
+			icon: "battletowers:foreign_key",
+			x: -9.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2B09CD8141ECA11D",
+				"0845659F272459DE",
+				"72BE05886919DED8",
+				"112916AD208D0166",
+				"2DA221F697568CC8"
+			],
+			hide: true,
+			hide_text_until_complete: false,
+			id: "7258CE4F352A345A"
+		},
+		{
+			title: "A ton of bonemeal",
+			icon: "battletowers:foreign_key",
+			x: -8.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"23B0CDD90FB56EFE",
+				"2FEB2B0192086EBD",
+				"4620FD4EDB5B3E04",
+				"2FD937A0AF5CF144",
+				"1F57D519CD9476FC"
+			],
+			hide: true,
+			id: "017DE3526406443E"
+		},
+		{
+			title: "Medicate the Pillagers",
+			icon: "battletowers:foreign_key",
+			x: -7.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5C05F496741634EA",
+				"6A18C8495B1D4A7E",
+				"32FF94A84B35EB4C",
+				"6D2C173772C36624",
+				"532CCDE211D12545"
+			],
+			hide: true,
+			id: "5D024E9A45D5A373"
+		},
+		{
+			title: "Bruteforce",
+			icon: "battletowers:foreign_key",
+			x: -6.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"5CB26D4D607D57CC",
+				"027FC4690EBB878F",
+				"42AD198764099FC7",
+				"6D2B25B684FE23E8",
+				"3AB60609FF1CA0ED"
+			],
+			hide: true,
+			id: "48ED653F9F16E05C"
+		},
+		{
+			title: "World of Warpigs",
+			icon: "battletowers:foreign_key",
+			x: -5.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"15B32CB92BD55BF9",
+				"360B7AF0582AE4C2",
+				"076FA6F01AAA8171",
+				"20212BCF5C6FB29C",
+				"05C9FDDB2804FE45"
+			],
+			hide: true,
+			id: "31C16E340C9EEEF7"
+		},
+		{
+			title: "From Husk till dawn",
+			icon: "battletowers:foreign_key",
+			x: -4.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"172ADF6FFA0C6ECE",
+				"7B4155DCD87F2234",
+				"4756DC5A2A6369F0",
+				"38963B3877719F92",
+				"2C0198A7BA131DA6"
+			],
+			hide: true,
+			id: "40E64D3028ACB418"
+		},
+		{
+			title: "Revoker",
+			icon: "battletowers:foreign_key",
+			x: -3.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"4BE25FA1BA336B19",
+				"3934B36087E580F5",
+				"2EEBABBA2DEE4546",
+				"31D094491762FB02",
+				"6564975915268018"
+			],
+			hide: true,
+			id: "113BA8253D19D1E5"
+		},
+		{
+			title: "Nice Trydent",
+			icon: "battletowers:foreign_key",
+			x: -2.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"604B1CF209083B6B",
+				"733F228C7B7BCC95",
+				"3CB0F091895FFAFD",
+				"6B0EAB0E6122D852",
+				"642390D080CE5DBF"
+			],
+			hide: true,
+			id: "6F1BE8915A28F279"
+		},
+		{
+			title: "How to basic",
+			icon: "battletowers:foreign_key",
+			x: -1.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"51DD32D56A522752",
+				"5D589E6003119881",
+				"23CE145EA94C008A",
+				"487AF24907D8AC11",
+				"529050F34965C79F"
+			],
+			hide: true,
+			id: "3D4ABF9C4E4BAF00"
+		},
+		{
+			title: "420",
+			icon: "battletowers:foreign_key",
+			x: 0.0d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"19B1974F0A47ACCC",
+				"00C40474E70044E9",
+				"5BF6B6B876026B14",
+				"08ACE485DE28EDC9",
+				"174D37F4BABBCFAF"
+			],
+			hide: true,
+			id: "764889AE47B788AF"
+		},
+		{
+			title: "Living on the Endisland",
+			icon: "battletowers:foreign_key",
+			x: 2.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"3AD1AA87B561216E",
+				"5141EC44572E0105",
+				"0D6958FEB5D031D5",
+				"35503A40C0F3C1DE",
+				"0344FFE3A5B2B1A9"
+			],
+			hide: true,
+			id: "22CF8BB11B82DDF7"
+		},
+		{
+			title: "That really creeped them out",
+			icon: "battletowers:foreign_key",
+			x: 3.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"2A1C5C1F83F71C94",
+				"761CA857E19418AE",
+				"18704F1FCD27E5F5",
+				"196096868B01AC03",
+				"2864588C7331605B"
+			],
+			hide: true,
+			id: "683C00E4AF954188"
+		},
+		{
+			title: "Caving Craving",
+			icon: "battletowers:foreign_key",
+			x: 4.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"7A2DE75AB6D18CC0",
+				"51F34874DC4A6716",
+				"2D83009393D40D4F",
+				"59CF2D95C405A4F7",
+				"346CCE1D2DDC9644"
+			],
+			hide: true,
+			id: "7F34A52F2FA9E3E2"
+		},
+		{
+			title: "An eye for eight eyes",
+			icon: "battletowers:foreign_key",
+			x: 5.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"6B34424B76EEF97E",
+				"47239057827E16EC",
+				"3CCA7825401B5D15",
+				"78852C24DF84A161",
+				"05A60576D31D563B"
+			],
+			hide: true,
+			id: "3EB86A30B7B6A182"
+		},
+		{
+			title: "The Ghast and the Furious",
+			icon: "battletowers:foreign_key",
+			x: 6.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"6961BEEE0D54934F",
+				"7C2470A666EBD04B",
+				"3E5CE5DE8690547F",
+				"7FF4A104A4328C03",
+				"7ED5ED14CA3A98B3"
+			],
+			hide: true,
+			id: "2813685139F3F323"
+		},
+		{
+			title: "Jeyllyfisherman",
+			icon: "battletowers:foreign_key",
+			x: 7.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"709BE894593C7D24",
+				"15CD76C5AB21E6E6",
+				"248A5F535CC57BB1",
+				"74C7341995FA6826",
+				"70168509113F6C8E"
+			],
+			hide: true,
+			id: "1F5F516ABBC26AF2"
+		},
+		{
+			title: "Deepsea Dance",
+			icon: "battletowers:foreign_key",
+			x: 8.5d,
+			y: -6.0d,
+			hide_dependency_lines: true,
+			dependencies: [
+				"06EEDB04C6C119AC",
+				"23E26F2918FF590E",
+				"0A9FF6EEDAC49B3C",
+				"251CB35FC513391B",
+				"08CF2BB98EECBC14"
+			],
+			hide: true,
+			id: "6811838590E6EC96"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "mobz:mob/friend",
+  "display": {
+    "icon": {
+      "item": ""
+    },
+    "title": {
+      "translate": ""
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fioraing": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "mobz:knight4_entity"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "weight": 100,
+          "name": "fabric:leggings",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 100,
+          "name": "fabric:boots",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 100,
+          "name": "fabric:chestplates",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 100,
+          "name": "fabric:helmets",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

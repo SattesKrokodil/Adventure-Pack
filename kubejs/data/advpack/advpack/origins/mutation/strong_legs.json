@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/strong_legs"
+	],
+	"icon": "minecraft:chainmail_boots",
+	"order": 1,
+	"impact": 3,
+	"name": "Strong Legs",
+	"description": "Talk about speed and you will see how peoples eyes get empty and a conspiratorial smile covers their whole face."
+}

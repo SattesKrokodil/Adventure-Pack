@@ -1,0 +1,374 @@
+{
+	id: "18C15AAB30548EBB",
+	group: "",
+	order_index: 6,
+	filename: "collection",
+	title: "Library/Meta",
+	icon: "charm:jungle_bookshelf",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "#2 Ultimate Fishing Experience",
+			icon: {
+				id: "gofish:ender_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -5.5d,
+			y: 0.5d,
+			subtitle: 'Finish the Questchapter "Fishing with the besties"',
+			dependencies: ["6B0D30C353411B7B"],
+			hide: true,
+			id: "3F95E717E0A116FC",
+			rewards: [
+				{
+					id: "690BE3C97014C9DA",
+					type: "item",
+					item: {
+						id: "mcda:turtle_armor_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3DCD73CE5974780E",
+					type: "item",
+					item: {
+						id: "mcda:turtle_armor_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3F277C9B82BD2B1E",
+					type: "item",
+					item: {
+						id: "mcda:turtle_armor_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0C12E1B266D99289",
+					type: "item",
+					item: {
+						id: "mcda:turtle_armor_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6A108DC3B36C1B80",
+					type: "command",
+					title: "Transformation: ???",
+					icon: "itemsfromtext:transformation_special",
+					auto: "enabled",
+					command: "/advancement grant @p from adventurepack:transformation_turtle",
+					player_command: false
+				},
+				{
+					id: "1A4A37AADF8AD244",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "3D04746A1B640E8B",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		},
+		{
+			title: "#3 Life as Shapeshifter",
+			icon: "itemsfromtext:mutation",
+			x: -4.5d,
+			y: 0.5d,
+			subtitle: 'Finish every Meta Achievement from the Questline "Biomagical Modification"',
+			description: [""],
+			dependencies: [
+				"49E4ED7648F57E77",
+				"5F291C3430A61814",
+				"6DD1A49763314129",
+				"58C76C22ADC62367"
+			],
+			hide: true,
+			id: "71574D8E0B7C9EB3",
+			rewards: [
+				{
+					id: "60426C7F6AB76172",
+					type: "item",
+					item: {
+						id: "mcda:soul_robe_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "256C286AAFEEC1A7",
+					type: "item",
+					item: {
+						id: "mcda:soul_robe_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "718191C9080898DC",
+					type: "item",
+					item: {
+						id: "mcda:soul_robe_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "230209794F3FB09C",
+					type: "item",
+					item: {
+						id: "mcda:soul_robe_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "460C944461435C94",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "382774209C45C77D",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		},
+		{
+			title: "#1 True Adventurer",
+			icon: "minecraft:writable_book",
+			x: -6.5d,
+			y: 0.5d,
+			subtitle: 'Finish the Chapter "The Talking Book"',
+			dependencies: ["3581E5FA44A7FB1A"],
+			hide: true,
+			id: "2C7C79EDC58858D8",
+			rewards: [
+				{
+					id: "021F1F51FA822F65",
+					type: "item",
+					item: {
+						id: "mcda:spelunker_armor_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "56291CE2C30CEF05",
+					type: "item",
+					item: {
+						id: "mcda:spelunker_armor_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4EEE030D4CFE4273",
+					type: "item",
+					item: {
+						id: "mcda:spelunker_armor_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "651377F2B4130269",
+					type: "item",
+					item: {
+						id: "mcda:spelunker_armor_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2F96D30EBCD0E6B5",
+					type: "command",
+					title: "Transformation: ???",
+					icon: "itemsfromtext:transformation_special",
+					command: "/advancement grant @p from adventurepack:transformation_wandering_trader",
+					player_command: false
+				},
+				{
+					id: "7FC4E60D38A13CB6",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "7D67785C10DA61C1",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		},
+		{
+			title: "#4 Dedication",
+			icon: "minecraft:soul_campfire",
+			x: -3.5d,
+			y: 0.5d,
+			subtitle: "Reach Combat Level 50",
+			dependencies: ["666D22698687EA39"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "08FA058C7535192A",
+			rewards: [
+				{
+					id: "0A4DCB40D68645B2",
+					type: "item",
+					item: {
+						id: "mcsa:prismarine_soldier_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "047044611BE3A29F",
+					type: "item",
+					item: {
+						id: "mcsa:prismarine_soldier_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "08BE7810A80EA0DB",
+					type: "item",
+					item: {
+						id: "mcsa:prismarine_soldier_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5486F66A92583941",
+					type: "item",
+					item: {
+						id: "mcsa:prismarine_soldier_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "37D134DF961F0A50",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "2D7DC6E0FEB1020A",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		},
+		{
+			title: "#5 Reaperman",
+			icon: "mmorpg:teleporter",
+			x: -2.5d,
+			y: 0.5d,
+			subtitle: 'Reach Rank "General" and "Ranger" (Questpage: "The Harvest")',
+			dependencies: [
+				"55023D0C5106BA6A",
+				"0A42007B98E09605"
+			],
+			hide: true,
+			id: "0E29400381978E07",
+			rewards: [
+				{
+					id: "6DB42C5839240D8A",
+					type: "item",
+					item: {
+						id: "mcda:hungry_horror_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6067B74188011763",
+					type: "item",
+					item: {
+						id: "mcda:hungry_horror_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4A5ADF30C5A67290",
+					type: "item",
+					item: {
+						id: "mcda:hungry_horror_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6C9D660BBA7F8BFC",
+					type: "item",
+					item: {
+						id: "mcda:hungry_horror_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5BCA232F7950FE9B",
+					type: "item",
+					item: "lootcrates:epic_crate_key"
+				},
+				{
+					id: "1588C480569A7919",
+					type: "item",
+					item: "mmorpg:dungeon_key/epic"
+				}
+			]
+		}
+	]
+}

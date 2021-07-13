@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/ruined_portal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/abandoned_mineshaft"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "world_of_exile:chests/dungeon_default"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "minecraft:chests/buried_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "aputils:common_uncommon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "adventurepack:trash_table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	id: "486775CE5269A700",
+	group: "",
+	order_index: 5,
+	filename: "sight_seeing",
+	title: "Sight Seeing",
+	icon: "betterend:flavolite_lantern",
+	default_quest_shape: "",
+	quests: []
+}

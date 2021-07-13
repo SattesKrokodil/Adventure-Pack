@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/flying/uncommon/bee",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_flying",
+	"order": 0,
+	"impact": 1,
+	"name": "Bee",
+	"description": " "
+}

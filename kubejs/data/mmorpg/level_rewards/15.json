@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmorpg:repair_hammers/1"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lootcrates:uncommon_crate_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmorpg:mat/salvage/salvage1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },	
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

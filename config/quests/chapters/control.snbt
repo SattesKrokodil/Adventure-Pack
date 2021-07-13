@@ -1,0 +1,41 @@
+{
+	id: "73F0B3844611390E",
+	group: "",
+	order_index: 7,
+	filename: "control",
+	title: "control",
+	always_invisible: true,
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "reach lvl 50",
+			x: -1.5d,
+			y: 2.0d,
+			id: "666D22698687EA39",
+			tasks: [{
+				id: "28D123E40AEE8E66",
+				type: "advancement",
+				advancement: "adventurepack:lvl_50",
+				criterion: ""
+			}]
+		},
+		{
+			title: 'add claim block quests to "Sight Seeing"',
+			x: -3.5d,
+			y: 2.0d,
+			id: "4508D5047BEF78D1",
+			tasks: [{
+				id: "093B6518D56A3255",
+				type: "item",
+				item: "minecraft:map"
+			}]
+		},
+		{
+			title: "made by",
+			x: -1.5d,
+			y: 2.0d,
+			description: ["this questbook was made by SattesKrokodil. All rights reserved."],
+			id: "7E5058D0048C5B77"
+		}
+	]
+}

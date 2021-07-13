@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "lootcrates:epic_crate_key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "lootcrates:rare_crate_key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "lootcrates:uncommon_crate_key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 85,
+          "name": "lootcrates:common_crate_key"
+        }
+      ]
+    }
+  ]
+}

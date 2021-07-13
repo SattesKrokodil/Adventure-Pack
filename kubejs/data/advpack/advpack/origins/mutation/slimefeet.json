@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/slimefeet"
+	],
+	"icon": "itemsfromtext:slime_feet",
+	"order": 1,
+	"impact": 2,
+	"name": "Slimefeet",
+	"description": "Facility managers in slime colonies get a big bonus at the end of the month. Pretty obvious why."
+}

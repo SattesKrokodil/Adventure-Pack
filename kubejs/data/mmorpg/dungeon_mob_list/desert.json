@@ -1,0 +1,47 @@
+{
+  "id": "desert",
+  "mobs": [
+    {
+      "weight": 500,
+      "id": "minecraft:skeleton"
+    },
+    {
+      "weight": 1000,
+      "id": "adventurez:skeleton_vanguard"
+    },
+    {
+      "weight": 50,
+      "id": "adventurez:summoner"
+    },
+    {
+      "weight": 1000,
+      "id": "betternether:jungle_skeleton"
+    },
+    {
+      "weight": 200,
+      "id": "minecraft:stray"
+    },
+    {
+      "weight": 500,
+      "id": "biomemakeover:stone_golem"
+    },
+    {
+      "weight": 1000,
+      "id": "minecraft:husk"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:archer2_entity"
+    },
+    {
+      "weight": 800,
+      "id": "mobz:knight_entity"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mmorpg:fire_mage_boss"
+    }
+  ]
+}

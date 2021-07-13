@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mmorpg:gems_salvage_recipe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "adventurepack:armors_loot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/stronghold_library"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/ruined_portal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "mmorpg:gems_salvage_recipe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/buried_treasure"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/bastion_treasure"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "aputils:rare_plus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "adventurepack:currencies_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/ruined_portal"
+        }
+      ]
+    }
+  ]
+}

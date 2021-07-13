@@ -1,0 +1,22 @@
+{
+
+  "type": "origins:simple",
+
+  "entity_action": {
+
+    },
+
+
+  "cooldown": 20,
+
+  "hud_render": {
+
+    "should_render": false
+
+  },
+
+  "name": "How to use:",
+
+  "description": "Select a transformation. Press <G> (default) to transform and <sneak + G> to transform back. All keybinds can be changed in options. (Active Power Primary Key)"
+
+}

@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "lootcrates:epic_shulker_loot_crate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag: {LootTable: \"adventurepack:epic_crate_loot\", Locked: 1b}, display: {Name: '{\"text\":\"Epic Loot Crate\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "lootcrates:rare_shulker_loot_crate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag: {LootTable: \"adventurepack:rare_crate_loot\", Locked: 1b}, display: {Name: '{\"text\":\"Rare Loot Crate\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 190,
+          "name": "lootcrates:uncommon_shulker_loot_crate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag: {LootTable: \"adventurepack:uncommon_crate_loot\", Locked: 1b}, display: {Name: '{\"text\":\"Uncommon Loot Crate\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 380,
+          "name": "lootcrates:common_shulker_loot_crate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag: {LootTable: \"adventurepack:common_crate_loot\", Locked: 1b}, display: {Name: '{\"text\":\"Common Loot Crate\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 380,
+          "name": "lootcrates:common_shulker_loot_crate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag: {LootTable: \"adventurepack:builder_table\", Locked: 1b}, display: {Name: '{\"text\":\"Builder Loot Crate\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

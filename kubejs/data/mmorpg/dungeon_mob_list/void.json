@@ -1,0 +1,35 @@
+{
+  "id": "void",
+  "mobs": [
+    {
+      "weight": 1000,
+      "id": "betterend:end_slime"
+    },
+    {
+      "weight": 800,
+      "id": "betterend:shadow_walker"
+    },
+    {
+      "weight": 1000,
+      "id": "mobz:enderzombie_entity"
+    },
+    {
+      "weight": 900,
+      "id": "mobz:knight3_entity"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:fast_entity"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:tank_entity"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mmorpg:fire_mage_boss"
+    }
+  ]
+}

@@ -47,7 +47,7 @@
 			{
         "condition": {
               "type": "origins:advancement",
-             "advancement": "adventurepack:lvl_10",
+             "advancement": "adventurepack:lvl_5",
             "layer": "origins:origins"
             },
 

@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1000,
+          "name": "mmorpg:currency/orb_of_transmutation"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mmorpg:currency/clear_corruption"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 500,
+          "name": "mmorpg:currency/roll_socket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mmorpg:currency/crystal_of_purification"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 450,
+          "name": "mmorpg:currency/crystal_of_truth"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mmorpg:currency/clear_sockets"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 500,
+          "name": "mmorpg:currency/randomize_affixes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mmorpg:currency/reroll_affix_numbers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mmorpg:currency/stone_of_hope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1000,
+          "name": "mmorpg:currency/reroll_primary_stats_numbers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "mmorpg:currency/number_reroll"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "mmorpg:currency/reroll_unique_numbers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mmorpg:currency/orb_of_infinity"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "mmorpg:currency/clear_instability"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 900,
+          "name": "mmorpg:currency/level_spell"
+        }
+      ]
+    }
+  ]
+}

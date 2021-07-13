@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mobz:rottenflesh"
+    ]
+  },
+  "criteria": {}
+}

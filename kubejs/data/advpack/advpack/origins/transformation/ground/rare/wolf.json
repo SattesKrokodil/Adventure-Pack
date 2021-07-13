@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/ground/rare/wolf",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_ground",
+	"order": 0,
+	"impact": 2,
+	"name": "Wolf",
+	"description": " "
+}

@@ -1,0 +1,16 @@
+{
+	id: "34F600BEDABC3544",
+	order_index: 4,
+	title: "10k combat experience",
+	icon: "biomemakeover:lightning_bottle",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		auto: "invisible",
+		player_command: 0b,
+		icon: "biomemakeover:lightning_bottle",
+		type: "command",
+		command: "/age_of_exile give exp @p 10000"
+	}]
+}

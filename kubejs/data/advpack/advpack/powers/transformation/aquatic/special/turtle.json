@@ -1,0 +1,42 @@
+{
+
+	"type": "origins:active_self",
+
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:sneaking"
+		},
+		"if_action": {
+			"type": "origins:execute_command",
+			"command": "identity unequip @p",
+			"permission_level": 4
+		},
+		"else_action": {
+
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:dimension",
+				"dimension": "mmorpg:dungeon",
+				"inverted": true
+			},
+			"if_action": {	
+				"type": "origins:execute_command",
+				"command": "identity equip @p turtle",
+				"permission_level": 4
+			}
+		}
+	},
+
+	"hud_render": {
+		"should_render": false
+	},
+
+	"cooldown": 1,
+
+	"name": "Transformation",
+
+	"description": " "
+
+
+}

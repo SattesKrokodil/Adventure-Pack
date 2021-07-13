@@ -1,0 +1,59 @@
+{
+  "id": "dark",
+  "mobs": [
+    {
+      "weight": 1000,
+      "id": "minecraft:skeleton"
+    },
+    {
+      "weight": 10,
+      "id": "adventurez:soul_reaper"
+    },
+    {
+      "weight": 20,
+      "id": "adventurez:necromancer"
+    },
+    {
+      "weight": 900,
+      "id": "mobz:fast_entity"
+    },
+    {
+      "weight": 200,
+      "id": "minecraft:stray"
+    },
+    {
+      "weight": 200,
+      "id": "betternether:naga"
+    },
+    {
+      "weight": 200,
+      "id": "betternether:skull"
+    },
+    {
+      "weight": 800,
+      "id": "mobz:enderzombie_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:islandvex_entity"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:skeli1_entity"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:skeli4_entity"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:with_entity"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mmorpg:fire_mage_boss"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+	id: "36E42A0BFB6EC540",
+	order_index: 0,
+	title: "common loot",
+	icon: "adorn:lil_tater_crate",
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:loot_crate/ench_exp_bag",
+				Count: 1b,
+				tag: {
+					exp: 50
+				}
+			},
+			weight: 10
+		},
+		{
+			item: {
+				id: "mmorpg:loot_crate/ench_exp_bag",
+				Count: 1b,
+				tag: {
+					exp: 100
+				}
+			},
+			weight: 6
+		},
+		{
+			item: {
+				id: "mmorpg:loot_crate/ench_exp_bag",
+				Count: 1b,
+				tag: {
+					exp: 250
+				}
+			},
+			weight: 3
+		},
+		{
+			item: "minecraft:iron_ingot",
+			count: 10,
+			weight: 10
+		},
+		{
+			item: "minecraft:diamond",
+			weight: 5
+		},
+		{
+			item: "minecraft:ender_pearl",
+			count: 2,
+			weight: 3
+		},
+		{
+			item: "minecraft:hopper",
+			count: 3,
+			weight: 3
+		},
+		{
+			item: "mmorpg:mat/salvage/salvage0",
+			count: 10,
+			weight: 7
+		},
+		{
+			item: "mmorpg:mat/salvage/salvage1",
+			count: 5,
+			weight: 6
+		},
+		{
+			item: "mmorpg:runes/toq"
+		},
+		{
+			item: "mmorpg:runes/ano"
+		},
+		{
+			item: "mmorpg:runes/dos"
+		},
+		{
+			item: "mmorpg:runes/cen"
+		},
+		{
+			item: "mmorpg:runes/ita"
+		},
+		{
+			item: "mmorpg:runes/ita"
+		},
+		{
+			item: "mmorpg:runes/mos"
+		},
+		{
+			item: "mmorpg:runes/nos"
+		},
+		{
+			item: "mmorpg:alchemy/potion/health/0",
+			count: 3,
+			weight: 10
+		},
+		{
+			item: "mmorpg:alchemy/potion/mana/0",
+			count: 3,
+			weight: 10
+		}
+	]
+}

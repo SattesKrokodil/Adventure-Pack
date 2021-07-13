@@ -1,0 +1,15 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Strong Legs",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.02,
+    "operation": "addition"
+  },
+
+
+  "name": "Effect:",
+
+  "description": "Your movespeed is increased."
+
+}

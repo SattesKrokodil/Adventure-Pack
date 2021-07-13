@@ -1,0 +1,21 @@
+
+
+{
+	"type": "origins:phasing",
+	"blacklist": false,
+	"render_type": "blindness",
+	"view_distance": 10.0,
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:sand"
+	},
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:category",
+			"category": "desert"
+		}
+	},
+	"name": "Effect:",
+	"description": "While in desert biomes, you can phase through sand."
+}

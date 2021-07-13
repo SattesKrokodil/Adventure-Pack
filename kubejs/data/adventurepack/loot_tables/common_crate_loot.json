@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/ruined_portal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/abandoned_mineshaft"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "aputils:common_uncommon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "adventurepack:trash_table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+	id: "4DAC852DE89CE288",
+	order_index: 5,
+	title: "fishing lootcrate",
+	icon: "blockus:pufferfish_crate",
+	loot_size: 5,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [
+		{
+			item: "mmorpg:raw_fish/purple/0",
+			weight: 3
+		},
+		{
+			item: "mmorpg:raw_fish/red/0",
+			weight: 3
+		},
+		{
+			item: "mmorpg:raw_fish/blue/0",
+			weight: 3
+		},
+		{
+			item: "mmorpg:raw_fish/green/0",
+			weight: 3
+		},
+		{
+			item: "mmorpg:raw_fish/yellow/0",
+			weight: 3
+		},
+		{
+			item: "minecraft:heart_of_the_sea"
+		},
+		{
+			item: "minecraft:sea_lantern",
+			count: 5,
+			weight: 5
+		},
+		{
+			item: "minecraft:seagrass",
+			weight: 5
+		},
+		{
+			item: "gofish:seaweed",
+			weight: 5
+		},
+		{
+			item: "mmorpg:gems/amethyst/0"
+		},
+		{
+			item: "mmorpg:gems/sapphire/0"
+		},
+		{
+			item: "mmorpg:potions/add_reset_perk_points",
+			weight: 5
+		},
+		{
+			item: "mmorpg:gems/tourmaline/0"
+		},
+		{
+			item: "mmorpg:gems/azurite/0"
+		},
+		{
+			item: "mmorpg:gems/garnet/0"
+		},
+		{
+			item: "mmorpg:gems/opal/0"
+		},
+		{
+			item: "mmorpg:gems/topaz/0"
+		},
+		{
+			item: "mmorpg:gems/ruby/0"
+		},
+		{
+			item: "mmorpg:gems/emerald/0"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			},
+			weight: 2
+		},
+		{
+			item: "mmorpg:gear_mat/essences/water",
+			count: 3,
+			weight: 5
+		},
+		{
+			item: "minecraft:nautilus_shell"
+		},
+		{}
+	]
+}

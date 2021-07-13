@@ -1,0 +1,43 @@
+{
+  "id": "overworld",
+  "mobs": [
+    {
+      "weight": 50,
+      "id": "minecraft:vindicator"
+    },
+    {
+      "weight": 50,
+      "id": "minecraft:evoker"
+    },
+    {
+      "weight": 300,
+      "id": "minecraft:pillager"
+    },
+    {
+      "weight": 200,
+      "id": "mobz:babyravager_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:illusioner_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:mage2_entity"
+    },
+    {
+      "weight": 50,
+      "id": "biomemakeover:cowboy"
+    },
+    {
+      "weight": 50,
+      "id": "biomemakeover:stone_golem"
+    }
+  ],
+  "bosses": [
+    {
+      "weight": 1000,
+      "id": "mobz:pillagerboss_entity"
+    }
+  ]
+}

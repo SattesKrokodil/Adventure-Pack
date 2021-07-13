@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ore"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:walls"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:stone_crafting_materials"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:stone"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:wool"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:planks"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:saplings"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:gold_ores"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:fishes"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:stone_bricks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:coals"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:carpets"
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:arrows"
+        }
+      ]
+    }
+  ]
+}

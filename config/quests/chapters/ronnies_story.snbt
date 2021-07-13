@@ -1,0 +1,1990 @@
+{
+	id: "4C8D01531ACD0339",
+	group: "32C118B2A91CD7A4",
+	order_index: 0,
+	filename: "ronnies_story",
+	title: "Ronnie's Story",
+	icon: "minecraft:rotten_flesh",
+	subtitle: ["Nature/Overworld"],
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Act I",
+			x: 8.0d,
+			y: 9.0d,
+			description: ["add setting, you relive the memory when you first met ronnie"],
+			id: "1740BBC57F808142",
+			tasks: [{
+				id: "32F8D5FE62DBEE5C",
+				type: "advancement",
+				icon: "minecraft:rotten_flesh",
+				advancement: "adventurepack:root",
+				criterion: ""
+			}]
+		},
+		{
+			title: "Part 8/9",
+			icon: "minecraft:golden_apple",
+			x: 21.5d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["52DDDB8C4F3A2FBA"],
+			hide: true,
+			id: "0E17502AF3BBA2E1",
+			tasks: [
+				{
+					id: "5626D764E3862140",
+					type: "advancement",
+					icon: "minecraft:golden_apple",
+					advancement: "minecraft:story/cure_zombie_villager",
+					criterion: ""
+				},
+				{
+					id: "77F6FAEB1F7831C7",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 9/9",
+			icon: "minecraft:paper",
+			x: 23.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["0E17502AF3BBA2E1"],
+			hide: true,
+			id: "3E745345F28197AF",
+			tasks: [
+				{
+					id: "41CE63B2CEA3E1CC",
+					type: "advancement",
+					icon: "minecraft:enchanting_table",
+					advancement: "minecraft:story/enchant_item",
+					criterion: ""
+				},
+				{
+					id: "0EB963D0129DF7D0",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 7/9",
+			icon: "minecraft:obsidian",
+			x: 20.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["4E7272BB0CC5D893"],
+			hide: true,
+			id: "52DDDB8C4F3A2FBA",
+			tasks: [
+				{
+					id: "1F810651371C74D2",
+					type: "advancement",
+					icon: "minecraft:obsidian",
+					advancement: "minecraft:story/form_obsidian",
+					criterion: ""
+				},
+				{
+					id: "40BF93BE78456EE3",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 4/9",
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 15.5d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["1E351DBD3C11AA53"],
+			hide: true,
+			id: "1C98828D8EF1191F",
+			tasks: [
+				{
+					id: "0106D73F1EE5DD55",
+					type: "advancement",
+					icon: {
+						id: "minecraft:iron_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					advancement: "minecraft:story/iron_tools",
+					criterion: ""
+				},
+				{
+					id: "7CE7C96953B1E4B7",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 6/9",
+			icon: "minecraft:lava_bucket",
+			x: 18.5d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["7EDC94B05F11E811"],
+			hide: true,
+			id: "4E7272BB0CC5D893",
+			tasks: [
+				{
+					id: "544E68089C5E3E7B",
+					type: "advancement",
+					icon: "minecraft:lava_bucket",
+					advancement: "minecraft:story/lava_bucket",
+					criterion: ""
+				},
+				{
+					id: "117D5B919ED259B4",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 5/9",
+			icon: "minecraft:diamond_ore",
+			x: 17.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["1C98828D8EF1191F"],
+			hide: true,
+			id: "7EDC94B05F11E811",
+			tasks: [
+				{
+					id: "658ADA403D0A2B7E",
+					type: "advancement",
+					icon: "minecraft:diamond_ore",
+					advancement: "minecraft:story/mine_diamond",
+					criterion: ""
+				},
+				{
+					id: "5732B25C64AE5CDB",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 1/9",
+			icon: "minecraft:stone",
+			x: 11.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["5AC996A5A7BD1F38"],
+			hide: true,
+			id: "14A0CBB8D53ABC7A",
+			tasks: [
+				{
+					id: "27C303CC754FE586",
+					type: "advancement",
+					icon: "minecraft:stone",
+					advancement: "minecraft:story/mine_stone",
+					criterion: ""
+				},
+				{
+					id: "6DDE4C037CBF1856",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 3/9",
+			icon: "minecraft:iron_ingot",
+			x: 14.0d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["1B20463B4020EA5B"],
+			hide: true,
+			id: "1E351DBD3C11AA53",
+			tasks: [
+				{
+					id: "4E278F97FE5502B8",
+					type: "advancement",
+					icon: "minecraft:iron_ingot",
+					advancement: "minecraft:story/smelt_iron",
+					criterion: ""
+				},
+				{
+					id: "46040EFEFE54EB2D",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Part 2/9",
+			icon: {
+				id: "minecraft:stone_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 12.5d,
+			y: 9.0d,
+			shape: "gear",
+			dependencies: ["14A0CBB8D53ABC7A"],
+			hide: true,
+			id: "1B20463B4020EA5B",
+			tasks: [
+				{
+					id: "2398FC2365C7C948",
+					type: "advancement",
+					icon: {
+						id: "minecraft:stone_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					advancement: "minecraft:story/upgrade_tools",
+					criterion: ""
+				},
+				{
+					id: "437A5CC3CE27D061",
+					type: "checkmark"
+				}
+			]
+		},
+		{
+			title: "Where I first met him",
+			icon: "minecraft:oak_planks",
+			x: 11.0d,
+			y: 7.5d,
+			subtitle: "Create a wooden house/shelter/building",
+			dependencies: ["14A0CBB8D53ABC7A"],
+			hide: true,
+			id: "6C3339AFDE7603D5",
+			tasks: [{
+				id: "07BFA15F31B07B12",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He was a gardener",
+			icon: "minecraft:cornflower",
+			x: 11.0d,
+			y: 5.5d,
+			subtitle: "Build a nice little garden, plant at least 5 different flowers in it",
+			dependencies: ["11D3B47448BDCD8A"],
+			hide: true,
+			id: "76575AE6911C3CD7",
+			tasks: [{
+				id: "4698165717AA7D5A",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Ronnie had a little farm",
+			icon: "minecraft:oak_fence",
+			x: 11.0d,
+			y: 6.5d,
+			subtitle: "Build an enclosure and add at least 2 animals of the same kind to it",
+			dependencies: ["6C3339AFDE7603D5"],
+			hide: true,
+			id: "11D3B47448BDCD8A",
+			tasks: [{
+				id: "575F6434EBBCDB40",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The Storm almost destroyed his house",
+			icon: "mmorpg:gear_mat/essences/water",
+			x: 11.0d,
+			y: 4.5d,
+			subtitle: "Upgrade the wooden building by adding stone to it/build a nice roof",
+			dependencies: ["76575AE6911C3CD7"],
+			hide: true,
+			id: "4968D1D5917F1001",
+			tasks: [{
+				id: "049D66FE74FD988C",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "5349163F57C0097C",
+				type: "command",
+				title: "???",
+				icon: "minecraft:grass",
+				auto: "enabled",
+				command: "/playsound minecraft:entity.lightning_bolt.thunder player @p ~ ~ ~ 50 1",
+				player_command: true
+			}]
+		},
+		{
+			title: "He showed me around",
+			icon: "minecraft:map",
+			x: 11.0d,
+			y: 3.5d,
+			subtitle: "Explore at least 3 biomes, find a lake/river, a mountain and a cave, place signs to name all three",
+			dependencies: ["4968D1D5917F1001"],
+			hide: true,
+			id: "299824606A5A2E32",
+			tasks: [{
+				id: "62FDA4F7AA060FB9",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Interior Design",
+			icon: "betternether:chair_anchor_tree",
+			x: 10.0d,
+			y: 4.5d,
+			subtitle: 'Add rooms to your house (at least 3) and use furniture from the mod "adorn" to decorate it',
+			description: [""],
+			dependencies: ["4968D1D5917F1001"],
+			hide: true,
+			id: "09175F9BBA64E1A6",
+			tasks: [{
+				id: "65C4766B772CE15B",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He was an idiot and forgot the keys",
+			icon: "mmorpg:key/0",
+			x: 11.0d,
+			y: 2.5d,
+			subtitle: "Stay outside for a whole night without seeking shelter/digging a hole",
+			dependencies: ["299824606A5A2E32"],
+			hide: true,
+			hide_text_until_complete: false,
+			id: "5AA8965DDC4C698F",
+			tasks: [{
+				id: "7B6D519559B4D1F5",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Ronnie never told me why he lives in exile",
+			icon: "minecraft:black_bed",
+			x: 12.0d,
+			y: 2.5d,
+			subtitle: "Kill anything by pushing it off a cliff/through fall damage (except yourself)",
+			dependencies: ["5AA8965DDC4C698F"],
+			hide: true,
+			id: "741BA485A9D38A6E",
+			tasks: [{
+				id: "3B7BCF495F2724FB",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "A Shrine in the woods",
+			icon: "architects_palette:acacia_totem_wing",
+			x: 11.0d,
+			y: 1.5d,
+			subtitle: "Build a little hidden shrine dedicated to nature out of basic materials. (Extra: build it where three different biomes meet!)",
+			description: [""],
+			dependencies: ["5AA8965DDC4C698F"],
+			hide: true,
+			id: "2888AE89271506D9",
+			tasks: [{
+				id: "456F4857A93BCFAE",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "... with a nice tool collection!",
+			icon: {
+				id: "minecraft:wooden_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 12.0d,
+			y: 5.5d,
+			subtitle: "Build every wooden tool and store them in a chest in Ronnie's garden",
+			description: [""],
+			dependencies: ["76575AE6911C3CD7"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "1730F8D58FF2A09D",
+			tasks: [{
+				id: "77E876BF1EE2CE15",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We automated the door",
+			icon: "minecraft:redstone",
+			x: 10.0d,
+			y: 2.5d,
+			subtitle: "Automate the doors of the house with redstone",
+			dependencies: ["5AA8965DDC4C698F"],
+			hide: true,
+			id: "7E896930E9148E22",
+			tasks: [{
+				id: "7AC78AEBD310BF08",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He asked me if I wanted to visit his old village",
+			icon: "minecraft:lantern",
+			x: 12.5d,
+			y: 12.5d,
+			subtitle: "Find a village, wait for sunset and approach it at night",
+			description: [""],
+			dependencies: ["697348BCA0775E5A"],
+			hide: true,
+			id: "30189AEBE9524265",
+			tasks: [{
+				id: "10FB738ABB3679AA",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Rules",
+			x: 9.0d,
+			y: 9.0d,
+			shape: "gear",
+			subtitle: "Click on the Checkmark when you finish a goal to continue! (there are no rewards to get here, it's all for fun and depends on your honesty)",
+			description: [
+				'- All "Build x y z" challenges and quests are meant to be done with a "build it as good as you can" mentality!',
+				"",
+				"- Add a waypoint on your map for every bigger building/when you move to another area, you might want to come back later!",
+				"",
+				'- Hardmode: After you finish a part leave a chest behind with all items except your gear. Mark it with a sign, "Name, Date finished, free to take"',
+				"",
+				'- When playing in multiplayer/on a server: always think about "some day another person I don\'t know will find the things I created/left behind"',
+				"",
+				'- If you play through in multiplayer - all buildings should be team effort. If a quests says "build a house" you can build one together.'
+			],
+			dependencies: ["1740BBC57F808142"],
+			id: "5AC996A5A7BD1F38",
+			tasks: [{
+				id: "3B2910CC840C4F45",
+				type: "checkmark",
+				title: "Click the checkmark if you finished any optional quests to continue with the story"
+			}]
+		},
+		{
+			title: "Ronnie started to act weird",
+			icon: "minecraft:grass_path",
+			x: 12.5d,
+			y: 10.5d,
+			subtitle: "Build some paths around the house and away from it. Burry 5 pieces of rotten flesh where 4 paths meet",
+			dependencies: ["1B20463B4020EA5B"],
+			hide: true,
+			id: "0CF1D99D458A8626",
+			tasks: [{
+				id: "037C40AF2DC718AA",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The signs confused me ",
+			icon: "minecraft:oak_sign",
+			x: 12.5d,
+			y: 11.5d,
+			subtitle: "Build a signpost with 3 signs pointing towards the lake/river, mountain and cave you named. No sign is allowed to point towards the correct place",
+			dependencies: ["0CF1D99D458A8626"],
+			hide: true,
+			id: "697348BCA0775E5A",
+			tasks: [{
+				id: "78F6E55410CE5020",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He told me we are going to prank his old friends",
+			icon: "minecraft:oak_button",
+			x: 11.0d,
+			y: 11.0d,
+			subtitle: "Put out any and every source of light",
+			dependencies: ["30189AEBE9524265"],
+			hide: true,
+			id: "4CB5BE2A6E1888F8",
+			tasks: [{
+				id: "500E39CB6F4363E4",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I asked him if this wasn't too dangerous because of the zombies",
+			icon: "minecraft:zombie_head",
+			x: 11.0d,
+			y: 12.0d,
+			subtitle: "Hide in a house with a sleeping villager inside",
+			description: [""],
+			dependencies: ["4CB5BE2A6E1888F8"],
+			hide: true,
+			id: "39BEF170679743B9",
+			tasks: [{
+				id: "1BE44BA7D2E9500C",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He said that they should not fear the zombies",
+			icon: {
+				id: "mmorpg:weapon/dagger/dagger0",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 11.0d,
+			y: 13.0d,
+			subtitle: "Kill the sleeping villager, then sleep in its bed",
+			dependencies: ["39BEF170679743B9"],
+			hide: true,
+			id: "76364E793A0F7B82",
+			tasks: [{
+				id: "3644B521339754BA",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I will never forget the sign",
+			icon: "minecraft:oak_sign",
+			x: 10.0d,
+			y: 13.0d,
+			subtitle: "Leave a sign with a creepy message somewhere in the house",
+			dependencies: ["76364E793A0F7B82"],
+			hide: true,
+			id: "2510BC40694A26F6",
+			tasks: [{
+				id: "2B3302965F5C8C55",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Back to the prank",
+			icon: "minecraft:smithing_table",
+			x: 12.5d,
+			y: 14.0d,
+			subtitle: "Exchange the profession stations of two villagers and steal any block or item",
+			description: [""],
+			dependencies: ["76364E793A0F7B82"],
+			hide: true,
+			id: "40C7E8B26622C02D",
+			tasks: [{
+				id: "4C0DB7ACB8A00B45",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We went back to Ronnies place",
+			icon: "architects_palette:acacia_totem_wing",
+			x: 12.5d,
+			y: 15.0d,
+			subtitle: "visit the shrine you built and hide the stolen object at it",
+			dependencies: ["40C7E8B26622C02D"],
+			hide: true,
+			id: "4DB011A422BE24A8",
+			tasks: [{
+				id: "478FEA40474D584A",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He said he wanted to show me something",
+			icon: "minecraft:campfire",
+			x: 12.5d,
+			y: 16.0d,
+			subtitle: "Visit your named mountain and place a campfire ontop of it then spend one night there",
+			dependencies: ["4DB011A422BE24A8"],
+			hide: true,
+			id: "1CAB4AA6FB87B1EB",
+			tasks: [{
+				id: "4F29E3DFD0A3F6E1",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Ronnie told me about the voices",
+			icon: "minecraft:oak_sapling",
+			x: 11.0d,
+			y: 16.0d,
+			subtitle: "Dig into the mountain, empty at least 10x10x10 and bring some nature into it. (example: relocate a whole tree and place it in the little cave) leave the entrance open!",
+			description: [""],
+			dependencies: ["1CAB4AA6FB87B1EB"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "73C915EDCFF7FD92",
+			tasks: [{
+				id: "4AB63AE8FCFC05A7",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He said he had to dig into the mountain to build this place. But he didn't add the table and the two chairs",
+			icon: "adorn:oak_table",
+			x: 11.0d,
+			y: 14.5d,
+			subtitle: "Add some furniture to the cave (at least 2 chairs and a table). Extra: Add a chest and fill it with a few items",
+			dependencies: ["73C915EDCFF7FD92"],
+			hide: true,
+			id: "65B07838AD30263A",
+			tasks: [{
+				id: "22638D09D9CF4866",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Must have been bandits or pillagers",
+			icon: "minecraft:grass",
+			x: 10.0d,
+			y: 14.5d,
+			subtitle: "You feel a presence - when you look around you notice two ...",
+			dependencies: ["65B07838AD30263A"],
+			hide: true,
+			id: "7C061BEF04DD5B9A",
+			tasks: [{
+				id: "65763629F32CF889",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "5B74A3BACD6FE188",
+					type: "command",
+					title: "???",
+					icon: "minecraft:grass",
+					auto: "enabled",
+					command: "/summon biomemakeover:toad ~ ~ ~",
+					player_command: true
+				},
+				{
+					id: "5B76AAE963FDB9C7",
+					type: "command",
+					title: "???",
+					icon: "minecraft:grass",
+					auto: "enabled",
+					command: "/summon biomemakeover:toad ~ ~ ~",
+					player_command: true
+				}
+			]
+		},
+		{
+			title: "Ronnie smiled and said that happens often around his shrine",
+			icon: "biomemakeover:raw_toad",
+			x: 10.0d,
+			y: 16.0d,
+			subtitle: "Either get rid of the toads or ... breed them to get more",
+			description: [""],
+			dependencies: ["7C061BEF04DD5B9A"],
+			hide: true,
+			id: "7550BE583D4A3277",
+			tasks: [{
+				id: "467DFEE546A62FD5",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I never noticed the trapdoor ",
+			icon: "minecraft:bookshelf",
+			x: 14.0d,
+			y: 7.5d,
+			subtitle: "Build a library below the house",
+			dependencies: ["1E351DBD3C11AA53"],
+			hide: true,
+			id: "33B24E2EAE483051",
+			tasks: [{
+				id: "4195AD5CFBDE9D8C",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Dust everywhere, while snooping around you notice a very old book",
+			icon: "minecraft:book",
+			x: 14.0d,
+			y: 5.5d,
+			subtitle: "You read about the old nature godess Zoviswaid and about a ritual",
+			description: [""],
+			dependencies: ["6E84388E55BEB6CA"],
+			hide: true,
+			id: "0153473E4F873726",
+			tasks: [{
+				id: "2F6DE2FEA601F3B4",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Behind one of the bookshelves you find a secret chamber",
+			icon: {
+				id: "minecraft:stone_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 14.0d,
+			y: 6.5d,
+			subtitle: "Dig out at least 5x5x5 and place a chest in the chamber",
+			description: [""],
+			dependencies: ["33B24E2EAE483051"],
+			hide: true,
+			id: "6E84388E55BEB6CA",
+			tasks: [{
+				id: "09984E806347A5C1",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "After telling Ronnie about the ritual you've read about in the book ...",
+			icon: "minecraft:melon_slice",
+			x: 14.0d,
+			y: 4.5d,
+			subtitle: "Collect some rotten flesh, a few fruits and some meat and head to the nature shrine you've built",
+			dependencies: ["0153473E4F873726"],
+			hide: true,
+			id: "25380041808D9F85",
+			tasks: [{
+				id: "42465A1B5F25AE65",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Ronnie built an animal statue and place the chest with food",
+			icon: "architects_palette:acacia_totem_wing",
+			x: 14.0d,
+			y: 3.5d,
+			subtitle: "Build a statue representing any animal out of wood",
+			description: [""],
+			dependencies: ["25380041808D9F85"],
+			hide: true,
+			id: "03101D97BCB00F10",
+			tasks: [{
+				id: "7CB737A6F4188059",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Hmm needs some eyes, said Ronnie",
+			icon: "minecraft:ender_pearl",
+			x: 14.0d,
+			y: 2.5d,
+			subtitle: "Collect two Enderpearls and throw them at your wooden statue",
+			description: [""],
+			dependencies: ["03101D97BCB00F10"],
+			hide: true,
+			id: "51BC8D92113A9C3A",
+			tasks: [{
+				id: "1985F02A6E60AFAD",
+				type: "checkmark"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 3.5d,
+			subtitle: "Build an Age of Exile Shrine and place it next to yours/include it in your building",
+			description: [""],
+			hide_dependency_lines: false,
+			dependencies: ["03101D97BCB00F10"],
+			hide: true,
+			id: "2F987802F6CFF3B1",
+			tasks: [{
+				id: "20185FB6D02963A9",
+				type: "checkmark",
+				title: "While next to the shrine you can feel some sort of energy...",
+				icon: "divine_missions:shrine"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 4.5d,
+			subtitle: "Finish at least three divine missions (Extra: don't use items you already possess!)",
+			description: [""],
+			dependencies: ["2F987802F6CFF3B1"],
+			hide: true,
+			id: "7142359BC40DAC54",
+			tasks: [{
+				id: "467BC3DDF60FAB03",
+				type: "checkmark",
+				title: "Out of nowhere a letter appears at your feet",
+				icon: "divine_missions:mission"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 5.5d,
+			subtitle: "Turn the nature shrine into a little temple, use pedestals (you can put them ontop of each other one) to give it a nice look!",
+			description: [""],
+			dependencies: ["7142359BC40DAC54"],
+			hide: true,
+			id: "3CC0F8056997F9C2",
+			tasks: [{
+				id: "13A931DF434DDCA9",
+				type: "checkmark",
+				title: 'Ronnie woke up some morning heading to the shrine. He mumbled "Yes. Yes" and started to build',
+				icon: "betterend:granite_pedestal"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 6.5d,
+			subtitle: "Spend a night in any bigger forest, you are not allowed to seek shelter or place any blocks! (Extra: do it while transformed into any small ground animal!)",
+			description: [""],
+			hide_dependency_lines: false,
+			dependencies: ["3CC0F8056997F9C2"],
+			id: "263CD49E04CAE7AA",
+			tasks: [{
+				id: "792D721E1CACF951",
+				type: "checkmark",
+				title: "After the temple was built, Ronnie screamed and ran straight into a forest ",
+				icon: "minecraft:tall_grass"
+			}]
+		},
+		{
+			icon: "minecraft:sand",
+			x: 15.5d,
+			y: 7.5d,
+			subtitle: "Pack your stuff! Search for a desert, the biggest one you can find",
+			description: [""],
+			dependencies: ["263CD49E04CAE7AA"],
+			hide: true,
+			id: "4930EFA200CB8092",
+			tasks: [{
+				id: "24BD25AFA092458C",
+				type: "checkmark",
+				title: 'After I finally found him - his eyes wide open - he said "the sand awaits!" '
+			}]
+		},
+		{
+			icon: "minecraft:chiseled_red_sandstone",
+			x: 15.5d,
+			y: 10.5d,
+			subtitle: "Build a desert themed tower, at least 30 blocks high",
+			dependencies: ["1C98828D8EF1191F"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "2CB901612B3EA218",
+			tasks: [{
+				id: "48188FEA0EE6AAE4",
+				type: "checkmark",
+				title: "In the middle of the desert you found a tower"
+			}]
+		},
+		{
+			title: "We need to bring her here, said Ronnie",
+			icon: "minecraft:grass",
+			x: 15.5d,
+			y: 11.5d,
+			subtitle: "Terraform the close surroundings of the tower into a little oasis. (Extra: bring grass to it! Silktouch is not allowed!)",
+			dependencies: ["2CB901612B3EA218"],
+			hide: true,
+			id: "1F3B7665AF6AD5DC",
+			tasks: [{
+				id: "2D1BEB97B812118E",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Want to do something fun? He asked me",
+			icon: {
+				id: "minecraft:bow",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 14.0d,
+			y: 10.5d,
+			subtitle: "Shoot at least 10 mobs with a bow and arrows while standing in/on the tower",
+			description: [""],
+			dependencies: ["1F3B7665AF6AD5DC"],
+			hide: true,
+			id: "4AB3563D013DA72F",
+			tasks: [{
+				id: "07E881F9200A8BC5",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "While mining in the desert, you find a burial chamber/catacombs close to the tower",
+			icon: "expandedstorage:old_gold_chest",
+			x: 14.0d,
+			y: 11.5d,
+			subtitle: "Build a burial chamber (at least 10x20x5) and add 10 chests filled with random items",
+			description: [""],
+			dependencies: ["4AB3563D013DA72F"],
+			hide: true,
+			id: "4DBC3B913D482905",
+			tasks: [{
+				id: "070B89EFC19FA401",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "While exploring, suddenly the ceiling of the chamber collapses ",
+			icon: "minecraft:sand",
+			x: 14.0d,
+			y: 12.5d,
+			subtitle: "In the chamber, fill as much open space as possible with sand/gravity blocks - you are not allowed to take out the items of the chests!",
+			dependencies: ["4DBC3B913D482905"],
+			hide: true,
+			id: "57481591A5564138",
+			tasks: [{
+				id: "49CC1BECF3771BE0",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Ronnie's favourite food",
+			icon: "minecraft:cooked_rabbit",
+			x: 15.5d,
+			y: 13.0d,
+			subtitle: "Kill, cook and eat two rabbits",
+			description: [""],
+			dependencies: ["57481591A5564138"],
+			hide: true,
+			id: "734AE48B79DC189A",
+			tasks: [{
+				id: "2981F0EC6E41B338",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "You noticed Ronnie cutting off a rabbit's foot",
+			icon: "minecraft:rabbit_foot",
+			x: 14.0d,
+			y: 14.0d,
+			subtitle: "Find a rabbit's food and hide it somewhere in the tower - use an itemframe for it!",
+			dependencies: ["734AE48B79DC189A"],
+			hide: true,
+			id: "6C85636FE93A6215",
+			tasks: [{
+				id: "47566109F96A2A5E",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "You know what I have never done in a desert? Ronnie asked",
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 15.5d,
+			y: 15.0d,
+			subtitle: "Fish until you get at least 20 fish of any kind",
+			dependencies: ["734AE48B79DC189A"],
+			hide: true,
+			id: "17F48BD144658C01",
+			tasks: [{
+				id: "66D8F92337E5F5B7",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "She ordered him to leave a final thing here",
+			icon: "minecraft:glass",
+			x: 14.0d,
+			y: 16.0d,
+			subtitle: "Build a tree out of glass blocks, add a sign with a nice/friendly note somewhere close to the tower",
+			dependencies: ["17F48BD144658C01"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "1FB0F0DC549EA355",
+			tasks: [{
+				id: "0E1100E542E7EE08",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "On our way back, that did not look like our way back at all, we found a jungle",
+			icon: "minecraft:white_wool",
+			x: 17.0d,
+			y: 7.5d,
+			subtitle: "Find a jungle and build a camp next to it. It needs to contain a lit campfire and a tent made out of wool",
+			dependencies: ["7EDC94B05F11E811"],
+			hide: true,
+			id: "6AA805BD258E252A",
+			tasks: [{
+				id: "3D5BC7688CD9FE85",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "799B9DF8FA32DFEA",
+				type: "item",
+				item: "minecraft:acacia_sapling"
+			}]
+		},
+		{
+			title: "I dreamed about this jungle! And I know exactly what we need to do! Ronnie said",
+			icon: "minecraft:stripped_acacia_log",
+			x: 17.0d,
+			y: 6.5d,
+			subtitle: "Collect 20 stripped acacia logs, 20 sticks and some food. Then take a tour around the whole jungle, not entering it, until you reach your tent again. If you die, you must repeat it.",
+			description: [""],
+			dependencies: ["6AA805BD258E252A"],
+			hide: true,
+			id: "40749C7A8EFE49FB",
+			tasks: [{
+				id: "7A22368B9D3D6972",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We started the expedition",
+			icon: "minecraft:jungle_sapling",
+			x: 17.0d,
+			y: 5.5d,
+			subtitle: "Make sure to set your respawn point at your camp's bed! And take food with you. Run as fast as you can to the middle of the jungle without destroying/placing any block. IMPORTANT: take a bed and the acacia blocks with you!",
+			description: [""],
+			dependencies: ["40749C7A8EFE49FB"],
+			hide: true,
+			dependency_requirement: "all_started",
+			id: "43F95F9AA89F0EF1",
+			tasks: [{
+				id: "454E662B9AEAC310",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "And got lost promtly",
+			icon: "minecraft:compass",
+			x: 18.5d,
+			y: 7.5d,
+			subtitle: "Press Z and turn your minimap off, disable all your waypoints, you are not allowed to use your worldmap either. Then close your eyes and spin around a few times. Place down the bed and set your respawn point in the jungle.",
+			description: [""],
+			dependencies: ["43F95F9AA89F0EF1"],
+			hide: true,
+			dependency_requirement: "all_started",
+			id: "716C3C097A29987F",
+			tasks: [{
+				id: "617787E6BD473E91",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "It's okay, he said, she is with us - he pointed at something that looked like a totem",
+			icon: "architects_palette:grinning_acacia_totem",
+			x: 17.0d,
+			y: 3.5d,
+			subtitle: "Clear a little area and build craft totem blocks with your acacia blocks. (craft totem wings too!) and place the totem ",
+			dependencies: ["2036DE9E80224083"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "328E9464801AA10B",
+			tasks: [{
+				id: "5E467C34BEEC185E",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "After a month I stopped counting the days...",
+			icon: "minecraft:clock",
+			x: 18.5d,
+			y: 6.5d,
+			subtitle: "You are not allowed to reactivate your map/leave the jungle during this challenge!",
+			dependencies: ["716C3C097A29987F"],
+			hide: true,
+			id: "3CD7ADE383EECDDD",
+			tasks: [{
+				id: "5F080C2F54127897",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We built a treehouse",
+			icon: "extradoors:jungle_glass_door",
+			x: 18.5d,
+			y: 5.5d,
+			subtitle: "Build a treehouse and use it as your base, you can move your bed to it - don't forget to sleep in it to set the respawn point there!",
+			dependencies: ["3CD7ADE383EECDDD"],
+			hide: true,
+			id: "76ECF9533A2A9A6F",
+			tasks: [{
+				id: "39BED7B3B4FF07FC",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Interior Design #2",
+			icon: "charm:jungle_chest",
+			x: 18.5d,
+			y: 3.5d,
+			subtitle: "Use as many items made out of jungle wood to beautify your treehouse!",
+			dependencies: ["76ECF9533A2A9A6F"],
+			hide: true,
+			id: "2036DE9E80224083",
+			tasks: [{
+				id: "45D4B157FE62B097",
+				type: "checkmark"
+			}]
+		},
+		{
+			x: 17.5d,
+			y: 4.5d,
+			subtitle: "Find any structure inside the jungle and explore it fully",
+			dependencies: ["76ECF9533A2A9A6F"],
+			hide: true,
+			id: "0E377CF2DAA3102D",
+			tasks: [{
+				id: "01CA1CADA39855B3",
+				type: "checkmark",
+				title: "Well, we weren't the first",
+				icon: "minecraft:mossy_cobblestone"
+			}]
+		},
+		{
+			title: "Good Times",
+			icon: "minecraft:sunflower",
+			x: 17.5d,
+			y: 2.5d,
+			subtitle: "Search for the highest tree and watch a sunset. Leave as many items in the jungle as you dare - spread them in the treehouse/chests. Then avtivate your map/minimap/waypoints again and leave the jungle",
+			dependencies: ["328E9464801AA10B"],
+			hide: true,
+			hide_text_until_complete: true,
+			id: "4F0FE5C5973036C8",
+			tasks: [{
+				id: "550CA0309DCF1B66",
+				type: "checkmark"
+			}]
+		},
+		{
+			icon: "minecraft:snow",
+			x: 18.5d,
+			y: 10.5d,
+			subtitle: "Find a cold biome, covered in snow/ice and search a spot suitable for your next adventure!",
+			dependencies: ["4E7272BB0CC5D893"],
+			hide: true,
+			id: "789C2A92C078638A",
+			tasks: [{
+				id: "77004A5300DB37D0",
+				type: "checkmark",
+				title: "I want to tell you how he vanished"
+			}],
+			rewards: [{
+				id: "14FBEB293F57A022",
+				type: "item",
+				item: {
+					id: "minecraft:iron_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "During the following winter Ronnie built an igloo",
+			icon: "blockus:snow_bricks",
+			x: 17.0d,
+			y: 10.5d,
+			subtitle: "build a little base made out of snow bricks/blocks and ice",
+			dependencies: ["789C2A92C078638A"],
+			hide: true,
+			id: "319FAB345A941103",
+			tasks: [{
+				id: "6FA58C16BD143859",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Jacuzzi and chill",
+			icon: "minecraft:campfire",
+			x: 17.0d,
+			y: 11.5d,
+			subtitle: "Dig out a small hole (~4*3*7) place three campfires on it's bottom. Hide the campfires with a layer of slabs (should look natural, use slabs of the surrounding area) then fill the pool with water. Try to make it look as natural as possible, the smoke should make it look like the water is steaming.",
+			dependencies: ["319FAB345A941103"],
+			hide: true,
+			id: "2E33DC9F164BDB49",
+			tasks: [{
+				id: "5A1C347CB80D61EF",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We found a huge snowman",
+			icon: "mcsa:carved_white_pumpkin",
+			x: 18.5d,
+			y: 11.5d,
+			subtitle: "Build a really, really big snowman. It's head should be big enough to fit a 5x5x5 room! You should be able to enter it and climb to the \"headroom\" with a ladder",
+			description: [""],
+			dependencies: ["2E33DC9F164BDB49"],
+			hide: true,
+			id: "1FE2FB9ACCEDDE72",
+			tasks: [{
+				id: "6F6E2386191BA1E5",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "We found a hidden entrance and when we reached the head buttons and levers everywhere!",
+			icon: "minecraft:comparator",
+			x: 18.5d,
+			y: 12.5d,
+			subtitle: "Build some buttons/levers/redstone components to make the interior look like it was a giant robot. Add at least one working redstone mechanism!",
+			hide_dependency_lines: false,
+			dependencies: ["1FE2FB9ACCEDDE72"],
+			hide: true,
+			id: "4FA05310E73DBA0E",
+			tasks: [{
+				id: "0699E6301E04A2E0",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "63E88C1A3E85D856",
+				type: "item",
+				title: "???",
+				icon: "minecraft:grass",
+				item: "origins:orb_of_origin"
+			}]
+		},
+		{
+			title: "One morning when we woke up in our igloo, Ronnie said he didn't feel that good",
+			icon: "minecraft:rotten_flesh",
+			x: 17.0d,
+			y: 12.5d,
+			subtitle: "Use the orb of origins and pick the zombie transformation. Spend the next three days transformed as zombie. You are not allowed to break or place any block. If you die/place/break you have to start the circle again",
+			description: [""],
+			dependencies: ["4FA05310E73DBA0E"],
+			hide: true,
+			id: "77C5C03851CC0EA1",
+			tasks: [{
+				id: "2F9D9187BF7CDDC1",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "6C4D871A69DB3374",
+					type: "item",
+					title: "???",
+					icon: "minecraft:grass",
+					item: "minecraft:blaze_rod",
+					count: 5
+				},
+				{
+					id: "1F6483947A9E3A82",
+					type: "item",
+					title: "???",
+					icon: "minecraft:tall_grass",
+					item: "minecraft:brewing_stand"
+				}
+			]
+		},
+		{
+			title: "We tried what we could but nothing helped to stop the transformation",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			},
+			x: 17.0d,
+			y: 13.5d,
+			subtitle: "Build a little laboratory and brew at least five different potions",
+			description: [""],
+			dependencies: ["77C5C03851CC0EA1"],
+			hide: true,
+			id: "1C2767C69DFB9D13",
+			tasks: [{
+				id: "2ED456953941D700",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Funny, he said, you can call me Rotten Ronnie now",
+			icon: "minecraft:bone",
+			x: 18.5d,
+			y: 13.5d,
+			subtitle: "Look for a fitting spot and build a small grave. Use trapdoors to make it possible to open it, place a doublechest in it and fill it with bones/bonemeal/rotten flesh",
+			dependencies: ["1C2767C69DFB9D13"],
+			hide: true,
+			id: "6C8CC949AF9D031A",
+			tasks: [{
+				id: "556DC07E0786346B",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Here lies R.Ronnie",
+			icon: "biomemakeover:ancient_oak_sign",
+			x: 18.5d,
+			y: 14.5d,
+			subtitle: "Place a sign and add a sad message to the grave. Then remember the good times you had with Ronnie. The cave in the mountain, the desert tower, the expedition and the snowman ...",
+			description: [""],
+			dependencies: ["6C8CC949AF9D031A"],
+			hide: true,
+			id: "662C5E87138C05AE",
+			tasks: [{
+				id: "77FDC97A64756E54",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "You searched for a place where your tears didn't make a difference",
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 17.0d,
+			y: 14.5d,
+			subtitle: "Build a boat and three fishing rods, take a stack of logs with you, search for an ocean and sail a while, until you can't see land in any direction. Dive down and build a pole, until one block is on the surface. Build a little plattform/fishing hut in the middle of the ocean",
+			description: [""],
+			dependencies: ["662C5E87138C05AE"],
+			hide: true,
+			id: "1D6FAF5B35B80460",
+			tasks: [{
+				id: "5EB2C42D76676B58",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I started to fish, to forget",
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 20.0d,
+			y: 7.5d,
+			subtitle: "Fish until all three rods are broken, during that process use any materials you find to expand your base. ",
+			description: [""],
+			dependencies: ["52DDDB8C4F3A2FBA"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			id: "2E83165AE5CDDE77",
+			tasks: [{
+				id: "1499CEF87E6E49FF",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "A strong gust of wind pushed me to the water",
+			icon: "terrestria:jungle_palm_sapling",
+			x: 20.0d,
+			y: 6.5d,
+			subtitle: "Jump into the water and start to swim (preferably into any dicection you did not explore yet) Until you reach any island that looks like you can live on it",
+			dependencies: ["2E83165AE5CDDE77"],
+			hide: true,
+			id: "5C7D5C2716D8922C",
+			tasks: [{
+				id: "30F67995A3C5C416",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "5B955B3960D65238",
+				type: "item",
+				item: "minecraft:light_blue_bed"
+			}]
+		},
+		{
+			title: "Lonely on the beach",
+			icon: "minecraft:sand",
+			x: 20.0d,
+			y: 5.5d,
+			subtitle: "Build a little beach house and explore the area around you. Only use materials you found in the ocean/on the beach/on the coast",
+			description: [""],
+			dependencies: ["5C7D5C2716D8922C"],
+			hide: true,
+			id: "7200C772890A2E4D",
+			tasks: [{
+				id: "3D982B220D35CA90",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I built a ship to escape the island",
+			icon: "minecraft:oak_boat",
+			x: 20.0d,
+			y: 3.5d,
+			subtitle: "Build a ship that has the size of a sunken shipwreck, placed somewhere in the water close to your beachhouse",
+			dependencies: ["51AE3A03FC7868D3"],
+			hide: true,
+			id: "58DD0E52040D2323",
+			tasks: [{
+				id: "075FB75F94A38C4E",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Once I could not return quick enough",
+			icon: "mmorpg:gear_mat/essences/water",
+			x: 21.0d,
+			y: 5.5d,
+			subtitle: "As soon as it starts to rain/storm grab a boat, sail to open water and fish until rain/storm is over",
+			dependencies: ["7200C772890A2E4D"],
+			hide: true,
+			id: "3F49BA111AFDA7F6",
+			tasks: [{
+				id: "008756CB9661625D",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "It wasn't a bad hobby but it got boring real quick",
+			icon: "minecraft:tropical_fish",
+			x: 20.0d,
+			y: 4.5d,
+			subtitle: "Build a 5x5x5 glass cube under water to observe the fish",
+			dependencies: ["7200C772890A2E4D"],
+			hide: true,
+			id: "4F4EE6B157E44449",
+			tasks: [{
+				id: "5CCE8692FFF216A1",
+				type: "checkmark",
+				title: "It wasn't a bad hobby but it got borign real quick"
+			}]
+		},
+		{
+			title: "That one almost got me",
+			icon: "zoob:serrated_tooth",
+			x: 21.0d,
+			y: 4.5d,
+			subtitle: "Search for a lurker and kill it (they are underwater creatures)",
+			dependencies: ["4F4EE6B157E44449"],
+			hide: true,
+			id: "51AE3A03FC7868D3",
+			tasks: [{
+				id: "1E22A1B1A1EC0797",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I travelled back to where it all began",
+			icon: {
+				id: "minecraft:leather_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 21.5d,
+			y: 10.5d,
+			subtitle: "Take a hike back to Ronnie's house and visit the shrine/holy site",
+			dependencies: ["0E17502AF3BBA2E1"],
+			hide: true,
+			id: "215162630C51F993",
+			tasks: [{
+				id: "5DFEFDC0EF252DFA",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I collected some resources, the weird energy I felt months ago was there once again",
+			icon: "minecraft:rotten_flesh",
+			x: 20.0d,
+			y: 10.5d,
+			subtitle: "Gather some rotten flesh and any animal meat around the shrine",
+			dependencies: ["215162630C51F993"],
+			hide: true,
+			id: "2749F8A0BBB43EC1",
+			tasks: [{
+				id: "4D2582EE9BE97B18",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Then I heared the voice for the first time",
+			icon: "minecraft:oak_sapling",
+			x: 21.5d,
+			y: 11.5d,
+			subtitle: "Take 2 minutes at a quiet place to answer the following questions!",
+			dependencies: ["1C99880C071CFD35"],
+			hide: true,
+			id: "1A4D454BF9836833",
+			tasks: [{
+				id: "112AF0A497CD58D4",
+				type: "checkmark"
+			}]
+		},
+		{
+			icon: "blockus:rotten_flesh_block",
+			x: 20.0d,
+			y: 11.5d,
+			subtitle: "Eat everything you collected next to the shrine",
+			dependencies: ["2749F8A0BBB43EC1"],
+			hide: true,
+			id: "1C99880C071CFD35",
+			tasks: [{
+				id: "67CB03B89FD31678",
+				type: "checkmark",
+				title: "I felt a sudden weird urge"
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 13.0d,
+			subtitle: "They don't contribute to the completition of this chapter, think and answer them honestly! Only one answer per question, if you pick multiple it migh overlap/bug out",
+			dependencies: ["1A4D454BF9836833"],
+			hide: true,
+			optional: true,
+			id: "1F054B14EA7F8B24",
+			tasks: [{
+				id: "0A7D1F6EE6E5AB07",
+				type: "checkmark",
+				title: "The following quests are optional "
+			}]
+		},
+		{
+			title: "The First Question",
+			icon: "ftbquests:missing_item",
+			x: 20.1d,
+			y: 14.25d,
+			shape: "square",
+			subtitle: "The animal you built at the shrine, is it a land, air or water animal?",
+			description: [""],
+			hide_dependency_lines: true,
+			dependencies: ["1F054B14EA7F8B24"],
+			hide: true,
+			size: 0.7d,
+			optional: true,
+			id: "1ECEEAD14A159707",
+			tasks: [{
+				id: "6524ED8D22637564",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "land",
+			x: 20.75d,
+			y: 14.75d,
+			dependencies: ["1ECEEAD14A159707"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "73E4C982A34380C3",
+			tasks: [{
+				id: "7B9B0C2E326F0BBC",
+				type: "checkmark"
+			}]
+		},
+		{
+			x: 20.75d,
+			y: 13.75d,
+			dependencies: ["1ECEEAD14A159707"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "12A3FDCF22D0FAA7",
+			tasks: [{
+				id: "6B35E775766EA2E3",
+				type: "checkmark",
+				title: "air"
+			}]
+		},
+		{
+			x: 20.75d,
+			y: 14.25d,
+			dependencies: ["1ECEEAD14A159707"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "4F35323CB686FC51",
+			tasks: [{
+				id: "702A9F842A659F76",
+				type: "checkmark",
+				title: "water"
+			}]
+		},
+		{
+			title: "The Second Question",
+			icon: "ftbquests:missing_item",
+			x: 21.5d,
+			y: 14.25d,
+			shape: "square",
+			subtitle: "Did you enjoy killing the villager?",
+			hide_dependency_lines: true,
+			dependencies: [
+				"12A3FDCF22D0FAA7",
+				"4F35323CB686FC51",
+				"73E4C982A34380C3"
+			],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "10FE0FA48E6939A2",
+			tasks: [{
+				id: "426ECF158A2612BD",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Yes, I am a bloodthirsty beeing.",
+			x: 22.25d,
+			y: 13.75d,
+			dependencies: ["10FE0FA48E6939A2"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "4DDB1B8F6EEFA419",
+			tasks: [{
+				id: "22BB35EC9C8ECE89",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I did it because the quest said so! I never wanted to!",
+			x: 22.25d,
+			y: 14.25d,
+			dependencies: ["10FE0FA48E6939A2"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "372192712F42A7F2",
+			tasks: [{
+				id: "122AB32623D1B4AE",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Wasn't me, Ronnie killed the villager.",
+			x: 22.25d,
+			y: 14.75d,
+			dependencies: ["10FE0FA48E6939A2"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "2112B49272616C3B",
+			tasks: [{
+				id: "651A69FD950B8EBF",
+				type: "checkmark",
+				title: "I did not kill the villager, that was Ronnie!"
+			}]
+		},
+		{
+			title: "The Third Question",
+			icon: "ftbquests:missing_item",
+			x: 22.9d,
+			y: 14.25d,
+			shape: "square",
+			subtitle: "Do you believe in the concept of free will?",
+			hide_dependency_lines: true,
+			dependencies: [
+				"372192712F42A7F2",
+				"274738A07FBC3A1A",
+				"4D2B9D60639D1B3C"
+			],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "03859FA38279455C",
+			tasks: [{
+				id: "2AC3C9F9DEF63A53",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The voice laughs and asks you ...",
+			icon: "ftbquests:missing_item",
+			x: 22.9d,
+			y: 15.3d,
+			shape: "square",
+			subtitle: "Did you actually ever see another person while doing what I have told you? Have you ever seen anyone called Ronnie?",
+			hide_dependency_lines: false,
+			dependencies: ["2112B49272616C3B"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "274738A07FBC3A1A",
+			tasks: [{
+				id: "3802E0AFA4773866",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "No.",
+			x: 23.5d,
+			y: 14.25d,
+			dependencies: ["03859FA38279455C"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "727958558D4D1019",
+			tasks: [{
+				id: "19A066743AE531EE",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The Fourth Question",
+			icon: "ftbquests:missing_item",
+			x: 24.299999999999997d,
+			y: 14.25d,
+			shape: "square",
+			subtitle: "What biome did you enjoy the most?",
+			hide_dependency_lines: true,
+			dependencies: ["727958558D4D1019"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "22CF0B0F41E15881",
+			tasks: [{
+				id: "2427510759D1D36D",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The desert, I can't have enough sand in my boots while adventuring!",
+			x: 25.0d,
+			y: 14.5d,
+			dependencies: ["22CF0B0F41E15881"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "1E03EEDC693E3AB3",
+			tasks: [{
+				id: "4235FA5A8C490746",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I only feel good when it's cold, I liked the snowy biome.",
+			x: 25.0d,
+			y: 15.0d,
+			dependencies: ["22CF0B0F41E15881"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "1BF646DDD06DED7F",
+			tasks: [{
+				id: "6ADB218C83E6BAF7",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Mosquitos, wild animals, huge trees - I carry the jungle in my heart.",
+			x: 25.0d,
+			y: 14.0d,
+			dependencies: ["22CF0B0F41E15881"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "5FE0214751711ECD",
+			tasks: [{
+				id: "6283AC4A0184AC51",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "The Fifth and final Question",
+			icon: "ftbquests:missing_item",
+			x: 25.7d,
+			y: 14.25d,
+			shape: "square",
+			subtitle: "How would you describe yourself?",
+			description: [""],
+			hide_dependency_lines: true,
+			dependencies: [
+				"1BF646DDD06DED7F",
+				"1E03EEDC693E3AB3",
+				"5FE0214751711ECD",
+				"57EA06636312FDAF"
+			],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "723F63326E1CE1F8",
+			tasks: [{
+				id: "413F54CEC5E84FD9",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I prefere the open ocean.",
+			x: 25.0d,
+			y: 13.5d,
+			dependencies: ["22CF0B0F41E15881"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "57EA06636312FDAF",
+			tasks: [{
+				id: "05D197BC400F7C78",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Clever",
+			x: 26.5d,
+			y: 13.75d,
+			dependencies: ["723F63326E1CE1F8"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "564A61B9D38116FA",
+			tasks: [{
+				id: "067085DEBFDF7B20",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Intelligent",
+			x: 26.5d,
+			y: 14.25d,
+			dependencies: ["723F63326E1CE1F8"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "68E754DF9FF7703D",
+			tasks: [{
+				id: "6D0911040362ABBC",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Smart",
+			x: 26.5d,
+			y: 14.75d,
+			dependencies: ["723F63326E1CE1F8"],
+			hide: true,
+			size: 0.5d,
+			optional: true,
+			id: "7C2989E4FFD06161",
+			tasks: [{
+				id: "32380B301C66FF77",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Very smart",
+			x: 26.5d,
+			y: 16.0d,
+			dependencies: ["723F63326E1CE1F8"],
+			hide: true,
+			size: 2.0d,
+			optional: true,
+			id: "53CC17263DF2AD22",
+			tasks: [{
+				id: "58D5B5AD1C718F43",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "I could not believe my eyes",
+			icon: "minecraft:rotten_flesh",
+			x: 28.0d,
+			y: 14.0d,
+			subtitle: "The voice changed and I heard the familiar laugh. Suddenly a hand appeared right infront of me, and Ronnie dug himself free. He had tears in his one remaining eye and little pieces of flesh dropped to the ground when he cleaned himself from dirt. He smiled as if everything was normal.",
+			hide_dependency_lines: true,
+			dependencies: [
+				"53CC17263DF2AD22",
+				"7C2989E4FFD06161",
+				"68E754DF9FF7703D",
+				"564A61B9D38116FA"
+			],
+			hide: true,
+			dependency_requirement: "one_completed",
+			optional: true,
+			id: "5BE19D83AE57562D",
+			tasks: [{
+				id: "197E5CC246055EF8",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "There was an awkward pause. I see, said the voice. You might be even more useful than expected ...",
+			icon: "ftbquests:missing_item",
+			x: 22.9d,
+			y: 13.2d,
+			shape: "square",
+			hide_dependency_lines: false,
+			dependencies: ["4DDB1B8F6EEFA419"],
+			hide: true,
+			dependency_requirement: "one_completed",
+			size: 0.7d,
+			optional: true,
+			id: "4D2B9D60639D1B3C",
+			tasks: [{
+				id: "61CEE833DF2DD4A0",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He told me everything about the past weeks",
+			icon: "minecraft:spider_eye",
+			x: 23.0d,
+			y: 7.5d,
+			subtitle: "Apparently Ronnie was a prophet now, of the nature godess. He didn't know why exactly. A few days after I burried him, he simply woke up again. It took a while for him to reach the surface again and getting used to his new body \"features\" was a struggle, but he managed it. He can only travel at night since the sun burns his remaining skin and flesh and one big problem was he had to actually act as if he was a zombie or else they would have attacked him. Not fun, he said. ",
+			dependencies: ["3E745345F28197AF"],
+			hide: true,
+			id: "6D7946255011AB47",
+			tasks: [{
+				id: "225980C32FEA0D42",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He said she looked like a mixture of zombie, vines, swamp and squid",
+			icon: {
+				id: "mcda:glow_squid_armor_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 22.0d,
+			y: 6.5d,
+			subtitle: "Yes, I have met her, Ronnie told me. And I have a mission now - you will help me with it! Isn't that great? Our adventure continues! As if nothing happened! One thing tho, he continued, do you know the term plot armor? Yes? Because this is nothing like that. I am marked for death. I live a borrowed life now. You can think of it as meeting each other for a last ride.",
+			dependencies: ["6D7946255011AB47"],
+			hide: true,
+			id: "5DD7832379213C0D",
+			tasks: [{
+				id: "43ACF04AA2C56B62",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "He ordered me to get a few things done ",
+			icon: "world_of_exile:hell_portal",
+			x: 23.0d,
+			y: 5.5d,
+			subtitle: "Build a nether portal in a level 1 area and include it into your surroundings. Make it look as if it was generated naturally, then open it.",
+			dependencies: ["5DD7832379213C0D"],
+			hide: true,
+			id: "29D3C04B17D5797B",
+			tasks: [{
+				id: "7CF1A7837D2FA812",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Hey there!",
+			icon: "minecraft:observer",
+			x: 24.5d,
+			y: 9.0d,
+			shape: "heart",
+			subtitle: "Thank you for playing the first act! Make sure to level to 10-15 before you continue with act II (=",
+			hide_dependency_lines: true,
+			dependencies: ["29D3C04B17D5797B"],
+			hide: true,
+			size: 1.5d,
+			id: "4EAB4D38D7D16EA4",
+			tasks: [{
+				id: "2297B92227B8DE5B",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "6E13A8A15AFF1908",
+				type: "item",
+				item: {
+					id: "minecraft:written_book",
+					Count: 1b,
+					tag: {
+						generation: 1,
+						pages: ['{"extra":[{"color":"aqua","text":"Made by Sattes."},{"text":"\\nI really enjoy working on this modpack and it turned from hobby to passion! If you want to stay tuned about updates join our discord "},{"color":"gold","clickEvent":{"action":"open_url","value":"https://discord.gg/4uysmsGQBa"},"text":"> here <"},{"text":"\\n\\nIf you want to support me, thanks a ton!\\n"},{"color":"gold","clickEvent":{"action":"open_url","value":"https://www.patreon.com/sattes"},"text":"> patreon <"},{"text":"\\n"}],"text":""}'],
+						title: "Thank you for playing AP!",
+						author: "SattesKrokodil",
+						resolved: 1b
+					}
+				}
+			}]
+		}
+	]
+}

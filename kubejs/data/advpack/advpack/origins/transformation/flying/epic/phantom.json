@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/flying/epic/phantom",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_flying",
+	"order": 0,
+	"impact": 3,
+	"name": "Phantom",
+	"description": " "
+}

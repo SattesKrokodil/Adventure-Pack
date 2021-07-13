@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"advpack:mutation/crystal_hide",
+		"advpack:mutation/hidden/lava_vision",
+		"advpack:mutation/hidden/invul_fire"
+	],
+	"icon": "itemsfromtext:crystal_hide",
+	"order": 1,
+	"impact": 3,
+	"name": "Crystal Hide",
+	"description": "You adapted to the high pressure below the surface. Your body crystallized and you are immune to damage from fire and lava."
+}

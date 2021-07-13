@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmorpg:repair_hammers/0"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lootcrates:common_crate_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mmorpg:mat/salvage/salvage0",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

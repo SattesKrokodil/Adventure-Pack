@@ -1,0 +1,13 @@
+
+{
+  "type": "origins:swimming",
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:lava"
+  },
+
+  "name": "Effect:",
+
+  "description": "You can now swim and see in lava without taking damage."
+
+}

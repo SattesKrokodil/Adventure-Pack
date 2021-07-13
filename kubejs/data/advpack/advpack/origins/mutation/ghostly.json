@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"advpack:mutation/ghostly"
+	],
+	"icon": "minecraft:white_dye",
+	"order": 1,
+	"impact": 0,
+	"name": "Ghostly",
+	"description": "Your body lacks essence. This form is very unstable and you should be careful not to dissolve - would be annoying to clean everything up. Complete Quests and kill mobs to gather different Mutations!"
+}

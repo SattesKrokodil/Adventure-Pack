@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"advpack:transformation/ground/uncommon/skeleton",
+		"advpack:description/riftfriction",
+		"advpack:description/to_transform",
+		"advpack:description/power_ground"
+
+	],
+	"icon": "itemsfromtext:transformation_ground",
+	"order": 0,
+	"impact": 1,
+	"name": "Skeleton",
+	"description": " "
+}
