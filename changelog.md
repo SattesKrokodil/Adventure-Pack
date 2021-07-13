@@ -1,12 +1,15 @@
 # CHANGELOG
 
 UNRELEASED:
-## [4.4.6] "Origins when?"
+## [4.4.5] "Settler"
 
 ### General
-+ Added Origins. For the start we got Mutations and Transformations to test the system, more are planned obviously. You can think of it as "DIY" origin system. Search for cells, add parts to your cellsystem, change and adapt as you please. Cool thing about it is, if you get a duplicate you can trade/sell/gift cells to other players. Mutations and Transformations come in 4 rarities: common, uncommon, rare and epic. (Example: cow transform is common, fox is rare etc.). There are four groups of transformations: Ground, Aquatic, Flying and Special and they all got Age of Exile level requirements. (the last one, flying has req lvl 30). 
-+ increased overall XP gains by 25%. Leveling was way too slow and this is the first attempt to get that right.
-+ new Divine Mission system! Basically AoE Quests to improve the out-of-dungeon-experience
++ **Invasion:** modded mobs have flooded the dungeon dimension! 8 new mob sets you can encounter
++ **Treasury:** added multiple tier based loot crates and keys and loot tables for them
++ **Helping Hand:** quests give AoE XP now (intention: make it easier for new players)
++ **The Big Todolist:** added +500 new quests - pages are: Fishing with the besties, biomagical modification, the harvest, ronnie's story and library
++ **When? Now:** added Origins. For the start we got Mutations and Transformations to test the system, more are planned obviously. You can think of it as "DIY" origin system. Search for cells, add parts to your cellsystem, change and adapt as you please. Cool thing about it is, if you get a duplicate you can trade/sell/gift cells to other players. Mutations and Transformations come in 4 rarities: common, uncommon, rare and epic. (Example: cow transform is common, fox is rare etc.). There are four groups of transformations: Ground, Aquatic, Flying and Special and they all got Age of Exile level requirements. (the last one, flying has req lvl 30). 
++ **Pantheon:** new Divine Mission system! Basically AoE Quests to improve the out-of-dungeon-experience
 + Another load of new talent icons made by Rosedragon
 + nerfed potions a little
 + added favor penalty to deaths in dungeons, they are now very high risk, high reward.
@@ -17,8 +20,6 @@ UNRELEASED:
 + Common dungeon keys are now a drop from mobs
 + Rare dungeon keys can be obtained via Divine Missions.
 
-### Fixes
-### Mods
 
 ## [4.4.5] "Hotfix"
 small hotfixes
