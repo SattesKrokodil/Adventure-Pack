@@ -1,7 +1,7 @@
 # CHANGELOG
 **Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
 
-UNRELEASED:
+
 ## [4.4.5] "Settler"
 
 **Since this is the new release of Adventurepack (last few were beta versions) listen up Curseforge users: Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
