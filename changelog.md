@@ -1,7 +1,10 @@
 # CHANGELOG
+**Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
 
 UNRELEASED:
 ## [4.4.5] "Settler"
+
+**Since this is the new release of Adventurepack (last few were beta versions) listen up Curseforge users: Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
 
 ### General
 + **Invasion:** modded mobs have flooded the dungeon dimension! 8 new mob sets you can encounter
@@ -10,7 +13,9 @@ UNRELEASED:
 + **The Big Todolist:** added +500 new quests - pages are: Fishing with the besties, biomagical modification, the harvest, ronnie's story and library
 + **When? Now:** added Origins. For the start we got Mutations and Transformations to test the system, more are planned obviously. You can think of it as "DIY" origin system. Search for cells, add parts to your cellsystem, change and adapt as you please. Cool thing about it is, if you get a duplicate you can trade/sell/gift cells to other players. Mutations and Transformations come in 4 rarities: common, uncommon, rare and epic. (Example: cow transform is common, fox is rare etc.). There are four groups of transformations: Ground, Aquatic, Flying and Special and they all got Age of Exile level requirements. (the last one, flying has req lvl 30). 
 + **Pantheon:** new Divine Mission system! Basically AoE Quests to improve the out-of-dungeon-experience
-+ Another load of new talent icons made by Rosedragon
++ Another load of new talent icons made by **Rosedragon** thanks so much, they look awesome!
++ Re-activated discord craftpresence, show others that you play AP!
++ added and configured fancy menu -> new menu page and some buttons/links
 + nerfed potions a little
 + added favor penalty to deaths in dungeons, they are now very high risk, high reward.
 + added failure penalty for multiple deaths in dungeons, after x amount of deaths, the dungeon is cleared and you fail the expedition.
