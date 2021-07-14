@@ -7,6 +7,7 @@ UNRELEASED:
 **Since this is the new release of Adventurepack (last few were beta versions) listen up Curseforge users: Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
 
 ### General
++ **Gift from the past:** claims will delete themselves after 30 (reallife) days
 + **Invasion:** modded mobs have flooded the dungeon dimension! 8 new mob sets you can encounter
 + **Treasury:** added multiple tier based loot crates and keys and loot tables for them
 + **Helping Hand:** quests give AoE XP now (intention: make it easier for new players)
