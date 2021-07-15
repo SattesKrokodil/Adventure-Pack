@@ -1,10 +1,25 @@
 # CHANGELOG
-**Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
+**Any world you created pre version 4.4.0 will not work with newer updates. Always make backups when you update anything!**
 
+## [4.5.1] Fish in the box
+
+## general
+## fixed
+- fixed a false keybind
+- first mutation and transformation layer not applying when creating new world
+- a quest giving a wrong reward
+- rare fish removed from normal loot table 
+- fixed lootcrate crash
+- changed manifest forge -> fabric
+- fixed menu buttons / GUI being chaos it should work with all scalings now
+
+## mods
+- fabric lootcrates 1.0.0 -> 1.1.1 
+- rem. jumploader
 
 ## [4.4.5] "Settler"
 
-**Since this is the new release of Adventurepack (last few were beta versions) listen up Curseforge users: Any world you created pre version 4.4.0 will not work with newer updates. Alway make backups when you update anything!**
+**Since this is the new release of Adventurepack (last few were beta versions) listen up Curseforge users: Any world you created pre version 4.4.0 will not work with newer updates. Always make backups when you update anything!**
 
 ### General
 + **Gift from the past:** claims will delete themselves after 30 (reallife) days of inactivity
