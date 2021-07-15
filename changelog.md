@@ -3,8 +3,8 @@
 
 ## [4.5.1] Fish in the box
 
-## general
-## fixed
+### general
+### fixed
 - fixed a false keybind
 - first mutation and transformation layer not applying when creating new world
 - a quest giving a wrong reward
@@ -13,7 +13,7 @@
 - changed manifest forge -> fabric
 - fixed menu buttons / GUI being chaos it should work with all scalings now
 
-## mods
+### mods
 - fabric lootcrates 1.0.0 -> 1.1.1 
 - rem. jumploader
 
