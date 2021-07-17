@@ -1,11 +1,10 @@
 # CHANGELOG
 **Any world you created pre version 4.4.0 will not work with newer updates. Always make backups when you update anything!**
 
-## [4.5.2] UNRELEASED - 
+## [4.5.2] Running Engine 
 ### general 
 - **The Rifts are open:** Added Rift mechanic, they open in hell dimension, defeat enemy waves to secure the loot!
-- lootcrates drop their stuff now when you destroy them
--  
+- lootcrates drop their stuff now when you destroy them 
 
 ### fixed
 - divine mission crash
@@ -14,7 +13,7 @@
 - fixed mutations not dropping at all
 - 
 ### mods
-- lootcrates:
+- lootcrates: 1.1.1 -> 1.1.2
 - dynocaps: 1.7.1  -> 1.7.3
 - age of exile: 2.0.12 -> 2.1.2
 - aputils: 1.0.3 -> 1.0.4
