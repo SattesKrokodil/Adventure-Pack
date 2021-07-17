@@ -1,6 +1,25 @@
 # CHANGELOG
 **Any world you created pre version 4.4.0 will not work with newer updates. Always make backups when you update anything!**
 
+## [4.5.2] UNRELEASED - 
+### general 
+- **The Rifts are open:** Added Rift mechanic, they open in hell dimension, defeat enemy waves to secure the loot!
+- lootcrates drop their stuff now when you destroy them
+-  
+
+### fixed
+- divine mission crash
+- dynocaps blocked by flan
+- "fixed" flan configs -> no more teleporting around
+- fixed mutations not dropping at all
+- 
+### mods
+- lootcrates:
+- dynocaps: 1.7.1  -> 1.7.3
+- age of exile: 2.0.12 -> 2.1.2
+- aputils: 1.0.3 -> 1.0.4
+- removed taterzens, mod doesn't work well on servers, causes disconnects and 1.16 isn't supported anymore
+
 ## [4.5.1] Fish in the box
 
 ### general
